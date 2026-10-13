@@ -8,7 +8,6 @@ Run: .venv/bin/python test_WebGIS.py
 import html
 import json
 import re
-import shutil
 import time
 import urllib.parse
 import urllib.request
@@ -161,11 +160,11 @@ def to_geojson(df):
     return {"type": "FeatureCollection", "features": features}
 
 
-# page files (html/css/js) live in web/, they get copied next to the data
-WEB_DIR = Path(__file__).parent / "web"
+# the page itself lives in web/ and reads this file from ../data/
+DATA_DIR = Path(__file__).parent / "data"
 
 
-def write_map(df, out_dir):
+def write_map(df, data_dir):
     # everything goes in the list; only events with a real address get a point
     cols = ["nid", "title", "alias", "start_date", "start", "date", "locations",
             "venue_address", "venue_city", "campus", "event_topics", "is_online",
@@ -174,10 +173,9 @@ def write_map(df, out_dir):
     for r in recs:
         if r.pop("geo_source") != "address":
             r["lat"] = r["lon"] = None
-    for f in WEB_DIR.iterdir():
-        shutil.copy(f, out_dir)
+    data_dir.mkdir(exist_ok=True)
     # data as a .js file (not .json) so it still works when opening the html from file://
-    (out_dir / "events_data.js").write_text(f"const EVENTS = {json.dumps(recs)};\n", encoding="utf-8")
+    (data_dir / "events_data.js").write_text(f"const EVENTS = {json.dumps(recs)};\n", encoding="utf-8")
 
 
 def main():
@@ -188,8 +186,8 @@ def main():
     df.to_csv(OUT_DIR / "asu_events.csv", index=False)
     geojson = to_geojson(df)
     (OUT_DIR / "asu_events.geojson").write_text(json.dumps(geojson, indent=1), encoding="utf-8")
-    write_map(df, OUT_DIR)
-    print(f"Wrote {len(geojson['features'])} features to {OUT_DIR}")
+    write_map(df, DATA_DIR)
+    print(f"Wrote {len(geojson['features'])} features to {OUT_DIR}, map data to {DATA_DIR}")
 
 
 if __name__ == "__main__":

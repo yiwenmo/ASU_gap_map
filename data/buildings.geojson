@@ -1,0 +1,6299 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92940851965238,
+     33.421312759701166
+    ]
+   },
+   "properties": {
+    "building_id": "054A",
+    "name": "Interdisciplinary Science And Technology Bldg Ii Support",
+    "aliases": [
+     "Interdisciplinary Science And Technology Bldg Ii Support",
+     "054A",
+     "054A"
+    ],
+    "address": "848 S. Mcallister Avenue",
+    "bldg_numbers": [
+     "054A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93435806978125,
+     33.41835130012438
+    ]
+   },
+   "properties": {
+    "building_id": "077X",
+    "name": "Tempe Campus Infrastructure",
+    "aliases": [
+     "Tempe Campus Infrastructure",
+     "077X",
+     "077X"
+    ],
+    "address": "1551 S. Rural Rd.",
+    "bldg_numbers": [
+     "077X"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92584506012547,
+     33.42684445968301
+    ]
+   },
+   "properties": {
+    "building_id": "128H",
+    "name": "South Storage",
+    "aliases": [
+     "South Storage",
+     "128H",
+     "128H"
+    ],
+    "address": "371 S. Rural Road",
+    "bldg_numbers": [
+     "128H"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92668974958036,
+     33.41656532999516
+    ]
+   },
+   "properties": {
+    "building_id": "173J",
+    "name": "Barrett College Fire Pump House",
+    "aliases": [
+     "Barrett College Fire Pump House",
+     "173J",
+     "173J"
+    ],
+    "address": "851 E. Lemon St.",
+    "bldg_numbers": [
+     "173J"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92400449026172,
+     33.41170487978006
+    ]
+   },
+   "properties": {
+    "building_id": "176",
+    "name": "Grounds Maintenance Facility",
+    "aliases": [
+     "Grounds Maintenance Facility",
+     "176",
+     "176"
+    ],
+    "address": "1420 S. Jen Tilly Lane",
+    "bldg_numbers": [
+     "176"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.91840968026429,
+     33.42535840014272
+    ]
+   },
+   "properties": {
+    "building_id": "183",
+    "name": "Recreation And Sports Fields Restroom",
+    "aliases": [
+     "Recreation And Sports Fields Restroom",
+     "183",
+     "183"
+    ],
+    "address": "510 S. Dorsey Ln.",
+    "bldg_numbers": [
+     "183"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92801605011363,
+     33.427137499632536
+    ]
+   },
+   "properties": {
+    "building_id": "185A",
+    "name": "Locker Annex",
+    "aliases": [
+     "Locker Annex",
+     "185A",
+     "185A"
+    ],
+    "address": "321 S. Packard Drive",
+    "bldg_numbers": [
+     "185A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92343555036136,
+     33.411561150347204
+    ]
+   },
+   "properties": {
+    "building_id": "186A",
+    "name": "Brix Apartments A",
+    "aliases": [
+     "Brix Apartments A",
+     "186A",
+     "186A"
+    ],
+    "address": "1424 S. Jentilly Ln.",
+    "bldg_numbers": [
+     "186A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92396002994336,
+     33.411329640000474
+    ]
+   },
+   "properties": {
+    "building_id": "186B",
+    "name": "Brix Apartments B",
+    "aliases": [
+     "Brix Apartments B",
+     "186B",
+     "186B"
+    ],
+    "address": "1424 S. Jentilly Ln.",
+    "bldg_numbers": [
+     "186B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93844438024458,
+     33.41925477972694
+    ]
+   },
+   "properties": {
+    "building_id": "190",
+    "name": "(Tempe District Utility Plant)",
+    "aliases": [
+     "(Tempe District Utility Plant)",
+     "190",
+     "190"
+    ],
+    "address": "68 E. 10Th Street",
+    "bldg_numbers": [
+     "190"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93005300966476,
+     33.415346710147034
+    ]
+   },
+   "properties": {
+    "building_id": "ACACI",
+    "name": "Hav- Acacia Hall (E Wing)",
+    "aliases": [
+     "Hav- Acacia Hall (E Wing)",
+     "ACACI",
+     "160E"
+    ],
+    "address": "1201 S. Mcallister Avenue",
+    "bldg_numbers": [
+     "160E"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92760916000232,
+     33.41628020990912
+    ]
+   },
+   "properties": {
+    "building_id": "ACHAL",
+    "name": "Hav- Acourtia Hall (H Wing)",
+    "aliases": [
+     "Hav- Acourtia Hall (H Wing)",
+     "ACHAL",
+     "163C"
+    ],
+    "address": "711 E. Lemon Street",
+    "bldg_numbers": [
+     "163C"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92757940959673,
+     33.414086580339045
+    ]
+   },
+   "properties": {
+    "building_id": "ADEAB",
+    "name": "Adelphi Commons (Wings A/B)",
+    "aliases": [
+     "Adelphi Commons (Wings A/B)",
+     "ADEAB",
+     "157A"
+    ],
+    "address": "739 E. Apache Blvd. (1310 S. Sunset Drive)",
+    "bldg_numbers": [
+     "157A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92795232003411,
+     33.4132536101428
+    ]
+   },
+   "properties": {
+    "building_id": "ADECD",
+    "name": "Adelphi Commons (Wings C/D)",
+    "aliases": [
+     "Adelphi Commons (Wings C/D)",
+     "ADECD",
+     "157E"
+    ],
+    "address": "739 E. Apache Blvd. (1310 S. Sunset Drive)",
+    "bldg_numbers": [
+     "157E"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92829803038298,
+     33.41333390995562
+    ]
+   },
+   "properties": {
+    "building_id": "ADEEFG",
+    "name": "Adelphi Commons (Wings E/F/G)",
+    "aliases": [
+     "Adelphi Commons (Wings E/F/G)",
+     "ADEEFG",
+     "157D"
+    ],
+    "address": "739 E. Apache Blvd. (1310 S. Sunset Drive)",
+    "bldg_numbers": [
+     "157D"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92829937965256,
+     33.41414787033025
+    ]
+   },
+   "properties": {
+    "building_id": "ADEHJK",
+    "name": "Adelphi Commons (Wings H/J/K)",
+    "aliases": [
+     "Adelphi Commons (Wings H/J/K)",
+     "ADEHJK",
+     "157C"
+    ],
+    "address": "739 E. Apache Blvd. (1310 S. Sunset Drive)",
+    "bldg_numbers": [
+     "157C"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92777155025287,
+     33.41446634993833
+    ]
+   },
+   "properties": {
+    "building_id": "ADELM",
+    "name": "Adelphi Commons (Wings L/M)",
+    "aliases": [
+     "Adelphi Commons (Wings L/M)",
+     "ADELM",
+     "157B"
+    ],
+    "address": "739 E. Apache Blvd. (1310 S. Sunset Drive)",
+    "bldg_numbers": [
+     "157B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92793123028619,
+     33.413801550343464
+    ]
+   },
+   "properties": {
+    "building_id": "ADEN",
+    "name": "Adelphi Commons (Wing N)",
+    "aliases": [
+     "Adelphi Commons (Wing N)",
+     "ADEN",
+     "157F"
+    ],
+    "address": "739 E. Apache Blvd. (1310 S. Sunset Drive)",
+    "bldg_numbers": [
+     "157F"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92712130024287,
+     33.41317816998729
+    ]
+   },
+   "properties": {
+    "building_id": "ADEPQR",
+    "name": "Adelphi Ii Commons (Wings P/Q/R)",
+    "aliases": [
+     "Adelphi Ii Commons (Wings P/Q/R)",
+     "ADEPQR",
+     "159A"
+    ],
+    "address": "1339 S. Sunset Dr.",
+    "bldg_numbers": [
+     "159A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92759488038257,
+     33.413178130245626
+    ]
+   },
+   "properties": {
+    "building_id": "ADESTU",
+    "name": "Adelphi Ii Commons (Wings S/T/U)",
+    "aliases": [
+     "Adelphi Ii Commons (Wings S/T/U)",
+     "ADESTU",
+     "159B"
+    ],
+    "address": "1342 S. Sunset Dr.",
+    "bldg_numbers": [
+     "159B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9276212603092,
+     33.41351435012551
+    ]
+   },
+   "properties": {
+    "building_id": "ADEV",
+    "name": "Adelphi Ii Commons Community Center (Wing V)",
+    "aliases": [
+     "Adelphi Ii Commons Community Center (Wing V)",
+     "ADEV",
+     "159C"
+    ],
+    "address": "1342 S. Sunset Dr.",
+    "bldg_numbers": [
+     "159C"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92850664973469,
+     33.41520940974476
+    ]
+   },
+   "properties": {
+    "building_id": "AGVHAL",
+    "name": "Barrett College Agave Hall",
+    "aliases": [
+     "Barrett College Agave Hall",
+     "AGVHAL",
+     "173B"
+    ],
+    "address": "720 E. Apache Blvd.",
+    "bldg_numbers": [
+     "173B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92345050012432,
+     33.42539248995767
+    ]
+   },
+   "properties": {
+    "building_id": "ALBER",
+    "name": "Farrington Softball Stadium",
+    "aliases": [
+     "Farrington Softball Stadium",
+     "ALBER",
+     "153"
+    ],
+    "address": "510 S. Athletes Place",
+    "bldg_numbers": [
+     "153"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93471910988046,
+     33.4238471902704
+    ]
+   },
+   "properties": {
+    "building_id": "ANX",
+    "name": "The Annex",
+    "aliases": [
+     "The Annex",
+     "ANX",
+     "060"
+    ],
+    "address": "615 S. College Avenue",
+    "bldg_numbers": [
+     "060"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92425347990229,
+     33.423495479999694
+    ]
+   },
+   "properties": {
+    "building_id": "APMA",
+    "name": "Asu Performing & Media Arts",
+    "aliases": [
+     "Asu Performing & Media Arts",
+     "APMA",
+     "R41"
+    ],
+    "address": "970 E. University Dr.",
+    "bldg_numbers": [
+     "R41"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93408727982536,
+     33.42393649977946
+    ]
+   },
+   "properties": {
+    "building_id": "AQUAT",
+    "name": "Mona Plummer Aquatic Complex",
+    "aliases": [
+     "Mona Plummer Aquatic Complex",
+     "AQUAT",
+     "071"
+    ],
+    "address": "601 S. College Avenue",
+    "bldg_numbers": [
+     "071"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9294575497006,
+     33.41551002018607
+    ]
+   },
+   "properties": {
+    "building_id": "ARHAL",
+    "name": "Hav- Arroyo Hall (B Wing)",
+    "aliases": [
+     "Hav- Arroyo Hall (B Wing)",
+     "ARHAL",
+     "160B"
+    ],
+    "address": "1201 S. Mcallister Avenue",
+    "bldg_numbers": [
+     "160B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92943980977036,
+     33.41783682008603
+    ]
+   },
+   "properties": {
+    "building_id": "ARM",
+    "name": "Armstrong Hall",
+    "aliases": [
+     "Armstrong Hall",
+     "ARM",
+     "043"
+    ],
+    "address": "1100 S. Mcallister Avenue",
+    "bldg_numbers": [
+     "043"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93733031029045,
+     33.42049206973144
+    ]
+   },
+   "properties": {
+    "building_id": "ART",
+    "name": "Art Bldg.",
+    "aliases": [
+     "Art Bldg.",
+     "ART",
+     "087"
+    ],
+    "address": "900 S. Forest Mall",
+    "bldg_numbers": [
+     "087"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9378013904187,
+     33.420929879981685
+    ]
+   },
+   "properties": {
+    "building_id": "ARWH",
+    "name": "Art Warehouse",
+    "aliases": [
+     "Art Warehouse",
+     "ARWH",
+     "094"
+    ],
+    "address": "851 S. Myrtle Avenue",
+    "bldg_numbers": [
+     "094"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93443932958522,
+     33.41438210030551
+    ]
+   },
+   "properties": {
+    "building_id": "ASUPD",
+    "name": "Asu Police",
+    "aliases": [
+     "Asu Police",
+     "ASUPD",
+     "168"
+    ],
+    "address": "325 E. Apache Blvd.",
+    "bldg_numbers": [
+     "168"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9345092301924,
+     33.41662043002955
+    ]
+   },
+   "properties": {
+    "building_id": "BA",
+    "name": "Business Administration",
+    "aliases": [
+     "Business Administration",
+     "BA",
+     "040"
+    ],
+    "address": "300 E. Lemon Street",
+    "bldg_numbers": [
+     "040"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93384093033342,
+     33.41654800030167
+    ]
+   },
+   "properties": {
+    "building_id": "BAC",
+    "name": "Business Administration C Wing",
+    "aliases": [
+     "Business Administration C Wing",
+     "BAC",
+     "040C"
+    ],
+    "address": "400 E. Lemon Street",
+    "bldg_numbers": [
+     "040C"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92412248038104,
+     33.42555014008938
+    ]
+   },
+   "properties": {
+    "building_id": "BBTS",
+    "name": "Band Bldg., Toilets & Storage",
+    "aliases": [
+     "Band Bldg., Toilets & Storage",
+     "BBTS",
+     "097"
+    ],
+    "address": "501 S. Rural Road",
+    "bldg_numbers": [
+     "097"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92835025034877,
+     33.41900998032391
+    ]
+   },
+   "properties": {
+    "building_id": "BDA",
+    "name": "Biodesign Institute Bldg A",
+    "aliases": [
+     "Biodesign Institute Bldg A",
+     "BDA",
+     "104A"
+    ],
+    "address": "1001 S. Mcallister Avenue",
+    "bldg_numbers": [
+     "104A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92839324012502,
+     33.419701679880085
+    ]
+   },
+   "properties": {
+    "building_id": "BDB",
+    "name": "Biodesign Institute Bldg B",
+    "aliases": [
+     "Biodesign Institute Bldg B",
+     "BDB",
+     "104B"
+    ],
+    "address": "727 E. Tyler Street",
+    "bldg_numbers": [
+     "104B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92735028979195,
+     33.41998205009661
+    ]
+   },
+   "properties": {
+    "building_id": "BDC",
+    "name": "Biodesign Institute Bldg C",
+    "aliases": [
+     "Biodesign Institute Bldg C",
+     "BDC",
+     "104C"
+    ],
+    "address": "797 E. Tyler St.",
+    "bldg_numbers": [
+     "104C"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93078358972241,
+     33.41790373994353
+    ]
+   },
+   "properties": {
+    "building_id": "BDH",
+    "name": "Bulldog Hall",
+    "aliases": [
+     "Bulldog Hall",
+     "BDH",
+     "041"
+    ],
+    "address": "611 E. Orange Street",
+    "bldg_numbers": [
+     "041"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93183360979677,
+     33.41778584998893
+    ]
+   },
+   "properties": {
+    "building_id": "BKSTR",
+    "name": "Bookstore",
+    "aliases": [
+     "Bookstore",
+     "BKSTR",
+     "039"
+    ],
+    "address": "525 E. Orange Street",
+    "bldg_numbers": [
+     "039"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92365798041223,
+     33.42586084962663
+    ]
+   },
+   "properties": {
+    "building_id": "BRO",
+    "name": "Bro Softball Hitting Facility",
+    "aliases": [
+     "Bro Softball Hitting Facility",
+     "BRO",
+     "153A"
+    ],
+    "address": "465 S. Rural Road",
+    "bldg_numbers": [
+     "153A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92815983984788,
+     33.42847750018456
+    ]
+   },
+   "properties": {
+    "building_id": "BTPS",
+    "name": "Batting Tunnels @ Packard Stadium",
+    "aliases": [
+     "Batting Tunnels @ Packard Stadium",
+     "BTPS",
+     "X24"
+    ],
+    "address": "201 S. Packard Drive",
+    "bldg_numbers": [
+     "X24"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93889167028914,
+     33.4234880499397
+    ]
+   },
+   "properties": {
+    "building_id": "BYAC",
+    "name": "Artisan Court At The Brickyard",
+    "aliases": [
+     "Artisan Court At The Brickyard",
+     "BYAC",
+     "R10B"
+    ],
+    "address": "30 E. 7Th St.",
+    "bldg_numbers": [
+     "R10B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93949649968172,
+     33.42360338974047
+    ]
+   },
+   "properties": {
+    "building_id": "BYENG",
+    "name": "Bank Of America At The Brickyard",
+    "aliases": [
+     "Bank Of America At The Brickyard",
+     "BYENG",
+     "R10A"
+    ],
+    "address": "699 S. Mill Ave.",
+    "bldg_numbers": [
+     "R10A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93871724980032,
+     33.42400857021229
+    ]
+   },
+   "properties": {
+    "building_id": "BYOH",
+    "name": "Orchidhouse At The Brickyard",
+    "aliases": [
+     "Orchidhouse At The Brickyard",
+     "BYOH",
+     "R10C"
+    ],
+    "address": "21 E. 6Th St.",
+    "bldg_numbers": [
+     "R10C"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93458316962514,
+     33.4228942796272
+    ]
+   },
+   "properties": {
+    "building_id": "CAM",
+    "name": "College Avenue Market Place",
+    "aliases": [
+     "College Avenue Market Place",
+     "CAM",
+     "R11A"
+    ],
+    "address": "777 S. College Avenue",
+    "bldg_numbers": [
+     "R11A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93706728986345,
+     33.42144289988288
+    ]
+   },
+   "properties": {
+    "building_id": "CDN",
+    "name": "Design North",
+    "aliases": [
+     "Design North",
+     "CDN",
+     "127"
+    ],
+    "address": "810 S. Forest Mall",
+    "bldg_numbers": [
+     "127"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93708059031955,
+     33.42101060006832
+    ]
+   },
+   "properties": {
+    "building_id": "CDS",
+    "name": "Design South",
+    "aliases": [
+     "Design South",
+     "CDS",
+     "088"
+    ],
+    "address": "850 S. Forest Mall",
+    "bldg_numbers": [
+     "088"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9275339997591,
+     33.415178360223386
+    ]
+   },
+   "properties": {
+    "building_id": "CERHAL",
+    "name": "Barrett College Cereus Hall",
+    "aliases": [
+     "Barrett College Cereus Hall",
+     "CERHAL",
+     "173C"
+    ],
+    "address": "820 E. Apache Blvd.",
+    "bldg_numbers": [
+     "173C"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93628478987735,
+     33.4210224300208
+    ]
+   },
+   "properties": {
+    "building_id": "CFS",
+    "name": "Center For Family Studies",
+    "aliases": [
+     "Center For Family Studies",
+     "CFS",
+     "017"
+    ],
+    "address": "851 S. Forest Mall",
+    "bldg_numbers": [
+     "017"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93532628028267,
+     33.41849662963339
+    ]
+   },
+   "properties": {
+    "building_id": "CHAPL",
+    "name": "Danforth Chapel",
+    "aliases": [
+     "Danforth Chapel",
+     "CHAPL",
+     "008"
+    ],
+    "address": "1050 S. Cady Mall",
+    "bldg_numbers": [
+     "008"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92841081027365,
+     33.41696120967513
+    ]
+   },
+   "properties": {
+    "building_id": "CHPF",
+    "name": "Combined Heat And Power Facility",
+    "aliases": [
+     "Combined Heat And Power Facility",
+     "CHPF",
+     "135"
+    ],
+    "address": "740 E. Lemon St.",
+    "bldg_numbers": [
+     "135"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93000429043364,
+     33.415102759777334
+    ]
+   },
+   "properties": {
+    "building_id": "CHUPA",
+    "name": "Hav- Chuparosa Hall (D Wing)",
+    "aliases": [
+     "Hav- Chuparosa Hall (D Wing)",
+     "CHUPA",
+     "160D"
+    ],
+    "address": "1201 S. Mcallister Avenue",
+    "bldg_numbers": [
+     "160D"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93729448008702,
+     33.41935193975811
+    ]
+   },
+   "properties": {
+    "building_id": "COOR",
+    "name": "Coor Hall",
+    "aliases": [
+     "Coor Hall",
+     "COOR",
+     "065"
+    ],
+    "address": "976 S. Forest Mall",
+    "bldg_numbers": [
+     "065"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93557178984982,
+     33.42103313006062
+    ]
+   },
+   "properties": {
+    "building_id": "COWDN",
+    "name": "Cowden Family Resources Bldg.",
+    "aliases": [
+     "Cowden Family Resources Bldg.",
+     "COWDN",
+     "016"
+    ],
+    "address": "850 S. Cady Mall",
+    "bldg_numbers": [
+     "016"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93354761961336,
+     33.41908564035093
+    ]
+   },
+   "properties": {
+    "building_id": "CP",
+    "name": "Central Plant",
+    "aliases": [
+     "Central Plant",
+     "CP",
+     "015"
+    ],
+    "address": "452 E. Orange Street",
+    "bldg_numbers": [
+     "015"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92865985021987,
+     33.41127044987611
+    ]
+   },
+   "properties": {
+    "building_id": "CPS",
+    "name": "Central Plant South",
+    "aliases": [
+     "Central Plant South",
+     "CPS",
+     "137"
+    ],
+    "address": "1601 S. Mcallister Avenue",
+    "bldg_numbers": [
+     "137"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93238926990227,
+     33.417832870125785
+    ]
+   },
+   "properties": {
+    "building_id": "CRTVC",
+    "name": "Creativity Commons",
+    "aliases": [
+     "Creativity Commons",
+     "CRTVC",
+     "136"
+    ],
+    "address": "501 E. Orange Street",
+    "bldg_numbers": [
+     "136"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93293139958298,
+     33.42533896019275
+    ]
+   },
+   "properties": {
+    "building_id": "CSAC",
+    "name": "Carson Student Athlete Center",
+    "aliases": [
+     "Carson Student Athlete Center",
+     "CSAC",
+     "059B"
+    ],
+    "address": "500 E. Veteran'S Way",
+    "bldg_numbers": [
+     "059B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92693738995138,
+     33.41524073968964
+    ]
+   },
+   "properties": {
+    "building_id": "CWHAL",
+    "name": "Barrett College Cottonwood Hall",
+    "aliases": [
+     "Barrett College Cottonwood Hall",
+     "CWHAL",
+     "173D"
+    ],
+    "address": "850 E. Apache Blvd.",
+    "bldg_numbers": [
+     "173D"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93099390958493,
+     33.424502319970216
+    ]
+   },
+   "properties": {
+    "building_id": "DFA",
+    "name": "Desert Financial Arena",
+    "aliases": [
+     "Desert Financial Arena",
+     "DFA",
+     "069"
+    ],
+    "address": "600 E. Veterans Way",
+    "bldg_numbers": [
+     "069"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93453106015214,
+     33.42092045004965
+    ]
+   },
+   "properties": {
+    "building_id": "DH",
+    "name": "Durham Hall",
+    "aliases": [
+     "Durham Hall",
+     "DH",
+     "012"
+    ],
+    "address": "851 S. Cady Mall",
+    "bldg_numbers": [
+     "012"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93552450971978,
+     33.41646837004571
+    ]
+   },
+   "properties": {
+    "building_id": "DISCVRY",
+    "name": "Discovery Hall",
+    "aliases": [
+     "Discovery Hall",
+     "DISCVRY",
+     "044"
+    ],
+    "address": "250 E. Lemon Street",
+    "bldg_numbers": [
+     "044"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93219812008792,
+     33.418683019949285
+    ]
+   },
+   "properties": {
+    "building_id": "ECA",
+    "name": "Engineering Center A",
+    "aliases": [
+     "Engineering Center A",
+     "ECA",
+     "053A"
+    ],
+    "address": "1031 S. Palm Walk",
+    "bldg_numbers": [
+     "053A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93233037994553,
+     33.41880542994528
+    ]
+   },
+   "properties": {
+    "building_id": "ECANX",
+    "name": "Engineering Center Annex",
+    "aliases": [
+     "Engineering Center Annex",
+     "ECANX",
+     "140"
+    ],
+    "address": "1021 S. Palm Walk",
+    "bldg_numbers": [
+     "140"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93220082042366,
+     33.418957620049646
+    ]
+   },
+   "properties": {
+    "building_id": "ECB",
+    "name": "Engineering Center B",
+    "aliases": [
+     "Engineering Center B",
+     "ECB",
+     "053B"
+    ],
+    "address": "1011 S. Palm Walk",
+    "bldg_numbers": [
+     "053B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93218670968716,
+     33.419136219793536
+    ]
+   },
+   "properties": {
+    "building_id": "ECC",
+    "name": "Engineering Center C",
+    "aliases": [
+     "Engineering Center C",
+     "ECC",
+     "053C"
+    ],
+    "address": "1001 S. Palm Walk",
+    "bldg_numbers": [
+     "053C"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93220352974255,
+     33.4193147501894
+    ]
+   },
+   "properties": {
+    "building_id": "ECD",
+    "name": "Engineering Center D",
+    "aliases": [
+     "Engineering Center D",
+     "ECD",
+     "053D"
+    ],
+    "address": "971 S. Palm Walk",
+    "bldg_numbers": [
+     "053D"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93215237967027,
+     33.41950002981231
+    ]
+   },
+   "properties": {
+    "building_id": "ECE",
+    "name": "Engineering Center E",
+    "aliases": [
+     "Engineering Center E",
+     "ECE",
+     "053E"
+    ],
+    "address": "961 S. Palm Walk",
+    "bldg_numbers": [
+     "053E"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93219193967877,
+     33.419672300240435
+    ]
+   },
+   "properties": {
+    "building_id": "ECF",
+    "name": "Engineering Center F",
+    "aliases": [
+     "Engineering Center F",
+     "ECF",
+     "053F"
+    ],
+    "address": "951 S. Palm Walk",
+    "bldg_numbers": [
+     "053F"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93208843040183,
+     33.42001416034411
+    ]
+   },
+   "properties": {
+    "building_id": "ECG",
+    "name": "Engineering Center G",
+    "aliases": [
+     "Engineering Center G",
+     "ECG",
+     "053G"
+    ],
+    "address": "501 E. Tyler Mall",
+    "bldg_numbers": [
+     "053G"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93724209033965,
+     33.418049319885235
+    ]
+   },
+   "properties": {
+    "building_id": "ED",
+    "name": "Farmer Education Bldg.",
+    "aliases": [
+     "Farmer Education Bldg.",
+     "ED",
+     "006A"
+    ],
+    "address": "1050 S. Forest Mall",
+    "bldg_numbers": [
+     "006A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93724547968323,
+     33.41887570963149
+    ]
+   },
+   "properties": {
+    "building_id": "EDB",
+    "name": "Payne Hall",
+    "aliases": [
+     "Payne Hall",
+     "EDB",
+     "006B"
+    ],
+    "address": "1000 S. Forest Mall",
+    "bldg_numbers": [
+     "006B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93784586960169,
+     33.417901770213575
+    ]
+   },
+   "properties": {
+    "building_id": "EDC",
+    "name": "Education Lecture Hall",
+    "aliases": [
+     "Education Lecture Hall",
+     "EDC",
+     "006C"
+    ],
+    "address": "100 E. Gammage Parkway",
+    "bldg_numbers": [
+     "006C"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93140405968241,
+     33.419799649929466
+    ]
+   },
+   "properties": {
+    "building_id": "ENGRC",
+    "name": "Engineering Research Center",
+    "aliases": [
+     "Engineering Research Center",
+     "ENGRC",
+     "063"
+    ],
+    "address": "551 E. Tyler Mall",
+    "bldg_numbers": [
+     "063"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93836589982809,
+     33.41863859006719
+    ]
+   },
+   "properties": {
+    "building_id": "FAC",
+    "name": "Nelson Fine Arts Center",
+    "aliases": [
+     "Nelson Fine Arts Center",
+     "FAC",
+     "048"
+    ],
+    "address": "51 E. 10Th Street",
+    "bldg_numbers": [
+     "048"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92279116994344,
+     33.426824769657685
+    ]
+   },
+   "properties": {
+    "building_id": "FMMEY",
+    "name": "Fm Materials And Equipment Yard",
+    "aliases": [
+     "Fm Materials And Equipment Yard",
+     "FMMEY",
+     "128"
+    ],
+    "address": "381 S. Rural Road",
+    "bldg_numbers": [
+     "128"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93445396044625,
+     33.422258450227126
+    ]
+   },
+   "properties": {
+    "building_id": "FULTN",
+    "name": "Fulton Center",
+    "aliases": [
+     "Fulton Center",
+     "FULTN",
+     "R11"
+    ],
+    "address": "300 E. University Drive",
+    "bldg_numbers": [
+     "R11"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93782823028275,
+     33.41640608968696
+    ]
+   },
+   "properties": {
+    "building_id": "GGMA",
+    "name": "Grady Gammage Memorial Auditorium",
+    "aliases": [
+     "Grady Gammage Memorial Auditorium",
+     "GGMA",
+     "001"
+    ],
+    "address": "1200 S. Forest Avenue",
+    "bldg_numbers": [
+     "001"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93618029964013,
+     33.41909558034067
+    ]
+   },
+   "properties": {
+    "building_id": "GHALL",
+    "name": "Dixie Gammage Hall",
+    "aliases": [
+     "Dixie Gammage Hall",
+     "GHALL",
+     "009"
+    ],
+    "address": "1001 S. Forest Mall",
+    "bldg_numbers": [
+     "009"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92511401024892,
+     33.41878749036619
+    ]
+   },
+   "properties": {
+    "building_id": "GLVA",
+    "name": "Greek Leadership Village - Bldg A",
+    "aliases": [
+     "Greek Leadership Village - Bldg A",
+     "GLVA",
+     "182A"
+    ],
+    "address": "975 S. Rural Rd.",
+    "bldg_numbers": [
+     "182A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92530439020709,
+     33.41804016031846
+    ]
+   },
+   "properties": {
+    "building_id": "GLVB",
+    "name": "Greek Leadership Village - Bldg B",
+    "aliases": [
+     "Greek Leadership Village - Bldg B",
+     "GLVB",
+     "182B"
+    ],
+    "address": "975 S. Rural Rd.",
+    "bldg_numbers": [
+     "182B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92593483955159,
+     33.41873827009849
+    ]
+   },
+   "properties": {
+    "building_id": "GLVC",
+    "name": "Greek Leadership Village - Bldg C",
+    "aliases": [
+     "Greek Leadership Village - Bldg C",
+     "GLVC",
+     "182C"
+    ],
+    "address": "975 S. Rural Rd.",
+    "bldg_numbers": [
+     "182C"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.925884799797,
+     33.41955531993022
+    ]
+   },
+   "properties": {
+    "building_id": "GLVCC",
+    "name": "Glv Community Center",
+    "aliases": [
+     "Glv Community Center",
+     "GLVCC",
+     "182"
+    ],
+    "address": "915 S. Rural Rd.",
+    "bldg_numbers": [
+     "182"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92546225025364,
+     33.41847930032531
+    ]
+   },
+   "properties": {
+    "building_id": "GLVD",
+    "name": "Greek Leadership Village - Bldg D",
+    "aliases": [
+     "Greek Leadership Village - Bldg D",
+     "GLVD",
+     "182D"
+    ],
+    "address": "975 S. Rural Rd.",
+    "bldg_numbers": [
+     "182D"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93046304028633,
+     33.4207830399954
+    ]
+   },
+   "properties": {
+    "building_id": "GWC",
+    "name": "Goldwater Center For Science & Engineering",
+    "aliases": [
+     "Goldwater Center For Science & Engineering",
+     "GWC",
+     "085"
+    ],
+    "address": "650 E. Tyler Mall",
+    "bldg_numbers": [
+     "085"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9357503803182,
+     33.41501087002495
+    ]
+   },
+   "properties": {
+    "building_id": "HAYDN",
+    "name": "Hayden Hall",
+    "aliases": [
+     "Hayden Hall",
+     "HAYDN",
+     "014"
+    ],
+    "address": "250 E. Apache Boulevard",
+    "bldg_numbers": [
+     "014"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93643977980658,
+     33.423506089764366
+    ]
+   },
+   "properties": {
+    "building_id": "HBH",
+    "name": "Harrington-Birchett House",
+    "aliases": [
+     "Harrington-Birchett House",
+     "HBH",
+     "141A"
+    ],
+    "address": "202 E. 7Th Street",
+    "bldg_numbers": [
+     "141A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93205531041563,
+     33.420994929765094
+    ]
+   },
+   "properties": {
+    "building_id": "HELM",
+    "name": "Helium Recovery Shed - Adj 57B&C",
+    "aliases": [
+     "Helium Recovery Shed - Adj 57B&C",
+     "HELM",
+     "X18"
+    ],
+    "address": "875 S. Palm Walk",
+    "bldg_numbers": [
+     "X18"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93538622036999,
+     33.41521528987461
+    ]
+   },
+   "properties": {
+    "building_id": "HHE",
+    "name": "Hayden Hall East",
+    "aliases": [
+     "Hayden Hall East",
+     "HHE",
+     "014E"
+    ],
+    "address": "1260 S. College Avenue",
+    "bldg_numbers": [
+     "014E"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93611463009792,
+     33.41517661987822
+    ]
+   },
+   "properties": {
+    "building_id": "HHW",
+    "name": "Hayden Hall West",
+    "aliases": [
+     "Hayden Hall West",
+     "HHW",
+     "014W"
+    ],
+    "address": "1251 S. Forest Avenue",
+    "bldg_numbers": [
+     "014W"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93561206042568,
+     33.423529029973956
+    ]
+   },
+   "properties": {
+    "building_id": "HLMK",
+    "name": "Helmick Center",
+    "aliases": [
+     "Helmick Center",
+     "HLMK",
+     "178"
+    ],
+    "address": "660 S. College Ave.",
+    "bldg_numbers": [
+     "178"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92584029995275,
+     33.426956160363126
+    ]
+   },
+   "properties": {
+    "building_id": "HOBBS",
+    "name": "Hobbs House",
+    "aliases": [
+     "Hobbs House",
+     "HOBBS",
+     "128D"
+    ],
+    "address": "371 S. Rural Road",
+    "bldg_numbers": [
+     "128D"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92737817978657,
+     33.415744100272484
+    ]
+   },
+   "properties": {
+    "building_id": "HONHAL",
+    "name": "Barrett College Honors Hall",
+    "aliases": [
+     "Barrett College Honors Hall",
+     "HONHAL",
+     "173H"
+    ],
+    "address": "821 E. Lemon Mall",
+    "bldg_numbers": [
+     "173H"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9330122802979,
+     33.42134408969331
+    ]
+   },
+   "properties": {
+    "building_id": "HSB",
+    "name": "Health Service",
+    "aliases": [
+     "Health Service",
+     "HSB",
+     "025"
+    ],
+    "address": "451 E. University Drive",
+    "bldg_numbers": [
+     "025"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93535909978242,
+     33.41756608503268
+    ]
+   },
+   "properties": {
+    "building_id": "INTDSA",
+    "name": "Interdisciplinary A",
+    "aliases": [
+     "Interdisciplinary A",
+     "Interdisciplinary A Outdoor Room",
+     "INTDSA",
+     "002",
+     "X002A"
+    ],
+    "address": "1100 S. Cady Mall",
+    "bldg_numbers": [
+     "002",
+     "X002A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93560557997921,
+     33.41723299969214
+    ]
+   },
+   "properties": {
+    "building_id": "INTDSB",
+    "name": "Interdisciplinary B",
+    "aliases": [
+     "Interdisciplinary B",
+     "INTDSB",
+     "003"
+    ],
+    "address": "1120 S. Cady Mall",
+    "bldg_numbers": [
+     "003"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93545138685566,
+     33.41566999673055
+    ]
+   },
+   "properties": {
+    "building_id": "IRISH",
+    "name": "Irish Hall A (Academic Offices)",
+    "aliases": [
+     "Irish Hall A (Academic Offices)",
+     "Irish Hall B (Northwest)",
+     "Irish Hall C (Southwest)",
+     "IRISH",
+     "026A",
+     "026B",
+     "026C"
+    ],
+    "address": "1250 S. College Avenue",
+    "bldg_numbers": [
+     "026A",
+     "026B",
+     "026C"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93139081043029,
+     33.418849250159546
+    ]
+   },
+   "properties": {
+    "building_id": "ISTB1",
+    "name": "Interdisciplinary Science And Technology Building I",
+    "aliases": [
+     "Interdisciplinary Science And Technology Building I",
+     "ISTB1",
+     "108"
+    ],
+    "address": "550 E. Orange Street",
+    "bldg_numbers": [
+     "108"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9295867301334,
+     33.42101391032581
+    ]
+   },
+   "properties": {
+    "building_id": "ISTB2",
+    "name": "Interdisciplinary Science And Technology Building Ii",
+    "aliases": [
+     "Interdisciplinary Science And Technology Building Ii",
+     "ISTB2",
+     "054"
+    ],
+    "address": "850 S. Mcallister Avenue",
+    "bldg_numbers": [
+     "054"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92838650006543,
+     33.41801618993149
+    ]
+   },
+   "properties": {
+    "building_id": "ISTB4",
+    "name": "Interdisciplinary Science And Technology Building 4",
+    "aliases": [
+     "Interdisciplinary Science And Technology Building 4",
+     "ISTB4",
+     "075"
+    ],
+    "address": "781 E. Terrace Mall",
+    "bldg_numbers": [
+     "075"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93101381984489,
+     33.42079312974625
+    ]
+   },
+   "properties": {
+    "building_id": "ISTB5",
+    "name": "Interdisciplinary Science And Technology Building V",
+    "aliases": [
+     "Interdisciplinary Science And Technology Building V",
+     "ISTB5",
+     "072"
+    ],
+    "address": "600 E. Tyler Mall",
+    "bldg_numbers": [
+     "072"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9353141799758,
+     33.42150309976349
+    ]
+   },
+   "properties": {
+    "building_id": "ISTBX",
+    "name": "Interdisciplinary Science And Technology Building 10",
+    "aliases": [
+     "Interdisciplinary Science And Technology Building 10",
+     "ISTBX",
+     "007"
+    ],
+    "address": "800 S. Cady Mall",
+    "bldg_numbers": [
+     "007"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92663486970304,
+     33.415569559837536
+    ]
+   },
+   "properties": {
+    "building_id": "JNHAL",
+    "name": "Barrett College Juniper Hall",
+    "aliases": [
+     "Barrett College Juniper Hall",
+     "JNHAL",
+     "173E"
+    ],
+    "address": "1250 S. Rural Rd.",
+    "bldg_numbers": [
+     "173E"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92945388008266,
+     33.415133510145196
+    ]
+   },
+   "properties": {
+    "building_id": "JOBA",
+    "name": "Hav- Jojoba Hall (C Wing)",
+    "aliases": [
+     "Hav- Jojoba Hall (C Wing)",
+     "JOBA",
+     "160C"
+    ],
+    "address": "1201 S. Mcallister Avenue",
+    "bldg_numbers": [
+     "160C"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93736562036932,
+     33.420090429819616
+    ]
+   },
+   "properties": {
+    "building_id": "L01",
+    "name": "Antenna - Stauffer Hall West",
+    "aliases": [
+     "Antenna - Stauffer Hall West",
+     "L01",
+     "L01"
+    ],
+    "address": "950 S. Forest Mall",
+    "bldg_numbers": [
+     "L01"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93412202037236,
+     33.42386864963261
+    ]
+   },
+   "properties": {
+    "building_id": "L03",
+    "name": "Aquatic Complex - Main Area",
+    "aliases": [
+     "Aquatic Complex - Main Area",
+     "L03",
+     "L03"
+    ],
+    "address": "601 S. College Avenue",
+    "bldg_numbers": [
+     "L03"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92501685026443,
+     33.42611771013145
+    ]
+   },
+   "properties": {
+    "building_id": "L04",
+    "name": "N.E. Fields - Kajikawa Football Practice Fields",
+    "aliases": [
+     "N.E. Fields - Kajikawa Football Practice Fields",
+     "L04",
+     "L04"
+    ],
+    "address": "499 S. Rural Rd.",
+    "bldg_numbers": [
+     "L04"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92226240000764,
+     33.42584695031948
+    ]
+   },
+   "properties": {
+    "building_id": "L05",
+    "name": "N.E. Fields - Band Practice Field",
+    "aliases": [
+     "N.E. Fields - Band Practice Field",
+     "L05",
+     "L05"
+    ],
+    "address": "411 S. Rural Rd.",
+    "bldg_numbers": [
+     "L05"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9232705603864,
+     33.425474900300095
+    ]
+   },
+   "properties": {
+    "building_id": "L07",
+    "name": "N.E. Fields - Softball",
+    "aliases": [
+     "N.E. Fields - Softball",
+     "L07",
+     "L07"
+    ],
+    "address": "510 S. Athletes Place",
+    "bldg_numbers": [
+     "L07"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92789048000996,
+     33.42663357008035
+    ]
+   },
+   "properties": {
+    "building_id": "L09",
+    "name": "Sun Angel Stadium - Yard",
+    "aliases": [
+     "Sun Angel Stadium - Yard",
+     "L09",
+     "L09"
+    ],
+    "address": "401 S. Packard Drive",
+    "bldg_numbers": [
+     "L09"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93162199995348,
+     33.419394989663154
+    ]
+   },
+   "properties": {
+    "building_id": "L14",
+    "name": "Engineering Gas Canister Stor.",
+    "aliases": [
+     "Engineering Gas Canister Stor.",
+     "L14",
+     "L14"
+    ],
+    "address": "551 E. Tyler Mall",
+    "bldg_numbers": [
+     "L14"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92681893989464,
+     33.41231967967698
+    ]
+   },
+   "properties": {
+    "building_id": "L16",
+    "name": "Sonora - East Area",
+    "aliases": [
+     "Sonora - East Area",
+     "L16",
+     "L16"
+    ],
+    "address": "1480 S. Rural Rd.",
+    "bldg_numbers": [
+     "L16"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93594828995508,
+     33.42403056035703
+    ]
+   },
+   "properties": {
+    "building_id": "L167",
+    "name": "213/215 E. Sixth St.",
+    "aliases": [
+     "213/215 E. Sixth St.",
+     "L167",
+     "L167"
+    ],
+    "address": "213/215 E. Sixth St.",
+    "bldg_numbers": [
+     "L167"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92189117031816,
+     33.42455508026332
+    ]
+   },
+   "properties": {
+    "building_id": "L19",
+    "name": "Soccer & Lacrosse Field",
+    "aliases": [
+     "Soccer & Lacrosse Field",
+     "L19",
+     "L19"
+    ],
+    "address": "655 S. Athletes Place",
+    "bldg_numbers": [
+     "L19"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93015213965468,
+     33.425428209687674
+    ]
+   },
+   "properties": {
+    "building_id": "L20",
+    "name": "Desert Arboretum Park",
+    "aliases": [
+     "Desert Arboretum Park",
+     "L20",
+     "L20"
+    ],
+    "address": "556 S. Packard Drive",
+    "bldg_numbers": [
+     "L20"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92178530026867,
+     33.42385176000085
+    ]
+   },
+   "properties": {
+    "building_id": "L22",
+    "name": "Grounds Fenced Yard 'Boneyard'",
+    "aliases": [
+     "Grounds Fenced Yard 'Boneyard'",
+     "L22",
+     "L22"
+    ],
+    "address": "675 S. Athletes Place",
+    "bldg_numbers": [
+     "L22"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9216483098828,
+     33.42543689014285
+    ]
+   },
+   "properties": {
+    "building_id": "L28",
+    "name": "Us Weather Station",
+    "aliases": [
+     "Us Weather Station",
+     "L28",
+     "L28"
+    ],
+    "address": "505 S. Rural Road",
+    "bldg_numbers": [
+     "L28"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92330750000919,
+     33.42644494015048
+    ]
+   },
+   "properties": {
+    "building_id": "L31",
+    "name": "T-Mobile Monopalm At Karsten Gc",
+    "aliases": [
+     "T-Mobile Monopalm At Karsten Gc",
+     "L31",
+     "L31"
+    ],
+    "address": "1125 E. Rio Salado Parkway",
+    "bldg_numbers": [
+     "L31"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92073459028819,
+     33.424607580363194
+    ]
+   },
+   "properties": {
+    "building_id": "L34",
+    "name": "Field 1",
+    "aliases": [
+     "Field 1",
+     "L34",
+     "L34"
+    ],
+    "address": "520 S. Dorsey Ln.",
+    "bldg_numbers": [
+     "L34"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.91978694042697,
+     33.42461125036071
+    ]
+   },
+   "properties": {
+    "building_id": "L35",
+    "name": "Field 2",
+    "aliases": [
+     "Field 2",
+     "L35",
+     "L35"
+    ],
+    "address": "530 S. Dorsey Ln.",
+    "bldg_numbers": [
+     "L35"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.91879254044174,
+     33.42459726988108
+    ]
+   },
+   "properties": {
+    "building_id": "L36",
+    "name": "Field 3",
+    "aliases": [
+     "Field 3",
+     "L36",
+     "L36"
+    ],
+    "address": "540 S. Dorsey Ln.",
+    "bldg_numbers": [
+     "L36"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.91911692029421,
+     33.42631565016275
+    ]
+   },
+   "properties": {
+    "building_id": "L37",
+    "name": "Field 4",
+    "aliases": [
+     "Field 4",
+     "L37",
+     "L37"
+    ],
+    "address": "450 S. Dorsey Ln.",
+    "bldg_numbers": [
+     "L37"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9348489101508,
+     33.419013289907916
+    ]
+   },
+   "properties": {
+    "building_id": "LIB",
+    "name": "Hayden Library",
+    "aliases": [
+     "Hayden Library",
+     "LIB",
+     "010"
+    ],
+    "address": "300 E. Orange Mall",
+    "bldg_numbers": [
+     "010"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93314288006886,
+     33.41987492012999
+    ]
+   },
+   "properties": {
+    "building_id": "LSA",
+    "name": "Life Sciences Center A",
+    "aliases": [
+     "Life Sciences Center A",
+     "LSA",
+     "056A"
+    ],
+    "address": "451 E. Tyler Mall",
+    "bldg_numbers": [
+     "056A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9333689698562,
+     33.419612279789206
+    ]
+   },
+   "properties": {
+    "building_id": "LSB",
+    "name": "Life Sciences Center B-Animal Care",
+    "aliases": [
+     "Life Sciences Center B-Animal Care",
+     "LSB",
+     "056B"
+    ],
+    "address": "425 E. Tyler Mall",
+    "bldg_numbers": [
+     "056B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93374969024666,
+     33.41999317014371
+    ]
+   },
+   "properties": {
+    "building_id": "LSC",
+    "name": "Life Sciences Center C",
+    "aliases": [
+     "Life Sciences Center C",
+     "LSC",
+     "056C"
+    ],
+    "address": "401 E. Tyler Mall",
+    "bldg_numbers": [
+     "056C"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93317620037938,
+     33.41955149001415
+    ]
+   },
+   "properties": {
+    "building_id": "LSD",
+    "name": "Life Sciences Center D-Aquatic Terrestrial",
+    "aliases": [
+     "Life Sciences Center D-Aquatic Terrestrial",
+     "LSD",
+     "056D"
+    ],
+    "address": "435 E. Tyler Mall",
+    "bldg_numbers": [
+     "056D"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93381541997597,
+     33.41951435001692
+    ]
+   },
+   "properties": {
+    "building_id": "LSE",
+    "name": "Life Sciences Tower E-Wing",
+    "aliases": [
+     "Life Sciences Tower E-Wing",
+     "LSE",
+     "056E"
+    ],
+    "address": "427 E. Tyler Mall",
+    "bldg_numbers": [
+     "056E"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93639620971867,
+     33.42052998008362
+    ]
+   },
+   "properties": {
+    "building_id": "LYC",
+    "name": "Lyceum Theatre",
+    "aliases": [
+     "Lyceum Theatre",
+     "LYC",
+     "027"
+    ],
+    "address": "901 S. Forest Mall",
+    "bldg_numbers": [
+     "027"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92847425019734,
+     33.42669427017769
+    ]
+   },
+   "properties": {
+    "building_id": "MA",
+    "name": "Mullett Arena",
+    "aliases": [
+     "Mullett Arena",
+     "MA",
+     "185"
+    ],
+    "address": "411 S. Packard Dr.",
+    "bldg_numbers": [
+     "185"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93398509017359,
+     33.42053742989103
+    ]
+   },
+   "properties": {
+    "building_id": "MAIN",
+    "name": "Old Main",
+    "aliases": [
+     "Old Main",
+     "MAIN",
+     "032"
+    ],
+    "address": "400 E. Tyler Mall",
+    "bldg_numbers": [
+     "032"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93005874989943,
+     33.42246664981325
+    ]
+   },
+   "properties": {
+    "building_id": "MANZH",
+    "name": "Manzanita Hall",
+    "aliases": [
+     "Manzanita Hall",
+     "MANZH",
+     "061"
+    ],
+    "address": "600 E. University Drive",
+    "bldg_numbers": [
+     "061"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93058690987915,
+     33.422828809902015
+    ]
+   },
+   "properties": {
+    "building_id": "MANZY",
+    "name": "Manzy Cafe",
+    "aliases": [
+     "Manzy Cafe",
+     "MANZY",
+     "103"
+    ],
+    "address": "561 E. Veteran'S Way",
+    "bldg_numbers": [
+     "103"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93249848976949,
+     33.42663380024647
+    ]
+   },
+   "properties": {
+    "building_id": "MAS",
+    "name": "Mountain America Stadium",
+    "aliases": [
+     "Mountain America Stadium",
+     "MAS",
+     "059"
+    ],
+    "address": "500 E. Veteran'S Way",
+    "bldg_numbers": [
+     "059"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93853542988849,
+     33.41988939022978
+    ]
+   },
+   "properties": {
+    "building_id": "MASH",
+    "name": "Mill Avenue Student Housing",
+    "aliases": [
+     "Mill Avenue Student Housing",
+     "MASH",
+     "189"
+    ],
+    "address": "930 S. Myrtle Avenue",
+    "bldg_numbers": [
+     "189"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93610236330328,
+     33.41566280019729
+    ]
+   },
+   "properties": {
+    "building_id": "MB",
+    "name": "Best Hall A",
+    "aliases": [
+     "Best Hall A",
+     "Best Hall B",
+     "Best Hall C",
+     "MB",
+     "038A",
+     "038B",
+     "038C"
+    ],
+    "address": "1201 S. Forest Avenue",
+    "bldg_numbers": [
+     "038A",
+     "038B",
+     "038C"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93546958043511,
+     33.4199286497075
+    ]
+   },
+   "properties": {
+    "building_id": "MCENT",
+    "name": "Matthews Center",
+    "aliases": [
+     "Matthews Center",
+     "MCENT",
+     "034"
+    ],
+    "address": "950 S. Cady Mall",
+    "bldg_numbers": [
+     "034"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93608669967911,
+     33.419697379854334
+    ]
+   },
+   "properties": {
+    "building_id": "MCL",
+    "name": "Mcclintock Hall",
+    "aliases": [
+     "Mcclintock Hall",
+     "MCL",
+     "028"
+    ],
+    "address": "951 S. Forest Mall",
+    "bldg_numbers": [
+     "028"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93325218976756,
+     33.416739380300996
+    ]
+   },
+   "properties": {
+    "building_id": "MCRD",
+    "name": "Mccord Hall",
+    "aliases": [
+     "Mccord Hall",
+     "MCRD",
+     "040D"
+    ],
+    "address": "450 E. Lemon St.",
+    "bldg_numbers": [
+     "040D"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93611562004136,
+     33.42011058023953
+    ]
+   },
+   "properties": {
+    "building_id": "MHALL",
+    "name": "Matthews Hall",
+    "aliases": [
+     "Matthews Hall",
+     "MHALL",
+     "033"
+    ],
+    "address": "925 S. Forest Mall",
+    "bldg_numbers": [
+     "033"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93616813016295,
+     33.417940439746275
+    ]
+   },
+   "properties": {
+    "building_id": "MOEUR",
+    "name": "Moeur Bldg.",
+    "aliases": [
+     "Moeur Bldg.",
+     "MOEUR",
+     "037"
+    ],
+    "address": "201 E. Orange Mall",
+    "bldg_numbers": [
+     "037"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93859715043672,
+     33.42124173971199
+    ]
+   },
+   "properties": {
+    "building_id": "MRBLA",
+    "name": "Asu At Mirabella",
+    "aliases": [
+     "Asu At Mirabella",
+     "MRBLA",
+     "R78"
+    ],
+    "address": "65 E. University Dr.",
+    "bldg_numbers": [
+     "R78"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92558291016599,
+     33.410670420132945
+    ]
+   },
+   "properties": {
+    "building_id": "MSB",
+    "name": "Material Services Bldg.",
+    "aliases": [
+     "Material Services Bldg.",
+     "MSB",
+     "131"
+    ],
+    "address": "1711 S. Rural Road",
+    "bldg_numbers": [
+     "131"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92904499526227,
+     33.41615091486783
+    ]
+   },
+   "properties": {
+    "building_id": "MSHAL",
+    "name": "Hav- Mesquite Hall (F Wing)",
+    "aliases": [
+     "Hav- Mesquite Hall (F Wing)",
+     "Hav- Mesquite Outdoor Room",
+     "MSHAL",
+     "163A",
+     "X163A"
+    ],
+    "address": "711 E. Lemon Street",
+    "bldg_numbers": [
+     "163A",
+     "X163A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93435132972166,
+     33.41769226027109
+    ]
+   },
+   "properties": {
+    "building_id": "MU",
+    "name": "Memorial Union",
+    "aliases": [
+     "Memorial Union",
+     "MU",
+     "035"
+    ],
+    "address": "301 E. Orange Mall",
+    "bldg_numbers": [
+     "035"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93314083999483,
+     33.41862874000065
+    ]
+   },
+   "properties": {
+    "building_id": "MUR",
+    "name": "Murdock Lecture Hall",
+    "aliases": [
+     "Murdock Lecture Hall",
+     "MUR",
+     "021"
+    ],
+    "address": "450 E. Orange Mall",
+    "bldg_numbers": [
+     "021"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93901491016297,
+     33.418036289846356
+    ]
+   },
+   "properties": {
+    "building_id": "MUSIC",
+    "name": "Music Bldg.",
+    "aliases": [
+     "Music Bldg.",
+     "MUSIC",
+     "084"
+    ],
+    "address": "50 E. Gammage Parkway",
+    "bldg_numbers": [
+     "084"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92960224044509,
+     33.41578651986764
+    ]
+   },
+   "properties": {
+    "building_id": "MVHAL",
+    "name": "Hav- Mohave Hall (A Wing)",
+    "aliases": [
+     "Hav- Mohave Hall (A Wing)",
+     "MVHAL",
+     "160A"
+    ],
+    "address": "1201 S. Mcallister Avenue",
+    "bldg_numbers": [
+     "160A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93202190027358,
+     33.4237254996466
+    ]
+   },
+   "properties": {
+    "building_id": "NCP",
+    "name": "Northern Chiller Plant",
+    "aliases": [
+     "Northern Chiller Plant",
+     "NCP",
+     "181"
+    ],
+    "address": "511 E. Veteran'S Way",
+    "bldg_numbers": [
+     "181"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93689519960448,
+     33.420313690212964
+    ]
+   },
+   "properties": {
+    "building_id": "NEEB",
+    "name": "Neeb Hall",
+    "aliases": [
+     "Neeb Hall",
+     "NEEB",
+     "086"
+    ],
+    "address": "920 S. Forest Mall",
+    "bldg_numbers": [
+     "086"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93064659035338,
+     33.419929239787976
+    ]
+   },
+   "properties": {
+    "building_id": "NOBLE",
+    "name": "Noble Science Library",
+    "aliases": [
+     "Noble Science Library",
+     "NOBLE",
+     "047"
+    ],
+    "address": "601 E. Tyler Mall",
+    "bldg_numbers": [
+     "047"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92703060004358,
+     33.422969340211594
+    ]
+   },
+   "properties": {
+    "building_id": "NVS1",
+    "name": "777 Tower At Novus",
+    "aliases": [
+     "777 Tower At Novus",
+     "NVS1",
+     "R99"
+    ],
+    "address": "777 S. Novus Place",
+    "bldg_numbers": [
+     "R99"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9313195650451,
+     33.42264846006096
+    ]
+   },
+   "properties": {
+    "building_id": "PABLO",
+    "name": "San Pablo Residence Hall",
+    "aliases": [
+     "San Pablo Residence Hall",
+     "San Pablo Residence Hall (Classroom)",
+     "PABLO",
+     "151",
+     "151A"
+    ],
+    "address": "555 E. Veteran'S Way",
+    "bldg_numbers": [
+     "151",
+     "151A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92779254028777,
+     33.42779522026275
+    ]
+   },
+   "properties": {
+    "building_id": "PBS",
+    "name": "Packard Baseball Stadium",
+    "aliases": [
+     "Packard Baseball Stadium",
+     "PBS",
+     "066"
+    ],
+    "address": "201 S. Packard Drive",
+    "bldg_numbers": [
+     "066"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9340223298337,
+     33.415483309997555
+    ]
+   },
+   "properties": {
+    "building_id": "PS1",
+    "name": "Apache Blvd. Parking Structure (Apache & College)",
+    "aliases": [
+     "Apache Blvd. Parking Structure (Apache & College)",
+     "PS1",
+     "P01"
+    ],
+    "address": "401 E. Lemon Street",
+    "bldg_numbers": [
+     "P01"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92824075020722,
+     33.42071378005124
+    ]
+   },
+   "properties": {
+    "building_id": "PS2",
+    "name": "Tyler Street Parking Structure (Mcallister & Tyler)",
+    "aliases": [
+     "Tyler Street Parking Structure (Mcallister & Tyler)",
+     "PS2",
+     "P02"
+    ],
+    "address": "901 S. Mcallister Avenue",
+    "bldg_numbers": [
+     "P02"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93776587013404,
+     33.4201877501189
+    ]
+   },
+   "properties": {
+    "building_id": "PS3",
+    "name": "Myrtle Avenue Parking Structure",
+    "aliases": [
+     "Myrtle Avenue Parking Structure",
+     "PS3",
+     "P03"
+    ],
+    "address": "901 S. Myrtle Avenue",
+    "bldg_numbers": [
+     "P03"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92722383035613,
+     33.41765649986813
+    ]
+   },
+   "properties": {
+    "building_id": "PS4",
+    "name": "Rural Road Parking Structure (Rural Road)",
+    "aliases": [
+     "Rural Road Parking Structure (Rural Road)",
+     "PS4",
+     "P04"
+    ],
+    "address": "1100 S. Rural Road",
+    "bldg_numbers": [
+     "P04"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93291400011425,
+     33.424114329786626
+    ]
+   },
+   "properties": {
+    "building_id": "PS5",
+    "name": "Stadium Parking Structure (Veterans Way)",
+    "aliases": [
+     "Stadium Parking Structure (Veterans Way)",
+     "PS5",
+     "P05"
+    ],
+    "address": "401 E. Veteran'S Way",
+    "bldg_numbers": [
+     "P05"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9360925297453,
+     33.42472228964206
+    ]
+   },
+   "properties": {
+    "building_id": "PS6",
+    "name": "University Towers Parking Structure (Towers)",
+    "aliases": [
+     "University Towers Parking Structure (Towers)",
+     "PS6",
+     "P06"
+    ],
+    "address": "214 E. Sixth Street",
+    "bldg_numbers": [
+     "P06"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92871023043595,
+     33.42548100990385
+    ]
+   },
+   "properties": {
+    "building_id": "PS7",
+    "name": "Packard Drive Parking Structure",
+    "aliases": [
+     "Packard Drive Parking Structure",
+     "PS7",
+     "P07"
+    ],
+    "address": "555 S. Packard Dr.",
+    "bldg_numbers": [
+     "P07"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92856521000974,
+     33.422867049877695
+    ]
+   },
+   "properties": {
+    "building_id": "PS8",
+    "name": "Novus Parking Structure",
+    "aliases": [
+     "Novus Parking Structure",
+     "PS8",
+     "P08"
+    ],
+    "address": "747 E. Packard Drive",
+    "bldg_numbers": [
+     "P08"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93603339993837,
+     33.418480140098055
+    ]
+   },
+   "properties": {
+    "building_id": "PS9",
+    "name": "Mill Avenue Parking Structure",
+    "aliases": [
+     "Mill Avenue Parking Structure",
+     "PS9",
+     "P09"
+    ],
+    "address": "951 S. Mill Avenue",
+    "bldg_numbers": [
+     "P09"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93216513035743,
+     33.42084989010242
+    ]
+   },
+   "properties": {
+    "building_id": "PSB",
+    "name": "Bateman Physical Sciences Center B",
+    "aliases": [
+     "Bateman Physical Sciences Center B",
+     "PSB",
+     "057B"
+    ],
+    "address": "875 S. Palm Walk",
+    "bldg_numbers": [
+     "057B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93235421494495,
+     33.42118377509111
+    ]
+   },
+   "properties": {
+    "building_id": "PSC",
+    "name": "Bateman Physical Sciences Center C",
+    "aliases": [
+     "Bateman Physical Sciences Center C",
+     "Physical Sciences C Outdoor Room",
+     "PSC",
+     "057C",
+     "X057A"
+    ],
+    "address": "851 S. Palm Walk",
+    "bldg_numbers": [
+     "057C",
+     "X057A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93213560003908,
+     33.421375040289476
+    ]
+   },
+   "properties": {
+    "building_id": "PSD",
+    "name": "Bateman Physical Sciences Center D",
+    "aliases": [
+     "Bateman Physical Sciences Center D",
+     "PSD",
+     "057D"
+    ],
+    "address": "825 S. Palm Walk",
+    "bldg_numbers": [
+     "057D"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9324333699962,
+     33.421623700337776
+    ]
+   },
+   "properties": {
+    "building_id": "PSE",
+    "name": "Bateman Physical Sciences Center E",
+    "aliases": [
+     "Bateman Physical Sciences Center E",
+     "PSE",
+     "057E"
+    ],
+    "address": "501 E. University Drive",
+    "bldg_numbers": [
+     "057E"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93139369042909,
+     33.4209543301705
+    ]
+   },
+   "properties": {
+    "building_id": "PSF",
+    "name": "Bateman Physical Sciences Center F",
+    "aliases": [
+     "Bateman Physical Sciences Center F",
+     "PSF",
+     "057F"
+    ],
+    "address": "550 E. Tyler Mall",
+    "bldg_numbers": [
+     "057F"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93150166972288,
+     33.42138273969844
+    ]
+   },
+   "properties": {
+    "building_id": "PSG",
+    "name": "Bateman Chemical Storage Building (G)",
+    "aliases": [
+     "Bateman Chemical Storage Building (G)",
+     "PSG",
+     "057G"
+    ],
+    "address": "551 E. University Drive",
+    "bldg_numbers": [
+     "057G"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93166294965572,
+     33.42164443972091
+    ]
+   },
+   "properties": {
+    "building_id": "PSH",
+    "name": "Bateman Physical Sciences Center H",
+    "aliases": [
+     "Bateman Physical Sciences Center H",
+     "PSH",
+     "057H"
+    ],
+    "address": "525 E. University Drive",
+    "bldg_numbers": [
+     "057H"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92720447974659,
+     33.42733705973377
+    ]
+   },
+   "properties": {
+    "building_id": "PSHED",
+    "name": "Packard Stadium Shed (Nw)",
+    "aliases": [
+     "Packard Stadium Shed (Nw)",
+     "PSHED",
+     "627"
+    ],
+    "address": "201 S. Packard Drive",
+    "bldg_numbers": [
+     "627"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92954885985596,
+     33.41987697978935
+    ]
+   },
+   "properties": {
+    "building_id": "PSY",
+    "name": "Psychology Bldg.",
+    "aliases": [
+     "Psychology Bldg.",
+     "PSY",
+     "013"
+    ],
+    "address": "950 S. Mcallister Avenue",
+    "bldg_numbers": [
+     "013"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92955369997873,
+     33.42063142967024
+    ]
+   },
+   "properties": {
+    "building_id": "PSYN",
+    "name": "Psychology North",
+    "aliases": [
+     "Psychology North",
+     "PSYN",
+     "031A"
+    ],
+    "address": "900 S. Mcallister Avenue",
+    "bldg_numbers": [
+     "031A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93203966984821,
+     33.42249344032758
+    ]
+   },
+   "properties": {
+    "building_id": "PVE",
+    "name": "Palo Verde East (F)",
+    "aliases": [
+     "Palo Verde East (F)",
+     "PVE",
+     "051F"
+    ],
+    "address": "510 E. University Drive",
+    "bldg_numbers": [
+     "051F"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93358760003342,
+     33.4224789999025
+    ]
+   },
+   "properties": {
+    "building_id": "PVW",
+    "name": "Palo Verde West (G)",
+    "aliases": [
+     "Palo Verde West (G)",
+     "PVW",
+     "051G"
+    ],
+    "address": "430 E. University Drive",
+    "bldg_numbers": [
+     "051G"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93303120959757,
+     33.42053315989785
+    ]
+   },
+   "properties": {
+    "building_id": "PWH",
+    "name": "Piper Writers House",
+    "aliases": [
+     "Piper Writers House",
+     "PWH",
+     "042"
+    ],
+    "address": "450 E. Tyler Mall",
+    "bldg_numbers": [
+     "042"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93272999999122,
+     33.42198299983365
+    ]
+   },
+   "properties": {
+    "building_id": "PWOP",
+    "name": "Palm Walk Overpass",
+    "aliases": [
+     "Palm Walk Overpass",
+     "PWOP",
+     "015B"
+    ],
+    "address": "452 E. University Drive",
+    "bldg_numbers": [
+     "015B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92964232956128,
+     33.41712385984552
+    ]
+   },
+   "properties": {
+    "building_id": "RBHL",
+    "name": "Ross-Blakley Hall",
+    "aliases": [
+     "Ross-Blakley Hall",
+     "RBHL",
+     "143"
+    ],
+    "address": "1102 S. Mcallister Avenue",
+    "bldg_numbers": [
+     "143"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92765440005833,
+     33.424817980057774
+    ]
+   },
+   "properties": {
+    "building_id": "RFPF",
+    "name": "Robson Family Player Facility",
+    "aliases": [
+     "Robson Family Player Facility",
+     "RFPF",
+     "096A"
+    ],
+    "address": "800 E. 6Th Street",
+    "bldg_numbers": [
+     "096A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93429765987501,
+     33.423003880069736
+    ]
+   },
+   "properties": {
+    "building_id": "RP01",
+    "name": "Fulton Center Parking Structure",
+    "aliases": [
+     "Fulton Center Parking Structure",
+     "RP01",
+     "RP01"
+    ],
+    "address": "717 S. College Avenue",
+    "bldg_numbers": [
+     "RP01"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93869875977683,
+     33.423742450032826
+    ]
+   },
+   "properties": {
+    "building_id": "RP02",
+    "name": "Brickyard Parking Garage",
+    "aliases": [
+     "Brickyard Parking Garage",
+     "RP02",
+     "RP02"
+    ],
+    "address": "699 S. Mill Ave.",
+    "bldg_numbers": [
+     "RP02"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92866151030651,
+     33.4215426996572
+    ]
+   },
+   "properties": {
+    "building_id": "RSS1",
+    "name": "Research Support Services 1",
+    "aliases": [
+     "Research Support Services 1",
+     "RSS1",
+     "018"
+    ],
+    "address": "851 S. Mcallister Avenue",
+    "bldg_numbers": [
+     "018"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92665736980595,
+     33.41626968998919
+    ]
+   },
+   "properties": {
+    "building_id": "RWHAL",
+    "name": "Barrett College Rosewood Hall",
+    "aliases": [
+     "Barrett College Rosewood Hall",
+     "RWHAL",
+     "173F"
+    ],
+    "address": "1180 S. Rural Rd.",
+    "bldg_numbers": [
+     "173F"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93217867964685,
+     33.42746403006763
+    ]
+   },
+   "properties": {
+    "building_id": "SAF",
+    "name": "Student Athlete Facility",
+    "aliases": [
+     "Student Athlete Facility",
+     "SAF",
+     "059K"
+    ],
+    "address": "555 E. Rio Salado Parkway",
+    "bldg_numbers": [
+     "059K"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92752012977112,
+     33.411967029637395
+    ]
+   },
+   "properties": {
+    "building_id": "SCD",
+    "name": "Sonora Center",
+    "aliases": [
+     "Sonora Center",
+     "SCD",
+     "139"
+    ],
+    "address": "1480 S. Rural Rd.",
+    "bldg_numbers": [
+     "139"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9304121650985,
+     33.41878886526172
+    ]
+   },
+   "properties": {
+    "building_id": "SCOB",
+    "name": "Schwada Classroom Office Bldg.",
+    "aliases": [
+     "Schwada Classroom Office Bldg.",
+     "Schwada Outdoor Room",
+     "SCOB",
+     "055",
+     "X055A"
+    ],
+    "address": "620 E. Orange Street",
+    "bldg_numbers": [
+     "055",
+     "X055A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92224839976394,
+     33.42554040026843
+    ]
+   },
+   "properties": {
+    "building_id": "SDBVF",
+    "name": "Sun Devil Beach Volleyball Facility",
+    "aliases": [
+     "Sun Devil Beach Volleyball Facility",
+     "SDBVF",
+     "L38"
+    ],
+    "address": "503 S. Rural Rd.",
+    "bldg_numbers": [
+     "L38"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93242563011172,
+     33.415447850113885
+    ]
+   },
+   "properties": {
+    "building_id": "SDFCT",
+    "name": "Sun Devil Fitness Complex",
+    "aliases": [
+     "Sun Devil Fitness Complex",
+     "SDFCT",
+     "046"
+    ],
+    "address": "500 E. Apache Boulevard",
+    "bldg_numbers": [
+     "046"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93141479993996,
+     33.41666302015399
+    ]
+   },
+   "properties": {
+    "building_id": "SDFCTF",
+    "name": "Sdfc Intramural Fields",
+    "aliases": [
+     "Sdfc Intramural Fields",
+     "SDFCTF",
+     "L46"
+    ],
+    "address": "500 E. Lemon Mall",
+    "bldg_numbers": [
+     "L46"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93309826973184,
+     33.417802730303464
+    ]
+   },
+   "properties": {
+    "building_id": "SDH",
+    "name": "Sun Devil Hall",
+    "aliases": [
+     "Sun Devil Hall",
+     "SDH",
+     "036"
+    ],
+    "address": "451 E. Orange Mall",
+    "bldg_numbers": [
+     "036"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9237696499852,
+     33.42428098970004
+    ]
+   },
+   "properties": {
+    "building_id": "SDSP",
+    "name": "Sun Devil Sports Performance",
+    "aliases": [
+     "Sun Devil Sports Performance",
+     "SDSP",
+     "158"
+    ],
+    "address": "650 S. Athletes Place",
+    "bldg_numbers": [
+     "158"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9283534196051,
+     33.41551557037354
+    ]
+   },
+   "properties": {
+    "building_id": "SGHAL",
+    "name": "Barrett College Sage Hall",
+    "aliases": [
+     "Barrett College Sage Hall",
+     "SGHAL",
+     "173A"
+    ],
+    "address": "751 E. Lemon Mall (789 E. Lemon Mall)",
+    "bldg_numbers": [
+     "173A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93548681012226,
+     33.420573789680496
+    ]
+   },
+   "properties": {
+    "building_id": "SHESC",
+    "name": "School Of Human Evolution And Social Change",
+    "aliases": [
+     "School Of Human Evolution And Social Change",
+     "SHESC",
+     "004"
+    ],
+    "address": "900 S. Cady Mall",
+    "bldg_numbers": [
+     "004"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92240459972385,
+     33.424556639732096
+    ]
+   },
+   "properties": {
+    "building_id": "SLSTDM",
+    "name": "Soccer & Lacrosse Stadium",
+    "aliases": [
+     "Soccer & Lacrosse Stadium",
+     "SLSTDM",
+     "154"
+    ],
+    "address": "655 S. Athletes Place",
+    "bldg_numbers": [
+     "154"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92802313961785,
+     33.41270219019475
+    ]
+   },
+   "properties": {
+    "building_id": "SONX",
+    "name": "Sonora Annex",
+    "aliases": [
+     "Sonora Annex",
+     "SONX",
+     "138"
+    ],
+    "address": "1450 S. Rural Rd.",
+    "bldg_numbers": [
+     "138"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93448111022906,
+     33.41992353992566
+    ]
+   },
+   "properties": {
+    "building_id": "SS",
+    "name": "Social Sciences Bldg.",
+    "aliases": [
+     "Social Sciences Bldg.",
+     "SS",
+     "005"
+    ],
+    "address": "951 S. Cady Mall",
+    "bldg_numbers": [
+     "005"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93623266962456,
+     33.41697868025042
+    ]
+   },
+   "properties": {
+    "building_id": "SSV",
+    "name": "Student Services Bldg.",
+    "aliases": [
+     "Student Services Bldg.",
+     "SSV",
+     "045"
+    ],
+    "address": "1151 S. Forest Avenue",
+    "bldg_numbers": [
+     "045"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93305952988521,
+     33.42812325964668
+    ]
+   },
+   "properties": {
+    "building_id": "STADIP",
+    "name": "Stadium Ice Production",
+    "aliases": [
+     "Stadium Ice Production",
+     "STADIP",
+     "134A"
+    ],
+    "address": "501 E. Rio Salado Parkway",
+    "bldg_numbers": [
+     "134A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93237746963271,
+     33.42823968037245
+    ]
+   },
+   "properties": {
+    "building_id": "STADNL",
+    "name": "Stadium North Lockerroom",
+    "aliases": [
+     "Stadium North Lockerroom",
+     "STADNL",
+     "134"
+    ],
+    "address": "501 E. Rio Salado Parkway",
+    "bldg_numbers": [
+     "134"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93361942015741,
+     33.4266406100133
+    ]
+   },
+   "properties": {
+    "building_id": "STADS",
+    "name": "Stadium Suites",
+    "aliases": [
+     "Stadium Suites",
+     "STADS",
+     "059D"
+    ],
+    "address": "500 E. Veteran'S Way",
+    "bldg_numbers": [
+     "059D"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93110260034442,
+     33.42824397022884
+    ]
+   },
+   "properties": {
+    "building_id": "STADTN",
+    "name": "Stadium Ticket Trailer-N",
+    "aliases": [
+     "Stadium Ticket Trailer-N",
+     "STADTN",
+     "R23"
+    ],
+    "address": "501 E. Rio Salado Parkway",
+    "bldg_numbers": [
+     "R23"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9370448548884,
+     33.4198503747859
+    ]
+   },
+   "properties": {
+    "building_id": "STAUF",
+    "name": "Stauffer Communication Arts A",
+    "aliases": [
+     "Stauffer Communication Arts A",
+     "Stauffer Communication Arts B",
+     "STAUF",
+     "024A",
+     "024B"
+    ],
+    "address": "950 S. Forest Mall",
+    "bldg_numbers": [
+     "024A",
+     "024B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93373659999632,
+     33.41862384983242
+    ]
+   },
+   "properties": {
+    "building_id": "STPV",
+    "name": "Student Pavilion",
+    "aliases": [
+     "Student Pavilion",
+     "STPV",
+     "169"
+    ],
+    "address": "400 E. Orange Mall",
+    "bldg_numbers": [
+     "169"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93214518955475,
+     33.41744167995758
+    ]
+   },
+   "properties": {
+    "building_id": "THERM",
+    "name": "Thermal Energy Storage",
+    "aliases": [
+     "Thermal Energy Storage",
+     "THERM",
+     "X01"
+    ],
+    "address": "1250 S. Mcallister Avenue",
+    "bldg_numbers": [
+     "X01"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93330872973154,
+     33.423354400221655
+    ]
+   },
+   "properties": {
+    "building_id": "TKRHA",
+    "name": "Tooker House A",
+    "aliases": [
+     "Tooker House A",
+     "TKRHA",
+     "162A"
+    ],
+    "address": "500 E. University Dr.",
+    "bldg_numbers": [
+     "162A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93283419019114,
+     33.42317758982618
+    ]
+   },
+   "properties": {
+    "building_id": "TKRHB",
+    "name": "Tooker House B",
+    "aliases": [
+     "Tooker House B",
+     "TKRHB",
+     "162B"
+    ],
+    "address": "500 E. University Dr.",
+    "bldg_numbers": [
+     "162B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93235650025902,
+     33.42301946003947
+    ]
+   },
+   "properties": {
+    "building_id": "TKRHC",
+    "name": "Tooker House C",
+    "aliases": [
+     "Tooker House C",
+     "TKRHC",
+     "162C"
+    ],
+    "address": "500 E. University Dr.",
+    "bldg_numbers": [
+     "162C"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93228520995807,
+     33.42322902010743
+    ]
+   },
+   "properties": {
+    "building_id": "TKRHD",
+    "name": "Tooker House Dining",
+    "aliases": [
+     "Tooker House Dining",
+     "TKRHD",
+     "162D"
+    ],
+    "address": "525 E. Veteran'S Way",
+    "bldg_numbers": [
+     "162D"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92800626027366,
+     33.426040049950196
+    ]
+   },
+   "properties": {
+    "building_id": "TRACK",
+    "name": "Sun Angel Stadium",
+    "aliases": [
+     "Sun Angel Stadium",
+     "TRACK",
+     "098"
+    ],
+    "address": "400 S. Rural Road",
+    "bldg_numbers": [
+     "098"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93185343022519,
+     33.420456700367154
+    ]
+   },
+   "properties": {
+    "building_id": "TYLER",
+    "name": "Tyler Mall Cantina",
+    "aliases": [
+     "Tyler Mall Cantina",
+     "TYLER",
+     "751"
+    ],
+    "address": "540 E. Tyler Mall",
+    "bldg_numbers": [
+     "751"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93354169971566,
+     33.42095105964892
+    ]
+   },
+   "properties": {
+    "building_id": "UCLUB",
+    "name": "University Club",
+    "aliases": [
+     "University Club",
+     "UCLUB",
+     "011"
+    ],
+    "address": "425 E. University Drive",
+    "bldg_numbers": [
+     "011"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93960485986119,
+     33.41977905031567
+    ]
+   },
+   "properties": {
+    "building_id": "UGB",
+    "name": "University Gateway Building",
+    "aliases": [
+     "University Gateway Building",
+     "UGB",
+     "188"
+    ],
+    "address": "947 S. Mill Ave.",
+    "bldg_numbers": [
+     "188"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92217629019946,
+     33.42299120990848
+    ]
+   },
+   "properties": {
+    "building_id": "UNCTRA",
+    "name": "University Center Bldg. A",
+    "aliases": [
+     "University Center Bldg. A",
+     "UNCTRA",
+     "180A"
+    ],
+    "address": "1100 E. University Dr.",
+    "bldg_numbers": [
+     "180A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9211716799627,
+     33.4232403699138
+    ]
+   },
+   "properties": {
+    "building_id": "UNCTRB",
+    "name": "University Center Bldg. B",
+    "aliases": [
+     "University Center Bldg. B",
+     "UNCTRB",
+     "180B"
+    ],
+    "address": "1130 E. University Dr.",
+    "bldg_numbers": [
+     "180B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92034613001324,
+     33.42323945971002
+    ]
+   },
+   "properties": {
+    "building_id": "UNCTRC",
+    "name": "University Center Bldg. C",
+    "aliases": [
+     "University Center Bldg. C",
+     "UNCTRC",
+     "180C"
+    ],
+    "address": "1150 E. University Dr.",
+    "bldg_numbers": [
+     "180C"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93595740965183,
+     33.42514505978014
+    ]
+   },
+   "properties": {
+    "building_id": "UNIVT",
+    "name": "University Towers",
+    "aliases": [
+     "University Towers",
+     "UNIVT",
+     "142"
+    ],
+    "address": "525 S. Forest Avenue",
+    "bldg_numbers": [
+     "142"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92538388032995,
+     33.411734829755765
+    ]
+   },
+   "properties": {
+    "building_id": "USB",
+    "name": "University Services",
+    "aliases": [
+     "University Services",
+     "USB",
+     "150"
+    ],
+    "address": "1551 S. Rural Road",
+    "bldg_numbers": [
+     "150"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92951959004907,
+     33.42156038974322
+    ]
+   },
+   "properties": {
+    "building_id": "USE",
+    "name": "Urban Systems Engineering",
+    "aliases": [
+     "Urban Systems Engineering",
+     "USE",
+     "077"
+    ],
+    "address": "651 E. University Drive",
+    "bldg_numbers": [
+     "077"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93272355008749,
+     33.42199294998842
+    ]
+   },
+   "properties": {
+    "building_id": "UTN",
+    "name": "University Tunnel Network",
+    "aliases": [
+     "University Tunnel Network",
+     "UTN",
+     "015A"
+    ],
+    "address": "452 E. Orange Street",
+    "bldg_numbers": [
+     "015A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92839470976882,
+     33.416236800047564
+    ]
+   },
+   "properties": {
+    "building_id": "VBHAL",
+    "name": "Hav- Verbena Hall (G Wing)",
+    "aliases": [
+     "Hav- Verbena Hall (G Wing)",
+     "VBHAL",
+     "163B"
+    ],
+    "address": "711 E. Lemon Street",
+    "bldg_numbers": [
+     "163B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92503346999551,
+     33.425072400245334
+    ]
+   },
+   "properties": {
+    "building_id": "VDDM",
+    "name": "Verde Dickey Dome",
+    "aliases": [
+     "Verde Dickey Dome",
+     "VDDM",
+     "175"
+    ],
+    "address": "511 S. Rural Rd.",
+    "bldg_numbers": [
+     "175"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9295693100034,
+     33.41242335990952
+    ]
+   },
+   "properties": {
+    "building_id": "VDSB",
+    "name": "Vista Del Sol B",
+    "aliases": [
+     "Vista Del Sol B",
+     "VDSB",
+     "170B"
+    ],
+    "address": "701 E. Apache Blvd.",
+    "bldg_numbers": [
+     "170B"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92956726004793,
+     33.41181734004444
+    ]
+   },
+   "properties": {
+    "building_id": "VDSC",
+    "name": "Vista Del Sol C",
+    "aliases": [
+     "Vista Del Sol C",
+     "VDSC",
+     "170C"
+    ],
+    "address": "701 E. Apache Blvd.",
+    "bldg_numbers": [
+     "170C"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92968926024666,
+     33.412912240067136
+    ]
+   },
+   "properties": {
+    "building_id": "VDSCB",
+    "name": "Vista Del Sol Cabana/Pump House",
+    "aliases": [
+     "Vista Del Sol Cabana/Pump House",
+     "VDSCB",
+     "172"
+    ],
+    "address": "701 E. Apache Blvd.",
+    "bldg_numbers": [
+     "172"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92899868037199,
+     33.413102839993265
+    ]
+   },
+   "properties": {
+    "building_id": "VDSCC",
+    "name": "Vista Del Sol Community Center (A)",
+    "aliases": [
+     "Vista Del Sol Community Center (A)",
+     "VDSCC",
+     "171"
+    ],
+    "address": "701 E. Apache Blvd.",
+    "bldg_numbers": [
+     "171"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93015029990498,
+     33.41181594981401
+    ]
+   },
+   "properties": {
+    "building_id": "VDSD",
+    "name": "Vista Del Sol D",
+    "aliases": [
+     "Vista Del Sol D",
+     "VDSD",
+     "170D"
+    ],
+    "address": "701 E. Apache Blvd.",
+    "bldg_numbers": [
+     "170D"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92897346017041,
+     33.41363551967556
+    ]
+   },
+   "properties": {
+    "building_id": "VDSDM",
+    "name": "Vista Del Sol Dome",
+    "aliases": [
+     "Vista Del Sol Dome",
+     "VDSDM",
+     "X33"
+    ],
+    "address": "701 E. Apache Blvd.",
+    "bldg_numbers": [
+     "X33"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93015235974192,
+     33.41242196968879
+    ]
+   },
+   "properties": {
+    "building_id": "VDSE",
+    "name": "Vista Del Sol E",
+    "aliases": [
+     "Vista Del Sol E",
+     "VDSE",
+     "170E"
+    ],
+    "address": "701 E. Apache Blvd.",
+    "bldg_numbers": [
+     "170E"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93002979989276,
+     33.413028459986364
+    ]
+   },
+   "properties": {
+    "building_id": "VDSF",
+    "name": "Vista Del Sol F",
+    "aliases": [
+     "Vista Del Sol F",
+     "VDSF",
+     "170F"
+    ],
+    "address": "701 E. Apache Blvd.",
+    "bldg_numbers": [
+     "170F"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93015645965288,
+     33.413634010249844
+    ]
+   },
+   "properties": {
+    "building_id": "VDSG",
+    "name": "Vista Del Sol G",
+    "aliases": [
+     "Vista Del Sol G",
+     "VDSG",
+     "170G"
+    ],
+    "address": "701 E. Apache Blvd.",
+    "bldg_numbers": [
+     "170G"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92966906971233,
+     33.413266520174766
+    ]
+   },
+   "properties": {
+    "building_id": "VDSGAZ",
+    "name": "Vista Del Sol Pavilion",
+    "aliases": [
+     "Vista Del Sol Pavilion",
+     "VDSGAZ",
+     "X31"
+    ],
+    "address": "701 E. Apache Blvd.",
+    "bldg_numbers": [
+     "X31"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92957340991438,
+     33.41363539970131
+    ]
+   },
+   "properties": {
+    "building_id": "VDSH",
+    "name": "Vista Del Sol H",
+    "aliases": [
+     "Vista Del Sol H",
+     "VDSH",
+     "170H"
+    ],
+    "address": "701 E. Apache Blvd.",
+    "bldg_numbers": [
+     "170H"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93015852038816,
+     33.41424003018608
+    ]
+   },
+   "properties": {
+    "building_id": "VDSI",
+    "name": "Vista Del Sol I",
+    "aliases": [
+     "Vista Del Sol I",
+     "VDSI",
+     "170I"
+    ],
+    "address": "701 E. Apache Blvd.",
+    "bldg_numbers": [
+     "170I"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9295227898481,
+     33.41424164982678
+    ]
+   },
+   "properties": {
+    "building_id": "VDSJ",
+    "name": "Vista Del Sol J - West Tower",
+    "aliases": [
+     "Vista Del Sol J - West Tower",
+     "VDSJ",
+     "170J"
+    ],
+    "address": "671 E. Apache Blvd. (701 E. Apache Blvd.)",
+    "bldg_numbers": [
+     "170J"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92956059993841,
+     33.412933300214966
+    ]
+   },
+   "properties": {
+    "building_id": "VDSJAC",
+    "name": "Vista Del Sol Jacuzzi",
+    "aliases": [
+     "Vista Del Sol Jacuzzi",
+     "VDSJAC",
+     "X30"
+    ],
+    "address": "701 E. Apache Blvd.",
+    "bldg_numbers": [
+     "X30"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92885798982546,
+     33.41424251963379
+    ]
+   },
+   "properties": {
+    "building_id": "VDSK",
+    "name": "Vista Del Sol K - East Tower",
+    "aliases": [
+     "Vista Del Sol K - East Tower",
+     "VDSK",
+     "170K"
+    ],
+    "address": "681 E. Apache Blvd. (701 E. Apache Blvd.)",
+    "bldg_numbers": [
+     "170K"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92886773025809,
+     33.412156869788554
+    ]
+   },
+   "properties": {
+    "building_id": "VDSPS",
+    "name": "Vista Del Sol Parking Structure",
+    "aliases": [
+     "Vista Del Sol Parking Structure",
+     "VDSPS",
+     "RP03"
+    ],
+    "address": "721 E. Apache Blvd.",
+    "bldg_numbers": [
+     "RP03"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92920503956243,
+     33.411220890160536
+    ]
+   },
+   "properties": {
+    "building_id": "VDSTC",
+    "name": "Vista Del Sol Trash Compaction",
+    "aliases": [
+     "Vista Del Sol Trash Compaction",
+     "VDSTC",
+     "X32"
+    ],
+    "address": "721 E. Apache Blvd.",
+    "bldg_numbers": [
+     "X32"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93171493965279,
+     33.41432629025883
+    ]
+   },
+   "properties": {
+    "building_id": "VVDS",
+    "name": "Villas @ Vista Del Sol",
+    "aliases": [
+     "Villas @ Vista Del Sol",
+     "VVDS",
+     "177"
+    ],
+    "address": "551 E. Apache Blvd.",
+    "bldg_numbers": [
+     "177"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92718660956066,
+     33.42141097985598
+    ]
+   },
+   "properties": {
+    "building_id": "WCPH",
+    "name": "Walton Center For Planetary Health",
+    "aliases": [
+     "Walton Center For Planetary Health",
+     "WCPH",
+     "079"
+    ],
+    "address": "777 E. University Drive",
+    "bldg_numbers": [
+     "079"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93649000012253,
+     33.42371628969547
+    ]
+   },
+   "properties": {
+    "building_id": "WG",
+    "name": "West Garage",
+    "aliases": [
+     "West Garage",
+     "WG",
+     "141D"
+    ],
+    "address": "202 E. 7Th Street",
+    "bldg_numbers": [
+     "141D"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9233078997595,
+     33.42622353986013
+    ]
+   },
+   "properties": {
+    "building_id": "WGTF",
+    "name": "Womens Gymnastics Training Facility",
+    "aliases": [
+     "Womens Gymnastics Training Facility",
+     "WGTF",
+     "166"
+    ],
+    "address": "401 S. Rural Road",
+    "bldg_numbers": [
+     "166"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93581188976233,
+     33.419098200112956
+    ]
+   },
+   "properties": {
+    "building_id": "WHALL",
+    "name": "West Hall",
+    "aliases": [
+     "West Hall",
+     "WHALL",
+     "049"
+    ],
+    "address": "1000 S. Cady Mall",
+    "bldg_numbers": [
+     "049"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92691114028047,
+     33.41627322987117
+    ]
+   },
+   "properties": {
+    "building_id": "WILOHAL",
+    "name": "Barrett College Willow Hall",
+    "aliases": [
+     "Barrett College Willow Hall",
+     "WILOHAL",
+     "173G"
+    ],
+    "address": "851 E. Lemon St.",
+    "bldg_numbers": [
+     "173G"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93603339993837,
+     33.418480140098055
+    ]
+   },
+   "properties": {
+    "building_id": "WLSN",
+    "name": "Wilson Hall",
+    "aliases": [
+     "Wilson Hall",
+     "WLSN",
+     "187"
+    ],
+    "address": "240 E. Orange Mall",
+    "bldg_numbers": [
+     "187"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9276062503591,
+     33.42526198007739
+    ]
+   },
+   "properties": {
+    "building_id": "WTC",
+    "name": "Whiteman Tennis Center",
+    "aliases": [
+     "Whiteman Tennis Center",
+     "WTC",
+     "096"
+    ],
+    "address": "800 E. 6Th Street",
+    "bldg_numbers": [
+     "096"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9236897098064,
+     33.42652123996362
+    ]
+   },
+   "properties": {
+    "building_id": "WTF",
+    "name": "Wrestling Training Facility",
+    "aliases": [
+     "Wrestling Training Facility",
+     "WTF",
+     "156"
+    ],
+    "address": "391 S. Rural Road",
+    "bldg_numbers": [
+     "156"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92342180973077,
+     33.424789090231876
+    ]
+   },
+   "properties": {
+    "building_id": "WUC",
+    "name": "Weatherup Center",
+    "aliases": [
+     "Weatherup Center",
+     "WUC",
+     "174"
+    ],
+    "address": "521 S. Rural Rd.",
+    "bldg_numbers": [
+     "174"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93216286031469,
+     33.420569369733265
+    ]
+   },
+   "properties": {
+    "building_id": "WXLR",
+    "name": "Wexler Hall",
+    "aliases": [
+     "Wexler Hall",
+     "WXLR",
+     "057A"
+    ],
+    "address": "901 S. Palm Walk",
+    "bldg_numbers": [
+     "057A"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93017785033643,
+     33.41602502988493
+    ]
+   },
+   "properties": {
+    "building_id": "X28",
+    "name": "Src Pump House",
+    "aliases": [
+     "Src Pump House",
+     "X28",
+     "X28"
+    ],
+    "address": "1200 S. Mcallister Ave.",
+    "bldg_numbers": [
+     "X28"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92819687020055,
+     33.41130325021575
+    ]
+   },
+   "properties": {
+    "building_id": "X39",
+    "name": "Grounds Department Agricultural Chemical Storage",
+    "aliases": [
+     "Grounds Department Agricultural Chemical Storage",
+     "X39",
+     "X39"
+    ],
+    "address": "1603 S. Mcallister Ave.",
+    "bldg_numbers": [
+     "X39"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9379575903786,
+     33.419910909803235
+    ]
+   },
+   "properties": {
+    "building_id": "X40",
+    "name": "West Sub-Station (Meter At Cp)",
+    "aliases": [
+     "West Sub-Station (Meter At Cp)",
+     "X40",
+     "X40"
+    ],
+    "address": "951 S. Myrtle Ave.",
+    "bldg_numbers": [
+     "X40"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92822836962596,
+     33.42219235021987
+    ]
+   },
+   "properties": {
+    "building_id": "X41",
+    "name": "North Sub-Station (Meter #E68972)",
+    "aliases": [
+     "North Sub-Station (Meter #E68972)",
+     "X41",
+     "X41"
+    ],
+    "address": "711 S. Alpha Dr.",
+    "bldg_numbers": [
+     "X41"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92766824040191,
+     33.41683327022058
+    ]
+   },
+   "properties": {
+    "building_id": "X42",
+    "name": "South Sub-Station (Meter #J77961)",
+    "aliases": [
+     "South Sub-Station (Meter #J77961)",
+     "X42",
+     "X42"
+    ],
+    "address": "780 E. Lemon St.",
+    "bldg_numbers": [
+     "X42"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92720741993253,
+     33.41935626979255
+    ]
+   },
+   "properties": {
+    "building_id": "X62",
+    "name": "Skyspace Ramada",
+    "aliases": [
+     "Skyspace Ramada",
+     "X62",
+     "X62"
+    ],
+    "address": "840 E. Terrace Mall",
+    "bldg_numbers": [
+     "X62"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93830231976722,
+     33.41754138010803
+    ]
+   },
+   "properties": {
+    "building_id": "X72",
+    "name": "Gammage Pkwy Solar",
+    "aliases": [
+     "Gammage Pkwy Solar",
+     "X72",
+     "X72"
+    ],
+    "address": "",
+    "bldg_numbers": [
+     "X72"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9347069996921,
+     33.41837379031762
+    ]
+   },
+   "properties": {
+    "building_id": "X73",
+    "name": "Orange - Cady Malls Solar",
+    "aliases": [
+     "Orange - Cady Malls Solar",
+     "X73",
+     "X73"
+    ],
+    "address": "",
+    "bldg_numbers": [
+     "X73"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.91984500034042,
+     33.425568000298654
+    ]
+   },
+   "properties": {
+    "building_id": "X88",
+    "name": "Pump & Electrical Station",
+    "aliases": [
+     "Pump & Electrical Station",
+     "X88",
+     "X88"
+    ],
+    "address": "490 S. Dorsey Ln.",
+    "bldg_numbers": [
+     "X88"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9271971503922,
+     33.42039251017882
+    ]
+   },
+   "properties": {
+    "building_id": "X95",
+    "name": "Carbon Tree",
+    "aliases": [
+     "Carbon Tree",
+     "X95",
+     "X95"
+    ],
+    "address": "846 E. Tyler Street",
+    "bldg_numbers": [
+     "X95"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92775821027088,
+     33.421985440324605
+    ]
+   },
+   "properties": {
+    "building_id": "X96",
+    "name": "University Drive Pedestrian Bridge",
+    "aliases": [
+     "University Drive Pedestrian Bridge",
+     "X96",
+     "X96"
+    ],
+    "address": "757 E. University Drive",
+    "bldg_numbers": [
+     "X96"
+    ],
+    "campus": "MC"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92383354984631,
+     33.411699470321885
+    ]
+   },
+   "properties": {
+    "building_id": "ZWO",
+    "name": "Zero Waste Office",
+    "aliases": [
+     "Zero Waste Office",
+     "ZWO",
+     "X86"
+    ],
+    "address": "1422 S. Jen Tilly Lane",
+    "bldg_numbers": [
+     "X86"
+    ],
+    "campus": "MC"
+   }
+  }
+ ]
+}
