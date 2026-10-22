@@ -16,6 +16,8 @@ python3 -m venv .venv
 - `data/events_data.js` - the event data the map reads. Made by `test_WebGIS.py`
 - `data/buildings.geojson` - Tempe campus buildings with `building_id`. Made by `pipeline/buildings.py`
 - `data/event_buildings.csv` - which building each event is in. Made by `pipeline/match_events.py`
+- `data/walk_matrix.json` - walking time in seconds between every pair of buildings. Made by `pipeline/network.py` (also makes `building_snaps.json` and `walk_network.geojson`). If the OSM download fails with an SSL error (macOS system Python 3.9), use a newer Python for the venv, see the CHANGELOG
+- `data/building_entrances.json` - where a walk starts at each building. Made by `pipeline/entrances.py`, run it before `network.py`
 - `asu_events_output/` - the full event data from `test_WebGIS.py`:
   - `asu_events.csv` - all events with lat/lon and `geo_source` (`address` / `campus` / `none`)
   - `asu_events.geojson` - can open in QGIS or ArcGIS

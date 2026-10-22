@@ -1,0 +1,1307 @@
+{
+ "054A": {
+  "lon": -111.929557,
+  "lat": 33.421235,
+  "source": "outline"
+ },
+ "077X": {
+  "lon": -111.935227,
+  "lat": 33.418384,
+  "source": "outline"
+ },
+ "128H": {
+  "lon": -111.925892,
+  "lat": 33.426933,
+  "source": "outline"
+ },
+ "173J": {
+  "lon": -111.926714,
+  "lat": 33.41603,
+  "source": "outline"
+ },
+ "176": {
+  "lon": -111.92393,
+  "lat": 33.411803,
+  "source": "outline"
+ },
+ "183": {
+  "lon": -111.91840968026429,
+  "lat": 33.42535840014272,
+  "source": "centroid"
+ },
+ "185A": {
+  "lon": -111.92914,
+  "lat": 33.426306,
+  "source": "outline"
+ },
+ "186A": {
+  "lon": -111.923371,
+  "lat": 33.411768,
+  "source": "outline"
+ },
+ "186B": {
+  "lon": -111.923735,
+  "lat": 33.411275,
+  "source": "outline"
+ },
+ "190": {
+  "lon": -111.938263,
+  "lat": 33.419249,
+  "source": "outline"
+ },
+ "ACACI": {
+  "lon": -111.930276,
+  "lat": 33.415227,
+  "source": "outline"
+ },
+ "ACHAL": {
+  "lon": -111.927963,
+  "lat": 33.416417,
+  "source": "outline"
+ },
+ "ADEAB": {
+  "lon": -111.927498,
+  "lat": 33.413824,
+  "source": "outline"
+ },
+ "ADECD": {
+  "lon": -111.928031,
+  "lat": 33.412984,
+  "source": "outline"
+ },
+ "ADEEFG": {
+  "lon": -111.928217,
+  "lat": 33.4137,
+  "source": "outline"
+ },
+ "ADEHJK": {
+  "lon": -111.928398,
+  "lat": 33.41376,
+  "source": "outline"
+ },
+ "ADELM": {
+  "lon": -111.927498,
+  "lat": 33.414434,
+  "source": "outline"
+ },
+ "ADEN": {
+  "lon": -111.92785,
+  "lat": 33.413749,
+  "source": "outline"
+ },
+ "ADEPQR": {
+  "lon": -111.927294,
+  "lat": 33.412943,
+  "source": "outline"
+ },
+ "ADESTU": {
+  "lon": -111.927449,
+  "lat": 33.412951,
+  "source": "outline"
+ },
+ "ADEV": {
+  "lon": -111.927504,
+  "lat": 33.413574,
+  "source": "outline"
+ },
+ "AGVHAL": {
+  "lon": -111.928571,
+  "lat": 33.415441,
+  "source": "outline"
+ },
+ "ALBER": {
+  "lon": -111.923583,
+  "lat": 33.425112,
+  "source": "outline"
+ },
+ "ANX": {
+  "lon": -111.9348,
+  "lat": 33.424146,
+  "source": "outline"
+ },
+ "APMA": {
+  "lon": -111.924519,
+  "lat": 33.423632,
+  "source": "outline"
+ },
+ "AQUAT": {
+  "lon": -111.934146,
+  "lat": 33.424222,
+  "source": "outline"
+ },
+ "ARHAL": {
+  "lon": -111.929685,
+  "lat": 33.415598,
+  "source": "outline"
+ },
+ "ARM": {
+  "lon": -111.929661,
+  "lat": 33.418078,
+  "source": "outline"
+ },
+ "ART": {
+  "lon": -111.937536,
+  "lat": 33.420346,
+  "source": "outline"
+ },
+ "ARWH": {
+  "lon": -111.938011,
+  "lat": 33.420849,
+  "source": "outline"
+ },
+ "ASUPD": {
+  "lon": -111.93478,
+  "lat": 33.414286,
+  "source": "outline"
+ },
+ "BA": {
+  "lon": -111.934308,
+  "lat": 33.416855,
+  "source": "osm_entrance"
+ },
+ "BAC": {
+  "lon": -111.93385,
+  "lat": 33.416793,
+  "source": "outline"
+ },
+ "BBTS": {
+  "lon": -111.924244,
+  "lat": 33.425628,
+  "source": "outline"
+ },
+ "BDA": {
+  "lon": -111.928057,
+  "lat": 33.418701,
+  "source": "outline"
+ },
+ "BDB": {
+  "lon": -111.928334,
+  "lat": 33.419404,
+  "source": "outline"
+ },
+ "BDC": {
+  "lon": -111.92779,
+  "lat": 33.420075,
+  "source": "outline"
+ },
+ "BDH": {
+  "lon": -111.930772,
+  "lat": 33.418144,
+  "source": "outline"
+ },
+ "BKSTR": {
+  "lon": -111.93212,
+  "lat": 33.417597,
+  "source": "outline"
+ },
+ "BRO": {
+  "lon": -111.92289,
+  "lat": 33.425066,
+  "source": "outline"
+ },
+ "BTPS": {
+  "lon": -111.928264,
+  "lat": 33.428655,
+  "source": "outline"
+ },
+ "BYAC": {
+  "lon": -111.938901,
+  "lat": 33.423347,
+  "source": "outline"
+ },
+ "BYENG": {
+  "lon": -111.93933,
+  "lat": 33.423713,
+  "source": "outline"
+ },
+ "BYOH": {
+  "lon": -111.938753,
+  "lat": 33.424223,
+  "source": "outline"
+ },
+ "CAM": {
+  "lon": -111.933987,
+  "lat": 33.422908,
+  "source": "osm_entrance"
+ },
+ "CDN": {
+  "lon": -111.936784,
+  "lat": 33.421318,
+  "source": "outline"
+ },
+ "CDS": {
+  "lon": -111.937088,
+  "lat": 33.420895,
+  "source": "outline"
+ },
+ "CERHAL": {
+  "lon": -111.927691,
+  "lat": 33.415424,
+  "source": "outline"
+ },
+ "CFS": {
+  "lon": -111.936221,
+  "lat": 33.421185,
+  "source": "outline"
+ },
+ "CHAPL": {
+  "lon": -111.935262,
+  "lat": 33.41846,
+  "source": "outline"
+ },
+ "CHPF": {
+  "lon": -111.928766,
+  "lat": 33.417178,
+  "source": "outline"
+ },
+ "CHUPA": {
+  "lon": -111.929766,
+  "lat": 33.415191,
+  "source": "outline"
+ },
+ "COOR": {
+  "lon": -111.937518,
+  "lat": 33.420036,
+  "source": "outline"
+ },
+ "COWDN": {
+  "lon": -111.93568,
+  "lat": 33.420924,
+  "source": "outline"
+ },
+ "CP": {
+  "lon": -111.933365,
+  "lat": 33.418918,
+  "source": "outline"
+ },
+ "CPS": {
+  "lon": -111.929038,
+  "lat": 33.411369,
+  "source": "outline"
+ },
+ "CRTVC": {
+  "lon": -111.93216,
+  "lat": 33.417605,
+  "source": "outline"
+ },
+ "CSAC": {
+  "lon": -111.9331,
+  "lat": 33.425648,
+  "source": "outline"
+ },
+ "CWHAL": {
+  "lon": -111.927072,
+  "lat": 33.415434,
+  "source": "outline"
+ },
+ "DFA": {
+  "lon": -111.931167,
+  "lat": 33.424087,
+  "source": "outline"
+ },
+ "DH": {
+  "lon": -111.934309,
+  "lat": 33.42097,
+  "source": "outline"
+ },
+ "DISCVRY": {
+  "lon": -111.935534,
+  "lat": 33.41661,
+  "source": "outline"
+ },
+ "ECA": {
+  "lon": -111.931781,
+  "lat": 33.418888,
+  "source": "outline"
+ },
+ "ECANX": {
+  "lon": -111.932512,
+  "lat": 33.418888,
+  "source": "outline"
+ },
+ "ECB": {
+  "lon": -111.93178,
+  "lat": 33.419056,
+  "source": "outline"
+ },
+ "ECC": {
+  "lon": -111.93178,
+  "lat": 33.419056,
+  "source": "outline"
+ },
+ "ECD": {
+  "lon": -111.931774,
+  "lat": 33.419432,
+  "source": "outline"
+ },
+ "ECE": {
+  "lon": -111.931774,
+  "lat": 33.41959,
+  "source": "outline"
+ },
+ "ECF": {
+  "lon": -111.931774,
+  "lat": 33.419776,
+  "source": "outline"
+ },
+ "ECG": {
+  "lon": -111.931751,
+  "lat": 33.419816,
+  "source": "outline"
+ },
+ "ED": {
+  "lon": -111.93726,
+  "lat": 33.417974,
+  "source": "outline"
+ },
+ "EDB": {
+  "lon": -111.937255,
+  "lat": 33.418751,
+  "source": "osm_entrance"
+ },
+ "EDC": {
+  "lon": -111.937858,
+  "lat": 33.417801,
+  "source": "outline"
+ },
+ "ENGRC": {
+  "lon": -111.931598,
+  "lat": 33.419748,
+  "source": "outline"
+ },
+ "FAC": {
+  "lon": -111.939028,
+  "lat": 33.417776,
+  "source": "outline"
+ },
+ "FMMEY": {
+  "lon": -111.92312,
+  "lat": 33.426796,
+  "source": "outline"
+ },
+ "FULTN": {
+  "lon": -111.934855,
+  "lat": 33.422097,
+  "source": "outline"
+ },
+ "GGMA": {
+  "lon": -111.938353,
+  "lat": 33.415979,
+  "source": "outline"
+ },
+ "GHALL": {
+  "lon": -111.936384,
+  "lat": 33.419106,
+  "source": "outline"
+ },
+ "GLVA": {
+  "lon": -111.925805,
+  "lat": 33.419289,
+  "source": "outline"
+ },
+ "GLVB": {
+  "lon": -111.926049,
+  "lat": 33.418123,
+  "source": "outline"
+ },
+ "GLVC": {
+  "lon": -111.925943,
+  "lat": 33.419199,
+  "source": "outline"
+ },
+ "GLVCC": {
+  "lon": -111.925679,
+  "lat": 33.419439,
+  "source": "outline"
+ },
+ "GLVD": {
+  "lon": -111.925773,
+  "lat": 33.41834,
+  "source": "outline"
+ },
+ "GWC": {
+  "lon": -111.930476,
+  "lat": 33.420433,
+  "source": "osm_main"
+ },
+ "HAYDN": {
+  "lon": -111.935233,
+  "lat": 33.414822,
+  "source": "outline"
+ },
+ "HBH": {
+  "lon": -111.936514,
+  "lat": 33.423449,
+  "source": "outline"
+ },
+ "HELM": {
+  "lon": -111.932539,
+  "lat": 33.421063,
+  "source": "osm_entrance"
+ },
+ "HHE": {
+  "lon": -111.935233,
+  "lat": 33.414822,
+  "source": "outline"
+ },
+ "HHW": {
+  "lon": -111.93611463009792,
+  "lat": 33.41517661987822,
+  "source": "centroid"
+ },
+ "HLMK": {
+  "lon": -111.935107,
+  "lat": 33.423355,
+  "source": "outline"
+ },
+ "HOBBS": {
+  "lon": -111.925892,
+  "lat": 33.426933,
+  "source": "outline"
+ },
+ "HONHAL": {
+  "lon": -111.927072,
+  "lat": 33.415434,
+  "source": "outline"
+ },
+ "HSB": {
+  "lon": -111.933161,
+  "lat": 33.421627,
+  "source": "outline"
+ },
+ "INTDSA": {
+  "lon": -111.935369,
+  "lat": 33.417604,
+  "source": "outline"
+ },
+ "INTDSB": {
+  "lon": -111.935696,
+  "lat": 33.417111,
+  "source": "outline"
+ },
+ "IRISH": {
+  "lon": -111.93545138685566,
+  "lat": 33.41566999673055,
+  "source": "centroid"
+ },
+ "ISTB1": {
+  "lon": -111.931161,
+  "lat": 33.41888,
+  "source": "outline"
+ },
+ "ISTB2": {
+  "lon": -111.92964,
+  "lat": 33.420893,
+  "source": "outline"
+ },
+ "ISTB4": {
+  "lon": -111.928291,
+  "lat": 33.418326,
+  "source": "outline"
+ },
+ "ISTB5": {
+  "lon": -111.931105,
+  "lat": 33.420422,
+  "source": "outline"
+ },
+ "ISTBX": {
+  "lon": -111.935476,
+  "lat": 33.421381,
+  "source": "outline"
+ },
+ "JNHAL": {
+  "lon": -111.926737,
+  "lat": 33.41531,
+  "source": "outline"
+ },
+ "JOBA": {
+  "lon": -111.929681,
+  "lat": 33.41513,
+  "source": "outline"
+ },
+ "L01": {
+  "lon": -111.937518,
+  "lat": 33.420036,
+  "source": "outline"
+ },
+ "L03": {
+  "lon": -111.934146,
+  "lat": 33.424222,
+  "source": "outline"
+ },
+ "L04": {
+  "lon": -111.92501685026443,
+  "lat": 33.42611771013145,
+  "source": "centroid"
+ },
+ "L05": {
+  "lon": -111.92226240000764,
+  "lat": 33.42584695031948,
+  "source": "centroid"
+ },
+ "L07": {
+  "lon": -111.923583,
+  "lat": 33.425112,
+  "source": "outline"
+ },
+ "L09": {
+  "lon": -111.92914,
+  "lat": 33.426306,
+  "source": "outline"
+ },
+ "L14": {
+  "lon": -111.931598,
+  "lat": 33.419748,
+  "source": "outline"
+ },
+ "L16": {
+  "lon": -111.927199,
+  "lat": 33.411621,
+  "source": "outline"
+ },
+ "L167": {
+  "lon": -111.935107,
+  "lat": 33.423355,
+  "source": "outline"
+ },
+ "L19": {
+  "lon": -111.922476,
+  "lat": 33.424656,
+  "source": "outline"
+ },
+ "L20": {
+  "lon": -111.930086,
+  "lat": 33.425569,
+  "source": "outline"
+ },
+ "L22": {
+  "lon": -111.919808,
+  "lat": 33.423692,
+  "source": "outline"
+ },
+ "L28": {
+  "lon": -111.9216483098828,
+  "lat": 33.42543689014285,
+  "source": "centroid"
+ },
+ "L31": {
+  "lon": -111.923103,
+  "lat": 33.426352,
+  "source": "outline"
+ },
+ "L34": {
+  "lon": -111.92073459028819,
+  "lat": 33.424607580363194,
+  "source": "centroid"
+ },
+ "L35": {
+  "lon": -111.91978694042697,
+  "lat": 33.42461125036071,
+  "source": "centroid"
+ },
+ "L36": {
+  "lon": -111.91879254044174,
+  "lat": 33.42459726988108,
+  "source": "centroid"
+ },
+ "L37": {
+  "lon": -111.91911692029421,
+  "lat": 33.42631565016275,
+  "source": "centroid"
+ },
+ "LIB": {
+  "lon": -111.934876,
+  "lat": 33.419021,
+  "source": "osm_entrance"
+ },
+ "LSA": {
+  "lon": -111.933376,
+  "lat": 33.419525,
+  "source": "outline"
+ },
+ "LSB": {
+  "lon": -111.933376,
+  "lat": 33.419525,
+  "source": "outline"
+ },
+ "LSC": {
+  "lon": -111.933553,
+  "lat": 33.419854,
+  "source": "outline"
+ },
+ "LSD": {
+  "lon": -111.933014,
+  "lat": 33.419522,
+  "source": "outline"
+ },
+ "LSE": {
+  "lon": -111.933535,
+  "lat": 33.419627,
+  "source": "outline"
+ },
+ "LYC": {
+  "lon": -111.936302,
+  "lat": 33.420335,
+  "source": "outline"
+ },
+ "MA": {
+  "lon": -111.92914,
+  "lat": 33.426306,
+  "source": "outline"
+ },
+ "MAIN": {
+  "lon": -111.9337,
+  "lat": 33.420472,
+  "source": "outline"
+ },
+ "MANZH": {
+  "lon": -111.930292,
+  "lat": 33.422471,
+  "source": "osm_main"
+ },
+ "MANZY": {
+  "lon": -111.930647,
+  "lat": 33.422912,
+  "source": "outline"
+ },
+ "MAS": {
+  "lon": -111.93249848976949,
+  "lat": 33.42663380024647,
+  "source": "centroid"
+ },
+ "MASH": {
+  "lon": -111.938263,
+  "lat": 33.419249,
+  "source": "outline"
+ },
+ "MB": {
+  "lon": -111.93610236330328,
+  "lat": 33.41566280019729,
+  "source": "centroid"
+ },
+ "MCENT": {
+  "lon": -111.935395,
+  "lat": 33.41969,
+  "source": "outline"
+ },
+ "MCL": {
+  "lon": -111.935748,
+  "lat": 33.419103,
+  "source": "outline"
+ },
+ "MCRD": {
+  "lon": -111.932898,
+  "lat": 33.417068,
+  "source": "osm_main"
+ },
+ "MHALL": {
+  "lon": -111.936411,
+  "lat": 33.420063,
+  "source": "outline"
+ },
+ "MOEUR": {
+  "lon": -111.93615,
+  "lat": 33.417763,
+  "source": "outline"
+ },
+ "MRBLA": {
+  "lon": -111.93895,
+  "lat": 33.421581,
+  "source": "outline"
+ },
+ "MSB": {
+  "lon": -111.926108,
+  "lat": 33.410812,
+  "source": "outline"
+ },
+ "MSHAL": {
+  "lon": -111.929763,
+  "lat": 33.415731,
+  "source": "outline"
+ },
+ "MU": {
+  "lon": -111.934571,
+  "lat": 33.41815,
+  "source": "outline"
+ },
+ "MUR": {
+  "lon": -111.933149,
+  "lat": 33.418516,
+  "source": "outline"
+ },
+ "MUSIC": {
+  "lon": -111.939028,
+  "lat": 33.417776,
+  "source": "outline"
+ },
+ "MVHAL": {
+  "lon": -111.929763,
+  "lat": 33.415731,
+  "source": "outline"
+ },
+ "NCP": {
+  "lon": -111.931871,
+  "lat": 33.423696,
+  "source": "outline"
+ },
+ "NEEB": {
+  "lon": -111.937036,
+  "lat": 33.420294,
+  "source": "outline"
+ },
+ "NOBLE": {
+  "lon": -111.930364,
+  "lat": 33.420199,
+  "source": "outline"
+ },
+ "NVS1": {
+  "lon": -111.926658,
+  "lat": 33.423221,
+  "source": "outline"
+ },
+ "PABLO": {
+  "lon": -111.93139,
+  "lat": 33.422375,
+  "source": "outline"
+ },
+ "PBS": {
+  "lon": -111.928335,
+  "lat": 33.427792,
+  "source": "outline"
+ },
+ "PS1": {
+  "lon": -111.933368,
+  "lat": 33.41513,
+  "source": "outline"
+ },
+ "PS2": {
+  "lon": -111.928665,
+  "lat": 33.42044,
+  "source": "outline"
+ },
+ "PS3": {
+  "lon": -111.937937,
+  "lat": 33.420101,
+  "source": "outline"
+ },
+ "PS4": {
+  "lon": -111.927407,
+  "lat": 33.416963,
+  "source": "outline"
+ },
+ "PS5": {
+  "lon": -111.933577,
+  "lat": 33.423651,
+  "source": "osm_entrance"
+ },
+ "PS6": {
+  "lon": -111.935863,
+  "lat": 33.424564,
+  "source": "outline"
+ },
+ "PS7": {
+  "lon": -111.928573,
+  "lat": 33.424972,
+  "source": "outline"
+ },
+ "PS8": {
+  "lon": -111.927935,
+  "lat": 33.422289,
+  "source": "outline"
+ },
+ "PS9": {
+  "lon": -111.936127,
+  "lat": 33.418676,
+  "source": "outline"
+ },
+ "PSB": {
+  "lon": -111.932497,
+  "lat": 33.420806,
+  "source": "osm_entrance"
+ },
+ "PSC": {
+  "lon": -111.932474,
+  "lat": 33.42152,
+  "source": "osm_entrance"
+ },
+ "PSD": {
+  "lon": -111.932474,
+  "lat": 33.42152,
+  "source": "osm_entrance"
+ },
+ "PSE": {
+  "lon": -111.932474,
+  "lat": 33.42152,
+  "source": "osm_entrance"
+ },
+ "PSF": {
+  "lon": -111.931664,
+  "lat": 33.420998,
+  "source": "osm_entrance"
+ },
+ "PSG": {
+  "lon": -111.931686,
+  "lat": 33.421371,
+  "source": "osm_entrance"
+ },
+ "PSH": {
+  "lon": -111.93172,
+  "lat": 33.421773,
+  "source": "outline"
+ },
+ "PSHED": {
+  "lon": -111.92720447974659,
+  "lat": 33.42733705973377,
+  "source": "centroid"
+ },
+ "PSY": {
+  "lon": -111.929134,
+  "lat": 33.419922,
+  "source": "outline"
+ },
+ "PSYN": {
+  "lon": -111.929922,
+  "lat": 33.420518,
+  "source": "outline"
+ },
+ "PVE": {
+  "lon": -111.932647,
+  "lat": 33.423094,
+  "source": "outline"
+ },
+ "PVW": {
+  "lon": -111.934855,
+  "lat": 33.422097,
+  "source": "outline"
+ },
+ "PWH": {
+  "lon": -111.933019,
+  "lat": 33.420449,
+  "source": "outline"
+ },
+ "PWOP": {
+  "lon": -111.932474,
+  "lat": 33.42152,
+  "source": "osm_entrance"
+ },
+ "RBHL": {
+  "lon": -111.929374,
+  "lat": 33.416826,
+  "source": "outline"
+ },
+ "RFPF": {
+  "lon": -111.927749,
+  "lat": 33.424723,
+  "source": "outline"
+ },
+ "RP01": {
+  "lon": -111.933987,
+  "lat": 33.422908,
+  "source": "osm_entrance"
+ },
+ "RP02": {
+  "lon": -111.938659,
+  "lat": 33.423648,
+  "source": "outline"
+ },
+ "RSS1": {
+  "lon": -111.92879,
+  "lat": 33.421312,
+  "source": "outline"
+ },
+ "RWHAL": {
+  "lon": -111.926714,
+  "lat": 33.41603,
+  "source": "outline"
+ },
+ "SAF": {
+  "lon": -111.931891,
+  "lat": 33.427362,
+  "source": "outline"
+ },
+ "SCD": {
+  "lon": -111.927199,
+  "lat": 33.411621,
+  "source": "outline"
+ },
+ "SCOB": {
+  "lon": -111.930503,
+  "lat": 33.419468,
+  "source": "outline"
+ },
+ "SDBVF": {
+  "lon": -111.92224839976394,
+  "lat": 33.42554040026843,
+  "source": "centroid"
+ },
+ "SDFCT": {
+  "lon": -111.93318,
+  "lat": 33.415459,
+  "source": "outline"
+ },
+ "SDFCTF": {
+  "lon": -111.93141479993996,
+  "lat": 33.41666302015399,
+  "source": "centroid"
+ },
+ "SDH": {
+  "lon": -111.932865,
+  "lat": 33.418228,
+  "source": "outline"
+ },
+ "SDSP": {
+  "lon": -111.92326,
+  "lat": 33.424168,
+  "source": "outline"
+ },
+ "SGHAL": {
+  "lon": -111.92835,
+  "lat": 33.415472,
+  "source": "outline"
+ },
+ "SHESC": {
+  "lon": -111.935731,
+  "lat": 33.420771,
+  "source": "outline"
+ },
+ "SLSTDM": {
+  "lon": -111.922476,
+  "lat": 33.424656,
+  "source": "outline"
+ },
+ "SONX": {
+  "lon": -111.928226,
+  "lat": 33.412777,
+  "source": "outline"
+ },
+ "SS": {
+  "lon": -111.933535,
+  "lat": 33.419627,
+  "source": "outline"
+ },
+ "SSV": {
+  "lon": -111.936145,
+  "lat": 33.417514,
+  "source": "outline"
+ },
+ "STADIP": {
+  "lon": -111.932188,
+  "lat": 33.428313,
+  "source": "outline"
+ },
+ "STADNL": {
+  "lon": -111.932188,
+  "lat": 33.428313,
+  "source": "outline"
+ },
+ "STADS": {
+  "lon": -111.93361942015741,
+  "lat": 33.4266406100133,
+  "source": "centroid"
+ },
+ "STADTN": {
+  "lon": -111.93110260034442,
+  "lat": 33.42824397022884,
+  "source": "centroid"
+ },
+ "STAUF": {
+  "lon": -111.937518,
+  "lat": 33.420036,
+  "source": "outline"
+ },
+ "STPV": {
+  "lon": -111.933411,
+  "lat": 33.418436,
+  "source": "outline"
+ },
+ "THERM": {
+  "lon": -111.93212,
+  "lat": 33.417597,
+  "source": "outline"
+ },
+ "TKRHA": {
+  "lon": -111.932905,
+  "lat": 33.423467,
+  "source": "outline"
+ },
+ "TKRHB": {
+  "lon": -111.932651,
+  "lat": 33.423235,
+  "source": "outline"
+ },
+ "TKRHC": {
+  "lon": -111.932647,
+  "lat": 33.423094,
+  "source": "outline"
+ },
+ "TKRHD": {
+  "lon": -111.931954,
+  "lat": 33.423314,
+  "source": "outline"
+ },
+ "TRACK": {
+  "lon": -111.92914,
+  "lat": 33.426306,
+  "source": "outline"
+ },
+ "TYLER": {
+  "lon": -111.931783,
+  "lat": 33.42051,
+  "source": "outline"
+ },
+ "UCLUB": {
+  "lon": -111.933551,
+  "lat": 33.42084,
+  "source": "outline"
+ },
+ "UGB": {
+  "lon": -111.939735,
+  "lat": 33.420339,
+  "source": "outline"
+ },
+ "UNCTRA": {
+  "lon": -111.921982,
+  "lat": 33.422601,
+  "source": "outline"
+ },
+ "UNCTRB": {
+  "lon": -111.921566,
+  "lat": 33.423503,
+  "source": "outline"
+ },
+ "UNCTRC": {
+  "lon": -111.920583,
+  "lat": 33.423332,
+  "source": "outline"
+ },
+ "UNIVT": {
+  "lon": -111.936453,
+  "lat": 33.42506,
+  "source": "outline"
+ },
+ "USB": {
+  "lon": -111.92553,
+  "lat": 33.411259,
+  "source": "outline"
+ },
+ "USE": {
+  "lon": -111.93002,
+  "lat": 33.421805,
+  "source": "outline"
+ },
+ "UTN": {
+  "lon": -111.932474,
+  "lat": 33.42152,
+  "source": "osm_entrance"
+ },
+ "VBHAL": {
+  "lon": -111.927963,
+  "lat": 33.416417,
+  "source": "outline"
+ },
+ "VDDM": {
+  "lon": -111.925768,
+  "lat": 33.425364,
+  "source": "outline"
+ },
+ "VDSB": {
+  "lon": -111.929374,
+  "lat": 33.412211,
+  "source": "outline"
+ },
+ "VDSC": {
+  "lon": -111.929392,
+  "lat": 33.411596,
+  "source": "outline"
+ },
+ "VDSCB": {
+  "lon": -111.929653,
+  "lat": 33.412881,
+  "source": "outline"
+ },
+ "VDSCC": {
+  "lon": -111.92896,
+  "lat": 33.413081,
+  "source": "osm_main"
+ },
+ "VDSD": {
+  "lon": -111.929905,
+  "lat": 33.411591,
+  "source": "outline"
+ },
+ "VDSDM": {
+  "lon": -111.928938,
+  "lat": 33.413827,
+  "source": "outline"
+ },
+ "VDSE": {
+  "lon": -111.930242,
+  "lat": 33.412688,
+  "source": "outline"
+ },
+ "VDSF": {
+  "lon": -111.930018,
+  "lat": 33.412769,
+  "source": "outline"
+ },
+ "VDSG": {
+  "lon": -111.930489,
+  "lat": 33.41359,
+  "source": "outline"
+ },
+ "VDSGAZ": {
+  "lon": -111.929395,
+  "lat": 33.413398,
+  "source": "outline"
+ },
+ "VDSH": {
+  "lon": -111.929395,
+  "lat": 33.413398,
+  "source": "outline"
+ },
+ "VDSI": {
+  "lon": -111.930198,
+  "lat": 33.413996,
+  "source": "outline"
+ },
+ "VDSJ": {
+  "lon": -111.929516,
+  "lat": 33.413979,
+  "source": "outline"
+ },
+ "VDSJAC": {
+  "lon": -111.929653,
+  "lat": 33.412881,
+  "source": "outline"
+ },
+ "VDSK": {
+  "lon": -111.928758,
+  "lat": 33.413985,
+  "source": "outline"
+ },
+ "VDSPS": {
+  "lon": -111.928785,
+  "lat": 33.411582,
+  "source": "outline"
+ },
+ "VDSTC": {
+  "lon": -111.929038,
+  "lat": 33.411369,
+  "source": "outline"
+ },
+ "VVDS": {
+  "lon": -111.931116,
+  "lat": 33.414556,
+  "source": "outline"
+ },
+ "WCPH": {
+  "lon": -111.927639,
+  "lat": 33.421711,
+  "source": "outline"
+ },
+ "WG": {
+  "lon": -111.936549,
+  "lat": 33.423756,
+  "source": "outline"
+ },
+ "WGTF": {
+  "lon": -111.923103,
+  "lat": 33.426352,
+  "source": "outline"
+ },
+ "WHALL": {
+  "lon": -111.935748,
+  "lat": 33.419103,
+  "source": "outline"
+ },
+ "WILOHAL": {
+  "lon": -111.926825,
+  "lat": 33.415977,
+  "source": "outline"
+ },
+ "WLSN": {
+  "lon": -111.936127,
+  "lat": 33.418676,
+  "source": "outline"
+ },
+ "WTC": {
+  "lon": -111.927666,
+  "lat": 33.425109,
+  "source": "outline"
+ },
+ "WTF": {
+  "lon": -111.9236,
+  "lat": 33.426316,
+  "source": "outline"
+ },
+ "WUC": {
+  "lon": -111.924076,
+  "lat": 33.424659,
+  "source": "outline"
+ },
+ "WXLR": {
+  "lon": -111.932163,
+  "lat": 33.420524,
+  "source": "osm_entrance"
+ },
+ "X28": {
+  "lon": -111.929763,
+  "lat": 33.415731,
+  "source": "outline"
+ },
+ "X39": {
+  "lon": -111.929038,
+  "lat": 33.411369,
+  "source": "outline"
+ },
+ "X40": {
+  "lon": -111.937602,
+  "lat": 33.420225,
+  "source": "outline"
+ },
+ "X41": {
+  "lon": -111.927935,
+  "lat": 33.422289,
+  "source": "outline"
+ },
+ "X42": {
+  "lon": -111.927407,
+  "lat": 33.416963,
+  "source": "outline"
+ },
+ "X62": {
+  "lon": -111.927224,
+  "lat": 33.419299,
+  "source": "outline"
+ },
+ "X72": {
+  "lon": -111.939172,
+  "lat": 33.417456,
+  "source": "outline"
+ },
+ "X73": {
+  "lon": -111.935227,
+  "lat": 33.418384,
+  "source": "outline"
+ },
+ "X88": {
+  "lon": -111.91984500034042,
+  "lat": 33.425568000298654,
+  "source": "centroid"
+ },
+ "X95": {
+  "lon": -111.927312,
+  "lat": 33.420581,
+  "source": "outline"
+ },
+ "X96": {
+  "lon": -111.927639,
+  "lat": 33.421711,
+  "source": "outline"
+ },
+ "ZWO": {
+  "lon": -111.923784,
+  "lat": 33.411788,
+  "source": "outline"
+ }
+}

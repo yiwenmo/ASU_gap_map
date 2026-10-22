@@ -15,7 +15,7 @@ Goal: a "gap time" map. Pick where you are, where your next class is, and when i
 | Address fixes | Partly | 6 addresses still can't be found |
 | Buildings | Done | 261 Tempe buildings in `data/buildings.geojson`, keyed by `building_id` (ASU code like `MU`, `COOR`) |
 | Events → building_id | Done, not in map yet | `data/event_buildings.csv`. 240 of 241 Tempe events matched, 13 rows need a manual check |
-| Walking network | Not yet | Main piece, most things below need it |
+| Walking network | Done (10/18) | OSM walkways → `data/walk_matrix.json`, 261 × 261 buildings, all pairs reachable |
 | "Can I make it?" check | Not yet | Walk there + time at event + walk to class must fit before class |
 | User input | Not yet | Where I am / next class / class time |
 | Places | Not yet | Coffee, food, study spots |
@@ -24,10 +24,33 @@ Goal: a "gap time" map. Pick where you are, where your next class is, and when i
 | Auto update | On hold | Rerun the script by hand for now |
 
 ### Next up
-1. Download the Tempe walking network (OSM + `osmnx`)
+1. ~~Download the Tempe walking network~~ and ~~precompute walking times~~: done 10/18, see below
 2. Put `building_id` into `events_data.js` and the map, check the flagged rows
-3. Precompute walking times between buildings (`networkx`), save as a data file
-4. Add the input boxes and only show spots you can make it to (`web/map.js`)
+3. Add the input boxes and only show spots you can make it to (`web/map.js`), using `data/walk_matrix.json`
+
+## 10/18
+
+### Built the walking network and the building-to-building matrix
+- Source: OpenStreetMap walkways from the Overpass API, around the buildings plus about 300 m. `pipeline/network.py` → `data/walk_matrix.json`, `data/building_snaps.json`, `data/walk_network.geojson`. The download is cached in `pipeline/cache/` (not in git); `--refresh` downloads again.
+- Didn't use `osmnx`/`geopandas`. The script reads Overpass directly and uses `scipy` for shortest paths, so only `numpy` and `scipy` were added to `requirements.txt`.
+- How it works: build a graph from the ways, keep the largest connected piece (dropped 445 small disconnected nodes), snap each building onto the nearest path segment (the segment is split there), then Dijkstra from every building. Speed is 1.34 m/s.
+- Buildings only have centroids, so the walk from the centroid to the path is added to the time. Median snap distance is 21 m, 99% are under 95 m.
+- Checked: detour ratio (walking distance / straight line) has median 1.37 and 95th percentile 1.80, the matrix is symmetric, and there are no unreachable pairs. Examples: MU → LIB 2.5 min, MU → HAYDN 5.8 min.
+- Problems:
+  - macOS system Python 3.9 (LibreSSL) can't do the TLS handshake with `overpass-api.de` (`SSLV3_ALERT_HANDSHAKE_FAILURE`), even though `curl` works. Fixed by using a venv built from Homebrew Python 3.11. Two backup Overpass mirrors were returning HTTP 500.
+  - Some short pairs have a very high detour ratio (up to 9). These involve utility or field buildings (`X88`, `L35`) and the stadium (`STADIP`, `STADS`), not classroom buildings. Left as is for now.
+  - `X88` (165 m) and `L35` (106 m) are far from any path, so their times include a long straight-line leg.
+- Not done: stairs/elevation and crossing wait times, route geometry for drawing a path, times from an arbitrary user location.
+
+### Building entrances
+- `pipeline/entrances.py` → `data/building_entrances.json`. Matches OSM building outlines to `building_id` (outline that contains the centroid, else the nearest within 60 m), then picks the start point: a real OSM door (`entrance=main`, then `yes`), else the point on the outline closest to a path, else the centroid. `network.py` now snaps from this point. Run `entrances.py` before `network.py`.
+- Result for 261 buildings: 4 `osm_main`, 16 `osm_entrance`, 223 `outline`, 18 `centroid`. OSM only has 55 usable entrance nodes on campus, so most buildings use the outline estimate.
+- Effect: median distance from the start point to a path went from 21 m to 2 m. Walking times changed by -0.5 min on average (5th to 95th percentile: -2.3 to +1.2 min). Example: MU → LIB 2.5 → 1.6 min, COOR → MU 5.5 → 6.3 min.
+- Known limits:
+  - The `outline` point is the edge closest to a path, not a real door, so it tends to make times a bit shorter than reality.
+  - 18 buildings have no matched outline and still use the centroid: `183`, `HHW`, `IRISH`, `L04`, `L05`, `L28`, `L34`, `L35`, `L36`, `L37`, `MAS`, `MB`, `PSHED`, `SDBVF`, `SDFCTF`, `STADS`, `STADTN`, `X88`. Most are fields and utility buildings. `IRISH`, `MB`, `MAS`, `HHW`, `183` are probably merged multi-wing buildings whose averaged centroid falls outside any outline.
+  - One outline per building. A building made of several wings only uses the one that matched.
+  - Overpass was busy (HTTP 502) on the first try, so the download now retries each mirror, three rounds.
 
 ## 10/10-10/12
 
