@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ASU Gap Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="gap.css">
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <header>
+        <h1>ASU Gap Map</h1>
+        <p>Events you can walk to and still make your next class. Tempe campus.</p>
+      </header>
+
+      <form id="plan" autocomplete="off">
+        <label for="origin">I'm at</label>
+        <input id="origin" list="buildings" placeholder="Building name or code, or click the map" required>
+
+        <label for="dest">My next class is in</label>
+        <input id="dest" list="buildings" placeholder="Building name or code, or click the map" required>
+        <datalist id="buildings"></datalist>
+
+        <label for="class-time">Next class starts (be there by)</label>
+        <input id="class-time" type="time" value="14:30" required>
+
+        <details>
+          <summary>More options</summary>
+          <div class="two">
+            <div><label for="day">Day</label><input id="day" type="date" required></div>
+            <div><label for="free-from">Free from (earliest I can leave)</label><input id="free-from" type="time" required></div>
+            <div><label for="stay">Time at the event</label>
+              <select id="stay">
+                <option value="15">15 min</option>
+                <option value="30" selected>30 min</option>
+                <option value="45">45 min</option>
+                <option value="60">60 min</option>
+              </select>
+            </div>
+            <div><label for="buffer">Spare time before class</label>
+              <select id="buffer">
+                <option value="0">None</option>
+                <option value="5" selected>5 min</option>
+                <option value="10">10 min</option>
+              </select>
+            </div>
+          </div>
+        </details>
+
+        <p id="gap-msg" role="status"></p>
+      </form>
+
+      <div class="filters">
+        <div class="row" id="cats"></div>
+        <label class="check"><input type="checkbox" id="free"> Free events only</label>
+        <label class="check"><input type="checkbox" id="show-all"> Also show events I can't make</label>
+      </div>
+
+      <div id="count"></div>
+      <div id="list"></div>
+    </aside>
+    <div id="map"></div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- EVENTS, made by test_WebGIS.py -->
+  <script src="../data/events_data.js"></script>
+  <script src="route.js"></script>
+  <script src="gap.js"></script>
+</body>
+</html>

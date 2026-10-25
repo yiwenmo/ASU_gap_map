@@ -13,6 +13,7 @@ python3 -m venv .venv
 ## Where things are
 
 - `web/` - the map page (`asu_events_map.html`, `style.css`, `map.js`). Open `web/asu_events_map.html` in a browser. It reads `../data/events_data.js`, so keep the `web/` and `data/` folders next to each other.
+- `web/gap.html` (+ `gap.js`, `gap.css`, `route.js`) - the gap page: enter where you are, your next class, and the time, and it lists the events you can walk to and still make class. Needs a local server because it uses `fetch`: run `python3 -m http.server` in this folder, then open `http://localhost:8000/web/gap.html`
 - `data/events_data.js` - the event data the map reads. Made by `test_WebGIS.py`
 - `data/buildings.geojson` - Tempe campus buildings with `building_id`. Made by `pipeline/buildings.py`
 - `data/event_buildings.csv` - which building each event is in. Made by `pipeline/match_events.py`

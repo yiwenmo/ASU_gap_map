@@ -72,6 +72,8 @@ def fetch_events():
     start = pd.to_datetime(df["start_date"], format="%b %d %Y - %I:%M%p", errors="coerce")
     df["date"] = start.dt.strftime("%Y-%m-%d")
     df["start"] = start.dt.strftime("%Y-%m-%dT%H:%M")
+    end = pd.to_datetime(df["end_date"], format="%b %d %Y - %I:%M%p", errors="coerce")
+    df["end"] = end.dt.strftime("%Y-%m-%dT%H:%M")
     print(f"Fetched {len(df)} event occurrences ({df['nid'].nunique()} unique events)")
     return df
 
@@ -166,8 +168,8 @@ DATA_DIR = Path(__file__).parent / "data"
 
 def write_map(df, data_dir):
     # everything goes in the list; only events with a real address get a point
-    cols = ["nid", "title", "alias", "start_date", "start", "date", "locations",
-            "venue_address", "venue_city", "campus", "event_topics", "is_online",
+    cols = ["nid", "title", "alias", "start_date", "start", "end", "date", "locations",
+            "venue_address", "venue_city", "campus", "event_topics", "image_url", "is_online",
             "geo_source", "lat", "lon"]
     recs = df[cols].astype(object).where(df[cols].notna(), None).to_dict("records")
     for r in recs:
