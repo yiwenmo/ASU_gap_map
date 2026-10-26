@@ -2,19 +2,19 @@
 
 Yi-Wen Mo
 
-## Where we are (as of 10/22)
+## Where we are (as of 10/25)
 
 Goal: a "gap time" map. Pick where you are, where your next class is, and when it starts. The map shows events and places you can walk to and still make it to class.
 
 | Area | Part | Status | Notes |
 |---|---|---|---|
-| Data | Get events | Done | ASU Events feed (`asuevents.asu.edu/feed-json`). 500 event times (374 different events) |
-| Data | Geocode addresses | Done | Nominatim + cache. 378 of 500 have a location |
+| Data | Get events | Done (refreshed 10/25) | ASU Events feed (`asuevents.asu.edu/feed-json`). 500 event times (385 different events), 10/25 to 11/19. The feed only has upcoming events, so rerun about once a week |
+| Data | Geocode addresses | Done | Nominatim + cache. 395 of 500 have a location |
 | Data | CSV / GeoJSON output | Done | GeoJSON opens in QGIS/ArcGIS |
 | Data | End times, posters | Done (10/22) | `events_data.js` now has `end` and `image_url` for all 500 rows. Used by `web/gap.js` |
 | Data | Address fixes | Partly | 6 addresses still can't be found |
 | Data | Buildings | Done | 261 Tempe buildings in `data/buildings.geojson`, keyed by `building_id` (ASU code like `MU`, `COOR`) |
-| Data | Events → building_id | Done | `data/event_buildings.csv`. 240 of 241 Tempe events matched, 13 rows need a manual check. Used by `web/gap.js`; the old events map (`web/map.js`) doesn't use it yet |
+| Data | Events → building_id | Done | `data/event_buildings.csv`. 244 of 500 matched (the rest are online, on other campuses or off campus, or about 6 on the Tempe campus without a match), 14 rows need a manual check (8 `check`, 6 `far`). Used by `web/gap.js`; the old events map (`web/map.js`) doesn't use it yet |
 | Data | Places | Not yet | Coffee, food, study spots |
 | Data | Other sources | Not yet | Sun Devil Central, Instagram |
 | Data | Auto update | On hold | Rerun the script by hand for now |
@@ -135,3 +135,18 @@ Merged Cade's wireframe (layout, ASU colors, "plan your gap" idea) into a workin
 - The page uses `fetch`, which does not work from `file://`. Run `python3 -m http.server` in the repo root and open `http://localhost:8000/web/gap.html`.
 - Problems: ASU's image server (Cloudflare) returns 403 to headless Chrome, so screenshots only show posters when the user agent is changed. Normal browsers are fine.
 - Not done: coffee / food / study places (no data yet), saved multi-course schedule.
+
+## 10/25
+
+### Refreshed the event data (data)
+- The 10/5 data had 364 of 500 events already over, and the rest ended 10/30. Reran `test_WebGIS.py` and `pipeline/match_events.py`.
+- New data: 500 event times (385 different events), 10/25 to 11/19, all upcoming. `geo_source`: 376 address, 19 campus, 105 none. Buildings: 244 matched, 256 unmatched, 14 to review.
+- Old events are overwritten, not kept. Earlier versions are in git history.
+- To update by hand, from the repo root: `.venv/bin/python test_WebGIS.py`, then `.venv/bin/python pipeline/match_events.py`. Run them in this order.
+
+### Gap page: drag A and B (front end)
+- Problem: moving A / B was confusing. Clicking the map changed whichever box you focused last, and the pins could not be dragged.
+- A and B pins can now be dragged. On release the pin snaps to the nearest building (within 120 m) and the list is recomputed. If no building is near, it goes back.
+- Clicking the map now only fills a box that is still empty. After both are set, drag the pins. A hint on the map says so.
+- Labels made clearer: "Next class starts (be there by)" and "Free from (earliest I can leave)". The gap message now shows the time range. "Free from" is the lower bound (events over before you arrive are dropped), "class starts" is the upper bound, so in a long gap changing A or B often does not change the list, only the walking times.
+- Not done: a warning when the gap is very long, a default day that skips days with no events, a test on touch screens.
