@@ -150,3 +150,10 @@ Merged Cade's wireframe (layout, ASU colors, "plan your gap" idea) into a workin
 - Clicking the map now only fills a box that is still empty. After both are set, drag the pins. A hint on the map says so.
 - Labels made clearer: "Next class starts (be there by)" and "Free from (earliest I can leave)". The gap message now shows the time range. "Free from" is the lower bound (events over before you arrive are dropped), "class starts" is the upper bound, so in a long gap changing A or B often does not change the list, only the walking times.
 - Not done: a warning when the gap is very long, a default day that skips days with no events, a test on touch screens.
+
+## 10/26
+
+### Architecture doc (docs)
+- First draft by Mahin (branch `mahin-network-analysis`, not merged). Rewritten by Yi-Wen to match the system as built: static files, no backend, `building_id` as the join key, how the gap check runs in the browser.
+- Written together with the gap page work, which builds on Cade's wireframe (see 10/22).
+- Mahin's `test_routes.py` (same branch) was not used.
