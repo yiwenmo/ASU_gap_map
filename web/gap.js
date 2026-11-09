@@ -7,7 +7,38 @@ const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;
 const $ = id => document.getElementById(id);
 const NOT_CATEGORY = ['Free', 'Open to the public'];
 
+//Ziyi change this
 const toMin = hhmm => { const [h, m] = hhmm.split(':').map(Number); return h * 60 + m; };
+const ASU_TIME_ZONE = 'America/Phoenix';
+function getAsuTime() {
+  const parts = Object.fromEntries(
+    new Intl.DateTimeFormat('en-US', {
+      timeZone: ASU_TIME_ZONE,
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+      hourCycle: 'h23'
+    }).formatToParts(new Date())
+      .map(p => [p.type, p.value])
+  );
+  return {
+    date: `${parts.year}-${parts.month}-${parts.day}`,
+    minutes: Number(parts.hour) * 60 + Number(parts.minute)
+  };
+}
+
+//Ziyi add this function to calculate the minutes from the event start time to the chosen day
+function eventMinutes(iso, day) {
+  const [date, time] = iso.split('T');
+  const [y, m, d] = date.split('-').map(Number);
+  const [dy, dm, dd] = day.split('-').map(Number);
+  const dayDifference = (Date.UTC(y, m - 1, d) - Date.UTC(dy, dm - 1, dd)) / 60000;
+
+  return dayDifference + toMin(time.slice(0, 5));
+}
+
 const fmtTime = min => {
   const h = Math.floor(min / 60), m = Math.round(min % 60);
   return `${(h + 11) % 12 + 1}:${String(m).padStart(2, '0')} ${h < 12 ? 'AM' : 'PM'}`;
@@ -67,11 +98,15 @@ function buildingId(text) {
   return hit.length ? labelToId[hit[0]] : (buildings[t.toUpperCase()] ? t.toUpperCase() : null);
 }
 
-// "I'm free at" starts as the current time (rounded up to 5 min), so most people never touch it
+// "I'm free at" starts as the current time (rounded up to 5 min), so most people never touch it（Ziyi change this）
 function setNow() {
-  const d = new Date();
-  const m = Math.min(23 * 60 + 55, Math.ceil((d.getHours() * 60 + d.getMinutes()) / 5) * 5);
-  $('free-from').value = `${String(Math.floor(m / 60)).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}`;
+  const now = getAsuTime();
+  const m = Math.min(
+    23 * 60 + 55,
+    Math.ceil(now.minutes / 5) * 5
+  );
+  $('free-from').value =
+  `${String(Math.floor(m / 60)).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}`;
 }
 
 function save() {
@@ -104,7 +139,7 @@ function compute() {
   results = events.filter(e => e.date === day && e.building_id).map(e => {
     const evStart = toMin(e.start.slice(11, 16));
     // end can be on a later day (exhibitions, multi-day events), so count minutes from midnight of the chosen day
-    const evEnd = e.end ? (new Date(e.end) - new Date(day + 'T00:00')) / 60000 : evStart + stay;
+    const evEnd = e.end ? eventMinutes(e.end, day) : evStart + stay;
     const walkTo = matrix[o]?.[e.building_id], walkBack = matrix[e.building_id]?.[d];
     return {e, walkTo, walkBack, evStart, evEnd, ...check({freeFrom, classStart, evStart, evEnd, stay, buffer, walkTo, walkBack})};
   }).sort((a, b) => (b.ok - a.ok) || ((a.join ?? a.evStart) - (b.join ?? b.evStart)));
@@ -244,7 +279,8 @@ async function init() {
             building_id: bid[e.nid + '|' + e.start] || null, key: e.nid + '|' + e.start};
   });
 
-  $('day').value = new Date().toLocaleDateString('en-CA');
+  //Ziyi change this
+  $('day').value = getAsuTime().date;
   restore();
   setNow();
   compute();
