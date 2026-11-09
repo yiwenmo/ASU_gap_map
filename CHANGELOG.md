@@ -14,7 +14,7 @@ Goal: a "gap time" map. Pick where you are, where your next class is, and when i
 | Data | End times, posters | Done (10/22) | `events_data.js` now has `end` and `image_url` for all 500 rows. Used by `web/gap.js` |
 | Data | Address fixes | Partly | 6 addresses still can't be found |
 | Data | Buildings | Done | 261 Tempe buildings in `data/buildings.geojson`, keyed by `building_id` (ASU code like `MU`, `COOR`) |
-| Data | Events → building_id | Done | `data/event_buildings.csv`. 244 of 500 matched (the rest are online, on other campuses or off campus, or about 6 on the Tempe campus without a match), 14 rows need a manual check (8 `check`, 6 `far`). Used by `web/gap.js`; the old events map (`web/map.js`) doesn't use it yet |
+| Data | Events → building_id | Done | `data/event_buildings.csv`. 244 of 500 matched (the rest are online, on other campuses or off campus, or about 6 on the Tempe campus without a match), 10 rows need a manual check (4 `check`, 6 `far`; was 14 before the 11/9 fixes). Used by `web/gap.js`; the old events map (`web/map.js`) doesn't use it yet |
 | Data | Places | Not yet | Coffee, food, study spots |
 | Data | Other sources | Not yet | Sun Devil Central, Instagram |
 | Data | Auto update | On hold | Rerun the script by hand for now |
@@ -157,3 +157,34 @@ Merged Cade's wireframe (layout, ASU colors, "plan your gap" idea) into a workin
 - First draft by Mahin (branch `mahin-network-analysis`, not merged). Rewritten by Yi-Wen to match the system as built: static files, no backend, `building_id` as the join key, how the gap check runs in the browser.
 - Written together with the gap page work, which builds on Cade's wireframe (see 10/22).
 - Mahin's `test_routes.py` (same branch) was not used.
+
+## 11/8
+
+### Arizona time zone fix (front end) — by Ziyi, reviewed by Yi-Wen
+- Problem: the pages used the browser's time zone for "now" and "today". Someone outside Arizona got a wrong default "free from" time, a wrong default day, and a wrong "Today / next 7 days" filter.
+- `web/gap.js`: new `getAsuTime()` (current date and minutes in `America/Phoenix`). The default day and the default "free from" time now use it.
+- `web/gap.js`: new `eventMinutes()` for the event end time. The old `new Date(e.end) - new Date(day + 'T00:00')` used the browser's time zone. The feed times are Arizona wall-clock with no offset, so the new version does plain arithmetic on the numbers.
+- `web/map.js`: new `asuToday()`. `dateOk()` now compares `YYYY-MM-DD` strings instead of `Date` objects.
+- Checked by Yi-Wen: ran `eventMinutes()` on all 500 events with the machine set to Phoenix, Taipei and New York. Same result in all three, no `NaN`, and it matches the plain-number calculation. No other place in `web/` still uses the local clock. Logic is correct, so only comments and layout were changed (Ziyi's `//Ziyi change this` notes now explain why).
+- Known limits: an offset in the feed times ("-07:00" or "Z") would be ignored. `getAsuTime()` (gap.js) and `asuToday()` (map.js) are two copies of the same idea because the pages don't share a script. Not tested on Safari older than 14 (`hourCycle`).
+
+### Review sheet for the 14 flagged building matches (docs) — by Ziyi
+- New `docs/14check.xlsx`: one row per flagged row in `data/event_buildings.csv` (8 `check`, 6 `far`), with the change needed. "CSV Row" is the line number in the file, header = line 1. Row numbers checked against the CSV, they match.
+- Applied on 11/9, see below. Changes the sheet asks for:
+  - Change `building_id`: row 195 `VDSK` → `VDSDM`, row 246 `ECA` → `STPV`, row 469 `CHUPA` → `SDFCT`, row 483 `ECA` → `STPV`.
+  - Keep `building_id`, no change: rows 95, 233, 460 (`VDSK`) and 454 (`ADELM`).
+  - Keep `building_id`, fix the geocoded coordinates only: rows 47, 202, 340, 448 (`FAC`) and 55, 257 (`ISTB4`). This only affects the old events map (`web/map.js`, uses lat/lon). The gap page uses `building_id`, so it is not affected.
+- Still to do: the 6 coordinate fixes (they only affect the old events map).
+
+## 11/9
+
+### Fixed 4 building matches (data) — from Ziyi's review sheet
+- `pipeline/match_events.py` rewrites `data/event_buildings.csv` from scratch on every run, and "CSV row" numbers move when the events are refreshed. So the fixes are **not** hand edits in the CSV. They are three new rules in `MANUAL` (keyed on the location text, so they survive a refresh):
+  - `gold dome` → `VDSDM` (was `VDSK`)
+  - `student pavillion` → `STPV` (was `ECA`; the feed misspells "Pavilion")
+  - `sun devil fitness center` → `SDFCT` (was `CHUPA`)
+- These 4 events were all `nearest` guesses (`check`) that picked the building next door. They are now `name` matches and no longer flagged.
+- Checked before saving: a run with no changes reproduces the committed CSV exactly. With the new rules exactly 4 rows changed (lines 195, 246, 469, 483), and each keyword matches only the events it was meant for. Result: 163 name / 77 address / 4 nearest / 256 unmatched, 10 review rows (was 14).
+- `dist_m` for these rows is now 118 to 207 m (distance from the geocoded point to the building). All under the 250 m `far` limit, so none are flagged.
+- Still flagged: the 6 `far` rows (`FAC` ×4, `ISTB4` ×2). The building is right, the geocoded point is wrong, so they stay flagged until the coordinates are fixed. Only the old events map (`web/map.js`, uses lat/lon) is affected.
+- Rows 95, 233, 460 (`VDSK`) and 454 (`ADELM`) are correct, but they stay `check` because the script cannot tell. Ziyi confirmed them by hand in `docs/14check.xlsx`.
