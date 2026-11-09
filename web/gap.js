@@ -7,8 +7,10 @@ const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;
 const $ = id => document.getElementById(id);
 const NOT_CATEGORY = ['Free', 'Open to the public'];
 
-//Ziyi change this
 const toMin = hhmm => { const [h, m] = hhmm.split(':').map(Number); return h * 60 + m; };
+// "Now" and "today" must be Arizona time, not the browser's. Someone opening the page from
+// another time zone would otherwise get a wrong default time/day and a wrong gap check.
+// Arizona has no daylight saving, so the offset never changes. (Added by Ziyi.)
 const ASU_TIME_ZONE = 'America/Phoenix';
 function getAsuTime() {
   const parts = Object.fromEntries(
@@ -29,7 +31,11 @@ function getAsuTime() {
   };
 }
 
-//Ziyi add this function to calculate the minutes from the event start time to the chosen day
+// Minutes from midnight of `day` (YYYY-MM-DD) to the event's time `iso` (YYYY-MM-DDTHH:MM).
+// Can exceed 1440 when the event ends on a later day (exhibitions, multi-day events).
+// The feed times are Arizona wall-clock with no offset, so this reads them as plain numbers
+// and never goes through `new Date(...)`, which would use the browser's time zone.
+// If the feed ever adds an offset ("-07:00" / "Z"), it is ignored here. (Added by Ziyi.)
 function eventMinutes(iso, day) {
   const [date, time] = iso.split('T');
   const [y, m, d] = date.split('-').map(Number);
@@ -98,15 +104,10 @@ function buildingId(text) {
   return hit.length ? labelToId[hit[0]] : (buildings[t.toUpperCase()] ? t.toUpperCase() : null);
 }
 
-// "I'm free at" starts as the current time (rounded up to 5 min), so most people never touch it（Ziyi change this）
+// "I'm free at" starts as the current Arizona time (rounded up to 5 min), so most people never touch it
 function setNow() {
-  const now = getAsuTime();
-  const m = Math.min(
-    23 * 60 + 55,
-    Math.ceil(now.minutes / 5) * 5
-  );
-  $('free-from').value =
-  `${String(Math.floor(m / 60)).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}`;
+  const m = Math.min(23 * 60 + 55, Math.ceil(getAsuTime().minutes / 5) * 5);
+  $('free-from').value = `${String(Math.floor(m / 60)).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}`;
 }
 
 function save() {
@@ -279,7 +280,7 @@ async function init() {
             building_id: bid[e.nid + '|' + e.start] || null, key: e.nid + '|' + e.start};
   });
 
-  //Ziyi change this
+  // default day = today in Arizona (not the browser's local date)
   $('day').value = getAsuTime().date;
   restore();
   setNow();

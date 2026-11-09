@@ -2,7 +2,8 @@
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
-// Ziyi add this to get today's date in Arizona
+// Today's date (YYYY-MM-DD) in Arizona, so the "Today / next 7 days" filter does not depend on the
+// browser's time zone. Same idea as getAsuTime() in gap.js; the two pages don't share a script. (Added by Ziyi.)
 function asuToday() {
   const parts = Object.fromEntries(
     new Intl.DateTimeFormat('en-US', {
@@ -58,7 +59,8 @@ new Map(events.map(e => [e.nid, e])).forEach(e => e.cats.forEach(c => catCount[c
 document.getElementById('cats').innerHTML = Object.keys(catCount).sort((a, b) => catCount[b] - catCount[a])
   .map(c => `<button class="chip" data-cat="${esc(c)}">${esc(c)}<span class="n">${catCount[c]}</span></button>`).join('');
 
-//Ziyi change this 
+// `d` and `today` are YYYY-MM-DD strings, so plain string comparison orders them correctly.
+// The end date is built with Date.UTC so adding days is not shifted by the browser's time zone.
 function dateOk(d) {
   if (state.when === 'all') return true;
   const today = asuToday();
