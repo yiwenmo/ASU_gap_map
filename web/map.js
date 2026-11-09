@@ -2,6 +2,20 @@
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
+// Ziyi add this to get today's date in Arizona
+function asuToday() {
+  const parts = Object.fromEntries(
+    new Intl.DateTimeFormat('en-US', {
+      timeZone: 'America/Phoenix',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit'
+    }).formatToParts(new Date())
+      .map(p => [p.type, p.value])
+  );
+  return `${parts.year}-${parts.month}-${parts.day}`;
+}
+
 // "Free" and "Open to the public" are on almost everything, so they're not categories
 const NOT_CATEGORY = ['Free', 'Open to the public'];
 const events = EVENTS.map(e => {
@@ -44,12 +58,13 @@ new Map(events.map(e => [e.nid, e])).forEach(e => e.cats.forEach(c => catCount[c
 document.getElementById('cats').innerHTML = Object.keys(catCount).sort((a, b) => catCount[b] - catCount[a])
   .map(c => `<button class="chip" data-cat="${esc(c)}">${esc(c)}<span class="n">${catCount[c]}</span></button>`).join('');
 
+//Ziyi change this 
 function dateOk(d) {
   if (state.when === 'all') return true;
-  const today = new Date(); today.setHours(0, 0, 0, 0);
-  const end = new Date(today); end.setDate(end.getDate() + Number(state.when));
-  const day = new Date(d + 'T00:00:00');
-  return day >= today && day <= end;
+  const today = asuToday();
+  const [y, m, day] = today.split('-').map(Number);
+  const end = new Date( Date.UTC(y, m - 1, day + Number(state.when))).toISOString().slice(0, 10);
+  return d >= today && d <= end;
 }
 
 function matches(e) {
