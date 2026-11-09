@@ -41,6 +41,11 @@ MANUAL = {
     "life sciences center e": "LSE",        # ASU calls it "Life Sciences Tower E-Wing"
     "istb 4": "ISTB4",                       # "ISTB-4" / "ISTB 4" in event text
     "marston": "ISTB4",                      # Marston Exploration Theater is in ISTB 4
+    # Added 11/9 after Ziyi's review (docs/14check.xlsx). These were "nearest" guesses that picked the
+    # building next door. Keyed on the location text, not a CSV row, so it survives a refresh of the events.
+    "gold dome": "VDSDM",                    # Vista del Sol Dome; nearest guess was VDSK
+    "student pavillion": "STPV",             # feed misspells "Pavilion"; nearest guess was ECA
+    "sun devil fitness center": "SDFCT",     # ASU calls it "Sun Devil Fitness Complex"; nearest guess was CHUPA
 }
 
 # Too generic: matches off-campus places (e.g. "Changing Hands Bookstore Tempe")
