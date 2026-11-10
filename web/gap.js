@@ -267,7 +267,12 @@ async function init() {
     const p = f.properties;
     if (!matrix[p.building_id]) return;   // no walking times for this building
     buildings[p.building_id] = {name: p.name, lon: f.geometry.coordinates[0], lat: f.geometry.coordinates[1]};
-    labelToId[`${p.name} (${p.building_id})`] = p.building_id;
+   
+    const labels = [p.name, ...(p.aliases || [])];
+
+    [...new Set(labels)].forEach(label => {
+     labelToId[`${label} (${p.building_id})`] = p.building_id;
+    });
   });
   $('buildings').innerHTML = Object.keys(labelToId).sort().map(l => `<option value="${esc(l)}">`).join('');
 
