@@ -188,3 +188,14 @@ Merged Cade's wireframe (layout, ASU colors, "plan your gap" idea) into a workin
 - `dist_m` for these rows is now 118 to 207 m (distance from the geocoded point to the building). All under the 250 m `far` limit, so none are flagged.
 - Still flagged: the 6 `far` rows (`FAC` ×4, `ISTB4` ×2). The building is right, the geocoded point is wrong, so they stay flagged until the coordinates are fixed. Only the old events map (`web/map.js`, uses lat/lon) is affected.
 - Rows 95, 233, 460 (`VDSK`) and 454 (`ADELM`) are correct, but they stay `check` because the script cannot tell. Ziyi confirmed them by hand in `docs/14check.xlsx`.
+
+## 11/11
+
+### Search names for ASU Gammage and the Walton Center (data, front end) — by Mahin, reviewed by Yi-Wen
+- Problem: in the 10-route check against Google Maps, "ASU Gammage" and the Robert and Walton Planetary Center looked missing. They were not. Both (`GGMA`, `WCPH`) were already in `data/buildings.geojson`, the entrance data and `walk_matrix.json`. They could not be found by the names people use. (The Walton Center footprint is also missing from the basemap. That is a basemap limit, not our data.)
+- `pipeline/buildings.py`: new `NAME_OVERRIDES` (display names "ASU Gammage" and "Walton Center for Planetary Health") and `SEARCH_ALIASES` (e.g. "Grady Gammage", "Robert and Melani Walton Center for Planetary Health"). Only these two buildings are affected. The alias list is now de-duplicated, which also removed repeated aliases like `054A` for other buildings.
+- `web/gap.js`: the search list now offers every alias of a building, not only its main name. Each one still resolves to the same `building_id`. The list grew from 261 to 766 options because building numbers and codes (e.g. "001 (GGMA)") are searchable too.
+- `building_id`, coordinates, entrances and `walk_matrix.json` are unchanged.
+- Checked by Yi-Wen: ran the gap page in headless Chrome on `main` and on the branch. "ASU Gammage", "Grady Gammage", the Walton Center names, `GGMA` and `WCPH` all pick the right building on the branch (the first two names and the long Walton name were not found on `main`). Walking times are the same in both (GGMA to Memorial Union 7 min, WCPH 15 min). No JavaScript errors. Typing "Gammage" also lists Dixie Gammage Hall and Gammage Pkwy Solar. They are other buildings, and that was already so before.
+- Discovery Hall: our 17 min vs Google 19 min. Its entrance is made from the building outline (OSM has no `entrance=*` there), but the point matches an OSM node where a path meets the building and the network snap is 0 m. Left as is.
+- Next (Mahin): a small manual entrance override for Coor Hall (and Memorial Union if needed), as a separate PR.
