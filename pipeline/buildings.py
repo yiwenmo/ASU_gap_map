@@ -19,6 +19,25 @@ LAYER_URL = "https://gis.m.asu.edu/server/rest/services/FDM/UniversityFacilities
 USER_AGENT = "ASU-CICI-WebGIS-research/0.1"
 TEMPE_CAMPUS_CODE = "MC"  # Main Campus (Tempe)
 
+# Student-friendly display names for buildings whose Facilities names
+# differ from the names commonly used on campus.
+NAME_OVERRIDES = {
+    "GGMA": "ASU Gammage",
+    "WCPH": "Walton Center for Planetary Health",
+}
+
+SEARCH_ALIASES = {
+    "GGMA": [
+        "ASU Gammage",
+        "Grady Gammage",
+        "Grady Gammage Memorial Auditorium",
+    ],
+    "WCPH": [
+        "Walton Center for Planetary Health",
+        "Robert and Melani Walton Center for Planetary Health",
+    ],
+}
+
 OUT_FILE = Path(__file__).parent.parent / "data" / "buildings.geojson"
 
 
@@ -60,13 +79,20 @@ def build(features):
             n = f["properties"]["BLDG_NAME"].title()
             if n not in names:
                 names.append(n)
-        aliases = names + [code] + [f["properties"]["BLDG_NUMBER"] for f in fs]
+        aliases = (
+            names
+            + SEARCH_ALIASES.get(code, [])
+            + [code]
+            + [f["properties"]["BLDG_NUMBER"] for f in fs]
+        )
+        aliases = list(dict.fromkeys(aliases))
+        
         out.append({
             "type": "Feature",
             "geometry": {"type": "Point", "coordinates": [sum(lons) / len(lons), sum(lats) / len(lats)]},
             "properties": {
                 "building_id": code,
-                "name": main["BLDG_NAME"].title(),
+                "name": NAME_OVERRIDES.get(code, main["BLDG_NAME"].title()),
                 "aliases": aliases,
                 "address": (main["BLDG_ADDRESS"] or "").title(),
                 "bldg_numbers": [f["properties"]["BLDG_NUMBER"] for f in fs],

@@ -15,7 +15,6 @@
     "name": "Interdisciplinary Science And Technology Bldg Ii Support",
     "aliases": [
      "Interdisciplinary Science And Technology Bldg Ii Support",
-     "054A",
      "054A"
     ],
     "address": "848 S. Mcallister Avenue",
@@ -39,7 +38,6 @@
     "name": "Tempe Campus Infrastructure",
     "aliases": [
      "Tempe Campus Infrastructure",
-     "077X",
      "077X"
     ],
     "address": "1551 S. Rural Rd.",
@@ -63,7 +61,6 @@
     "name": "South Storage",
     "aliases": [
      "South Storage",
-     "128H",
      "128H"
     ],
     "address": "371 S. Rural Road",
@@ -87,7 +84,6 @@
     "name": "Barrett College Fire Pump House",
     "aliases": [
      "Barrett College Fire Pump House",
-     "173J",
      "173J"
     ],
     "address": "851 E. Lemon St.",
@@ -111,7 +107,6 @@
     "name": "Grounds Maintenance Facility",
     "aliases": [
      "Grounds Maintenance Facility",
-     "176",
      "176"
     ],
     "address": "1420 S. Jen Tilly Lane",
@@ -135,7 +130,6 @@
     "name": "Recreation And Sports Fields Restroom",
     "aliases": [
      "Recreation And Sports Fields Restroom",
-     "183",
      "183"
     ],
     "address": "510 S. Dorsey Ln.",
@@ -159,7 +153,6 @@
     "name": "Locker Annex",
     "aliases": [
      "Locker Annex",
-     "185A",
      "185A"
     ],
     "address": "321 S. Packard Drive",
@@ -183,7 +176,6 @@
     "name": "Brix Apartments A",
     "aliases": [
      "Brix Apartments A",
-     "186A",
      "186A"
     ],
     "address": "1424 S. Jentilly Ln.",
@@ -207,7 +199,6 @@
     "name": "Brix Apartments B",
     "aliases": [
      "Brix Apartments B",
-     "186B",
      "186B"
     ],
     "address": "1424 S. Jentilly Ln.",
@@ -231,7 +222,6 @@
     "name": "(Tempe District Utility Plant)",
     "aliases": [
      "(Tempe District Utility Plant)",
-     "190",
      "190"
     ],
     "address": "68 E. 10Th Street",
@@ -1860,9 +1850,11 @@
    },
    "properties": {
     "building_id": "GGMA",
-    "name": "Grady Gammage Memorial Auditorium",
+    "name": "ASU Gammage",
     "aliases": [
      "Grady Gammage Memorial Auditorium",
+     "ASU Gammage",
+     "Grady Gammage",
      "GGMA",
      "001"
     ],
@@ -2520,7 +2512,6 @@
     "name": "Antenna - Stauffer Hall West",
     "aliases": [
      "Antenna - Stauffer Hall West",
-     "L01",
      "L01"
     ],
     "address": "950 S. Forest Mall",
@@ -2544,7 +2535,6 @@
     "name": "Aquatic Complex - Main Area",
     "aliases": [
      "Aquatic Complex - Main Area",
-     "L03",
      "L03"
     ],
     "address": "601 S. College Avenue",
@@ -2568,7 +2558,6 @@
     "name": "N.E. Fields - Kajikawa Football Practice Fields",
     "aliases": [
      "N.E. Fields - Kajikawa Football Practice Fields",
-     "L04",
      "L04"
     ],
     "address": "499 S. Rural Rd.",
@@ -2592,7 +2581,6 @@
     "name": "N.E. Fields - Band Practice Field",
     "aliases": [
      "N.E. Fields - Band Practice Field",
-     "L05",
      "L05"
     ],
     "address": "411 S. Rural Rd.",
@@ -2616,7 +2604,6 @@
     "name": "N.E. Fields - Softball",
     "aliases": [
      "N.E. Fields - Softball",
-     "L07",
      "L07"
     ],
     "address": "510 S. Athletes Place",
@@ -2640,7 +2627,6 @@
     "name": "Sun Angel Stadium - Yard",
     "aliases": [
      "Sun Angel Stadium - Yard",
-     "L09",
      "L09"
     ],
     "address": "401 S. Packard Drive",
@@ -2664,7 +2650,6 @@
     "name": "Engineering Gas Canister Stor.",
     "aliases": [
      "Engineering Gas Canister Stor.",
-     "L14",
      "L14"
     ],
     "address": "551 E. Tyler Mall",
@@ -2688,7 +2673,6 @@
     "name": "Sonora - East Area",
     "aliases": [
      "Sonora - East Area",
-     "L16",
      "L16"
     ],
     "address": "1480 S. Rural Rd.",
@@ -2712,7 +2696,6 @@
     "name": "213/215 E. Sixth St.",
     "aliases": [
      "213/215 E. Sixth St.",
-     "L167",
      "L167"
     ],
     "address": "213/215 E. Sixth St.",
@@ -2736,7 +2719,6 @@
     "name": "Soccer & Lacrosse Field",
     "aliases": [
      "Soccer & Lacrosse Field",
-     "L19",
      "L19"
     ],
     "address": "655 S. Athletes Place",
@@ -2760,7 +2742,6 @@
     "name": "Desert Arboretum Park",
     "aliases": [
      "Desert Arboretum Park",
-     "L20",
      "L20"
     ],
     "address": "556 S. Packard Drive",
@@ -2784,7 +2765,6 @@
     "name": "Grounds Fenced Yard 'Boneyard'",
     "aliases": [
      "Grounds Fenced Yard 'Boneyard'",
-     "L22",
      "L22"
     ],
     "address": "675 S. Athletes Place",
@@ -2808,7 +2788,6 @@
     "name": "Us Weather Station",
     "aliases": [
      "Us Weather Station",
-     "L28",
      "L28"
     ],
     "address": "505 S. Rural Road",
@@ -2832,7 +2811,6 @@
     "name": "T-Mobile Monopalm At Karsten Gc",
     "aliases": [
      "T-Mobile Monopalm At Karsten Gc",
-     "L31",
      "L31"
     ],
     "address": "1125 E. Rio Salado Parkway",
@@ -2856,7 +2834,6 @@
     "name": "Field 1",
     "aliases": [
      "Field 1",
-     "L34",
      "L34"
     ],
     "address": "520 S. Dorsey Ln.",
@@ -2880,7 +2857,6 @@
     "name": "Field 2",
     "aliases": [
      "Field 2",
-     "L35",
      "L35"
     ],
     "address": "530 S. Dorsey Ln.",
@@ -2904,7 +2880,6 @@
     "name": "Field 3",
     "aliases": [
      "Field 3",
-     "L36",
      "L36"
     ],
     "address": "540 S. Dorsey Ln.",
@@ -2928,7 +2903,6 @@
     "name": "Field 4",
     "aliases": [
      "Field 4",
-     "L37",
      "L37"
     ],
     "address": "450 S. Dorsey Ln.",
@@ -4335,7 +4309,6 @@
     "name": "Fulton Center Parking Structure",
     "aliases": [
      "Fulton Center Parking Structure",
-     "RP01",
      "RP01"
     ],
     "address": "717 S. College Avenue",
@@ -4359,7 +4332,6 @@
     "name": "Brickyard Parking Garage",
     "aliases": [
      "Brickyard Parking Garage",
-     "RP02",
      "RP02"
     ],
     "address": "699 S. Mill Ave.",
@@ -5778,9 +5750,11 @@
    },
    "properties": {
     "building_id": "WCPH",
-    "name": "Walton Center For Planetary Health",
+    "name": "Walton Center for Planetary Health",
     "aliases": [
      "Walton Center For Planetary Health",
+     "Walton Center for Planetary Health",
+     "Robert and Melani Walton Center for Planetary Health",
      "WCPH",
      "079"
     ],
@@ -6021,7 +5995,6 @@
     "name": "Src Pump House",
     "aliases": [
      "Src Pump House",
-     "X28",
      "X28"
     ],
     "address": "1200 S. Mcallister Ave.",
@@ -6045,7 +6018,6 @@
     "name": "Grounds Department Agricultural Chemical Storage",
     "aliases": [
      "Grounds Department Agricultural Chemical Storage",
-     "X39",
      "X39"
     ],
     "address": "1603 S. Mcallister Ave.",
@@ -6069,7 +6041,6 @@
     "name": "West Sub-Station (Meter At Cp)",
     "aliases": [
      "West Sub-Station (Meter At Cp)",
-     "X40",
      "X40"
     ],
     "address": "951 S. Myrtle Ave.",
@@ -6093,7 +6064,6 @@
     "name": "North Sub-Station (Meter #E68972)",
     "aliases": [
      "North Sub-Station (Meter #E68972)",
-     "X41",
      "X41"
     ],
     "address": "711 S. Alpha Dr.",
@@ -6117,7 +6087,6 @@
     "name": "South Sub-Station (Meter #J77961)",
     "aliases": [
      "South Sub-Station (Meter #J77961)",
-     "X42",
      "X42"
     ],
     "address": "780 E. Lemon St.",
@@ -6141,7 +6110,6 @@
     "name": "Skyspace Ramada",
     "aliases": [
      "Skyspace Ramada",
-     "X62",
      "X62"
     ],
     "address": "840 E. Terrace Mall",
@@ -6165,7 +6133,6 @@
     "name": "Gammage Pkwy Solar",
     "aliases": [
      "Gammage Pkwy Solar",
-     "X72",
      "X72"
     ],
     "address": "",
@@ -6189,7 +6156,6 @@
     "name": "Orange - Cady Malls Solar",
     "aliases": [
      "Orange - Cady Malls Solar",
-     "X73",
      "X73"
     ],
     "address": "",
@@ -6213,7 +6179,6 @@
     "name": "Pump & Electrical Station",
     "aliases": [
      "Pump & Electrical Station",
-     "X88",
      "X88"
     ],
     "address": "490 S. Dorsey Ln.",
@@ -6237,7 +6202,6 @@
     "name": "Carbon Tree",
     "aliases": [
      "Carbon Tree",
-     "X95",
      "X95"
     ],
     "address": "846 E. Tyler Street",
@@ -6261,7 +6225,6 @@
     "name": "University Drive Pedestrian Bridge",
     "aliases": [
      "University Drive Pedestrian Bridge",
-     "X96",
      "X96"
     ],
     "address": "757 E. University Drive",
