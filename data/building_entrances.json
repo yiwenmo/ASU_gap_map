@@ -260,9 +260,9 @@
   "source": "outline"
  },
  "COOR": {
-  "lon": -111.937518,
-  "lat": 33.420036,
-  "source": "outline"
+  "lon": -111.936699,
+  "lat": 33.419427,
+  "source": "manual"
  },
  "COWDN": {
   "lon": -111.93568,
@@ -720,9 +720,9 @@
   "source": "outline"
  },
  "MU": {
-  "lon": -111.934571,
-  "lat": 33.41815,
-  "source": "outline"
+  "lon": -111.934661,
+  "lat": 33.417929,
+  "source": "manual"
  },
  "MUR": {
   "lon": -111.933149,
