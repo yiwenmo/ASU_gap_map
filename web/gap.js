@@ -263,16 +263,28 @@ async function init() {
     fetch('../data/event_buildings.csv').then(r => r.text()),
     fetch('../data/walk_matrix.json').then(r => r.json())]);
   matrix = mat;
+  // The list offers each building's name plus its other names ("Grady Gammage"), shown as plain names.
+  // The code ("GGMA") and the Facilities number ("001") mean nothing to a student, so they are not listed.
+  // Typing a code like GGMA still works, see buildingId(). Names that differ only in capital letters count
+  // as one. If two different buildings ever share a name, the code is added after it so they stay apart.
+  const entries = [];   // [label, building_id]
   geo.features.forEach(f => {
     const p = f.properties;
     if (!matrix[p.building_id]) return;   // no walking times for this building
     buildings[p.building_id] = {name: p.name, lon: f.geometry.coordinates[0], lat: f.geometry.coordinates[1]};
-   
-    const labels = [p.name, ...(p.aliases || [])];
-
-    [...new Set(labels)].forEach(label => {
-     labelToId[`${label} (${p.building_id})`] = p.building_id;
+    const skip = new Set([p.building_id, ...(p.bldg_numbers || [])].map(s => s.toLowerCase()));
+    const seen = new Set();
+    [p.name, ...(p.aliases || [])].forEach(label => {
+      const key = label.toLowerCase();
+      if (skip.has(key) || seen.has(key)) return;
+      seen.add(key);
+      entries.push([label, p.building_id]);
     });
+  });
+  const owners = {};   // lower-case name -> number of buildings that use it
+  entries.forEach(([label]) => { owners[label.toLowerCase()] = (owners[label.toLowerCase()] || 0) + 1; });
+  entries.forEach(([label, id]) => {
+    labelToId[owners[label.toLowerCase()] > 1 ? `${label} (${id})` : label] = id;
   });
   $('buildings').innerHTML = Object.keys(labelToId).sort().map(l => `<option value="${esc(l)}">`).join('');
 
