@@ -1,0 +1,855 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9348025,
+          33.423144
+        ]
+      },
+      "properties": {
+        "id": "osm_node_11663588712",
+        "name": "Cafetal Coffee",
+        "category": "coffee",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9393084,
+          33.4229949
+        ]
+      },
+      "properties": {
+        "id": "osm_node_9583875552",
+        "name": "Cup of Joe Market Caf\u00e9",
+        "category": "coffee",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9260221,
+          33.4169741
+        ]
+      },
+      "properties": {
+        "id": "osm_way_544152059",
+        "name": "Dutch Bros. Coffee",
+        "category": "coffee",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.936142,
+          33.4230549
+        ]
+      },
+      "properties": {
+        "id": "osm_node_11938352115",
+        "name": "Happy Joe Coffee",
+        "category": "coffee",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9368764,
+          33.4235321
+        ]
+      },
+      "properties": {
+        "id": "osm_way_1484826914",
+        "name": "Laymoon Cafe",
+        "category": "coffee",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9351966,
+          33.4250041
+        ]
+      },
+      "properties": {
+        "id": "osm_node_5986784057",
+        "name": "Royal Coffee Bar",
+        "category": "coffee",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9341397,
+          33.4165993
+        ]
+      },
+      "properties": {
+        "id": "osm_node_797499498",
+        "name": "Starbucks",
+        "category": "coffee",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9318422,
+          33.4179994
+        ]
+      },
+      "properties": {
+        "id": "osm_node_798622870",
+        "name": "Starbucks",
+        "category": "coffee",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9323336,
+          33.4226209
+        ]
+      },
+      "properties": {
+        "id": "osm_node_9115796330",
+        "name": "Starbucks",
+        "category": "coffee",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9318472,
+          33.4204632
+        ]
+      },
+      "properties": {
+        "id": "osm_way_574632563",
+        "name": "The Cr\u00eape Club",
+        "category": "coffee",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9383532,
+          33.4230062
+        ]
+      },
+      "properties": {
+        "id": "osm_node_12187226306",
+        "name": "Bonchon Chicken",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9290362,
+          33.4142986
+        ]
+      },
+      "properties": {
+        "id": "osm_node_3723792707",
+        "name": "Domino's",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.934691,
+          33.41806
+        ]
+      },
+      "properties": {
+        "id": "osm_node_775275980",
+        "name": "Einstein Bros. Bagels",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.929277,
+          33.4142148
+        ]
+      },
+      "properties": {
+        "id": "osm_node_8551951696",
+        "name": "Everbowl",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.929036,
+          33.4143859
+        ]
+      },
+      "properties": {
+        "id": "osm_node_3723792706",
+        "name": "Fatburger",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9401765,
+          33.4239832
+        ]
+      },
+      "properties": {
+        "id": "osm_node_2391078492",
+        "name": "Five Guys",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9272886,
+          33.4235609
+        ]
+      },
+      "properties": {
+        "id": "osm_way_1464064934",
+        "name": "Flower Child",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9387328,
+          33.4240144
+        ]
+      },
+      "properties": {
+        "id": "osm_node_13309331069",
+        "name": "Foch",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9266643,
+          33.4131247
+        ]
+      },
+      "properties": {
+        "id": "osm_way_261331958",
+        "name": "Hawaiian Bros Island Grill",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.939388,
+          33.4239516
+        ]
+      },
+      "properties": {
+        "id": "osm_node_9533145162",
+        "name": "Ike's Love and Sandwiches",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9290372,
+          33.4144553
+        ]
+      },
+      "properties": {
+        "id": "osm_node_3723792705",
+        "name": "Jimmy John's",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.939677,
+          33.4235414
+        ]
+      },
+      "properties": {
+        "id": "osm_node_2391078486",
+        "name": "Matsuri Izakaya on Mill",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.925914,
+          33.415783
+        ]
+      },
+      "properties": {
+        "id": "osm_way_544152066",
+        "name": "McDonald's",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9351724,
+          33.4253067
+        ]
+      },
+      "properties": {
+        "id": "osm_node_5986784058",
+        "name": "Mr Fries Man",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.934805,
+          33.422923
+        ]
+      },
+      "properties": {
+        "id": "osm_node_2819176341",
+        "name": "My Pie Pizza",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9271741,
+          33.4243172
+        ]
+      },
+      "properties": {
+        "id": "osm_way_1464064931",
+        "name": "North Italia",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.937184,
+          33.4221082
+        ]
+      },
+      "properties": {
+        "id": "osm_node_12208368428",
+        "name": "N\u00e9kter Juice Bar",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9396408,
+          33.4241867
+        ]
+      },
+      "properties": {
+        "id": "osm_node_13836356276",
+        "name": "OG Taco",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9394016,
+          33.4241975
+        ]
+      },
+      "properties": {
+        "id": "osm_node_8420775350",
+        "name": "OG Taco Shop",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9290219,
+          33.4140704
+        ]
+      },
+      "properties": {
+        "id": "osm_node_4716105522",
+        "name": "Osaka Grill Teriyaki & Roll",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9347739,
+          33.4225719
+        ]
+      },
+      "properties": {
+        "id": "osm_node_3117586990",
+        "name": "Panda Express",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9363324,
+          33.4230401
+        ]
+      },
+      "properties": {
+        "id": "osm_node_12732531625",
+        "name": "Pokeworks",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9401911,
+          33.4237537
+        ]
+      },
+      "properties": {
+        "id": "osm_node_2391078491",
+        "name": "Prince Street Pizza",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9364987,
+          33.4229899
+        ]
+      },
+      "properties": {
+        "id": "osm_node_10778845100",
+        "name": "Rusty Taco",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9395443,
+          33.4242124
+        ]
+      },
+      "properties": {
+        "id": "osm_node_1698683429",
+        "name": "Slices pizza by the slice",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.934742,
+          33.4237521
+        ]
+      },
+      "properties": {
+        "id": "osm_node_4716174442",
+        "name": "Snooze",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9290206,
+          33.4141298
+        ]
+      },
+      "properties": {
+        "id": "osm_node_8551962958",
+        "name": "Spitz - ASU",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9402226,
+          33.4193031
+        ]
+      },
+      "properties": {
+        "id": "osm_way_576530397",
+        "name": "Subway",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9397847,
+          33.4233767
+        ]
+      },
+      "properties": {
+        "id": "osm_node_12185288738",
+        "name": "Taco Boy's",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9347633,
+          33.4244464
+        ]
+      },
+      "properties": {
+        "id": "osm_node_14280933586",
+        "name": "Taco Chelo",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9347633,
+          33.4244464
+        ]
+      },
+      "properties": {
+        "id": "osm_node_14282129268",
+        "name": "Taco Chelo",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9258984,
+          33.4162889
+        ]
+      },
+      "properties": {
+        "id": "osm_way_544152063",
+        "name": "Thai Basil",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9305789,
+          33.4228426
+        ]
+      },
+      "properties": {
+        "id": "osm_way_30420488",
+        "name": "The Bodhi",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9394825,
+          33.4242121
+        ]
+      },
+      "properties": {
+        "id": "osm_node_1698683471",
+        "name": "The Munchies Cafe",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.936028,
+          33.414428
+        ]
+      },
+      "properties": {
+        "id": "osm_node_1276254050",
+        "name": "The Normal Diner",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9322604,
+          33.4232049
+        ]
+      },
+      "properties": {
+        "id": "osm_way_1123251436",
+        "name": "Tooker House Dining",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9267428,
+          33.413632
+        ]
+      },
+      "properties": {
+        "id": "osm_way_1229184655",
+        "name": "Voodoo Doughnut",
+        "category": "food",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9345787,
+          33.4190232
+        ]
+      },
+      "properties": {
+        "id": "osm_way_28822655",
+        "name": "Hayden Library",
+        "category": "study",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9352321,
+          33.4190336
+        ]
+      },
+      "properties": {
+        "id": "osm_way_28822657",
+        "name": "Hayden Library Concourse",
+        "category": "study",
+        "building_id": null,
+        "hours": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9296521,
+          33.4171274
+        ]
+      },
+      "properties": {
+        "id": "osm_way_28878390",
+        "name": "Ross-Blakley Hall",
+        "category": "study",
+        "building_id": null,
+        "hours": null
+      }
+    }
+  ]
+}

@@ -324,14 +324,25 @@ $('list').addEventListener('click', e => {
   card.classList.add('sel');
   if (r.ok) showRoute(r);
 });
-// click the map to fill whichever of A / B is still empty (once both are set, drag the pins instead)
+
+// Only allow map clicks to update the event planner
+// while Plan Your Gap is active.
 map.on('click', ev => {
+  // Ignore map clicks when Explore Campus is active.
+  if (!$('explore-view').hidden) return;
+
   const best = nearestBuilding(ev.latlng);
   if (!best) return;
+
   const [o, d] = ids();
-  if (!o) setField('origin', best);
-  else if (!d) setField('dest', best);
+
+  if (!o) {
+    setField('origin', best);
+  } else if (!d) {
+    setField('dest', best);
+  }
 });
+
 const hint = L.control({position: 'bottomleft'});
 hint.onAdd = () => L.DomUtil.create('div', 'map-hint');
 hint.addTo(map);

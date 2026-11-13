@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -12,62 +13,128 @@
     <aside>
       <header>
         <h1>ASU Gap Map</h1>
-        <p>Events you can walk to and still make your next class. Tempe campus.</p>
+        <p>Make the most of your time on ASU's Tempe campus.</p>
       </header>
 
-      <form id="plan" autocomplete="off">
-        <label for="origin">I'm at</label>
-        <input id="origin" list="buildings" placeholder="Building name or code, or click the map" required>
+      <!-- Navigation between application modes -->
+      <nav class="mode-nav" aria-label="Map mode">
+        <button type="button" id="tab-plan"
+                class="mode-tab active"
+                aria-selected="true">
+          Plan Your Gap
+        </button>
+        <button type="button" id="tab-explore"
+                class="mode-tab"
+                aria-selected="false">
+          Explore Campus
+        </button>
+      </nav>
 
-        <label for="dest">My next class is in</label>
-        <input id="dest" list="buildings" placeholder="Building name or code, or click the map" required>
-        <datalist id="buildings"></datalist>
+      <!-- Existing event planner -->
+      <section id="plan-view">
+        <form id="plan" autocomplete="off">
+          <label for="origin">I'm at</label>
+          <input id="origin" list="buildings"
+                 placeholder="Building name or code, or click the map"
+                 required>
 
-        <label for="class-time">Next class starts (be there by)</label>
-        <input id="class-time" type="time" value="14:30" required>
+          <label for="dest">My next class is in</label>
+          <input id="dest" list="buildings"
+                 placeholder="Building name or code, or click the map"
+                 required>
+          <datalist id="buildings"></datalist>
 
-        <details>
-          <summary>More options</summary>
-          <div class="two">
-            <div><label for="day">Day</label><input id="day" type="date" required></div>
-            <div><label for="free-from">Free from (earliest I can leave)</label><input id="free-from" type="time" required></div>
-            <div><label for="stay">Time at the event</label>
-              <select id="stay">
-                <option value="15">15 min</option>
-                <option value="30" selected>30 min</option>
-                <option value="45">45 min</option>
-                <option value="60">60 min</option>
-              </select>
+          <label for="class-time">Next class starts (be there by)</label>
+          <input id="class-time" type="time" value="14:30" required>
+
+          <details>
+            <summary>More options</summary>
+            <div class="two">
+              <div>
+                <label for="day">Day</label>
+                <input id="day" type="date" required>
+              </div>
+              <div>
+                <label for="free-from">Free from (earliest I can leave)</label>
+                <input id="free-from" type="time" required>
+              </div>
+              <div>
+                <label for="stay">Time at the event</label>
+                <select id="stay">
+                  <option value="15">15 min</option>
+                  <option value="30" selected>30 min</option>
+                  <option value="45">45 min</option>
+                  <option value="60">60 min</option>
+                </select>
+              </div>
+              <div>
+                <label for="buffer">Spare time before class</label>
+                <select id="buffer">
+                  <option value="0">None</option>
+                  <option value="5" selected>5 min</option>
+                  <option value="10">10 min</option>
+                </select>
+              </div>
             </div>
-            <div><label for="buffer">Spare time before class</label>
-              <select id="buffer">
-                <option value="0">None</option>
-                <option value="5" selected>5 min</option>
-                <option value="10">10 min</option>
-              </select>
-            </div>
+          </details>
+
+          <p id="gap-msg" role="status"></p>
+        </form>
+
+        <div class="filters">
+          <div class="row" id="cats"></div>
+          <label class="check">
+            <input type="checkbox" id="free"> Free events only
+          </label>
+          <label class="check">
+            <input type="checkbox" id="show-all">
+            Also show events I can't make
+          </label>
+        </div>
+
+        <div id="count"></div>
+        <div id="list"></div>
+      </section>
+
+      <!-- New Explore Campus interface -->
+      <section id="explore-view" hidden>
+        <div class="explore-header">
+          <h2>Explore Campus</h2>
+          <p>Discover places to eat, grab coffee, or study
+             around ASU's Tempe campus.</p>
+        </div>
+
+        <div class="explore-controls">
+          <label for="explore-search">Search locations</label>
+          <input type="search" id="explore-search"
+                 placeholder="Search coffee, food, study...">
+
+          <p class="explore-filter-title">Categories</p>
+          <div class="explore-filters">
+            <button type="button" class="explore-chip active"
+                    data-category="all">All</button>
+            <button type="button" class="explore-chip"
+                    data-category="coffee">Coffee</button>
+            <button type="button" class="explore-chip"
+                    data-category="food">Food</button>
+            <button type="button" class="explore-chip"
+                    data-category="study">Study</button>
           </div>
-        </details>
+        </div>
 
-        <p id="gap-msg" role="status"></p>
-      </form>
-
-      <div class="filters">
-        <div class="row" id="cats"></div>
-        <label class="check"><input type="checkbox" id="free"> Free events only</label>
-        <label class="check"><input type="checkbox" id="show-all"> Also show events I can't make</label>
-      </div>
-
-      <div id="count"></div>
-      <div id="list"></div>
+        <div id="explore-count" role="status"></div>
+        <div id="explore-list"></div>
+      </section>
     </aside>
+
+    <!-- Shared Leaflet map -->
     <div id="map"></div>
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <!-- EVENTS, made by test_WebGIS.py -->
   <script src="../data/events_data.js"></script>
   <script src="route.js"></script>
   <script src="gap.js"></script>
+  <script src="explore.js"></script>
 </body>
 </html>
