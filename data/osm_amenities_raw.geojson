@@ -1,0 +1,4033 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-11-13T00:15:43Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/28822655",
+      "properties": {
+        "@id": "way/28822655",
+        "access": "yes",
+        "addr:city": "Tempe",
+        "addr:country": "US",
+        "addr:housenumber": "300",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East Orange Mall",
+        "air_conditioning": "yes",
+        "amenity": "library",
+        "baby_feeding": "room",
+        "building": "yes",
+        "building:levels": "4",
+        "building:levels:underground": "1",
+        "changing_table": "yes",
+        "height": "15",
+        "indoor_seating": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Hayden Library",
+        "opening_hours": "Mo-Th 07:00-24:00; Fr 07:00-20:00; Sa 09:00-20:00; Su 10:00-21:00",
+        "opening_hours:conditional": "Mo-Fr 00:00-24:00, Sa 09:00-24:00, Su 10:00-24:00 @ students and staff",
+        "operator": "Arizona State University",
+        "operator:type": "university",
+        "phone": "+1-480-965-3605",
+        "self_service": "yes",
+        "short_name": "LIB",
+        "toilets": "yes",
+        "website": "https://lib.asu.edu/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9345787,
+          33.4190232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28822657",
+      "properties": {
+        "@id": "way/28822657",
+        "access": "yes",
+        "addr:city": "Tempe",
+        "addr:country": "US",
+        "addr:housenumber": "300",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East Orange Mall",
+        "air_conditioning": "yes",
+        "amenity": "library",
+        "baby_feeding": "room",
+        "building": "yes",
+        "building:levels": "0",
+        "building:levels:underground": "2",
+        "changing_table": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "layer": "-1",
+        "name": "Hayden Library Concourse",
+        "opening_hours": "Mo-Th 07:00-24:00; Fr 07:00-20:00; Sa 09:00-20:00; Su 10:00-21:00",
+        "opening_hours:conditional": "Mo-Fr 00:00-24:00, Sa 09:00-24:00, Su 10:00-24:00 @ students and staff",
+        "operator": "Arizona State University",
+        "operator:type": "university",
+        "phone": "+1-480-965-3605",
+        "self_service": "yes",
+        "short_name": "LIB",
+        "toilets": "yes",
+        "website": "https://lib.asu.edu/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9352321,
+          33.4190336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28878390",
+      "properties": {
+        "@id": "way/28878390",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1102",
+        "addr:state": "AZ",
+        "addr:street": "South McAllister Avenue",
+        "air_conditioning": "yes",
+        "amenity": "library",
+        "building": "university",
+        "building:levels": "3",
+        "ele": "356",
+        "gnis:feature_id": "2466288",
+        "name": "Ross-Blakley Hall",
+        "roof:levels": "0",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9296521,
+          33.4171274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30420488",
+      "properties": {
+        "@id": "way/30420488",
+        "addr:city": "Tempe",
+        "addr:housename": "The Bodhi",
+        "addr:housenumber": "615",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East Veterans Way",
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "The Bodhi",
+        "roof:levels": "0",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9305789,
+          33.4228426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/256984971",
+      "properties": {
+        "@id": "way/256984971",
+        "addr:city": "Tempe",
+        "addr:country": "US",
+        "addr:housenumber": "721",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "building": "retail",
+        "check_date": "2024-09-17",
+        "cuisine": "burger",
+        "name": "Jack in the Box",
+        "opening_hours": "Mo-Tu 08:00-22:00; Th-Sa 08:00-03:00; Su 08:00-22:00",
+        "phone": "+1 480-967-8570",
+        "takeaway": "yes",
+        "website": "https://locations.jackinthebox.com/us/az/tempe/721-s-mill-ave",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9396534,
+          33.4226112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/257009016",
+      "properties": {
+        "@id": "way/257009016",
+        "addr:city": "Tempe",
+        "addr:housenumber": "960",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East University Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "opening_hours": "Su-Th 09:00-01:00, Fr,Sa 09:00-02:30",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9243902,
+          33.4224232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/257009019",
+      "properties": {
+        "@id": "way/257009019",
+        "addr:city": "Tempe",
+        "addr:housenumber": "715",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Rural Road",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli",
+        "roof:levels": "0",
+        "source": "esri/USA_NAD_Addresses",
+        "was:amenity": "restaurant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9258241,
+          33.4231679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/257051835",
+      "properties": {
+        "@id": "way/257051835",
+        "addr:city": "Tempe",
+        "addr:housenumber": "20",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "West 6th Street",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "american",
+        "description": "Board Game cafe Large library of various board games including party, strategy, and social games.",
+        "internet_access": "wlan",
+        "name": "Snakes & Lattes",
+        "opening_hours": "Mo 11:00-21:00; Tu-Th 11:00-22:00; Fr-Sa 10:00-00:00; Su 10:00-21:00",
+        "opening_hours:url": "https://www.snakesandlattes.com/location/tempe/",
+        "phone": "+1-480-361-6644",
+        "reservation": "yes",
+        "takeaway": "yes",
+        "website": "https://www.snakesandlattes.com/location/tempe/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9409802,
+          33.4245472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/261331958",
+      "properties": {
+        "@id": "way/261331958",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1346",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "S Rural Rd",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "building": "residential",
+        "building:levels": "1",
+        "cuisine": "Hawaiian",
+        "drive_through": "yes",
+        "name": "Hawaiian Bros Island Grill",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9266643,
+          33.4131247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262798233",
+      "properties": {
+        "@id": "way/262798233",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1314",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Rural Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Someburros",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9267381,
+          33.4139258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/294237717",
+      "properties": {
+        "@id": "way/294237717",
+        "addr:city": "Tempe",
+        "addr:housenumber": "921",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East University Drive",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "indian",
+        "name": "Bindaas Indian Street Food Cafe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9255165,
+          33.4216567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/294240494",
+      "properties": {
+        "@id": "way/294240494",
+        "addr:city": "Tempe",
+        "addr:housenumber": "927",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East University Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Houston TX Hot Chicken",
+        "phone": "+1-480-912-4367",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9252184,
+          33.4216531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/300613097",
+      "properties": {
+        "@id": "way/300613097",
+        "addr:city": "Tempe",
+        "addr:housenumber": "555",
+        "addr:postcode": "85288",
+        "addr:state": "AZ",
+        "addr:street": "North Scottsdale Road",
+        "addr:unit": "109",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "branch": "Rural & Loop 202, Tempe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "building": "retail",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "phone": "+1 480-894-3130",
+        "roof:shape": "flat",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://www.starbucks.com/store-locator/store/16966/rural-loop-202-tempe-555-n-scottsdale-road-109-tempe-az-852812293-us",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.925857,
+          33.4343231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/428155635",
+      "properties": {
+        "@id": "way/428155635",
+        "addr:city": "Tempe",
+        "addr:country": "US",
+        "addr:housenumber": "25",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "West University Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "University at Mill",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "retail",
+        "check_date": "2026-10-13",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "description": "Mobile Ordering, Wi-Fi, Drive-thru, Catering, Catering Delivery, Mobile Payment, Online Ordering",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:00-23:45",
+        "operator": "Brandon Barrett",
+        "outdoor_seating": "yes",
+        "phone": "+1 480-968-6899",
+        "ref": "03164",
+        "source": "http://www.chick-fil-a.com/Locations/Locator",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/universityatmill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9408656,
+          33.4216642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/517106332",
+      "properties": {
+        "@id": "way/517106332",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1270",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East Apache Boulevard",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Filibertos",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes",
+        "takeaway": "only",
+        "website": "https://filibertos.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9180454,
+          33.4151142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/544152059",
+      "properties": {
+        "@id": "way/544152059",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1037",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Rural Road",
+        "amenity": "cafe",
+        "branch": "Tempe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "05:00-02:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 541-955-4700",
+        "ref": "DB113",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-b1ca6ab5e9c6",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9260221,
+          33.4169741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/544152063",
+      "properties": {
+        "@id": "way/544152063",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1111",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Rural Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "building": "yes",
+        "check_date": "2026-02-11",
+        "cuisine": "thai",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Thai Basil",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+1-480-557-0101",
+        "source": "esri/USA_NAD_Addresses",
+        "website": "https://orderthaibasilruralrd.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9258984,
+          33.4162889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/544152066",
+      "properties": {
+        "@id": "way/544152066",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1205",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Rural Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "Mo-Su 05:00-22:00",
+        "phone": "+1 480-829-6604",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/11664.html",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.925914,
+          33.415783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/560245604",
+      "properties": {
+        "@id": "way/560245604",
+        "addr:city": "Tempe",
+        "addr:housenumber": "202",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East University Drive",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "The Chuckbox",
+        "opening_hours": "Mo-Sa 10:30-23:00, Su 10:30-20:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9364401,
+          33.4221648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/560777956",
+      "properties": {
+        "@id": "way/560777956",
+        "addr:city": "Tempe",
+        "addr:housenumber": "410",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Cabin Tempe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9413387,
+          33.4267125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574632563",
+      "properties": {
+        "@id": "way/574632563",
+        "addr:city": "Tempe",
+        "addr:housenumber": "550",
+        "addr:postcode": "85287",
+        "addr:state": "AZ",
+        "addr:street": "East Tyler Mall",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "The Crêpe Club",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "phone": "+16023210179",
+        "website": "https://thecrepeclub.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9318472,
+          33.4204632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/576530397",
+      "properties": {
+        "@id": "way/576530397",
+        "addr:city": "Tempe",
+        "addr:housenumber": "950",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "delivery": "no",
+        "drive_through": "no",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Subway",
+        "opening_hours": "Sa 00:00-00:05",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9402226,
+          33.4193031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/591997992",
+      "properties": {
+        "@id": "way/591997992",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1785",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East University Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "phone": "+1 480-446-8619",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/22111.html",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9102411,
+          33.4214532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/593220655",
+      "properties": {
+        "@id": "way/593220655",
+        "addr:city": "Tempe",
+        "addr:housenumber": "912",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East Apache Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes",
+        "phone": "+1 480-966-7763",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/az/tempe/912-e-apache-blvd.html",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9258195,
+          33.4150252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/625701364",
+      "properties": {
+        "@id": "way/625701364",
+        "addr:city": "Tempe",
+        "addr:housenumber": "149",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Farmer Avenue",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Culinary Dropout",
+        "note": "Fri - Sat: Kitchen open until 12am, bar open until 1am.",
+        "opening_hours": "Mo-Th 11:00-23:00, Fr 11:00-01:00, Sa 10:00-01:00, Su 10:00-20:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-480-240-1601",
+        "takeaway": "yes",
+        "website": "https://www.culinarydropout.com/locations/tempe-az/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9440593,
+          33.4289237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/625720822",
+      "properties": {
+        "@id": "way/625720822",
+        "addr:city": "Tempe",
+        "addr:housenumber": "927",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East Apache Boulevard",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "thai",
+        "name": "ThaiTini",
+        "outdoor_seating": "yes",
+        "phone": "+1-480-517-9544",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9250591,
+          33.4144764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/625720823",
+      "properties": {
+        "@id": "way/625720823",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1017",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East Apache Boulevard",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "fish_and_chips;american",
+        "name": "Pete's Fish and Chips",
+        "outdoor_seating": "yes",
+        "phone": "+1-480-968-6265",
+        "takeaway": "yes",
+        "website": "https://petesfishandchips.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9237161,
+          33.4144404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/634360029",
+      "properties": {
+        "@id": "way/634360029",
+        "addr:city": "Tempe",
+        "addr:country": "US",
+        "addr:housenumber": "105",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "West University Drive",
+        "amenity": "cafe",
+        "brand:wikidata": "Q23016666",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2026-10-13",
+        "drive_through": "no",
+        "name": "Café Zupas",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9414878,
+          33.4216592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/634360030",
+      "properties": {
+        "@id": "way/634360030",
+        "addr:city": "Tempe",
+        "addr:country": "US",
+        "addr:housenumber": "111",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "West University Drive",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2024-09-17",
+        "cuisine": "american;breakfast",
+        "delivery": "no",
+        "drive_through": "no",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe",
+        "opening_hours": "07:00-14:30",
+        "outdoor_seating": "yes",
+        "phone": "+1-480-498-4100",
+        "roof:levels": "0",
+        "takeaway": "yes",
+        "website": "https://www.firstwatch.com/locations/asu",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9416636,
+          33.4215826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/775275980",
+      "properties": {
+        "@id": "node/775275980",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1290",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Normal Avenue",
+        "addr:unit": "102",
+        "air_conditioning": "yes",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "Arizona State University",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "check_date:opening_hours": "2022-08-16",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "Mo-Fr 07:00-14:30; Sa 11:00-14:00",
+        "opening_hours:signed": "no",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/az/tempe/1290-s-normal-ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.934691,
+          33.41806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/797499498",
+      "properties": {
+        "@id": "node/797499498",
+        "addr:city": "Tempe",
+        "addr:postcode": "85287",
+        "addr:state": "AZ",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "branch": "ASU School of Business",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "phone": "+1 480-555-1212",
+        "ref": "12981",
+        "takeaway": "yes",
+        "website": "https://www.starbucks.com/store-locator/store/12981/asu-school-of-business-college-of-business-1st-floor-tempe-az-85287-us"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9341397,
+          33.4165993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/798622870",
+      "properties": {
+        "@id": "node/798622870",
+        "addr:city": "Tempe",
+        "addr:housenumber": "525",
+        "addr:postcode": "85287",
+        "addr:state": "AZ",
+        "addr:street": "East Orange Street",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "branch": "ASU Bookstore",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Th 08:00-17:30, Fr 08:00-15:00",
+        "phone": "+1 480-555-1212",
+        "ref": "14444",
+        "takeaway": "yes",
+        "website": "https://www.starbucks.com/store-locator/store/14444/asu-bookstore-525-e-orange-st-tempe-az-852879989-us"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9318422,
+          33.4179994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/842279256",
+      "properties": {
+        "@id": "way/842279256",
+        "addr:city": "Tempe",
+        "addr:housenumber": "400",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "West University Drive",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "source": "esri/USA_NAD_Addresses",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9445392,
+          33.4221784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/938174384",
+      "properties": {
+        "@id": "way/938174384",
+        "addr:city": "Tempe",
+        "addr:housenumber": "505",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "West University Drive",
+        "amenity": "restaurant",
+        "building": "retail",
+        "name": "Gadzooks Enchiladas and Soup",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.945984,
+          33.4216897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/938436457",
+      "properties": {
+        "@id": "way/938436457",
+        "addr:city": "Tempe",
+        "addr:housenumber": "524",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "West University Drive",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Little Szechuan",
+        "source": "microsoft/BuildingFootprints",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9465379,
+          33.4222139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1123251436",
+      "properties": {
+        "@id": "way/1123251436",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "building": "dormitory",
+        "fast_food": "cafeteria",
+        "name": "Tooker House Dining",
+        "operator": "Aramark",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9322604,
+          33.4232049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1229184655",
+      "properties": {
+        "@id": "way/1229184655",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Voodoo Doughnut",
+        "brand:wikidata": "Q7941645",
+        "building": "yes",
+        "cuisine": "donut",
+        "name": "Voodoo Doughnut",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9267428,
+          33.413632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1276254050",
+      "properties": {
+        "@id": "node/1276254050",
+        "amenity": "restaurant",
+        "name": "The Normal Diner",
+        "opening_hours": "Mo-Su 05:00-14:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.936028,
+          33.414428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1316575229",
+      "properties": {
+        "@id": "way/1316575229",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1765",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East University Drive",
+        "amenity": "cafe",
+        "brand": "The Human Bean",
+        "brand:wikidata": "Q7740821",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "The Human Bean",
+        "opening_hours": "Mo-Su 05:00-21:00",
+        "phone": "+1-602-359-0852",
+        "takeaway": "yes",
+        "website": "https://thehumanbean.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9110891,
+          33.4215244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1318590036",
+      "properties": {
+        "@id": "way/1318590036",
+        "addr:city": "Tempe",
+        "addr:housenumber": "603",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "West University Drive",
+        "amenity": "restaurant",
+        "building": "yes",
+        "check_date": "2026-10-13",
+        "name": "Perfect Pear Bistro",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9476022,
+          33.4216491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1318590039",
+      "properties": {
+        "@id": "way/1318590039",
+        "addr:city": "Tempe",
+        "addr:housenumber": "523",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "West University Drive",
+        "amenity": "restaurant",
+        "building": "yes",
+        "check_date": "2025-02-12",
+        "cuisine": "italian",
+        "name": "Oregano's",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9467908,
+          33.4216883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1324920183",
+      "properties": {
+        "@id": "way/1324920183",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1038",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "phone": "+1 480-273-8800",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/az/tempe/1038-s-mill-ave",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9404173,
+          33.4179896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1464064931",
+      "properties": {
+        "@id": "way/1464064931",
+        "addr:city": "Tempe",
+        "addr:housenumber": "697",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Novus Place",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "North Italia",
+        "website": "https://www.northitalia.com/locations/tempe-az/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9271741,
+          33.4243172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1464064932",
+      "properties": {
+        "@id": "way/1464064932",
+        "addr:city": "Tempe",
+        "addr:housenumber": "717",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Novus Place",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Blanco",
+        "website": "https://www.blancococinacantina.com/locations/tempe/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9267284,
+          33.4239442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1464064934",
+      "properties": {
+        "@id": "way/1464064934",
+        "addr:city": "Tempe",
+        "addr:housenumber": "737",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Novus Place",
+        "amenity": "restaurant",
+        "building": "yes",
+        "check_date": "2026-04-05",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Flower Child",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+14803663030",
+        "website": "https://www.iamaflowerchild.com/locations/flower-child-tempe-az/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9272886,
+          33.4235609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1484826914",
+      "properties": {
+        "@id": "way/1484826914",
+        "addr:city": "Tempe",
+        "addr:housenumber": "616",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Forest Avenue",
+        "amenity": "cafe",
+        "building": "yes",
+        "check_date": "2026-10-12",
+        "cuisine": "coffee_shop;pastry",
+        "name": "Laymoon Cafe",
+        "opening_hours": "24/7",
+        "website": "https://laymoon.cafe/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9368764,
+          33.4235321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1698683382",
+      "properties": {
+        "@id": "node/1698683382",
+        "addr:city": "Tempe",
+        "addr:housenumber": "398",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "amenity": "restaurant",
+        "cuisine": "italian;organic;local",
+        "name": "Cafe Boa",
+        "phone": "+1 480 968 9112",
+        "website": "https://www.cafeboa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9404252,
+          33.4266547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1698683399",
+      "properties": {
+        "@id": "node/1698683399",
+        "amenity": "fast_food",
+        "brand": "Fatburger",
+        "brand:wikidata": "Q1397976",
+        "check_date": "2026-05-29",
+        "cuisine": "burger",
+        "name": "Sexy Burger",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.940169,
+          33.4258145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1698683403",
+      "properties": {
+        "@id": "node/1698683403",
+        "addr:city": "Tempe",
+        "addr:housenumber": "414",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "amenity": "fast_food",
+        "name": "Hippies Cove",
+        "phone": "+1 480 736 0321"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9401937,
+          33.4261038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1698683410",
+      "properties": {
+        "@id": "node/1698683410",
+        "addr:city": "Tempe",
+        "addr:housenumber": "414",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "addr:unit": "117",
+        "amenity": "restaurant",
+        "cuisine": "mediterranean;grill",
+        "email": "info@medfreshgrill.com",
+        "name": "Med Fresh Grill",
+        "phone": "+1 480 642 9709",
+        "website": "https://medfreshgrill.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9400905,
+          33.426209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1698683416",
+      "properties": {
+        "@id": "node/1698683416",
+        "addr:city": "Tempe",
+        "addr:housenumber": "414",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "amenity": "restaurant",
+        "cuisine": "vietnamese",
+        "name": "Pho Thang Long Vietnamese Cuisine",
+        "phone": "+1 480 968 2756"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9401905,
+          33.4263623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1698683429",
+      "properties": {
+        "@id": "node/1698683429",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "name": "Slices pizza by the slice",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9395443,
+          33.4242124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1698683443",
+      "properties": {
+        "@id": "node/1698683443",
+        "addr:city": "Tempe",
+        "addr:housenumber": "420",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "addr:unit": "104",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "branch": "Mill Avenue and 5th Street",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "phone": "+1 480-966-7228",
+        "ref": "11573",
+        "takeaway": "yes",
+        "website": "https://www.starbucks.com/store-locator/store/11573/mill-ave-and-5th-street-420-s-mill-avenue-104-tempe-az-852812828-us"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9402082,
+          33.4256368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1698683471",
+      "properties": {
+        "@id": "node/1698683471",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "name": "The Munchies Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9394825,
+          33.4242121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1698683489",
+      "properties": {
+        "@id": "node/1698683489",
+        "amenity": "restaurant",
+        "name": "Vintage Bar & Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9401711,
+          33.4263327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1698683491",
+      "properties": {
+        "@id": "node/1698683491",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "name": "Zuma Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9398215,
+          33.4246113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2391078484",
+      "properties": {
+        "@id": "node/2391078484",
+        "addr:city": "Tempe",
+        "addr:country": "US",
+        "addr:housenumber": "740",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "amenity": "restaurant",
+        "name": "Filthy Animal",
+        "website": "https://thisisfilthyanimal.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.940269,
+          33.4222393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2391078486",
+      "properties": {
+        "@id": "node/2391078486",
+        "addr:city": "Tempe",
+        "addr:housenumber": "699",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "addr:unit": "115",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "contact:instagram": "https://www.instagram.com/matsurimillave",
+        "cuisine": "japanese",
+        "name": "Matsuri Izakaya on Mill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.939677,
+          33.4235414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2391078491",
+      "properties": {
+        "@id": "node/2391078491",
+        "addr:city": "Tempe",
+        "addr:country": "US",
+        "addr:housenumber": "680",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "addr:unit": "102",
+        "amenity": "fast_food",
+        "brand": "https://locations.princestreetpizza.com/tempe",
+        "cuisine": "pizza",
+        "name": "Prince Street Pizza",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9401911,
+          33.4237537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2391078492",
+      "properties": {
+        "@id": "node/2391078492",
+        "addr:city": "Tempe",
+        "addr:housenumber": "680",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "Mill Avenue",
+        "amenity": "fast_food",
+        "branch": "Centerpointe",
+        "brand": "Five Guys",
+        "brand:wikidata": "Q1131810",
+        "cuisine": "burger",
+        "name": "Five Guys",
+        "official_name": "Five Guys Burgers and Fries",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+1 480-966-2447",
+        "takeaway": "yes",
+        "website": "https://restaurants.fiveguys.com/680-mill-ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9401765,
+          33.4239832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2391080287",
+      "properties": {
+        "@id": "node/2391080287",
+        "addr:city": "Tempe",
+        "addr:housenumber": "310",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "addr:unit": "A101",
+        "amenity": "restaurant",
+        "name": "Daily Jam",
+        "opening_hours": "Mo-Su 07:00-15:00",
+        "phone": "+1-480-968-9288",
+        "website": "https://mydailyjam.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.940257,
+          33.4272195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2503282790",
+      "properties": {
+        "@id": "node/2503282790",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1340",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East 8th Street",
+        "addr:unit": "104",
+        "amenity": "restaurant",
+        "cuisine": "brewery",
+        "diet:vegetarian": "yes",
+        "name": "Four Peaks Brewing Company",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr,Sa 11:00-23:00; Su 11:00-22:00",
+        "outdoor_seating": "yes",
+        "website": "https://www.fourpeaks.com/",
+        "wheelchair": "yes",
+        "wikidata": "Q5475421"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9157036,
+          33.4196675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2581978066",
+      "properties": {
+        "@id": "node/2581978066",
+        "addr:city": "Tempe",
+        "addr:housenumber": "100",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "amenity": "restaurant",
+        "cuisine": "steak_house",
+        "end_date": "2014-11-17",
+        "name": "Monti's La Casa Vieja",
+        "opening_hours": "closed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9402828,
+          33.4293402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2622791134",
+      "properties": {
+        "@id": "node/2622791134",
+        "addr:city": "Tempe",
+        "addr:country": "US",
+        "addr:housenumber": "225",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "West University Drive",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Cartel Roasting Co.",
+        "opening_hours": "Mo-Su 06:00-20:00",
+        "website": "https://cartelroasting.co/locations/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9425463,
+          33.4210755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2819176341",
+      "properties": {
+        "@id": "node/2819176341",
+        "addr:city": "Tempe",
+        "addr:country": "US",
+        "addr:housenumber": "777",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South College Avenue",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "My Pie Pizza",
+        "note": "Welcome to a unique interactive pizza experience! Our mission is to become the leader in the fast casual pizza industry while giving you, our guest, the ability to custom build your own dining experience.",
+        "website": "https://www.pizzayourway.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.934805,
+          33.422923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3117586990",
+      "properties": {
+        "@id": "node/3117586990",
+        "addr:city": "Tempe",
+        "addr:housenumber": "777",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South College Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Arizona State University",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Fr 09:30-22:00; Su 10:30-21:30; Sa 10:30-22:00",
+        "phone": "+1 480-967-7873",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/az/tempe/1065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9347739,
+          33.4225719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3468587206",
+      "properties": {
+        "@id": "node/3468587206",
+        "amenity": "restaurant",
+        "name": "Tapacubo",
+        "opening_hours": "24/7 closed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9365507,
+          33.4143331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3723792705",
+      "properties": {
+        "@id": "node/3723792705",
+        "addr:city": "Tempe",
+        "addr:housenumber": "681",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East Apache",
+        "addr:unit": "102",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "cuisine": "sandwich",
+        "delivery": "yes",
+        "drive_through": "no",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+1 480-590-1549",
+        "takeaway": "yes",
+        "website": "https://locations.jimmyjohns.com/az/tempe/sandwiches-4052.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9290372,
+          33.4144553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3723792706",
+      "properties": {
+        "@id": "node/3723792706",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Fatburger",
+        "brand:wikidata": "Q1397976",
+        "cuisine": "burger",
+        "name": "Fatburger",
+        "opening_hours": "Mo-Th 12:00-22:00; Fr,Sa 12:00-23:00; Su 12:00-21:00",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.929036,
+          33.4143859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3723792707",
+      "properties": {
+        "@id": "node/3723792707",
+        "addr:city": "Tempe",
+        "addr:housenumber": "681",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East Apache",
+        "addr:unit": "104",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Su-Th 10:00-24:00, Fr,Sa 10:00-01:00",
+        "phone": "+1 480-968-5555",
+        "ref": "7603",
+        "short_name": "Domino's",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/arizona/tempe/681-e-apache-ste-104"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9290362,
+          33.4142986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4186118659",
+      "properties": {
+        "@id": "node/4186118659",
+        "addr:city": "Tempe",
+        "addr:housenumber": "521",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South College Avenue",
+        "addr:unit": "111",
+        "amenity": "cafe",
+        "fixme": "I believe this info is out of date, is this cafe still open?",
+        "internet_access": "wlan",
+        "name": "The Blend Coffeehouse",
+        "opening_hours": "Mo-Th 09:00-20:00, Fr 09:00-19:00, Sa,Su 11:00-19:00",
+        "phone": "+1-480-939-2738",
+        "website": "https://www.yelp.com/biz/the-blend-tempe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9347872,
+          33.4248773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4716105522",
+      "properties": {
+        "@id": "node/4716105522",
+        "addr:housenumber": "681",
+        "addr:postcode": "85281",
+        "addr:street": "East Apache Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "capacity": "15",
+        "cuisine": "japanese",
+        "name": "Osaka Grill Teriyaki & Roll",
+        "opening_hours": "11:00-23:30",
+        "outdoor_seating": "yes",
+        "self_service": "no",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://osakagrilloz.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9290219,
+          33.4140704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4716129279",
+      "properties": {
+        "@id": "node/4716129279",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "The Halal Guys",
+        "brand:wikidata": "Q10846129",
+        "cuisine": "chicken;falafel;gyros",
+        "diet:halal": "yes",
+        "name": "The Halal Guys",
+        "opening_hours": "Su-Th 10:00-22:00; Fr,Sa 10:00-24:00",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.926002,
+          33.4174682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4716174442",
+      "properties": {
+        "@id": "node/4716174442",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Snooze",
+        "brand:wikidata": "Q111304345",
+        "cuisine": "breakfast",
+        "name": "Snooze",
+        "official_name": "Snooze, an A.M. Eatery",
+        "opening_hours": "Mo-Su 06:30-14:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.934742,
+          33.4237521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4716174444",
+      "properties": {
+        "@id": "node/4716174444",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "cuisine": "sandwich",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9347824,
+          33.4245831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4716174445",
+      "properties": {
+        "@id": "node/4716174445",
+        "addr:city": "Tempe",
+        "addr:housenumber": "100",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "West University Drive",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "branch": "JP Morgan Tempe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "phone": "+1 602-245-3416",
+        "ref": "1016160",
+        "takeaway": "yes",
+        "website": "https://www.starbucks.com/store-locator/store/1016160/jp-morgan-tempe-100-w-university-dr-tempe-az-85281-us"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9409388,
+          33.4228215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4716197058",
+      "properties": {
+        "@id": "node/4716197058",
+        "addr:city": "Tempe",
+        "addr:housenumber": "705",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Rural Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "check_date:opening_hours": "2022-08-23",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "opening_hours": "Mo-Th 11:00-01:00, Fr,Sa 11:00-02:00, Su 11:00-24:00",
+        "short_name": "BW3",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9257166,
+          33.4236955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4716197059",
+      "properties": {
+        "@id": "node/4716197059",
+        "addr:city": "Tempe",
+        "addr:housenumber": "705",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Rural Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-09-24",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1 480-303-6585",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/az/tempe/breakfast-705-s-rural-ave-3388"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9257859,
+          33.4234569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4716202210",
+      "properties": {
+        "@id": "node/4716202210",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Delhi Palace",
+        "payment:bitcoincash": "yes",
+        "website": "https://www.delhipalacetempeaz.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9247454,
+          33.4216045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4716202211",
+      "properties": {
+        "@id": "node/4716202211",
+        "amenity": "restaurant",
+        "brand": "D.P. Dough",
+        "brand:wikidata": "Q22008973",
+        "cuisine": "calzone",
+        "name": "D.P. Dough"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9251123,
+          33.4210198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5154572524",
+      "properties": {
+        "@id": "node/5154572524",
+        "amenity": "restaurant",
+        "check_date": "2024-09-18",
+        "name": "Spinelli's Pizzeria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9405093,
+          33.4255739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5321085941",
+      "properties": {
+        "@id": "node/5321085941",
+        "amenity": "restaurant",
+        "name": "Delicious Factory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9401753,
+          33.4258686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5324576272",
+      "properties": {
+        "@id": "node/5324576272",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1301",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East University Drive",
+        "addr:unit": "114",
+        "amenity": "restaurant",
+        "cuisine": "japanese;ramen",
+        "name": "Republic Ramen + Noodles",
+        "opening_hours": "Su-We 11:00-21:00, Th-Sa 11:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-480-388-3686",
+        "takeaway": "yes",
+        "website": "http://www.republicramen.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9167941,
+          33.4214394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5428053840",
+      "properties": {
+        "@id": "node/5428053840",
+        "addr:city": "Tempe",
+        "addr:country": "US",
+        "addr:housenumber": "740",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "H.O.T. House Of Tcaos",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa 00:00-03:00,11:00-24:00; Su 00:00-03:00,11:00-23:00",
+        "phone": "+1 480 588 6451",
+        "website": "https://house-of-tacos.business.site/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9402497,
+          33.4227204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5618861680",
+      "properties": {
+        "@id": "node/5618861680",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1300",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East 8th Street",
+        "addr:unit": "100",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "email": "info@infusioncoffeetea.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Infusion Coffee & Tea Crafters",
+        "opening_hours": "Mo-Su 08:00-18:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-480-968-2533",
+        "website": "https://www.infusioncoffeetea.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.916899,
+          33.4194772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5986629565",
+      "properties": {
+        "@id": "node/5986629565",
+        "addr:city": "Tempe",
+        "addr:housenumber": "922",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East Apache Boulevard",
+        "addr:unit": "101",
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "drive_through": "no",
+        "name": "Sal's Pizza",
+        "opening_hours": "Mo-Th 11:00-23:00, Fr-Sa 11:00-03:00, Su 12:00-22:00",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.925404,
+          33.4149269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5986629568",
+      "properties": {
+        "@id": "node/5986629568",
+        "addr:city": "Tempe",
+        "addr:housenumber": "922",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East Apache Boulevard",
+        "addr:unit": "106",
+        "amenity": "restaurant",
+        "cuisine": "bagel;regional",
+        "delivery": "no",
+        "email": "info@nybagelsnbialys.com",
+        "name": "New York Bagels N' Bialys",
+        "opening_hours": "Tu-Su 07:00-15:00",
+        "outdoor_seating": "no",
+        "phone": "+1-480-292-7300",
+        "takeaway": "yes",
+        "website": "https://www.nybagelsnbialys.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.924874,
+          33.4149262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5986784057",
+      "properties": {
+        "@id": "node/5986784057",
+        "addr:city": "Tempe",
+        "addr:housenumber": "502",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South College Avenue",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "coffee;espresso;bakery",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Tempe-Royal-Guest",
+        "name": "Royal Coffee Bar",
+        "opening_hours": "Mo-Fr 07:00-18:00, Sa 08:00-12:00",
+        "outdoor_seating": "yes",
+        "website": "https://royalcoffeebar.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9351966,
+          33.4250041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5986784058",
+      "properties": {
+        "@id": "node/5986784058",
+        "addr:city": "Tempe",
+        "addr:housenumber": "502",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South College Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "name": "Mr Fries Man",
+        "opening_hours": "Mo-Su 11:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9351724,
+          33.4253067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7259640258",
+      "properties": {
+        "@id": "node/7259640258",
+        "addr:city": "Tempe",
+        "addr:housenumber": "521",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South College Avenue",
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+1-480-704-3510"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9347909,
+          33.4247478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8420775350",
+      "properties": {
+        "@id": "node/8420775350",
+        "addr:city": "Tempe",
+        "addr:housenumber": "15",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East 6th Street",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "OG Taco Shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9394016,
+          33.4241975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8498085608",
+      "properties": {
+        "@id": "node/8498085608",
+        "amenity": "restaurant",
+        "name": "Chen's Noodle House",
+        "payment:bitcoincash": "yes",
+        "website": "https://www.chensnoodlehousetempeaz.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9224199,
+          33.4161703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8501558936",
+      "properties": {
+        "@id": "node/8501558936",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "414 Pub & Pizza",
+        "payment:bitcoincash": "yes",
+        "website": "https://www.order414pizza.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.940201,
+          33.4261299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8551951696",
+      "properties": {
+        "@id": "node/8551951696",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Everbowl",
+        "brand:wikidata": "Q108194281",
+        "check_date:opening_hours": "2022-09-21",
+        "cuisine": "açaí",
+        "drive_through": "no",
+        "name": "Everbowl",
+        "opening_hours:signed": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.929277,
+          33.4142148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8551962958",
+      "properties": {
+        "@id": "node/8551962958",
+        "addr:city": "Tempe",
+        "addr:housenumber": "123",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East Apache Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "name": "Spitz - ASU",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "website": "https://spitz-restaurant.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9290206,
+          33.4141298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9115796330",
+      "properties": {
+        "@id": "node/9115796330",
+        "addr:city": "Tempe",
+        "addr:housenumber": "340",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East University Drive",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "branch": "ASU Palo Verde East",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Fr 07:00-21:00; Sa,Su 08:00-21:00",
+        "phone": "+1 480-555-1212",
+        "ref": "11842",
+        "takeaway": "yes",
+        "website": "https://www.starbucks.com/store-locator/store/11842/asu-palo-verde-east-340-e-university-dr-tempe-az-852815289-us"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9323336,
+          33.4226209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9130693159",
+      "properties": {
+        "@id": "node/9130693159",
+        "addr:city": "Tempe",
+        "addr:housenumber": "11",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East 7th Street",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brewery": "yes",
+        "cuisine": "american",
+        "email": "Bill.Heitzig@marriott.com",
+        "name": "Terra Tempe Kitchen & Spirits",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 480-968-8885",
+        "reservation": "yes",
+        "website": "https://terratempe.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9392157,
+          33.4226923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9403331196",
+      "properties": {
+        "@id": "node/9403331196",
+        "addr:city": "Tempe",
+        "addr:housenumber": "909",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East Lemon Street",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Lemon Street Tacos",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.925521,
+          33.4165997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9458969167",
+      "properties": {
+        "@id": "node/9458969167",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1000",
+        "addr:state": "AZ",
+        "addr:street": "East Apache Boulevard",
+        "amenity": "restaurant",
+        "check_date": "2026-03-04",
+        "cuisine": "vietnamese",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Pho Fresh Alley and Boba Tea",
+        "opening_hours": "Mo-Su 11:30-24:00",
+        "phone": "+1 480-247-9000",
+        "website": "https://phofreshalleyandbobatea.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9239872,
+          33.4151188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9458969168",
+      "properties": {
+        "@id": "node/9458969168",
+        "addr:city": "Tempe",
+        "addr:country": "US",
+        "addr:housenumber": "1035",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East Lemon Street",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/ElPaisanosMarket/",
+        "cuisine": "mexican",
+        "name": "El Paisano Restaurant",
+        "phone": "+1 480-557-5000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9225638,
+          33.4164855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9533145162",
+      "properties": {
+        "@id": "node/9533145162",
+        "amenity": "fast_food",
+        "brand": "Ike's Love and Sandwiches",
+        "brand:wikidata": "Q112028897",
+        "check_date": "2024-10-14",
+        "check_date:opening_hours": "2024-10-14",
+        "cuisine": "sandwich",
+        "name": "Ike's Love and Sandwiches",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "phone": "+1 480-921-2053",
+        "short_name": "Ike's",
+        "takeaway": "yes",
+        "website": "https://locations.ikessandwich.com/az/tempe/605/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.939388,
+          33.4239516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9583875552",
+      "properties": {
+        "@id": "node/9583875552",
+        "addr:city": "Tempe",
+        "addr:housenumber": "11",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East 7th Street",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;cafe",
+        "email": "anthony.esparza@marriott.com",
+        "name": "Cup of Joe Market Café",
+        "opening_hours": "Mo-Fr 06:00-18:00, Su-Sa 07:00-18:00",
+        "outdoor_seating": "yes",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-480-968-8885",
+        "website": "https://cupofjoetempe.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9393084,
+          33.4229949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9642056801",
+      "properties": {
+        "@id": "node/9642056801",
+        "addr:city": "Tempe",
+        "addr:housenumber": "555",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "North Scottsdale Road",
+        "addr:unit": "102",
+        "amenity": "fast_food",
+        "branch": "Tempe North Scottsdale Road",
+        "brand": "Wingstop",
+        "brand:wikidata": "Q8025339",
+        "cuisine": "wings",
+        "name": "Wingstop",
+        "phone": "+1 480-929-9464",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9254155,
+          33.4343716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9642056802",
+      "properties": {
+        "@id": "node/9642056802",
+        "amenity": "restaurant",
+        "cuisine": "vietnamese",
+        "name": "Hello Vietnam Pho & Roll"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9256967,
+          33.4342218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9642056803",
+      "properties": {
+        "@id": "node/9642056803",
+        "amenity": "fast_food",
+        "brand": "WaBa Grill",
+        "brand:wikidata": "Q113163467",
+        "cuisine": "asian",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "WaBa Grill",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.925308,
+          33.434378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9642056804",
+      "properties": {
+        "@id": "node/9642056804",
+        "amenity": "fast_food",
+        "brand": "Jersey Mike's Subs",
+        "brand:wikidata": "Q6184897",
+        "cuisine": "sandwich",
+        "name": "Jersey Mike's Subs",
+        "short_name": "Jersey Mike's",
+        "takeaway": "yes",
+        "website": "https://www.jerseymikes.com/9002/tempe-az"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9254982,
+          33.4343764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9669616460",
+      "properties": {
+        "@id": "node/9669616460",
+        "addr:city": "Tempe",
+        "addr:housenumber": "425",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "addr:unit": "111",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brewery": "various",
+        "cuisine": "cornish",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Cornish Pasty Co.",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-24:00",
+        "phone": "+1-480-284-5442",
+        "website": "https://www.cornishpastyco.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9398071,
+          33.4258436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9669616461",
+      "properties": {
+        "@id": "node/9669616461",
+        "addr:city": "Tempe",
+        "addr:housenumber": "423",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q111972226",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell Cantina",
+        "phone": "+1 602-675-8380",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/az/tempe/423-s-mill-ave.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.939815,
+          33.4259507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9931823800",
+      "properties": {
+        "@id": "node/9931823800",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "check_date": "2022-08-04",
+        "cuisine": "italian",
+        "name": "Society by Evo",
+        "opening_hours": "Mo-Su 16:00-02:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9253671,
+          33.4224151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9931953771",
+      "properties": {
+        "@id": "node/9931953771",
+        "addr:city": "Tempe",
+        "addr:housenumber": "725",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Rural Road",
+        "addr:unit": "107",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "brand": "Yi Fang Tea",
+        "brand:en": "Yi Fang Tea",
+        "brand:wikidata": "Q66196395",
+        "brand:zh": "一芳水果茶",
+        "cuisine": "bubble_tea",
+        "name": "Yi Fang Tea",
+        "name:en": "Yi Fang Tea",
+        "name:zh": "一芳水果茶",
+        "phone": "+19253365555",
+        "takeaway": "yes",
+        "website": "https://yifangteausa.com/arizona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9257441,
+          33.4227527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9931953778",
+      "properties": {
+        "@id": "node/9931953778",
+        "addr:city": "Tempe",
+        "addr:housenumber": "920",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East University Drive",
+        "addr:unit": "103",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "cuisine": "ramen",
+        "name": "Silverlake Ramen",
+        "phone": "+1-480-508-0881",
+        "website": "https://silverlakeramen.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9256099,
+          33.4224449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9931974495",
+      "properties": {
+        "@id": "node/9931974495",
+        "addr:city": "Tempe",
+        "addr:housenumber": "920",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East University Drive",
+        "addr:unit": "106",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "japanese",
+        "name": "Café Maiko",
+        "opening_hours": "Su-Th 11:00-21:00; Fr,Sa 11:00-21:30",
+        "phone": "+1-480-318-3896",
+        "website": "https://www.matchaaz.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9253821,
+          33.4224656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10778845100",
+      "properties": {
+        "@id": "node/10778845100",
+        "amenity": "restaurant",
+        "check_date": "2026-10-12",
+        "cuisine": "mexican",
+        "name": "Rusty Taco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9364987,
+          33.4229899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10798233197",
+      "properties": {
+        "@id": "node/10798233197",
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "Kuka Sushi and Izakaya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9190388,
+          33.4144742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11074324851",
+      "properties": {
+        "@id": "node/11074324851",
+        "amenity": "restaurant",
+        "check_date": "2023-07-28",
+        "name": "Haji Baba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9134578,
+          33.4142798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11231256075",
+      "properties": {
+        "@id": "node/11231256075",
+        "addr:city": "Tempe",
+        "addr:housenumber": "804",
+        "addr:state": "AZ",
+        "addr:street": "North Ash Avenue",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Otto Pizza & Pastry",
+        "payment:credit_cards": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-480-966-4292"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9426315,
+          33.4213783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11461485208",
+      "properties": {
+        "@id": "node/11461485208",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1301",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East University Drive",
+        "addr:unit": "120",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-We 07:00-23:00; Th-Fr 07:00-24:00; Sa-Su 08:00-24:00",
+        "phone": "+1 480-921-2126",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/az/tempe/1301-e-university-drive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9169684,
+          33.4215078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11661738905",
+      "properties": {
+        "@id": "node/11661738905",
+        "amenity": "restaurant",
+        "name": "Plant B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9274369,
+          33.4340407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11661738906",
+      "properties": {
+        "@id": "node/11661738906",
+        "amenity": "fast_food",
+        "brand": "Dog Haus",
+        "brand:wikidata": "Q105529843",
+        "cuisine": "hot_dog",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Dog Haus",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9271724,
+          33.434043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11661738907",
+      "properties": {
+        "@id": "node/11661738907",
+        "addr:city": "Tempe",
+        "addr:housenumber": "430",
+        "addr:postcode": "85288",
+        "addr:state": "AZ",
+        "addr:street": "North Scottsdale Road",
+        "addr:unit": "108",
+        "amenity": "fast_food",
+        "cuisine": "chicken",
+        "drive_through": "no",
+        "name": "Monroe's Hot Chicken",
+        "website": "http://monroeshotchicken.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9270767,
+          33.4340613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11661738946",
+      "properties": {
+        "@id": "node/11661738946",
+        "amenity": "restaurant",
+        "name": "Pokiluv"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9273392,
+          33.4335667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11661738947",
+      "properties": {
+        "@id": "node/11661738947",
+        "amenity": "cafe",
+        "name": "DRNK Coffee + Tea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9273406,
+          33.4334829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11663588712",
+      "properties": {
+        "@id": "node/11663588712",
+        "addr:city": "Tempe",
+        "addr:housenumber": "777",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South College Avenue",
+        "addr:unit": "101",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Cafetal Coffee",
+        "opening_hours": "Mo-Fr 07:00-16:00; Sa-Su 09:00-15:00",
+        "phone": "+1 480-557-5245",
+        "website": "https://www.cafetal.coffee/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9348025,
+          33.423144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11664133959",
+      "properties": {
+        "@id": "node/11664133959",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1020",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "King Coffee",
+        "opening_hours": "Mo-Fr 07:00-15:00; Sa-Su 08:00-15:00",
+        "phone": "+1 480-307-6557",
+        "website": "https://www.kingcoffeeaz.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9402282,
+          33.4184691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11938352115",
+      "properties": {
+        "@id": "node/11938352115",
+        "addr:city": "Tempe",
+        "addr:housenumber": "213",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East 7th Street",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Happy Joe Coffee",
+        "opening_hours": "Mo-Su 08:00-16:00",
+        "website": "https://happyjoecoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.936142,
+          33.4230549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12181343671",
+      "properties": {
+        "@id": "node/12181343671",
+        "addr:housenumber": "414",
+        "addr:street": "West University Drive",
+        "amenity": "fast_food",
+        "check_date": "2024-09-16",
+        "cuisine": "donut",
+        "name": "BoSa Donuts"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9453049,
+          33.4221041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12183061430",
+      "properties": {
+        "@id": "node/12183061430",
+        "amenity": "fast_food",
+        "check_date": "2024-09-17",
+        "cuisine": "mexican",
+        "name": "El Pollo Supreme"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9429352,
+          33.4215664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12183112558",
+      "properties": {
+        "@id": "node/12183112558",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "check_date": "2024-09-17",
+        "cuisine": "mediterranean",
+        "name": "CAVA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9257739,
+          33.4223457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12183112559",
+      "properties": {
+        "@id": "node/12183112559",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "check_date": "2024-09-17",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9259818,
+          33.4224238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12185288738",
+      "properties": {
+        "@id": "node/12185288738",
+        "addr:city": "Tempe",
+        "addr:housenumber": "699",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "amenity": "fast_food",
+        "check_date": "2024-09-18",
+        "cuisine": "mexican",
+        "name": "Taco Boy's",
+        "phone": "+1-480-398-7315",
+        "website": "https://aztacoboys.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9397847,
+          33.4233767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12187226306",
+      "properties": {
+        "@id": "node/12187226306",
+        "addr:city": "Tempe",
+        "addr:housenumber": "704",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Myrtle Avenue",
+        "addr:unit": "A",
+        "amenity": "restaurant",
+        "brand": "Bonchon Chicken",
+        "brand:wikidata": "Q4941248",
+        "check_date": "2024-09-18",
+        "cuisine": "chicken;korean;sushi",
+        "name": "Bonchon Chicken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9383532,
+          33.4230062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12200832395",
+      "properties": {
+        "@id": "node/12200832395",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "Thai Elephant Bistro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9501499,
+          33.4216803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12203456674",
+      "properties": {
+        "@id": "node/12203456674",
+        "amenity": "restaurant",
+        "check_date": "2026-10-13",
+        "cuisine": "thai",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Thai Basil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.944642,
+          33.4215639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12203456675",
+      "properties": {
+        "@id": "node/12203456675",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "BoSa Kobe Hot Pot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9455209,
+          33.4222635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12203456679",
+      "properties": {
+        "@id": "node/12203456679",
+        "amenity": "fast_food",
+        "cuisine": "donut",
+        "name": "Parlor Doughnuts"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9438759,
+          33.42243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12203456680",
+      "properties": {
+        "@id": "node/12203456680",
+        "addr:city": "Tempe",
+        "addr:housenumber": "805",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Farmer Avenue",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Cortez Coffee - The Bright Side",
+        "phone": "+1-480-968-8333",
+        "website": "https://cortezcoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9438669,
+          33.4215667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12203484765",
+      "properties": {
+        "@id": "node/12203484765",
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name": "Hot N Juicy Crawfish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9405854,
+          33.423054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12203484766",
+      "properties": {
+        "@id": "node/12203484766",
+        "addr:city": "Tempe",
+        "addr:housenumber": "740",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "addr:unit": "D110",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Dragon Tea",
+        "phone": "+1-602-377-8081",
+        "website": "https://www.facebook.com/drgnteaboba/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9405503,
+          33.4228278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12203484769",
+      "properties": {
+        "@id": "node/12203484769",
+        "amenity": "restaurant",
+        "name": "University Sports Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9404136,
+          33.4223334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12208364983",
+      "properties": {
+        "@id": "node/12208364983",
+        "amenity": "restaurant",
+        "name": "Alter Ego"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9374893,
+          33.4220982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12208368419",
+      "properties": {
+        "@id": "node/12208368419",
+        "addr:city": "Tempe",
+        "addr:housenumber": "705",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Myrtle Avenue",
+        "amenity": "restaurant",
+        "check_date": "2026-10-12",
+        "cuisine": "pizza",
+        "name": "Sauce Pizza & Wine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9380007,
+          33.422868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12208368428",
+      "properties": {
+        "@id": "node/12208368428",
+        "amenity": "fast_food",
+        "brand": "Nékter Juice Bar",
+        "brand:wikidata": "Q112826281",
+        "cuisine": "juice",
+        "name": "Nékter Juice Bar",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.937184,
+          33.4221082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12208372092",
+      "properties": {
+        "@id": "node/12208372092",
+        "addr:city": "Tempe",
+        "addr:housenumber": "829",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Rural Road",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Gus's New York Pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9258785,
+          33.4211948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12208372093",
+      "properties": {
+        "@id": "node/12208372093",
+        "addr:city": "Tempe",
+        "addr:housenumber": "827",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Rural Road",
+        "amenity": "fast_food",
+        "brand": "Wetzel's Pretzels",
+        "brand:wikidata": "Q7990205",
+        "cuisine": "pretzel",
+        "name": "Wetzel's Pretzels",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9257701,
+          33.4213676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12208372095",
+      "properties": {
+        "@id": "node/12208372095",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Burrito Express"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.92461,
+          33.4214819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12208372096",
+      "properties": {
+        "@id": "node/12208372096",
+        "amenity": "restaurant",
+        "cuisine": "ethiopian",
+        "name": "Ethiopian Famous Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9247536,
+          33.4213396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12208372100",
+      "properties": {
+        "@id": "node/12208372100",
+        "amenity": "restaurant",
+        "cuisine": "vietnamese",
+        "name": "Phở Nhật Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9250035,
+          33.4211497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12208392812",
+      "properties": {
+        "@id": "node/12208392812",
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "Sushi 101"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9149462,
+          33.4217012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12479771189",
+      "properties": {
+        "@id": "node/12479771189",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1135",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East Apache Boulevard",
+        "addr:unit": "113",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "bar": "no",
+        "cuisine": "coffee_shop;pastry;breakfast",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Ziggi's Coffee",
+        "opening_hours": "Mo-Fr 07:00-18:00; Sa-Su 07:00-17:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-480-801-6414",
+        "website": "https://www.ziggiscoffee.com/1135-apache-tempe-arizona/",
+        "website:menu": "https://ziggiscoffee.com/menu/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9206591,
+          33.4145185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12732531625",
+      "properties": {
+        "@id": "node/12732531625",
+        "amenity": "fast_food",
+        "cuisine": "poke",
+        "name": "Pokeworks",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9363324,
+          33.4230401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13309331069",
+      "properties": {
+        "@id": "node/13309331069",
+        "addr:city": "Tempe",
+        "addr:housenumber": "21",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East 6th Street",
+        "amenity": "restaurant",
+        "check_date": "2025-11-16",
+        "currency:XBT": "yes",
+        "name": "Foch",
+        "opening_hours": "Tu 09:00-18:00; We-Th 09:00-20:00; Fr-Sa 09:00-22:00; Su-Mo 09:00-15:00",
+        "payment:lightning": "yes",
+        "payment:lightning:operator": "square",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9387328,
+          33.4240144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13473709364",
+      "properties": {
+        "@id": "node/13473709364",
+        "addr:unit": "115",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Loco Patron",
+        "phone": "+1-480-699-0922",
+        "website": "https://locopatron.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.94024,
+          33.4276995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13473740133",
+      "properties": {
+        "@id": "node/13473740133",
+        "addr:city": "Tempe",
+        "addr:housenumber": "414",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "addr:unit": "114",
+        "amenity": "fast_food",
+        "cuisine": "poke",
+        "name": "Poke2U",
+        "takeaway": "yes",
+        "website": "https://poke2u.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9405462,
+          33.426314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13478247134",
+      "properties": {
+        "@id": "node/13478247134",
+        "addr:city": "Tempe",
+        "addr:housenumber": "505",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Mill Avenue",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Mesquite",
+        "opening_hours": "Mo-Fr 07:00-02:35; Sa-Su 10:00-02:35",
+        "phone": "+1-480-550-7052",
+        "website": "https://eatmesquite.com/tempe/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9397919,
+          33.4251668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13531382034",
+      "properties": {
+        "@id": "node/13531382034",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9276877,
+          33.4240841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13836356276",
+      "properties": {
+        "@id": "node/13836356276",
+        "amenity": "fast_food",
+        "check_date": "2026-05-16",
+        "cuisine": "mexican",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "OG Taco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9396408,
+          33.4241867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/14029397951",
+      "properties": {
+        "@id": "node/14029397951",
+        "addr:city": "Tempe",
+        "addr:housenumber": "960",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "W University Dr",
+        "addr:unit": "116",
+        "amenity": "fast_food",
+        "cuisine": "chicken",
+        "drive_through": "no",
+        "name": "BirdTalk",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 09:00-22:00; Su 12:00-21:00",
+        "phone": "+1-602-358-5649",
+        "website": "https://www.birdtalkchickenaz.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9511325,
+          33.4226688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/14030454401",
+      "properties": {
+        "@id": "node/14030454401",
+        "addr:city": "Tempe",
+        "addr:housenumber": "601",
+        "addr:postcode": "85281",
+        "addr:street": "West Rio Salado Parkway",
+        "addr:unit": "103",
+        "amenity": "cafe",
+        "check_date": "2026-07-20",
+        "check_date:opening_hours": "2026-07-20",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "level": "0",
+        "name": "Press Coffee",
+        "opening_hours": "Mo-Sa 06:30-16:00; Su 07:00-16:00",
+        "phone": "+14807941107",
+        "website": "https://presscoffee.com/pages/location-skywater",
+        "website:menu": "https://presscoffee.com/pages/menu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9485887,
+          33.4303135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/14280933586",
+      "properties": {
+        "@id": "node/14280933586",
+        "amenity": "fast_food",
+        "check_date": "2026-10-12",
+        "cuisine": "mexican",
+        "name": "Taco Chelo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9347633,
+          33.4244464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/14282129268",
+      "properties": {
+        "@id": "node/14282129268",
+        "amenity": "fast_food",
+        "check_date": "2026-10-12",
+        "cuisine": "mexican",
+        "name": "Taco Chelo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9347633,
+          33.4244464
+        ]
+      }
+    }
+  ]
+}
