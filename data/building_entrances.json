@@ -125,9 +125,9 @@
   "source": "outline"
  },
  "AQUAT": {
-  "lon": -111.934146,
-  "lat": 33.424222,
-  "source": "outline"
+  "lon": -111.934207,
+  "lat": 33.424214,
+  "source": "asu"
  },
  "ARHAL": {
   "lon": -111.929685,
@@ -135,19 +135,19 @@
   "source": "outline"
  },
  "ARM": {
-  "lon": -111.929661,
-  "lat": 33.418078,
-  "source": "outline"
+  "lon": -111.929629,
+  "lat": 33.418075,
+  "source": "asu"
  },
  "ART": {
-  "lon": -111.937536,
-  "lat": 33.420346,
-  "source": "outline"
+  "lon": -111.937148,
+  "lat": 33.420509,
+  "source": "asu"
  },
  "ARWH": {
-  "lon": -111.938011,
-  "lat": 33.420849,
-  "source": "outline"
+  "lon": -111.937626,
+  "lat": 33.420945,
+  "source": "asu"
  },
  "ASUPD": {
   "lon": -111.93478,
@@ -160,9 +160,9 @@
   "source": "osm_entrance"
  },
  "BAC": {
-  "lon": -111.93385,
-  "lat": 33.416793,
-  "source": "outline"
+  "lon": -111.93407,
+  "lat": 33.416634,
+  "source": "asu"
  },
  "BBTS": {
   "lon": -111.924244,
@@ -170,29 +170,29 @@
   "source": "outline"
  },
  "BDA": {
-  "lon": -111.928057,
-  "lat": 33.418701,
-  "source": "outline"
+  "lon": -111.928139,
+  "lat": 33.418655,
+  "source": "asu"
  },
  "BDB": {
-  "lon": -111.928334,
-  "lat": 33.419404,
-  "source": "outline"
+  "lon": -111.92808,
+  "lat": 33.420015,
+  "source": "asu"
  },
  "BDC": {
-  "lon": -111.92779,
-  "lat": 33.420075,
-  "source": "outline"
+  "lon": -111.927923,
+  "lat": 33.419933,
+  "source": "asu"
  },
  "BDH": {
-  "lon": -111.930772,
-  "lat": 33.418144,
-  "source": "outline"
+  "lon": -111.930802,
+  "lat": 33.418133,
+  "source": "asu"
  },
  "BKSTR": {
-  "lon": -111.93212,
-  "lat": 33.417597,
-  "source": "outline"
+  "lon": -111.931897,
+  "lat": 33.418149,
+  "source": "asu"
  },
  "BRO": {
   "lon": -111.92289,
@@ -225,14 +225,14 @@
   "source": "osm_entrance"
  },
  "CDN": {
-  "lon": -111.936784,
-  "lat": 33.421318,
-  "source": "outline"
+  "lon": -111.937151,
+  "lat": 33.421337,
+  "source": "asu"
  },
  "CDS": {
-  "lon": -111.937088,
-  "lat": 33.420895,
-  "source": "outline"
+  "lon": -111.937193,
+  "lat": 33.420903,
+  "source": "asu"
  },
  "CERHAL": {
   "lon": -111.927691,
@@ -240,19 +240,19 @@
   "source": "outline"
  },
  "CFS": {
-  "lon": -111.936221,
-  "lat": 33.421185,
-  "source": "outline"
+  "lon": -111.936413,
+  "lat": 33.420929,
+  "source": "asu"
  },
  "CHAPL": {
-  "lon": -111.935262,
-  "lat": 33.41846,
-  "source": "outline"
+  "lon": -111.935254,
+  "lat": 33.418508,
+  "source": "asu"
  },
  "CHPF": {
-  "lon": -111.928766,
-  "lat": 33.417178,
-  "source": "outline"
+  "lon": -111.928716,
+  "lat": 33.416743,
+  "source": "asu"
  },
  "CHUPA": {
   "lon": -111.929766,
@@ -265,9 +265,9 @@
   "source": "manual"
  },
  "COWDN": {
-  "lon": -111.93568,
-  "lat": 33.420924,
-  "source": "outline"
+  "lon": -111.935263,
+  "lat": 33.421029,
+  "source": "asu"
  },
  "CP": {
   "lon": -111.933365,
@@ -280,14 +280,14 @@
   "source": "outline"
  },
  "CRTVC": {
-  "lon": -111.93216,
-  "lat": 33.417605,
-  "source": "outline"
+  "lon": -111.932626,
+  "lat": 33.417616,
+  "source": "asu"
  },
  "CSAC": {
-  "lon": -111.9331,
-  "lat": 33.425648,
-  "source": "outline"
+  "lon": -111.933072,
+  "lat": 33.425403,
+  "source": "asu"
  },
  "CWHAL": {
   "lon": -111.927072,
@@ -295,29 +295,29 @@
   "source": "outline"
  },
  "DFA": {
-  "lon": -111.931167,
-  "lat": 33.424087,
-  "source": "outline"
+  "lon": -111.930322,
+  "lat": 33.424556,
+  "source": "asu"
  },
  "DH": {
-  "lon": -111.934309,
-  "lat": 33.42097,
-  "source": "outline"
+  "lon": -111.934709,
+  "lat": 33.420828,
+  "source": "asu"
  },
  "DISCVRY": {
-  "lon": -111.935534,
-  "lat": 33.41661,
-  "source": "outline"
+  "lon": -111.935524,
+  "lat": 33.416597,
+  "source": "asu"
  },
  "ECA": {
-  "lon": -111.931781,
-  "lat": 33.418888,
-  "source": "outline"
+  "lon": -111.931768,
+  "lat": 33.418513,
+  "source": "asu"
  },
  "ECANX": {
-  "lon": -111.932512,
-  "lat": 33.418888,
-  "source": "outline"
+  "lon": -111.932418,
+  "lat": 33.418764,
+  "source": "asu"
  },
  "ECB": {
   "lon": -111.93178,
@@ -340,19 +340,19 @@
   "source": "outline"
  },
  "ECF": {
-  "lon": -111.931774,
-  "lat": 33.419776,
-  "source": "outline"
+  "lon": -111.932272,
+  "lat": 33.419758,
+  "source": "asu"
  },
  "ECG": {
-  "lon": -111.931751,
-  "lat": 33.419816,
-  "source": "outline"
+  "lon": -111.932124,
+  "lat": 33.420189,
+  "source": "asu"
  },
  "ED": {
-  "lon": -111.93726,
-  "lat": 33.417974,
-  "source": "outline"
+  "lon": -111.937238,
+  "lat": 33.417832,
+  "source": "asu"
  },
  "EDB": {
   "lon": -111.937255,
@@ -360,19 +360,19 @@
   "source": "osm_entrance"
  },
  "EDC": {
-  "lon": -111.937858,
-  "lat": 33.417801,
-  "source": "outline"
+  "lon": -111.937717,
+  "lat": 33.41791,
+  "source": "asu"
  },
  "ENGRC": {
-  "lon": -111.931598,
-  "lat": 33.419748,
-  "source": "outline"
+  "lon": -111.931445,
+  "lat": 33.420181,
+  "source": "asu"
  },
  "FAC": {
-  "lon": -111.939028,
-  "lat": 33.417776,
-  "source": "outline"
+  "lon": -111.938744,
+  "lat": 33.418616,
+  "source": "asu"
  },
  "FMMEY": {
   "lon": -111.92312,
@@ -380,19 +380,19 @@
   "source": "outline"
  },
  "FULTN": {
-  "lon": -111.934855,
-  "lat": 33.422097,
-  "source": "outline"
+  "lon": -111.934777,
+  "lat": 33.422252,
+  "source": "asu"
  },
  "GGMA": {
-  "lon": -111.938353,
-  "lat": 33.415979,
-  "source": "outline"
+  "lon": -111.937679,
+  "lat": 33.416118,
+  "source": "asu"
  },
  "GHALL": {
-  "lon": -111.936384,
-  "lat": 33.419106,
-  "source": "outline"
+  "lon": -111.936267,
+  "lat": 33.419322,
+  "source": "asu"
  },
  "GLVA": {
   "lon": -111.925805,
@@ -450,9 +450,9 @@
   "source": "centroid"
  },
  "HLMK": {
-  "lon": -111.935107,
-  "lat": 33.423355,
-  "source": "outline"
+  "lon": -111.935081,
+  "lat": 33.423497,
+  "source": "asu"
  },
  "HOBBS": {
   "lon": -111.925892,
@@ -465,19 +465,19 @@
   "source": "outline"
  },
  "HSB": {
-  "lon": -111.933161,
-  "lat": 33.421627,
-  "source": "outline"
+  "lon": -111.932828,
+  "lat": 33.421345,
+  "source": "asu"
  },
  "INTDSA": {
-  "lon": -111.935369,
-  "lat": 33.417604,
-  "source": "outline"
+  "lon": -111.935354,
+  "lat": 33.417564,
+  "source": "asu"
  },
  "INTDSB": {
-  "lon": -111.935696,
-  "lat": 33.417111,
-  "source": "outline"
+  "lon": -111.936057,
+  "lat": 33.4172,
+  "source": "asu"
  },
  "IRISH": {
   "lon": -111.93545138685566,
@@ -485,29 +485,29 @@
   "source": "centroid"
  },
  "ISTB1": {
-  "lon": -111.931161,
-  "lat": 33.41888,
-  "source": "outline"
+  "lon": -111.931247,
+  "lat": 33.418912,
+  "source": "asu"
  },
  "ISTB2": {
-  "lon": -111.92964,
-  "lat": 33.420893,
-  "source": "outline"
+  "lon": -111.929993,
+  "lat": 33.421037,
+  "source": "asu"
  },
  "ISTB4": {
-  "lon": -111.928291,
-  "lat": 33.418326,
-  "source": "outline"
+  "lon": -111.928427,
+  "lat": 33.418308,
+  "source": "asu"
  },
  "ISTB5": {
-  "lon": -111.931105,
-  "lat": 33.420422,
-  "source": "outline"
+  "lon": -111.931165,
+  "lat": 33.420666,
+  "source": "asu"
  },
  "ISTBX": {
-  "lon": -111.935476,
-  "lat": 33.421381,
-  "source": "outline"
+  "lon": -111.935179,
+  "lat": 33.421522,
+  "source": "asu"
  },
  "JNHAL": {
   "lon": -111.926737,
@@ -615,19 +615,19 @@
   "source": "osm_entrance"
  },
  "LSA": {
-  "lon": -111.933376,
-  "lat": 33.419525,
-  "source": "outline"
+  "lon": -111.933441,
+  "lat": 33.420078,
+  "source": "asu"
  },
  "LSB": {
-  "lon": -111.933376,
-  "lat": 33.419525,
-  "source": "outline"
+  "lon": -111.933459,
+  "lat": 33.419556,
+  "source": "asu"
  },
  "LSC": {
-  "lon": -111.933553,
-  "lat": 33.419854,
-  "source": "outline"
+  "lon": -111.933956,
+  "lat": 33.419992,
+  "source": "asu"
  },
  "LSD": {
   "lon": -111.933014,
@@ -635,14 +635,14 @@
   "source": "outline"
  },
  "LSE": {
-  "lon": -111.933535,
-  "lat": 33.419627,
-  "source": "outline"
+  "lon": -111.93403,
+  "lat": 33.419401,
+  "source": "asu"
  },
  "LYC": {
-  "lon": -111.936302,
-  "lat": 33.420335,
-  "source": "outline"
+  "lon": -111.936293,
+  "lat": 33.420399,
+  "source": "asu"
  },
  "MA": {
   "lon": -111.92914,
@@ -650,9 +650,9 @@
   "source": "outline"
  },
  "MAIN": {
-  "lon": -111.9337,
-  "lat": 33.420472,
-  "source": "outline"
+  "lon": -111.933898,
+  "lat": 33.42069,
+  "source": "asu"
  },
  "MANZH": {
   "lon": -111.930292,
@@ -680,14 +680,14 @@
   "source": "centroid"
  },
  "MCENT": {
-  "lon": -111.935395,
-  "lat": 33.41969,
-  "source": "outline"
+  "lon": -111.935328,
+  "lat": 33.420159,
+  "source": "asu"
  },
  "MCL": {
-  "lon": -111.935748,
-  "lat": 33.419103,
-  "source": "outline"
+  "lon": -111.935768,
+  "lat": 33.419586,
+  "source": "asu"
  },
  "MCRD": {
   "lon": -111.932898,
@@ -695,14 +695,14 @@
   "source": "osm_main"
  },
  "MHALL": {
-  "lon": -111.936411,
-  "lat": 33.420063,
-  "source": "outline"
+  "lon": -111.936105,
+  "lat": 33.420023,
+  "source": "asu"
  },
  "MOEUR": {
-  "lon": -111.93615,
-  "lat": 33.417763,
-  "source": "outline"
+  "lon": -111.936164,
+  "lat": 33.41806,
+  "source": "asu"
  },
  "MRBLA": {
   "lon": -111.93895,
@@ -725,14 +725,14 @@
   "source": "manual"
  },
  "MUR": {
-  "lon": -111.933149,
-  "lat": 33.418516,
-  "source": "outline"
+  "lon": -111.933269,
+  "lat": 33.418597,
+  "source": "asu"
  },
  "MUSIC": {
-  "lon": -111.939028,
-  "lat": 33.417776,
-  "source": "outline"
+  "lon": -111.939023,
+  "lat": 33.418014,
+  "source": "asu"
  },
  "MVHAL": {
   "lon": -111.929763,
@@ -745,14 +745,14 @@
   "source": "outline"
  },
  "NEEB": {
-  "lon": -111.937036,
-  "lat": 33.420294,
-  "source": "outline"
+  "lon": -111.936921,
+  "lat": 33.42045,
+  "source": "asu"
  },
  "NOBLE": {
-  "lon": -111.930364,
-  "lat": 33.420199,
-  "source": "outline"
+  "lon": -111.93087,
+  "lat": 33.420187,
+  "source": "asu"
  },
  "NVS1": {
   "lon": -111.926658,
@@ -845,9 +845,9 @@
   "source": "osm_entrance"
  },
  "PSH": {
-  "lon": -111.93172,
-  "lat": 33.421773,
-  "source": "outline"
+  "lon": -111.931743,
+  "lat": 33.421691,
+  "source": "asu"
  },
  "PSHED": {
   "lon": -111.92720447974659,
@@ -855,14 +855,14 @@
   "source": "centroid"
  },
  "PSY": {
-  "lon": -111.929134,
-  "lat": 33.419922,
-  "source": "outline"
+  "lon": -111.929272,
+  "lat": 33.419951,
+  "source": "asu"
  },
  "PSYN": {
-  "lon": -111.929922,
-  "lat": 33.420518,
-  "source": "outline"
+  "lon": -111.929619,
+  "lat": 33.420798,
+  "source": "asu"
  },
  "PVE": {
   "lon": -111.932647,
@@ -875,9 +875,9 @@
   "source": "outline"
  },
  "PWH": {
-  "lon": -111.933019,
-  "lat": 33.420449,
-  "source": "outline"
+  "lon": -111.933017,
+  "lat": 33.420438,
+  "source": "asu"
  },
  "PWOP": {
   "lon": -111.932474,
@@ -885,9 +885,9 @@
   "source": "osm_entrance"
  },
  "RBHL": {
-  "lon": -111.929374,
-  "lat": 33.416826,
-  "source": "outline"
+  "lon": -111.929539,
+  "lat": 33.417195,
+  "source": "asu"
  },
  "RFPF": {
   "lon": -111.927749,
@@ -925,9 +925,9 @@
   "source": "outline"
  },
  "SCOB": {
-  "lon": -111.930503,
-  "lat": 33.419468,
-  "source": "outline"
+  "lon": -111.930798,
+  "lat": 33.418922,
+  "source": "asu"
  },
  "SDBVF": {
   "lon": -111.92224839976394,
@@ -935,9 +935,9 @@
   "source": "centroid"
  },
  "SDFCT": {
-  "lon": -111.93318,
-  "lat": 33.415459,
-  "source": "outline"
+  "lon": -111.93258,
+  "lat": 33.415808,
+  "source": "asu"
  },
  "SDFCTF": {
   "lon": -111.93141479993996,
@@ -945,9 +945,9 @@
   "source": "centroid"
  },
  "SDH": {
-  "lon": -111.932865,
-  "lat": 33.418228,
-  "source": "outline"
+  "lon": -111.933299,
+  "lat": 33.418197,
+  "source": "asu"
  },
  "SDSP": {
   "lon": -111.92326,
@@ -960,9 +960,9 @@
   "source": "outline"
  },
  "SHESC": {
-  "lon": -111.935731,
-  "lat": 33.420771,
-  "source": "outline"
+  "lon": -111.935292,
+  "lat": 33.42063,
+  "source": "asu"
  },
  "SLSTDM": {
   "lon": -111.922476,
@@ -975,14 +975,14 @@
   "source": "outline"
  },
  "SS": {
-  "lon": -111.933535,
-  "lat": 33.419627,
-  "source": "outline"
+  "lon": -111.934199,
+  "lat": 33.419935,
+  "source": "asu"
  },
  "SSV": {
-  "lon": -111.936145,
-  "lat": 33.417514,
-  "source": "outline"
+  "lon": -111.93651,
+  "lat": 33.417141,
+  "source": "asu"
  },
  "STADIP": {
   "lon": -111.932188,
@@ -1005,14 +1005,14 @@
   "source": "centroid"
  },
  "STAUF": {
-  "lon": -111.937518,
-  "lat": 33.420036,
-  "source": "outline"
+  "lon": -111.936861,
+  "lat": 33.419781,
+  "source": "asu"
  },
  "STPV": {
-  "lon": -111.933411,
-  "lat": 33.418436,
-  "source": "outline"
+  "lon": -111.933995,
+  "lat": 33.41847,
+  "source": "asu"
  },
  "THERM": {
   "lon": -111.93212,
@@ -1050,9 +1050,9 @@
   "source": "outline"
  },
  "UCLUB": {
-  "lon": -111.933551,
-  "lat": 33.42084,
-  "source": "outline"
+  "lon": -111.933663,
+  "lat": 33.420959,
+  "source": "asu"
  },
  "UGB": {
   "lon": -111.939735,
@@ -1085,9 +1085,9 @@
   "source": "outline"
  },
  "USE": {
-  "lon": -111.93002,
-  "lat": 33.421805,
-  "source": "outline"
+  "lon": -111.929941,
+  "lat": 33.421789,
+  "source": "asu"
  },
  "UTN": {
   "lon": -111.932474,
@@ -1210,9 +1210,9 @@
   "source": "outline"
  },
  "WHALL": {
-  "lon": -111.935748,
-  "lat": 33.419103,
-  "source": "outline"
+  "lon": -111.93574,
+  "lat": 33.419106,
+  "source": "asu"
  },
  "WILOHAL": {
   "lon": -111.926825,

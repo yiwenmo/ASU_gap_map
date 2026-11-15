@@ -1,0 +1,1950 @@
+{
+ "source": "https://gis.m.asu.edu/server/rest/services/Campus/CampusAccessibility/MapServer/0/query",
+ "fetched": "2026-11-14",
+ "points": [
+  {
+   "bldg_number": "049",
+   "building_name": "WEST HALL",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.93574,
+   "lat": 33.419106
+  },
+  {
+   "bldg_number": "037",
+   "building_name": "MOEUR BLDG.",
+   "main": true,
+   "accessible": true,
+   "notes": "ramp to the left, no contrast on the stairs!",
+   "lon": -111.936164,
+   "lat": 33.41806
+  },
+  {
+   "bldg_number": "056A",
+   "building_name": "LIFE SCIENCES CENTER A",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.932943,
+   "lat": 33.420206
+  },
+  {
+   "bldg_number": "006A",
+   "building_name": "FARMER EDUCATION BLDG.",
+   "main": false,
+   "accessible": true,
+   "notes": "unlocked doorway to atrium north doors facing payne",
+   "lon": -111.937272,
+   "lat": 33.418225
+  },
+  {
+   "bldg_number": "084",
+   "building_name": "MUSIC BLDG.",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.939023,
+   "lat": 33.418014
+  },
+  {
+   "bldg_number": "042",
+   "building_name": "PIPER WRITERS HOUSE",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.933017,
+   "lat": 33.420438
+  },
+  {
+   "bldg_number": "025",
+   "building_name": "HEALTH SERVICE",
+   "main": true,
+   "accessible": true,
+   "notes": "Door under the ivy has the button",
+   "lon": -111.932828,
+   "lat": 33.421345
+  },
+  {
+   "bldg_number": "057E",
+   "building_name": "BATEMAN PHYSICAL SCIENCES CENTER E",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.932469,
+   "lat": 33.421535
+  },
+  {
+   "bldg_number": "010",
+   "building_name": "HAYDEN LIBRARY",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.934893,
+   "lat": 33.41905
+  },
+  {
+   "bldg_number": "006B",
+   "building_name": "PAYNE HALL",
+   "main": true,
+   "accessible": false,
+   "notes": "entrance to atrium, elevator to right, ramp to left",
+   "lon": -111.937292,
+   "lat": 33.418781
+  },
+  {
+   "bldg_number": "036",
+   "building_name": "SUN DEVIL HALL",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.933299,
+   "lat": 33.418197
+  },
+  {
+   "bldg_number": "108",
+   "building_name": "INTERDISCIPLINARY SCIENCE AND TECHNOLOGY BUILDING I",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.931247,
+   "lat": 33.418912
+  },
+  {
+   "bldg_number": "136",
+   "building_name": "CREATIVITY COMMONS",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.932626,
+   "lat": 33.417616
+  },
+  {
+   "bldg_number": "136",
+   "building_name": "CREATIVITY COMMONS",
+   "main": true,
+   "accessible": true,
+   "notes": "Creativity Commons CRTVC",
+   "lon": -111.932401,
+   "lat": 33.41816
+  },
+  {
+   "bldg_number": "039",
+   "building_name": "BOOKSTORE",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.931897,
+   "lat": 33.418149
+  },
+  {
+   "bldg_number": "013",
+   "building_name": "PSYCHOLOGY BLDG.",
+   "main": true,
+   "accessible": true,
+   "notes": "Take ramp on north side; steps lead to accessible entrance on west side",
+   "lon": -111.929826,
+   "lat": 33.419948
+  },
+  {
+   "bldg_number": "047",
+   "building_name": "NOBLE SCIENCE LIBRARY",
+   "main": true,
+   "accessible": true,
+   "notes": "Ramp is located to the west of the stairs and is somewhat hidden behind a brick column",
+   "lon": -111.93087,
+   "lat": 33.420187
+  },
+  {
+   "bldg_number": "027",
+   "building_name": "LYCEUM THEATRE",
+   "main": true,
+   "accessible": false,
+   "notes": "ramp to the right, stairs are unmarked and not well lit, no sign saying ramp is accessible path",
+   "lon": -111.936293,
+   "lat": 33.420399
+  },
+  {
+   "bldg_number": "057F",
+   "building_name": "BATEMAN PHYSICAL SCIENCES CENTER F",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.931505,
+   "lat": 33.420768
+  },
+  {
+   "bldg_number": "033",
+   "building_name": "MATTHEWS HALL",
+   "main": true,
+   "accessible": false,
+   "notes": "no sticker or sign for door or ramp",
+   "lon": -111.936105,
+   "lat": 33.420023
+  },
+  {
+   "bldg_number": "041",
+   "building_name": "BULLDOG HALL",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.930802,
+   "lat": 33.418133
+  },
+  {
+   "bldg_number": "034",
+   "building_name": "MATTHEWS CENTER",
+   "main": false,
+   "accessible": false,
+   "notes": "door is far away from button as well as card  reader ",
+   "lon": -111.935406,
+   "lat": 33.420205
+  },
+  {
+   "bldg_number": "085",
+   "building_name": "GOLDWATER CENTER FOR SCIENCE & ENGINEERING",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.930458,
+   "lat": 33.420425
+  },
+  {
+   "bldg_number": "041",
+   "building_name": "BULLDOG HALL",
+   "main": false,
+   "accessible": true,
+   "notes": "Back entrance but accessible",
+   "lon": -111.930737,
+   "lat": 33.417493
+  },
+  {
+   "bldg_number": "143",
+   "building_name": "ROSS-BLAKLEY HALL",
+   "main": true,
+   "accessible": true,
+   "notes": "Security desk- one main entrance",
+   "lon": -111.929539,
+   "lat": 33.417195
+  },
+  {
+   "bldg_number": "004",
+   "building_name": "SCHOOL OF HUMAN EVOLUTION AND SOCIAL CHANGE",
+   "main": false,
+   "accessible": true,
+   "notes": "door to the left at the bottom of the ramp",
+   "lon": -111.9353,
+   "lat": 33.420524
+  },
+  {
+   "bldg_number": "043",
+   "building_name": "ARMSTRONG HALL",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.929618,
+   "lat": 33.417528
+  },
+  {
+   "bldg_number": "004",
+   "building_name": "SCHOOL OF HUMAN EVOLUTION AND SOCIAL CHANGE",
+   "main": true,
+   "accessible": true,
+   "notes": "pole with button far away from door ",
+   "lon": -111.935292,
+   "lat": 33.42063
+  },
+  {
+   "bldg_number": "043",
+   "building_name": "ARMSTRONG HALL",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.929239,
+   "lat": 33.41762
+  },
+  {
+   "bldg_number": "043",
+   "building_name": "ARMSTRONG HALL",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.929278,
+   "lat": 33.418079
+  },
+  {
+   "bldg_number": "043",
+   "building_name": "ARMSTRONG HALL",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.929629,
+   "lat": 33.418075
+  },
+  {
+   "bldg_number": "010",
+   "building_name": "HAYDEN LIBRARY",
+   "main": true,
+   "accessible": true,
+   "notes": "This is where the elevator is located in order to get to the concourse level",
+   "lon": -111.935338,
+   "lat": 33.418695
+  },
+  {
+   "bldg_number": "016",
+   "building_name": "COWDEN FAMILY RESOURCES BLDG.",
+   "main": true,
+   "accessible": true,
+   "notes": "elevator to classrooms on west side of building. ",
+   "lon": -111.935263,
+   "lat": 33.421029
+  },
+  {
+   "bldg_number": "075",
+   "building_name": "INTERDISCIPLINARY SCIENCE AND TECHNOLOGY BUILDING 4",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.928427,
+   "lat": 33.418308
+  },
+  {
+   "bldg_number": "135",
+   "building_name": "COMBINED HEAT AND POWER FACILITY",
+   "main": true,
+   "accessible": false,
+   "notes": "This would likely be used by contractors only. There is no public access to this building, but this entrance should probably be marked as the only visitor entrance.",
+   "lon": -111.928716,
+   "lat": 33.416743
+  },
+  {
+   "bldg_number": "104A",
+   "building_name": "BIODESIGN INSTITUTE BLDG A",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.928139,
+   "lat": 33.418655
+  },
+  {
+   "bldg_number": "104C",
+   "building_name": "BIODESIGN INSTITUTE BLDG C",
+   "main": true,
+   "accessible": true,
+   "notes": "Security entrance",
+   "lon": -111.927923,
+   "lat": 33.419933
+  },
+  {
+   "bldg_number": "104B",
+   "building_name": "BIODESIGN INSTITUTE BLDG B",
+   "main": true,
+   "accessible": true,
+   "notes": "Security entrance",
+   "lon": -111.92808,
+   "lat": 33.420015
+  },
+  {
+   "bldg_number": "169",
+   "building_name": "STUDENT PAVILION",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.933995,
+   "lat": 33.41847
+  },
+  {
+   "bldg_number": "021",
+   "building_name": "MURDOCK LECTURE HALL",
+   "main": true,
+   "accessible": true,
+   "notes": "Must use elevator to get in building. All entrances are up or down from ground level.",
+   "lon": -111.933269,
+   "lat": 33.418597
+  },
+  {
+   "bldg_number": "035",
+   "building_name": "MEMORIAL UNION",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.934021,
+   "lat": 33.417209
+  },
+  {
+   "bldg_number": "040D",
+   "building_name": "MCCORD HALL",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.93364,
+   "lat": 33.416791
+  },
+  {
+   "bldg_number": "040D",
+   "building_name": "MCCORD HALL",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.933126,
+   "lat": 33.416915
+  },
+  {
+   "bldg_number": "040C",
+   "building_name": "BUSINESS ADMINISTRATION C WING",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.933893,
+   "lat": 33.41634
+  },
+  {
+   "bldg_number": "040",
+   "building_name": "BUSINESS ADMINISTRATION",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.934324,
+   "lat": 33.416681
+  },
+  {
+   "bldg_number": "040C",
+   "building_name": "BUSINESS ADMINISTRATION C WING",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.93407,
+   "lat": 33.416634
+  },
+  {
+   "bldg_number": "040",
+   "building_name": "BUSINESS ADMINISTRATION",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.934234,
+   "lat": 33.416303
+  },
+  {
+   "bldg_number": "040",
+   "building_name": "BUSINESS ADMINISTRATION",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.934574,
+   "lat": 33.416671
+  },
+  {
+   "bldg_number": "035",
+   "building_name": "MEMORIAL UNION",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.934784,
+   "lat": 33.417359
+  },
+  {
+   "bldg_number": "002",
+   "building_name": "INTERDISCIPLINARY A (East)",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.935354,
+   "lat": 33.417564
+  },
+  {
+   "bldg_number": "008",
+   "building_name": "DANFORTH CHAPEL",
+   "main": true,
+   "accessible": true,
+   "notes": "No contrast on the stairs",
+   "lon": -111.935254,
+   "lat": 33.418508
+  },
+  {
+   "bldg_number": "050",
+   "building_name": "WILSON HALL (BLDG PERMANENTLY CLOSED)",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.935974,
+   "lat": 33.418439
+  },
+  {
+   "bldg_number": "002",
+   "building_name": "INTERDISCIPLINARY A (west)",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.935628,
+   "lat": 33.417604
+  },
+  {
+   "bldg_number": "045",
+   "building_name": "STUDENT SERVICES BLDG.",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.936225,
+   "lat": 33.417414
+  },
+  {
+   "bldg_number": "003",
+   "building_name": "INTERDISCIPLINARY B (west)",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.936057,
+   "lat": 33.4172
+  },
+  {
+   "bldg_number": "045",
+   "building_name": "STUDENT SERVICES BLDG.",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.93612,
+   "lat": 33.417069
+  },
+  {
+   "bldg_number": "045",
+   "building_name": "STUDENT SERVICES BLDG.",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.936131,
+   "lat": 33.41663
+  },
+  {
+   "bldg_number": "045",
+   "building_name": "STUDENT SERVICES BLDG.",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.93651,
+   "lat": 33.417141
+  },
+  {
+   "bldg_number": "044",
+   "building_name": "DISCOVERY HALL",
+   "main": true,
+   "accessible": false,
+   "notes": "Completely inaccessible and no signage pointing to accessible entrance.",
+   "lon": -111.935524,
+   "lat": 33.416597
+  },
+  {
+   "bldg_number": "044",
+   "building_name": "DISCOVERY HALL",
+   "main": false,
+   "accessible": true,
+   "notes": "This is the only entrance without stairs, and it is an elevator. ",
+   "lon": -111.935364,
+   "lat": 33.416361
+  },
+  {
+   "bldg_number": "035",
+   "building_name": "MEMORIAL UNION",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.934582,
+   "lat": 33.418146
+  },
+  {
+   "bldg_number": "046",
+   "building_name": "SUN DEVIL FITNESS COMPLEX",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.93258,
+   "lat": 33.415808
+  },
+  {
+   "bldg_number": "140",
+   "building_name": "ENGINEERING CENTER ANNEX",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.932418,
+   "lat": 33.418764
+  },
+  {
+   "bldg_number": "053A",
+   "building_name": "ENGINEERING CENTER A",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.932058,
+   "lat": 33.418699
+  },
+  {
+   "bldg_number": "053G",
+   "building_name": "ENGINEERING CENTER G",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.93252,
+   "lat": 33.420142
+  },
+  {
+   "bldg_number": "057A",
+   "building_name": "WEXLER HALL",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.932211,
+   "lat": 33.420593
+  },
+  {
+   "bldg_number": "057A",
+   "building_name": "WEXLER HALL",
+   "main": true,
+   "accessible": true,
+   "notes": "This entrance leads to the elevator",
+   "lon": -111.932126,
+   "lat": 33.42067
+  },
+  {
+   "bldg_number": "057B",
+   "building_name": "BATEMAN PHYSICAL SCIENCES CENTER B",
+   "main": false,
+   "accessible": true,
+   "notes": "PSB entrance to Wexler Hall",
+   "lon": -111.93217,
+   "lat": 33.420732
+  },
+  {
+   "bldg_number": "053G",
+   "building_name": "ENGINEERING CENTER G",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.932124,
+   "lat": 33.420189
+  },
+  {
+   "bldg_number": "053F",
+   "building_name": "ENGINEERING CENTER F",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.932014,
+   "lat": 33.419767
+  },
+  {
+   "bldg_number": "053F",
+   "building_name": "ENGINEERING CENTER F",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.932272,
+   "lat": 33.419758
+  },
+  {
+   "bldg_number": "044",
+   "building_name": "DISCOVERY HALL",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.935378,
+   "lat": 33.416576
+  },
+  {
+   "bldg_number": "006A",
+   "building_name": "FARMER EDUCATION BLDG.",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.937238,
+   "lat": 33.417832
+  },
+  {
+   "bldg_number": "028",
+   "building_name": "MCCLINTOCK HALL",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.935768,
+   "lat": 33.419586
+  },
+  {
+   "bldg_number": "088",
+   "building_name": "DESIGN SOUTH",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.937092,
+   "lat": 33.421117
+  },
+  {
+   "bldg_number": "127",
+   "building_name": "DESIGN NORTH",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.937151,
+   "lat": 33.421337
+  },
+  {
+   "bldg_number": "057A",
+   "building_name": "WEXLER HALL",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.932152,
+   "lat": 33.420576
+  },
+  {
+   "bldg_number": "063",
+   "building_name": "ENGINEERING RESEARCH CENTER",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.931445,
+   "lat": 33.420181
+  },
+  {
+   "bldg_number": "072",
+   "building_name": "INTERDISCIPLINARY SCIENCE AND TECHNOLOGY BUILDING V",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.931165,
+   "lat": 33.420666
+  },
+  {
+   "bldg_number": "054",
+   "building_name": "INTERDISCIPLINARY SCIENCE AND TECHNOLOGY BUILDING II",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.929993,
+   "lat": 33.421037
+  },
+  {
+   "bldg_number": "077",
+   "building_name": "URBAN SYSTEMS ENGINEERING",
+   "main": true,
+   "accessible": true,
+   "notes": "Has signs pointing to accessible entrance ",
+   "lon": -111.929941,
+   "lat": 33.421789
+  },
+  {
+   "bldg_number": "055",
+   "building_name": "SCHWADA CLASSROOM OFFICE BLDG.",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.930494,
+   "lat": 33.418699
+  },
+  {
+   "bldg_number": "005",
+   "building_name": "SOCIAL SCIENCES BLDG.",
+   "main": true,
+   "accessible": true,
+   "notes": "Doors usually left open, no button needed ",
+   "lon": -111.934199,
+   "lat": 33.419935
+  },
+  {
+   "bldg_number": "032",
+   "building_name": "OLD MAIN",
+   "main": false,
+   "accessible": true,
+   "notes": "Main entrance for accessible is the elevator ",
+   "lon": -111.933912,
+   "lat": 33.42035
+  },
+  {
+   "bldg_number": "011",
+   "building_name": "UNIVERSITY CLUB",
+   "main": true,
+   "accessible": true,
+   "notes": "Ramp is unmarked, stairs aren’t marked and too close to ramp and door ",
+   "lon": -111.933663,
+   "lat": 33.420959
+  },
+  {
+   "bldg_number": "056C",
+   "building_name": "LIFE SCIENCES CENTER C",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.933956,
+   "lat": 33.419992
+  },
+  {
+   "bldg_number": "056A",
+   "building_name": "LIFE SCIENCES CENTER A",
+   "main": false,
+   "accessible": true,
+   "notes": "Closest to accessible bathroom and elevator - too close to unmarked stairs right as you as you exit",
+   "lon": -111.933441,
+   "lat": 33.420078
+  },
+  {
+   "bldg_number": "005",
+   "building_name": "SOCIAL SCIENCES BLDG.",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.934777,
+   "lat": 33.419926
+  },
+  {
+   "bldg_number": "056A",
+   "building_name": "LIFE SCIENCES CENTER A",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.933237,
+   "lat": 33.420179
+  },
+  {
+   "bldg_number": "056C",
+   "building_name": "LIFE SCIENCES CENTER C",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.933544,
+   "lat": 33.420077
+  },
+  {
+   "bldg_number": "056E",
+   "building_name": "LIFE SCIENCES TOWER E-WING",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.93403,
+   "lat": 33.419401
+  },
+  {
+   "bldg_number": "056E",
+   "building_name": "LIFE SCIENCES TOWER E-WING",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.934032,
+   "lat": 33.419626
+  },
+  {
+   "bldg_number": "034",
+   "building_name": "MATTHEWS CENTER",
+   "main": true,
+   "accessible": true,
+   "notes": "need a card to enter, scanner is covered by sticker",
+   "lon": -111.935328,
+   "lat": 33.420159
+  },
+  {
+   "bldg_number": "016",
+   "building_name": "COWDEN FAMILY RESOURCES BLDG.",
+   "main": false,
+   "accessible": true,
+   "notes": "stairs very close to ramp, stay cautious",
+   "lon": -111.935874,
+   "lat": 33.421096
+  },
+  {
+   "bldg_number": "007",
+   "building_name": "WRIGLEY HALL",
+   "main": true,
+   "accessible": true,
+   "notes": "has a ramp that leads to nowhere ",
+   "lon": -111.935179,
+   "lat": 33.421522
+  },
+  {
+   "bldg_number": "007",
+   "building_name": "WRIGLEY HALL",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.935449,
+   "lat": 33.421527
+  },
+  {
+   "bldg_number": "032",
+   "building_name": "OLD MAIN",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.933898,
+   "lat": 33.42069
+  },
+  {
+   "bldg_number": "057H",
+   "building_name": "BATEMAN PHYSICAL SCIENCES CENTER H",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.931743,
+   "lat": 33.421691
+  },
+  {
+   "bldg_number": "057G",
+   "building_name": "BATEMAN CHEMICAL STORAGE BUILDING (G)",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.931714,
+   "lat": 33.421488
+  },
+  {
+   "bldg_number": "057D",
+   "building_name": "BATEMAN PHYSICAL SCIENCES CENTER D",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.931774,
+   "lat": 33.421319
+  },
+  {
+   "bldg_number": "057B",
+   "building_name": "BATEMAN PHYSICAL SCIENCES CENTER B",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.932534,
+   "lat": 33.42086
+  },
+  {
+   "bldg_number": "057A",
+   "building_name": "WEXLER HALL",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.932269,
+   "lat": 33.420689
+  },
+  {
+   "bldg_number": "057A",
+   "building_name": "WEXLER HALL",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.932492,
+   "lat": 33.420438
+  },
+  {
+   "bldg_number": "057F",
+   "building_name": "BATEMAN PHYSICAL SCIENCES CENTER F",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.93168,
+   "lat": 33.420986
+  },
+  {
+   "bldg_number": "013",
+   "building_name": "PSYCHOLOGY BLDG.",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.929272,
+   "lat": 33.419951
+  },
+  {
+   "bldg_number": "031A",
+   "building_name": "PSYCHOLOGY NORTH",
+   "main": true,
+   "accessible": true,
+   "notes": "This is the elevator and point of accessible access to reach the upper floors",
+   "lon": -111.929619,
+   "lat": 33.420798
+  },
+  {
+   "bldg_number": "031A",
+   "building_name": "PSYCHOLOGY NORTH",
+   "main": false,
+   "accessible": true,
+   "notes": "In walking around the building, this is the only entrance beside the elevator and bathrooms with a wheelchair button to open it. However, it appears to go into a classroom.",
+   "lon": -111.929856,
+   "lat": 33.420778
+  },
+  {
+   "bldg_number": "054",
+   "building_name": "INTERDISCIPLINARY SCIENCE AND TECHNOLOGY BUILDING II",
+   "main": false,
+   "accessible": true,
+   "notes": "This is an accessible elevator to reach higher floors",
+   "lon": -111.929189,
+   "lat": 33.421037
+  },
+  {
+   "bldg_number": "012",
+   "building_name": "DURHAM HALL",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.934709,
+   "lat": 33.420828
+  },
+  {
+   "bldg_number": "R11",
+   "building_name": "FULTON CENTER",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.934777,
+   "lat": 33.422252
+  },
+  {
+   "bldg_number": "R11A",
+   "building_name": "COLLEGE AVENUE MARKET PLACE",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.934378,
+   "lat": 33.422527
+  },
+  {
+   "bldg_number": "023B",
+   "building_name": "TOWER CENTER BUILDING B (WEST)",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.937824,
+   "lat": 33.421793
+  },
+  {
+   "bldg_number": "094",
+   "building_name": "ART WAREHOUSE",
+   "main": true,
+   "accessible": false,
+   "notes": "This building does not have any accessible entrances. The middle area seems to be accessible if the gate is open.",
+   "lon": -111.937626,
+   "lat": 33.420945
+  },
+  {
+   "bldg_number": "088",
+   "building_name": "DESIGN SOUTH",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.937193,
+   "lat": 33.420903
+  },
+  {
+   "bldg_number": "087",
+   "building_name": "ART BLDG.",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.937148,
+   "lat": 33.420509
+  },
+  {
+   "bldg_number": "086",
+   "building_name": "NEEB HALL",
+   "main": true,
+   "accessible": true,
+   "notes": "Ramp is before you get to the main stair area to go up. It is on the southeast corner.",
+   "lon": -111.936921,
+   "lat": 33.42045
+  },
+  {
+   "bldg_number": "024B",
+   "building_name": "STAUFFER COMMUNICATION ARTS B",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.937039,
+   "lat": 33.419771
+  },
+  {
+   "bldg_number": "024A",
+   "building_name": "STAUFFER COMMUNICATION ARTS A",
+   "main": true,
+   "accessible": true,
+   "notes": "This is the accessible entrance to floor one as well as the accessible entrance to the elevator to go up higher.",
+   "lon": -111.936861,
+   "lat": 33.419781
+  },
+  {
+   "bldg_number": "024A",
+   "building_name": "STAUFFER COMMUNICATION ARTS A",
+   "main": false,
+   "accessible": true,
+   "notes": "This is the accessible entrance into the elevator area to go up in the building.",
+   "lon": -111.936846,
+   "lat": 33.419696
+  },
+  {
+   "bldg_number": "065",
+   "building_name": "COOR HALL",
+   "main": true,
+   "accessible": true,
+   "notes": "This is the accessible entrance to the lab",
+   "lon": -111.937234,
+   "lat": 33.419366
+  },
+  {
+   "bldg_number": "065",
+   "building_name": "COOR HALL",
+   "main": true,
+   "accessible": true,
+   "notes": "These are the accessible elevators to reach the higher floors of Coor Hall",
+   "lon": -111.937375,
+   "lat": 33.419222
+  },
+  {
+   "bldg_number": "006B",
+   "building_name": "PAYNE HALL",
+   "main": true,
+   "accessible": true,
+   "notes": "This is the area to reach the accessible entrances as well as elevators.",
+   "lon": -111.937243,
+   "lat": 33.418932
+  },
+  {
+   "bldg_number": "048",
+   "building_name": "NELSON FINE ARTS CENTER",
+   "main": true,
+   "accessible": true,
+   "notes": "This is the accessible entrance to theater classrooms",
+   "lon": -111.938584,
+   "lat": 33.418724
+  },
+  {
+   "bldg_number": "048",
+   "building_name": "NELSON FINE ARTS CENTER",
+   "main": true,
+   "accessible": true,
+   "notes": "This is the elevator to access the art museum",
+   "lon": -111.938744,
+   "lat": 33.418616
+  },
+  {
+   "bldg_number": "048",
+   "building_name": "NELSON FINE ARTS CENTER",
+   "main": true,
+   "accessible": true,
+   "notes": "This is the entrance to Galvin Playhouse but it does not have a button.",
+   "lon": -111.938253,
+   "lat": 33.418518
+  },
+  {
+   "bldg_number": "006C",
+   "building_name": "EDUCATION LECTURE HALL",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.937798,
+   "lat": 33.418022
+  },
+  {
+   "bldg_number": "006C",
+   "building_name": "EDUCATION LECTURE HALL",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.937717,
+   "lat": 33.41791
+  },
+  {
+   "bldg_number": "084",
+   "building_name": "MUSIC BLDG.",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.938525,
+   "lat": 33.418045
+  },
+  {
+   "bldg_number": "001",
+   "building_name": "GRADY GAMMAGE MEMORIAL AUDITORIUM",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.937679,
+   "lat": 33.416118
+  },
+  {
+   "bldg_number": "017",
+   "building_name": "CENTER FOR FAMILY STUDIES",
+   "main": true,
+   "accessible": true,
+   "notes": "Child development laboratory",
+   "lon": -111.936413,
+   "lat": 33.420929
+  },
+  {
+   "bldg_number": "009",
+   "building_name": "DIXIE GAMMAGE HALL",
+   "main": true,
+   "accessible": true,
+   "notes": "This is the main accessible entrance, although it does not look like a main entrance",
+   "lon": -111.936267,
+   "lat": 33.419322
+  },
+  {
+   "bldg_number": "010",
+   "building_name": "HAYDEN LIBRARY",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.9346,
+   "lat": 33.418539
+  },
+  {
+   "bldg_number": "053G",
+   "building_name": "ENGINEERING CENTER G",
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.932383,
+   "lat": 33.41985
+  },
+  {
+   "bldg_number": "053A",
+   "building_name": "ENGINEERING CENTER A",
+   "main": true,
+   "accessible": true,
+   "notes": "The elevator is located at this accessible door location to reach higher floors",
+   "lon": -111.931768,
+   "lat": 33.418513
+  },
+  {
+   "bldg_number": "055",
+   "building_name": "SCHWADA CLASSROOM OFFICE BLDG.",
+   "main": true,
+   "accessible": true,
+   "notes": "This is the second floor entrance which can be reached through a long ramp",
+   "lon": -111.930798,
+   "lat": 33.418922
+  },
+  {
+   "bldg_number": "063",
+   "building_name": "ENGINEERING RESEARCH CENTER",
+   "main": true,
+   "accessible": true,
+   "notes": "This is more of a back entrance, but it is accessible",
+   "lon": -111.931246,
+   "lat": 33.419423
+  },
+  {
+   "bldg_number": "071",
+   "building_name": "MONA PLUMMER AQUATIC COMPLEX",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.934207,
+   "lat": 33.424214
+  },
+  {
+   "bldg_number": "178",
+   "building_name": "COLLEGE AVENUE COMMONS",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.935081,
+   "lat": 33.423497
+  },
+  {
+   "bldg_number": "069",
+   "building_name": "DESERT FINANCIAL ARENA",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.930322,
+   "lat": 33.424556
+  },
+  {
+   "bldg_number": "069",
+   "building_name": "DESERT FINANCIAL ARENA",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.931052,
+   "lat": 33.42498
+  },
+  {
+   "bldg_number": "069",
+   "building_name": "DESERT FINANCIAL ARENA",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.931666,
+   "lat": 33.424449
+  },
+  {
+   "bldg_number": "059B",
+   "building_name": "CARSON STUDENT ATHLETE CENTER",
+   "main": true,
+   "accessible": true,
+   "notes": "Take the ramp that is on the north side to get to the door. Many stairs are in front of the entrance otherwise.",
+   "lon": -111.932709,
+   "lat": 33.425324
+  },
+  {
+   "bldg_number": "059B",
+   "building_name": "CARSON STUDENT ATHLETE CENTER",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.933072,
+   "lat": 33.425403
+  },
+  {
+   "bldg_number": "069",
+   "building_name": "DESERT FINANCIAL ARENA",
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.930936,
+   "lat": 33.424025
+  },
+  {
+   "bldg_number": "056B",
+   "building_name": "LIFE SCIENCES CENTER B-ANIMAL CARE",
+   "main": true,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.933459,
+   "lat": 33.419556
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.932388,
+   "lat": 33.425357
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.933288,
+   "lat": 33.425555
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.931859,
+   "lat": 33.427371
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.935543,
+   "lat": 33.425348
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.939883,
+   "lat": 33.423546
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": true,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.939085,
+   "lat": 33.423623
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.939234,
+   "lat": 33.423937
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.938927,
+   "lat": 33.419879
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.933345,
+   "lat": 33.422477
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.932716,
+   "lat": 33.42305
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.931348,
+   "lat": 33.422807
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.92371,
+   "lat": 33.42514
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.924225,
+   "lat": 33.423275
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.921286,
+   "lat": 33.423094
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.920217,
+   "lat": 33.423081
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.927908,
+   "lat": 33.416478
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.926016,
+   "lat": 33.411784
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.935182,
+   "lat": 33.41567
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.935744,
+   "lat": 33.415109
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.935985,
+   "lat": 33.415254
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.939392,
+   "lat": 33.423291
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.941034,
+   "lat": 33.424106
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.938978,
+   "lat": 33.419659
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.939584,
+   "lat": 33.419313
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.939036,
+   "lat": 33.418668
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.932356,
+   "lat": 33.422466
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.931261,
+   "lat": 33.422951
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.930303,
+   "lat": 33.422414
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.930623,
+   "lat": 33.422897
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.927724,
+   "lat": 33.425067
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.922104,
+   "lat": 33.422504
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.928587,
+   "lat": 33.415449
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.934733,
+   "lat": 33.414405
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.925487,
+   "lat": 33.411774
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.927251,
+   "lat": 33.419225
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.925857,
+   "lat": 33.419243
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.935772,
+   "lat": 33.415937
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.936249,
+   "lat": 33.415811
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.936122,
+   "lat": 33.415494
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.935444,
+   "lat": 33.415532
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.935075,
+   "lat": 33.415381
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": true,
+   "notes": null,
+   "lon": -111.93567,
+   "lat": 33.416019
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.929694,
+   "lat": 33.41426
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.930369,
+   "lat": 33.413939
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.930369,
+   "lat": 33.413347
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.929931,
+   "lat": 33.413255
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.929922,
+   "lat": 33.41182
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.929743,
+   "lat": 33.411817
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.92802,
+   "lat": 33.413888
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.927717,
+   "lat": 33.412225
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.9297,
+   "lat": 33.41501
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.93206,
+   "lat": 33.414461
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.931373,
+   "lat": 33.414466
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.929935,
+   "lat": 33.414248
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.929929,
+   "lat": 33.413639
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.929747,
+   "lat": 33.413639
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.92976,
+   "lat": 33.413264
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.929936,
+   "lat": 33.412804
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.929927,
+   "lat": 33.412431
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.929741,
+   "lat": 33.412422
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.92898,
+   "lat": 33.413053
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.928885,
+   "lat": 33.41449
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.928173,
+   "lat": 33.414548
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.928141,
+   "lat": 33.412983
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.927355,
+   "lat": 33.41297
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.927485,
+   "lat": 33.413553
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.929865,
+   "lat": 33.415675
+  },
+  {
+   "bldg_number": "",
+   "building_name": null,
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.931725,
+   "lat": 33.427724
+  },
+  {
+   "bldg_number": "",
+   "building_name": "INTERDISCIPLINARY B (east)",
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.935178,
+   "lat": 33.417181
+  },
+  {
+   "bldg_number": "",
+   "building_name": "INTERDISCIPLINARY A (North)",
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.935497,
+   "lat": 33.417906
+  },
+  {
+   "bldg_number": "",
+   "building_name": "DURHAM HALL",
+   "main": false,
+   "accessible": false,
+   "notes": null,
+   "lon": -111.934457,
+   "lat": 33.420968
+  }
+ ]
+}

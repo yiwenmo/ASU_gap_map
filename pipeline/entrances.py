@@ -1,18 +1,14 @@
 """
 Building entrances -> data/building_entrances.json
 
-buildings.geojson only has one centroid per building. This script picks a better
-point to start/end a walk, in this order:
-  1. an OSM entrance node (entrance=main, then entrance=yes) on the building's outline
-  2. otherwise the point on the building outline closest to the walking network
-  3. otherwise (no outline found) the centroid
+buildings.geojson has one centroid per building. This picks a better point to start and end a walk:
+  1. manual: data/manual_entrances.json (checked by hand)
+  2. an OSM entrance node (entrance=main, then yes) on the building's outline
+  3. ASU's entrance points (data/source/asu_accessible_entrances.json), matched by building number
+  4. the point on the outline closest to the walking network
+  5. the centroid
 
-Matching OSM outlines to building_id: the outline that contains the centroid
-(smallest one if nested), else the nearest outline within MAX_MATCH_M.
-
-Run this before network.py (network.py snaps from the entrance when there is one):
-  python pipeline/entrances.py            (uses the cached download if there is one)
-  python pipeline/entrances.py --refresh
+Run before network.py:  python pipeline/entrances.py  (uses the cached download, --refresh to download again)
 """
 
 import json
@@ -28,6 +24,10 @@ ROOT = Path(__file__).parent.parent
 OUT_FILE = ROOT / "data" / "building_entrances.json"
 CACHE_FILE = Path(__file__).parent / "cache" / "overpass_buildings.json"
 MANUAL_ENTRANCES_FILE = ROOT / "data" / "manual_entrances.json"
+ASU_ENTRANCES_FILE = ROOT / "data" / "source" / "asu_accessible_entrances.json"
+
+ASU_MAX_FROM_BUILDING_M = 150  # an ASU point farther than this from the building point is not used
+ASU_MAX_FROM_PATH_M = 40       # nor one farther than this from a walking path
 
 MAX_MATCH_M = 60        # centroid not inside any outline: accept the nearest one within this
 ENTRANCE_TO_EDGE_M = 3  # an entrance node counts as part of an outline if it is this close to its edge
@@ -112,12 +112,33 @@ def main():
 
 
     
+    # ASU's entrance points by building number
+    asu_by_number = {}
+    if ASU_ENTRANCES_FILE.exists():
+        for pt in json.loads(ASU_ENTRANCES_FILE.read_text(encoding="utf-8"))["points"]:
+            if pt["bldg_number"]:
+                asu_by_number.setdefault(pt["bldg_number"], []).append(pt)
+        print(f"{sum(len(v) for v in asu_by_number.values())} ASU entrance points with a building number")
+
+    def asu_entrance(f, cx, cy):
+        """ASU's point for this building (main entrances first, else accessible ones), the one closest to a path."""
+        pts = [pt for n in f["properties"].get("bldg_numbers", []) for pt in asu_by_number.get(n, [])]
+        pts = [pt for pt in pts if pt["main"]] or [pt for pt in pts if pt["accessible"]] or pts
+        usable = []
+        for pt in pts:
+            px, py = xy(pt["lon"], pt["lat"])
+            to_path = dist_to_network(px, py)
+            if math.hypot(px - cx, py - cy) <= ASU_MAX_FROM_BUILDING_M and to_path <= ASU_MAX_FROM_PATH_M:
+                usable.append((to_path, pt))
+        return min(usable, key=lambda a: a[0])[1] if usable else None
+
     result, counts = {}, {
-    "manual": 0,
-    "osm_main": 0,
-    "osm_entrance": 0,
-    "outline": 0,
-    "centroid": 0,
+        "manual": 0,
+        "asu": 0,
+        "osm_main": 0,
+        "osm_entrance": 0,
+        "outline": 0,
+        "centroid": 0,
     }
     for f in buildings:
         bid = f["properties"]["building_id"]
@@ -139,6 +160,8 @@ def main():
 
         cx, cy = xy(lon, lat)
 
+        asu = asu_entrance(f, cx, cy)
+
         containing = [(area(poly), poly) for poly, _ in outlines if point_in_polygon(cx, cy, poly)]
         if containing:
             poly = min(containing, key=lambda a: a[0])[1]
@@ -147,8 +170,12 @@ def main():
             poly = near[1] if near and near[0] <= MAX_MATCH_M else None
 
         if poly is None:
-            result[bid] = {"lon": lon, "lat": lat, "source": "centroid"}
-            counts["centroid"] += 1
+            if asu:
+                result[bid] = {"lon": asu["lon"], "lat": asu["lat"], "source": "asu"}
+                counts["asu"] += 1
+            else:
+                result[bid] = {"lon": lon, "lat": lat, "source": "centroid"}
+                counts["centroid"] += 1
             continue
 
         own = [(p, kind) for p, kind, _ in entrances if dist_to_edges(p[0], p[1], poly) <= ENTRANCE_TO_EDGE_M]
@@ -158,6 +185,10 @@ def main():
             if cands:
                 pick, source = min(cands, key=lambda p: dist_to_network(*p)), "osm_main" if kind == "main" else "osm_entrance"
                 break
+        if pick is None and asu:
+            result[bid] = {"lon": asu["lon"], "lat": asu["lat"], "source": "asu"}
+            counts["asu"] += 1
+            continue
         if pick is None:
             pick, source = min(boundary_points(poly), key=lambda p: dist_to_network(*p)), "outline"
         counts[source] += 1
