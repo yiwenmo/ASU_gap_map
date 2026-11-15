@@ -27,6 +27,7 @@ import network  # same folder: reuses the walking-network helpers
 ROOT = Path(__file__).parent.parent
 OUT_FILE = ROOT / "data" / "building_entrances.json"
 CACHE_FILE = Path(__file__).parent / "cache" / "overpass_buildings.json"
+MANUAL_ENTRANCES_FILE = ROOT / "data" / "manual_entrances.json"
 
 MAX_MATCH_M = 60        # centroid not inside any outline: accept the nearest one within this
 ENTRANCE_TO_EDGE_M = 3  # an entrance node counts as part of an outline if it is this close to its edge
@@ -78,6 +79,12 @@ def boundary_points(poly):
 
 def main():
     refresh = "--refresh" in sys.argv
+    manual_entrances = {}
+
+    if MANUAL_ENTRANCES_FILE.exists():
+        manual_entrances = json.loads(
+        MANUAL_ENTRANCES_FILE.read_text(encoding="utf-8")
+        )
     buildings = json.loads(network.BUILDINGS_FILE.read_text(encoding="utf-8"))["features"]
     bbox = network.building_bbox(buildings)
     lat0, lon0 = (bbox[0] + bbox[2]) / 2, (bbox[1] + bbox[3]) / 2
@@ -103,10 +110,33 @@ def main():
                  for el in osm["elements"] if el["type"] == "node" and el["tags"].get("entrance") in ENTRANCE_TYPES]
     print(f"{len(outlines)} building outlines, {len(entrances)} usable entrance nodes")
 
-    result, counts = {}, {"osm_main": 0, "osm_entrance": 0, "outline": 0, "centroid": 0}
+
+    
+    result, counts = {}, {
+    "manual": 0,
+    "osm_main": 0,
+    "osm_entrance": 0,
+    "outline": 0,
+    "centroid": 0,
+    }
     for f in buildings:
         bid = f["properties"]["building_id"]
         lon, lat = f["geometry"]["coordinates"]
+        if bid in manual_entrances:
+            override = manual_entrances[bid]
+            entrance_list = override["entrances"]
+            primary_index = override.get("primary", 0)
+            selected = entrance_list[primary_index]
+
+            result[bid] = {
+            "lon": selected["lon"],
+            "lat": selected["lat"],
+            "source": "manual",
+             }
+
+            counts["manual"] += 1
+            continue
+
         cx, cy = xy(lon, lat)
 
         containing = [(area(poly), poly) for poly, _ in outlines if point_in_polygon(cx, cy, poly)]

@@ -1,0 +1,45 @@
+{
+  "COOR": {
+    "source": "visual OSM map check",
+    "note": "Coor Hall has multiple pedestrian entrances that are not explicitly mapped as entrance nodes in OSM.",
+    "primary": 0,
+    "entrances": [
+      {
+        "lon": -111.936699,
+        "lat": 33.419427,
+        "side": "east"
+      },
+      {
+        "lon": -111.937919,
+        "lat": 33.419409,
+        "side": "west"
+      },
+      {
+        "lon": -111.937075,
+        "lat": 33.419557,
+        "side": "north"
+      }
+    ]
+},
+
+
+"MU": {
+  "source": "visual OSM map check",
+  "note": "Memorial Union has multiple pedestrian entrances that are not explicitly mapped as entrance nodes in OSM.",
+  "primary": 0,
+  "entrances": [
+    {
+      "lon": -111.934661,
+      "lat": 33.417929,
+      "side": "west_1"
+    },
+    {
+      "lon": -111.934725,
+      "lat": 33.417569,
+      "side": "west_2"
+    }
+   
+  ]
+}
+}
+
