@@ -95,7 +95,9 @@ let labelToId = {};   // datalist label -> building_id
 let matrix = {};
 let events = [];      // EVENTS joined with building_id
 let results = [];     // last computed list
-const state = {cats: new Set(), free: false, showAll: false, selected: null};
+const state = {cats: new Set(), free: false, showAll: false, selected: null,
+               stops: new Set(['coffee', 'food', 'study'])};   // which kinds of places to show on the way
+let pois = [];        // coffee / food / study places, each next to a building (data/pois.geojson)
 
 function buildingId(text) {
   const t = text.trim();
@@ -123,6 +125,50 @@ function restore() {
   } catch (e) { /* ignore */ }
 }
 
+// Places that are on the way: a detour of at most DETOUR_MAX seconds, and it must fit in the time to spare.
+// The walk is building to building, so a place counts as being at its building.
+//   there: A -> place -> event        back: event -> place -> B
+// detour = (A -> place) + (place -> event) - (A -> event)
+const DETOUR_MAX = 120;
+// Opening hours (format in pipeline/campus_dining.py): {"mon": [["07:30","21:00"]], "tue": [], "wed": null, ...}
+// [] = closed all day, null = not known, a close time past 24:00 runs into the next morning.
+const DAY_KEYS = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+const clockMin = t => { const [h, m] = t.split(':').map(Number); return h * 60 + m; };
+function dayIndex(isoDay) { return (new Date(isoDay + 'T12:00:00').getDay() + 6) % 7; }   // Monday = 0
+// true / false, or null when we do not know (no hours, or that day is "not known")
+function isOpen(hours, dayIdx, min) {
+  if (!hours) return null;
+  const yesterday = hours[DAY_KEYS[(dayIdx + 6) % 7]];
+  if (yesterday && yesterday.some(([, c]) => clockMin(c) > 1440 && min < clockMin(c) - 1440)) return true;
+  const today = hours[DAY_KEYS[dayIdx]];
+  if (today == null) return null;
+  return today.some(([o, c]) => min >= clockMin(o) && min < clockMin(c));
+}
+
+// A building is one stop: {building_id, places: [...], detour}. The walk is building to building, so every place
+// in a building has the same detour, and a food court with 9 places is one stop, not nine.
+// Places inside the building of the event are left out (they are the event, not on the way).
+// `leave` (minutes after midnight) is when you set off from `from`: a place that is closed when you get there is left out.
+function stopsOn(from, to, slack, eventBuilding, leave, dayIdx) {
+  const direct = matrix[from]?.[to];
+  if (direct == null) return [];
+  const groups = new Map();
+  pois.forEach(p => {
+    if (p.building_id === eventBuilding) return;
+    // a study spot in the building you start from or are heading to is not a stop on the way
+    if (p.category === 'study' && (p.building_id === from || p.building_id === to)) return;
+    const a = matrix[from]?.[p.building_id], b = matrix[p.building_id]?.[to];
+    if (a == null || b == null) return;
+    const detour = Math.max(0, a + b - direct);
+    if (detour > DETOUR_MAX || detour / 60 > slack) return;
+    if (isOpen(p.hours, dayIdx, leave + a / 60) === false) return;   // known to be closed when you get there
+    if (!groups.has(p.building_id)) groups.set(p.building_id, {building_id: p.building_id, places: [], detour});
+    groups.get(p.building_id).places.push(p);
+  });
+  groups.forEach(g => g.places.sort((x, y) => x.name.localeCompare(y.name)));
+  return [...groups.values()].sort((x, y) => x.detour - y.detour || y.places.length - x.places.length);
+}
+
 function compute() {
   const o = buildingId($('origin').value), d = buildingId($('dest').value);
   const msg = $('gap-msg');
@@ -137,12 +183,17 @@ function compute() {
   setMsg(`${fmtTime(freeFrom)} to ${fmtTime(classStart)}: ${gap} min gap. Direct walk to class: ${direct != null ? mins(direct) + ' min' : 'no route'}.`, 'ok');
 
   const stay = Number($('stay').value), buffer = Number($('buffer').value), day = $('day').value;
+  const dayIdx = dayIndex(day);
   results = events.filter(e => e.date === day && e.building_id).map(e => {
     const evStart = toMin(e.start.slice(11, 16));
     // end can be on a later day (exhibitions, multi-day events), so count minutes from midnight of the chosen day
     const evEnd = e.end ? eventMinutes(e.end, day) : evStart + stay;
     const walkTo = matrix[o]?.[e.building_id], walkBack = matrix[e.building_id]?.[d];
-    return {e, walkTo, walkBack, evStart, evEnd, ...check({freeFrom, classStart, evStart, evEnd, stay, buffer, walkTo, walkBack})};
+    const c = check({freeFrom, classStart, evStart, evEnd, stay, buffer, walkTo, walkBack});
+    const stops = c.ok ? {there: stopsOn(o, e.building_id, c.slack, e.building_id, freeFrom, dayIdx),
+                          back: stopsOn(e.building_id, d, c.slack, e.building_id, c.join + Math.min(stay, evEnd - evStart), dayIdx)}
+                       : {there: [], back: []};
+    return {e, walkTo, walkBack, evStart, evEnd, stops, ...c};
   }).sort((a, b) => (b.ok - a.ok) || ((a.join ?? a.evStart) - (b.join ?? b.evStart)));
   draw(o, d);
 }
@@ -183,6 +234,38 @@ function setField(field, id) {
   save(); compute();
 }
 
+// Under an event card, the places on the way, in the same two forms as the page uses elsewhere:
+//   not selected: one quiet line, the buildings only ("On the way: Memorial Union, Armstrong Hall +2")
+//   selected:     a short list, "Before the event" and "After the event", building by building with the names
+// Only the kinds switched on count. (CSS shows one or the other, depending on .sel.)
+// A place is listed under its building, so its name should not repeat the building:
+// "Hayden Library" in Hayden Library -> "Study space", "Hayden Library Concourse" -> "Concourse".
+function placeName(p, buildingName) {
+  const n = p.name.trim(), b = (buildingName || '').trim().toLowerCase();
+  if (b && n.toLowerCase() === b) return {coffee: 'Coffee', food: 'Food', study: 'Study space'}[p.category] || n;
+  if (b && n.toLowerCase().startsWith(b + ' ')) return n.slice(b.length).trim();
+  return n;
+}
+function stopsOf(list) {
+  return list.map(g => ({...g, places: g.places.filter(p => state.stops.has(p.category))})).filter(g => g.places.length);
+}
+function stopsHtml(r) {
+  if (!r.ok) return '';
+  const there = stopsOf(r.stops.there), back = stopsOf(r.stops.back);
+  if (!there.length && !back.length) return '';
+  const nameOf = g => buildings[g.building_id]?.name || g.building_id;
+  const seen = new Set();
+  const all = [...there, ...back].filter(g => !seen.has(g.building_id) && seen.add(g.building_id));
+  const summary = `On the way: ${all.slice(0, 2).map(g => esc(nameOf(g))).join(', ')}${all.length > 2 ? ` +${all.length - 2}` : ''}`;
+  const part = (title, list) => !list.length ? '' : `<div class="onway-h">${title}</div>` + list.slice(0, 4).map(g => {
+    const m = Math.round(g.detour / 60);
+    const names = g.places.slice(0, 3).map(p => esc(placeName(p, nameOf(g)))).join(', ') + (g.places.length > 3 ? ` +${g.places.length - 3}` : '');
+    return `<div class="onway-row"><b>${esc(nameOf(g))}</b><span>${names}</span>${m ? `<em>+${m} min</em>` : ''}</div>`;
+  }).join('');
+  return `<div class="onway-summary">${summary}</div>
+    <div class="onway-detail">${part('Before the event', there)}${part('After the event', back)}</div>`;
+}
+
 function draw(o, d) {
   const shown = visible();
   // categories (only those that appear among the events that pass the time check)
@@ -204,6 +287,7 @@ function draw(o, d) {
         <div class="walk">${r.ok
           ? `${mins(r.walkTo)} min walk there &middot; <span class="slack">${Math.floor(r.slack)} min to spare</span>`
           : `<span class="why">${esc(r.why)}</span>`}</div>
+        ${stopsHtml(r)}
         ${e.free ? '<span class="badge free">Free</span>' : ''}${e.cats.slice(0, 2).map(c => `<span class="badge">${esc(c)}</span>`).join('')}
       </div>
       ${e.image_url ? `<img class="thumb" src="${esc(e.image_url)}" alt="" loading="lazy" onerror="this.remove()">` : ''}
@@ -241,27 +325,43 @@ async function showRoute(r) {
   routeLayer.clearLayers();
   const oId = buildingId($('origin').value), dId = buildingId($('dest').value), bId = r.e.building_id;
   const bounds = [oId, bId, dId].map(id => buildings[id]).filter(Boolean).map(b => [b.lat, b.lon]);
+  const seenB = new Set();
+  [...stopsOf(r.stops.there), ...stopsOf(r.stops.back)].filter(g => !seenB.has(g.building_id) && seenB.add(g.building_id)).slice(0, 12).forEach(g => {
+    const n = g.places.length;
+    const lat = g.places.reduce((t, p) => t + p.lat, 0) / n, lon = g.places.reduce((t, p) => t + p.lon, 0) / n;
+    const kinds = new Set(g.places.map(p => p.category));
+    const kind = kinds.size === 1 ? [...kinds][0] : 'mixed';
+    const size = n > 1 ? 22 : 18;
+    const bn = buildings[g.building_id]?.name || '';
+    const names = g.places.slice(0, 8).map(p => esc(placeName(p, bn))).join('<br>') + (n > 8 ? `<br>+${n - 8} more` : '');
+    L.marker([lat, lon], {icon: L.divIcon({className: '', iconSize: [size, size], iconAnchor: [size / 2, size / 2],
+        html: `<div class="amenity-pin ${kind}${n > 1 ? ' count' : ''}">${n > 1 ? n : ''}</div>`})})
+      .bindPopup(`<b>${esc(buildings[g.building_id]?.name || '')}</b><br>${names}`)
+      .addTo(routeLayer);
+  });
   try {
     const {graph, snaps} = await loadNetwork();
     if (state.selected !== r.e.key) return;   // picked something else while loading
     const at = id => [snaps[id].lon, snaps[id].lat];
     const there = Router.path(graph, at(oId), at(bId)), back = Router.path(graph, at(bId), at(dId));
     if (!there || !back) throw new Error('no route');
-    L.polyline(there.coords, {color: '#1F5C5A', weight: 5, opacity: .9}).bindTooltip('To the event').addTo(routeLayer);
-    L.polyline(back.coords, {color: '#D9774E', weight: 5, opacity: .9}).bindTooltip('To class').addTo(routeLayer);
+    L.polyline(there.coords, {color: '#8C1D40', weight: 5, opacity: .9}).bindTooltip('To the event').addTo(routeLayer);
+    L.polyline(back.coords, {color: '#E0A100', weight: 5, opacity: .9}).bindTooltip('To class').addTo(routeLayer);
     map.fitBounds(L.latLngBounds([...there.coords, ...back.coords]), {padding: [60, 60], maxZoom: 17});
   } catch (err) {
     // fall back to straight lines so something still shows
-    L.polyline(bounds, {color: '#1F5C5A', weight: 3, dashArray: '6 8'}).addTo(routeLayer);
+    L.polyline(bounds, {color: '#8C1D40', weight: 3, dashArray: '6 8'}).addTo(routeLayer);
     map.fitBounds(bounds, {padding: [60, 60], maxZoom: 17});
   }
 }
 
 async function init() {
-  const [geo, csv, mat] = await Promise.all([
+  const [geo, csv, mat, poiGeo] = await Promise.all([
     fetch('../data/buildings.geojson').then(r => r.json()),
     fetch('../data/event_buildings.csv').then(r => r.text()),
-    fetch('../data/walk_matrix.json').then(r => r.json())]);
+    fetch('../data/walk_matrix.json').then(r => r.json()),
+    // the places are a bonus: if the file is missing the page still plans events
+    fetch('../data/pois.geojson').then(r => r.json()).catch(() => ({features: []}))]);
   matrix = mat;
   // The list offers each building's name plus its other names ("Grady Gammage"), shown as plain names.
   // The code ("GGMA") and the Facilities number ("001") mean nothing to a student, so they are not listed.
@@ -288,6 +388,16 @@ async function init() {
   });
   $('buildings').innerHTML = Object.keys(labelToId).sort().map(l => `<option value="${esc(l)}">`).join('');
 
+  pois = poiGeo.features.filter(f => f.properties?.building_id && matrix[f.properties.building_id]
+      && ['coffee', 'food', 'study'].includes(f.properties.category))
+    .map(f => ({...f.properties, lon: f.geometry.coordinates[0], lat: f.geometry.coordinates[1],
+                building_name: buildings[f.properties.building_id]?.name}));
+
+  // a kind with no places has no use as a switch: hide its chip (it comes back when there are places)
+  document.querySelectorAll('#stops [data-stop]').forEach(chip => {
+    if (!pois.some(p => p.category === chip.dataset.stop)) { chip.style.display = 'none'; state.stops.delete(chip.dataset.stop); }
+  });
+
   const bid = {};
   parseCsv(csv).forEach(r => { if (r.building_id) bid[r.nid + '|' + r.start] = r.building_id; });
   events = EVENTS.map(e => {
@@ -308,6 +418,15 @@ $('plan').addEventListener('input', () => { state.selected = null; save(); compu
 $('plan').addEventListener('submit', e => e.preventDefault());
 $('free').addEventListener('change', e => { state.free = e.target.checked; draw(...ids()); });
 $('show-all').addEventListener('change', e => { state.showAll = e.target.checked; draw(...ids()); });
+$('stops').addEventListener('click', e => {
+  const k = e.target.closest('[data-stop]')?.dataset.stop;
+  if (!k) return;
+  state.stops.has(k) ? state.stops.delete(k) : state.stops.add(k);
+  e.target.closest('[data-stop]').classList.toggle('on', state.stops.has(k));
+  draw(...ids());
+  const sel = results.find(r => r.e.key === state.selected);
+  if (sel && sel.ok) showRoute(sel);   // redraw the places on the map for the selected event
+});
 $('cats').addEventListener('click', e => {
   const c = e.target.closest('[data-cat]')?.dataset.cat;
   if (!c) return;
@@ -324,23 +443,13 @@ $('list').addEventListener('click', e => {
   card.classList.add('sel');
   if (r.ok) showRoute(r);
 });
-
-// Only allow map clicks to update the event planner
-// while Plan Your Gap is active.
+// click the map to fill whichever of A / B is still empty (once both are set, drag the pins instead)
 map.on('click', ev => {
-  // Ignore map clicks when Explore Campus is active.
-  if (!$('explore-view').hidden) return;
-
   const best = nearestBuilding(ev.latlng);
   if (!best) return;
-
   const [o, d] = ids();
-
-  if (!o) {
-    setField('origin', best);
-  } else if (!d) {
-    setField('dest', best);
-  }
+  if (!o) setField('origin', best);
+  else if (!d) setField('dest', best);
 });
 
 const hint = L.control({position: 'bottomleft'});
