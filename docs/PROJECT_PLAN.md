@@ -1,6 +1,6 @@
 # ASU Gap Time Map: Project Plan (draft for discussion)
 
-Team: Yi-Wen, Mahin, Cade
+Team: Yi-Wen, Mahin, Cade, Ziyi
 
 ## Goal
 
@@ -13,6 +13,20 @@ time, and plan ahead by picking a future day.
 
 This is a rough plan. Everything here is open to change.
 
+## Status (2026-11-14)
+
+| | State |
+|---|---|
+| A1 Events | Done. `test_WebGIS.py`, rerun about once a week |
+| A2 Buildings | Done. 261 Tempe buildings, entrances estimated from the outline; manual entrances for a few big buildings (Coor Hall, Memorial Union) are in review |
+| A3 Places | Partly. ASU dining on campus, 37 places, 33 with weekly hours. 18 venues still need a building. OSM places and libraries are left out for now |
+| A4 Event to building | Done. A few matches are flagged for a manual check |
+| B Walking network | Done. 261 x 261 matrix, routes drawn on the walkways |
+| C Feasibility and filtering | Done. Round-trip check, filters by type and free events, a day picker, and food or coffee on the way |
+| D User schedule | Not done. One next class only, no saved schedule |
+| E Front end | Done for the gap page. Mobile checked at phone width in a desktop browser only |
+| F Delivery | Not tracked here |
+
 ## 1. Work breakdown
 
 No owners assigned yet. We discuss this list first.
@@ -22,8 +36,8 @@ No owners assigned yet. We discuss this list first.
    handle recurring events and future dates.
 2. **Campus buildings**: building ID, name, aliases (e.g. "MU" and "Memorial Union"),
    coordinates, ideally entrance points.
-3. **Places (POIs)**: coffee, food, study spots. Sources: OSM, ASU Dining, library.
-   Include opening hours.
+3. **Places (POIs)**: coffee, food, study spots. Planned sources: OSM, ASU Dining, library.
+   Include opening hours. (Done so far: ASU Dining, checked by hand. See the status above.)
 4. **Event location to building matching**: map strings like
    "Memorial Union, Room 230" to a `building_id`. This is the highest quality risk,
    so plan for fuzzy matching plus a manual lookup table.
@@ -72,19 +86,16 @@ all reference buildings by it. The exact file formats are in
 [data_contract.md](data_contract.md). If we agree on the contract first, everyone
 can build against mock data and integration becomes a plug-in step.
 
-### Proposed repo layout
+### Repo layout (as it is now)
 
 ```
-pipeline/   Python: events, buildings, pois, network, matrix
-data/       processed files that follow the data contract
-web/        index.html, js/, css/
-docs/       project plan, data contract
-tests/
+pipeline/   Python: buildings, entrances, network and matrix, event matching, places
+data/       processed files that the page reads, made by pipeline/ (data contract)
+data/source/ inputs kept by hand or raw extractions, read by pipeline/ only
+web/        the pages (gap.html is the main one), one copy only
+docs/       project plan, architecture, data contract, conventions, wireframe
+asu_events_output/  full event export and the geocoding cache
 ```
-
-Currently `web/` is copied into `asu_events_output/` on each run, so those files
-exist twice. Proposal: write generated data to `data/` and keep a single copy of
-the web files in `web/`.
 
 ## 3. Git workflow
 
