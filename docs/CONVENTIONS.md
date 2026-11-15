@@ -36,6 +36,7 @@ Tempe campus only. Data for other campuses and online events stays in the CSV Ge
 | Page code (html/css/js) | `web/` | Edit here only |
 | Scripts that make data | `pipeline/` | One script per kind of data |
 | Processed data the page reads | `data/` | Made by `pipeline/`, never edited by hand |
+| Inputs kept by hand (raw extractions, lists, opening hours) | `data/source/` | Edited by hand, read by `pipeline/`. Never read by the page |
 | Full event export and caches | `asu_events_output/` | Can be re-made |
 
 Files that a script can re-make should not be edited by hand (a rerun overwrites them).

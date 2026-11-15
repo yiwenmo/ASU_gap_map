@@ -37,15 +37,33 @@ Point features, one per event occurrence.
 | `url` | string | source link |
 
 ## `data/pois.geojson`
-Point features for coffee, food and study spots.
+Point features for coffee, food and study places. **Generated** by `pipeline/match_pois.py`, do not edit by hand.
+
+Two sources go in (for now nothing from OSM is used, see `OSM_KEEP` in `pipeline/match_pois.py`; the page shows ASU dining on the Tempe campus):
+- `data/source/pois_osm.geojson`: places from OpenStreetMap (Cade's extraction, `data/source/osm_amenities_raw.geojson` is the raw one).
+  The script gives each the nearest building.
+- ASU dining on the Tempe campus, checked by hand: `data/source/campus_dining.csv` (venue, building) and
+  `data/source/campus_dining_hours.txt` (weekly hours). The building comes from the list. A row with an empty
+  `building_id` is not on the page until someone fills it in.
 
 | property | type | notes |
 |---|---|---|
-| `poi_id` | string | unique |
+| `id` | string | unique: `osm_node_...`, `osm_way_...` or `dining_...` |
 | `name` | string | |
-| `type` | string | `coffee`, `food`, `study` |
-| `building_id` | string | nearest or containing building |
-| `hours` | object | `{"mon": ["07:30","20:00"], ...}`, missing day = closed |
+| `category` | string | `coffee`, `food` or `study` |
+| `building_id` | string or null | OSM: the nearest building (utility buildings are skipped), the place is next to it, not necessarily inside. ASU dining: the building it is in |
+| `building_dist_m` | number | OSM: distance to that building point, more than 60 m is a weak guess. ASU dining: 0 |
+| `hours` | object or null | see below. null = not known (a few dining venues, and the OSM places if they are brought back) |
+| `source` | string | `osm` or `asu_dining` |
+
+`hours` is `{"mon": [["07:30","21:00"]], "tue": [], "wed": null, ...}` for mon..sun:
+a list of `[open, close]` = open in those ranges, `[]` = closed all day, `null` = not known.
+A close time can pass midnight and is then written past 24:00 (`"26:00"` = 2:00 AM the next day).
+The hours table (checked by hand) is read as it is: `Closed` = `[]`, `No data` = `null`.
+
+The gap page uses a place as "on the way" when going through its building adds at most 2 minutes of walking
+(`matrix[A][building] + matrix[building][event] - matrix[A][event]`), the detour fits in the time to spare, and the
+place is not known to be closed when you get there. All the places in one building are one stop.
 
 ## `data/walk_matrix.json`
 ```json

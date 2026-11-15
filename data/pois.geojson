@@ -1,855 +1,1952 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9348025,
-          33.423144
-        ]
-      },
-      "properties": {
-        "id": "osm_node_11663588712",
-        "name": "Cafetal Coffee",
-        "category": "coffee",
-        "building_id": null,
-        "hours": null
-      }
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93435132972166,
+     33.41769226027109
+    ]
+   },
+   "properties": {
+    "id": "dining_000_burgerking",
+    "name": "Burger King",
+    "category": "food",
+    "building_id": "MU",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "07:00",
+       "21:00"
+      ]
+     ],
+     "tue": [
+      [
+       "07:00",
+       "21:00"
+      ]
+     ],
+     "wed": [
+      [
+       "07:00",
+       "21:00"
+      ]
+     ],
+     "thu": [
+      [
+       "07:00",
+       "21:00"
+      ]
+     ],
+     "fri": [
+      [
+       "07:00",
+       "21:00"
+      ]
+     ],
+     "sat": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "sun": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ]
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9393084,
-          33.4229949
-        ]
-      },
-      "properties": {
-        "id": "osm_node_9583875552",
-        "name": "Cup of Joe Market Caf\u00e9",
-        "category": "coffee",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93435132972166,
+     33.41769226027109
+    ]
+   },
+   "properties": {
+    "id": "dining_001_chickfila",
+    "name": "Chick-fil-A",
+    "category": "food",
+    "building_id": "MU",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "07:30",
+       "21:00"
+      ]
+     ],
+     "tue": [
+      [
+       "07:30",
+       "21:00"
+      ]
+     ],
+     "wed": [
+      [
+       "07:30",
+       "21:00"
+      ]
+     ],
+     "thu": [
+      [
+       "07:30",
+       "21:00"
+      ]
+     ],
+     "fri": [
+      [
+       "07:30",
+       "21:00"
+      ]
+     ],
+     "sat": [
+      [
+       "10:30",
+       "19:00"
+      ]
+     ],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9260221,
-          33.4169741
-        ]
-      },
-      "properties": {
-        "id": "osm_way_544152059",
-        "name": "Dutch Bros. Coffee",
-        "category": "coffee",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93435132972166,
+     33.41769226027109
+    ]
+   },
+   "properties": {
+    "id": "dining_002_qdoba",
+    "name": "Qdoba",
+    "category": "food",
+    "building_id": "MU",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "tue": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "wed": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "thu": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "fri": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "sat": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "sun": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ]
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.936142,
-          33.4230549
-        ]
-      },
-      "properties": {
-        "id": "osm_node_11938352115",
-        "name": "Happy Joe Coffee",
-        "category": "coffee",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93435132972166,
+     33.41769226027109
+    ]
+   },
+   "properties": {
+    "id": "dining_003_subway",
+    "name": "Subway",
+    "category": "food",
+    "building_id": "MU",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "tue": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "wed": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "thu": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "fri": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "sat": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "sun": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ]
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9368764,
-          33.4235321
-        ]
-      },
-      "properties": {
-        "id": "osm_way_1484826914",
-        "name": "Laymoon Cafe",
-        "category": "coffee",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93435132972166,
+     33.41769226027109
+    ]
+   },
+   "properties": {
+    "id": "dining_004_bentosushi",
+    "name": "Bento Sushi",
+    "category": "food",
+    "building_id": "MU",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "tue": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "wed": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "thu": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "fri": [
+      [
+       "10:00",
+       "14:00"
+      ]
+     ],
+     "sat": [],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9351966,
-          33.4250041
-        ]
-      },
-      "properties": {
-        "id": "osm_node_5986784057",
-        "name": "Royal Coffee Bar",
-        "category": "coffee",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93435132972166,
+     33.41769226027109
+    ]
+   },
+   "properties": {
+    "id": "dining_005_choolaah",
+    "name": "Choolaah",
+    "category": "food",
+    "building_id": "MU",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "tue": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "wed": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "thu": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "fri": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "sat": [],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9341397,
-          33.4165993
-        ]
-      },
-      "properties": {
-        "id": "osm_node_797499498",
-        "name": "Starbucks",
-        "category": "coffee",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93435132972166,
+     33.41769226027109
+    ]
+   },
+   "properties": {
+    "id": "dining_006_engrained",
+    "name": "Engrained",
+    "category": "food",
+    "building_id": "MU",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "11:00",
+       "15:00"
+      ]
+     ],
+     "tue": [
+      [
+       "11:00",
+       "15:00"
+      ]
+     ],
+     "wed": [
+      [
+       "11:00",
+       "15:00"
+      ]
+     ],
+     "thu": [
+      [
+       "11:00",
+       "15:00"
+      ]
+     ],
+     "fri": [
+      [
+       "11:00",
+       "14:00"
+      ]
+     ],
+     "sat": [],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9318422,
-          33.4179994
-        ]
-      },
-      "properties": {
-        "id": "osm_node_798622870",
-        "name": "Starbucks",
-        "category": "coffee",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93435132972166,
+     33.41769226027109
+    ]
+   },
+   "properties": {
+    "id": "dining_007_localrestaurantrow",
+    "name": "Local Restaurant Row",
+    "category": "food",
+    "building_id": "MU",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "10:30",
+       "17:00"
+      ]
+     ],
+     "tue": [
+      [
+       "10:30",
+       "17:00"
+      ]
+     ],
+     "wed": [
+      [
+       "10:30",
+       "17:00"
+      ]
+     ],
+     "thu": [
+      [
+       "10:30",
+       "17:00"
+      ]
+     ],
+     "fri": [
+      [
+       "10:30",
+       "14:00"
+      ]
+     ],
+     "sat": [],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9323336,
-          33.4226209
-        ]
-      },
-      "properties": {
-        "id": "osm_node_9115796330",
-        "name": "Starbucks",
-        "category": "coffee",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93435132972166,
+     33.41769226027109
+    ]
+   },
+   "properties": {
+    "id": "dining_008_paninicafe",
+    "name": "Panini Café",
+    "category": "coffee",
+    "building_id": "MU",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "10:00",
+       "21:00"
+      ]
+     ],
+     "tue": [
+      [
+       "10:00",
+       "21:00"
+      ]
+     ],
+     "wed": [
+      [
+       "10:00",
+       "21:00"
+      ]
+     ],
+     "thu": [
+      [
+       "10:00",
+       "21:00"
+      ]
+     ],
+     "fri": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "sat": [],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9318472,
-          33.4204632
-        ]
-      },
-      "properties": {
-        "id": "osm_way_574632563",
-        "name": "The Cr\u00eape Club",
-        "category": "coffee",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93435132972166,
+     33.41769226027109
+    ]
+   },
+   "properties": {
+    "id": "dining_009_starbucks",
+    "name": "Starbucks",
+    "category": "coffee",
+    "building_id": "MU",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "06:30",
+       "22:00"
+      ]
+     ],
+     "tue": [
+      [
+       "06:30",
+       "22:00"
+      ]
+     ],
+     "wed": [
+      [
+       "06:30",
+       "22:00"
+      ]
+     ],
+     "thu": [
+      [
+       "06:30",
+       "22:00"
+      ]
+     ],
+     "fri": [
+      [
+       "06:30",
+       "22:00"
+      ]
+     ],
+     "sat": [
+      [
+       "08:00",
+       "20:00"
+      ]
+     ],
+     "sun": [
+      [
+       "10:00",
+       "21:00"
+      ]
+     ]
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9383532,
-          33.4230062
-        ]
-      },
-      "properties": {
-        "id": "osm_node_12187226306",
-        "name": "Bonchon Chicken",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93435132972166,
+     33.41769226027109
+    ]
+   },
+   "properties": {
+    "id": "dining_010_einsteinbrosbagels",
+    "name": "Einstein Bros. Bagels",
+    "category": "coffee",
+    "building_id": "MU",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "07:00",
+       "14:00"
+      ]
+     ],
+     "tue": [
+      [
+       "07:00",
+       "14:00"
+      ]
+     ],
+     "wed": [
+      [
+       "07:00",
+       "14:00"
+      ]
+     ],
+     "thu": [
+      [
+       "07:00",
+       "14:00"
+      ]
+     ],
+     "fri": [
+      [
+       "07:00",
+       "14:00"
+      ]
+     ],
+     "sat": [
+      [
+       "10:00",
+       "14:00"
+      ]
+     ],
+     "sun": [
+      [
+       "10:00",
+       "14:00"
+      ]
+     ]
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9290362,
-          33.4142986
-        ]
-      },
-      "properties": {
-        "id": "osm_node_3723792707",
-        "name": "Domino's",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93435132972166,
+     33.41769226027109
+    ]
+   },
+   "properties": {
+    "id": "dining_011_rosiesbakery",
+    "name": "Rosie's Bakery",
+    "category": "coffee",
+    "building_id": "MU",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "tue": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "wed": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "thu": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "fri": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "sat": [],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.934691,
-          33.41806
-        ]
-      },
-      "properties": {
-        "id": "osm_node_775275980",
-        "name": "Einstein Bros. Bagels",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93435132972166,
+     33.41769226027109
+    ]
+   },
+   "properties": {
+    "id": "dining_012_shakesmart",
+    "name": "Shake Smart",
+    "category": "coffee",
+    "building_id": "MU",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "tue": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "wed": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "thu": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "fri": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "sat": [],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.929277,
-          33.4142148
-        ]
-      },
-      "properties": {
-        "id": "osm_node_8551951696",
-        "name": "Everbowl",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93435132972166,
+     33.41769226027109
+    ]
+   },
+   "properties": {
+    "id": "dining_013_podmarket",
+    "name": "P.O.D. Market",
+    "category": "food",
+    "building_id": "MU",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "07:00",
+       "22:00"
+      ]
+     ],
+     "tue": [
+      [
+       "07:00",
+       "22:00"
+      ]
+     ],
+     "wed": [
+      [
+       "07:00",
+       "22:00"
+      ]
+     ],
+     "thu": [
+      [
+       "07:00",
+       "22:00"
+      ]
+     ],
+     "fri": [
+      [
+       "07:00",
+       "22:00"
+      ]
+     ],
+     "sat": [
+      [
+       "10:00",
+       "22:00"
+      ]
+     ],
+     "sun": [
+      [
+       "10:00",
+       "22:00"
+      ]
+     ]
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.929036,
-          33.4143859
-        ]
-      },
-      "properties": {
-        "id": "osm_node_3723792706",
-        "name": "Fatburger",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93435132972166,
+     33.41769226027109
+    ]
+   },
+   "properties": {
+    "id": "dining_014_pitchforks",
+    "name": "Pitchforks",
+    "category": "food",
+    "building_id": "MU",
+    "building_dist_m": 0,
+    "hours": null,
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92885798982546,
+     33.41424251963379
+    ]
+   },
+   "properties": {
+    "id": "dining_015_dominos",
+    "name": "Domino's",
+    "category": "food",
+    "building_id": "VDSK",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "10:00",
+       "26:00"
+      ]
+     ],
+     "tue": [
+      [
+       "10:00",
+       "26:00"
+      ]
+     ],
+     "wed": [
+      [
+       "10:00",
+       "26:00"
+      ]
+     ],
+     "thu": [
+      [
+       "10:00",
+       "27:00"
+      ]
+     ],
+     "fri": [
+      [
+       "10:00",
+       "27:00"
+      ]
+     ],
+     "sat": [
+      [
+       "10:00",
+       "27:00"
+      ]
+     ],
+     "sun": [
+      [
+       "10:00",
+       "26:00"
+      ]
+     ]
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9401765,
-          33.4239832
-        ]
-      },
-      "properties": {
-        "id": "osm_node_2391078492",
-        "name": "Five Guys",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92885798982546,
+     33.41424251963379
+    ]
+   },
+   "properties": {
+    "id": "dining_016_jimmyjohns",
+    "name": "Jimmy John's",
+    "category": "food",
+    "building_id": "VDSK",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "10:00",
+       "23:00"
+      ]
+     ],
+     "tue": [
+      [
+       "10:00",
+       "23:00"
+      ]
+     ],
+     "wed": [
+      [
+       "10:00",
+       "23:00"
+      ]
+     ],
+     "thu": [
+      [
+       "10:00",
+       "23:00"
+      ]
+     ],
+     "fri": [
+      [
+       "10:00",
+       "23:00"
+      ]
+     ],
+     "sat": [
+      [
+       "11:00",
+       "23:00"
+      ]
+     ],
+     "sun": [
+      [
+       "11:00",
+       "23:00"
+      ]
+     ]
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9272886,
-          33.4235609
-        ]
-      },
-      "properties": {
-        "id": "osm_way_1464064934",
-        "name": "Flower Child",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92885798982546,
+     33.41424251963379
+    ]
+   },
+   "properties": {
+    "id": "dining_017_osakagrill",
+    "name": "Osaka Grill",
+    "category": "food",
+    "building_id": "VDSK",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "11:00",
+       "24:00"
+      ]
+     ],
+     "tue": [
+      [
+       "11:00",
+       "24:00"
+      ]
+     ],
+     "wed": [
+      [
+       "11:00",
+       "24:00"
+      ]
+     ],
+     "thu": [
+      [
+       "11:00",
+       "24:00"
+      ]
+     ],
+     "fri": [
+      [
+       "11:00",
+       "24:00"
+      ]
+     ],
+     "sat": [
+      [
+       "11:00",
+       "24:00"
+      ]
+     ],
+     "sun": [
+      [
+       "11:00",
+       "24:00"
+      ]
+     ]
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9387328,
-          33.4240144
-        ]
-      },
-      "properties": {
-        "id": "osm_node_13309331069",
-        "name": "Foch",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92885798982546,
+     33.41424251963379
+    ]
+   },
+   "properties": {
+    "id": "dining_018_spitzmediterranean",
+    "name": "Spitz Mediterranean",
+    "category": "food",
+    "building_id": "VDSK",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "11:00",
+       "25:00"
+      ]
+     ],
+     "tue": [
+      [
+       "11:00",
+       "25:00"
+      ]
+     ],
+     "wed": [
+      [
+       "11:00",
+       "25:00"
+      ]
+     ],
+     "thu": [
+      [
+       "11:00",
+       "25:00"
+      ]
+     ],
+     "fri": [
+      [
+       "11:00",
+       "25:00"
+      ]
+     ],
+     "sat": [
+      [
+       "11:00",
+       "25:00"
+      ]
+     ],
+     "sun": [
+      [
+       "11:00",
+       "25:00"
+      ]
+     ]
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9266643,
-          33.4131247
-        ]
-      },
-      "properties": {
-        "id": "osm_way_261331958",
-        "name": "Hawaiian Bros Island Grill",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9295227898481,
+     33.41424164982678
+    ]
+   },
+   "properties": {
+    "id": "dining_019_everbowl",
+    "name": "Everbowl",
+    "category": "food",
+    "building_id": "VDSJ",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "tue": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "wed": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "thu": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "fri": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "sat": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "sun": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ]
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.939388,
-          33.4239516
-        ]
-      },
-      "properties": {
-        "id": "osm_node_9533145162",
-        "name": "Ike's Love and Sandwiches",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93706728986345,
+     33.42144289988288
+    ]
+   },
+   "properties": {
+    "id": "dining_020_paninicafearchitecturaldesign",
+    "name": "Panini Café Architectural Design",
+    "category": "coffee",
+    "building_id": "CDN",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "tue": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "wed": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "thu": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "fri": [
+      [
+       "08:00",
+       "15:00"
+      ]
+     ],
+     "sat": [],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9290372,
-          33.4144553
-        ]
-      },
-      "properties": {
-        "id": "osm_node_3723792705",
-        "name": "Jimmy John's",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92839324012502,
+     33.419701679880085
+    ]
+   },
+   "properties": {
+    "id": "dining_021_paninicafebiodesign",
+    "name": "Panini Café Bio-Design",
+    "category": "coffee",
+    "building_id": "BDB",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "07:00",
+       "16:00"
+      ]
+     ],
+     "tue": [
+      [
+       "07:00",
+       "16:00"
+      ]
+     ],
+     "wed": [
+      [
+       "07:00",
+       "16:00"
+      ]
+     ],
+     "thu": [
+      [
+       "07:00",
+       "16:00"
+      ]
+     ],
+     "fri": [
+      [
+       "07:00",
+       "16:00"
+      ]
+     ],
+     "sat": [],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.939677,
-          33.4235414
-        ]
-      },
-      "properties": {
-        "id": "osm_node_2391078486",
-        "name": "Matsuri Izakaya on Mill",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93228520995807,
+     33.42322902010743
+    ]
+   },
+   "properties": {
+    "id": "dining_022_tendersloveandchicken",
+    "name": "Tenders Love and Chicken",
+    "category": "food",
+    "building_id": "TKRHD",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "21:30",
+       "24:00"
+      ]
+     ],
+     "tue": [
+      [
+       "21:30",
+       "24:00"
+      ]
+     ],
+     "wed": [
+      [
+       "21:30",
+       "24:00"
+      ]
+     ],
+     "thu": [
+      [
+       "21:30",
+       "24:00"
+      ]
+     ],
+     "fri": [
+      [
+       "20:00",
+       "24:00"
+      ]
+     ],
+     "sat": [
+      [
+       "20:00",
+       "24:00"
+      ]
+     ],
+     "sun": [
+      [
+       "21:00",
+       "24:00"
+      ]
+     ]
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.925914,
-          33.415783
-        ]
-      },
-      "properties": {
-        "id": "osm_way_544152066",
-        "name": "McDonald's",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93228520995807,
+     33.42322902010743
+    ]
+   },
+   "properties": {
+    "id": "dining_023_tookerhousepodmarket",
+    "name": "Tooker House P.O.D. Market",
+    "category": "food",
+    "building_id": "TKRHD",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "08:00",
+       "25:00"
+      ]
+     ],
+     "tue": [
+      [
+       "08:00",
+       "25:00"
+      ]
+     ],
+     "wed": [
+      [
+       "08:00",
+       "25:00"
+      ]
+     ],
+     "thu": [
+      [
+       "08:00",
+       "25:00"
+      ]
+     ],
+     "fri": [
+      [
+       "08:00",
+       "25:00"
+      ]
+     ],
+     "sat": [
+      [
+       "10:00",
+       "25:00"
+      ]
+     ],
+     "sun": [
+      [
+       "10:00",
+       "25:00"
+      ]
+     ]
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9351724,
-          33.4253067
-        ]
-      },
-      "properties": {
-        "id": "osm_node_5986784058",
-        "name": "Mr Fries Man",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93228520995807,
+     33.42322902010743
+    ]
+   },
+   "properties": {
+    "id": "dining_024_tookerhousedining",
+    "name": "Tooker House Dining",
+    "category": "food",
+    "building_id": "TKRHD",
+    "building_dist_m": 0,
+    "hours": null,
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93228520995807,
+     33.42322902010743
+    ]
+   },
+   "properties": {
+    "id": "dining_025_chickinattooker",
+    "name": "Chick-In at Tooker",
+    "category": "food",
+    "building_id": "TKRHD",
+    "building_dist_m": 0,
+    "hours": null,
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93005874989943,
+     33.42246664981325
+    ]
+   },
+   "properties": {
+    "id": "dining_026_manzanitadininghall",
+    "name": "Manzanita Dining Hall",
+    "category": "food",
+    "building_id": "MANZH",
+    "building_dist_m": 0,
+    "hours": null,
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93064659035338,
+     33.419929239787976
+    ]
+   },
+   "properties": {
+    "id": "dining_027_starbucks",
+    "name": "Starbucks",
+    "category": "coffee",
+    "building_id": "NOBLE",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "08:00",
+       "21:00"
+      ]
+     ],
+     "tue": [
+      [
+       "08:00",
+       "21:00"
+      ]
+     ],
+     "wed": [
+      [
+       "08:00",
+       "21:00"
+      ]
+     ],
+     "thu": [
+      [
+       "08:00",
+       "21:00"
+      ]
+     ],
+     "fri": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "sat": [],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.934805,
-          33.422923
-        ]
-      },
-      "properties": {
-        "id": "osm_node_2819176341",
-        "name": "My Pie Pizza",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93384093033342,
+     33.41654800030167
+    ]
+   },
+   "properties": {
+    "id": "dining_028_starbucks",
+    "name": "Starbucks",
+    "category": "coffee",
+    "building_id": "BAC",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "07:30",
+       "17:00"
+      ]
+     ],
+     "tue": [
+      [
+       "07:30",
+       "17:00"
+      ]
+     ],
+     "wed": [
+      [
+       "07:30",
+       "17:00"
+      ]
+     ],
+     "thu": [
+      [
+       "07:30",
+       "17:00"
+      ]
+     ],
+     "fri": [
+      [
+       "07:30",
+       "14:00"
+      ]
+     ],
+     "sat": [],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9271741,
-          33.4243172
-        ]
-      },
-      "properties": {
-        "id": "osm_way_1464064931",
-        "name": "North Italia",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93203966984821,
+     33.42249344032758
+    ]
+   },
+   "properties": {
+    "id": "dining_029_starbucks",
+    "name": "Starbucks",
+    "category": "coffee",
+    "building_id": "PVE",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "07:30",
+       "19:00"
+      ]
+     ],
+     "tue": [
+      [
+       "07:30",
+       "19:00"
+      ]
+     ],
+     "wed": [
+      [
+       "07:30",
+       "19:00"
+      ]
+     ],
+     "thu": [
+      [
+       "07:30",
+       "19:00"
+      ]
+     ],
+     "fri": [
+      [
+       "07:30",
+       "19:00"
+      ]
+     ],
+     "sat": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "sun": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ]
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.937184,
-          33.4221082
-        ]
-      },
-      "properties": {
-        "id": "osm_node_12208368428",
-        "name": "N\u00e9kter Juice Bar",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93453106015214,
+     33.42092045004965
+    ]
+   },
+   "properties": {
+    "id": "dining_030_cartelcoffee",
+    "name": "Cartel Coffee",
+    "category": "coffee",
+    "building_id": "DH",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "tue": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "wed": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "thu": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "fri": [
+      [
+       "08:00",
+       "15:00"
+      ]
+     ],
+     "sat": [],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9396408,
-          33.4241867
-        ]
-      },
-      "properties": {
-        "id": "osm_node_13836356276",
-        "name": "OG Taco",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93183360979677,
+     33.41778584998893
+    ]
+   },
+   "properties": {
+    "id": "dining_031_cartelcoffee",
+    "name": "Cartel Coffee",
+    "category": "coffee",
+    "building_id": "BKSTR",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "tue": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "wed": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "thu": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "fri": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "sat": [],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9394016,
-          33.4241975
-        ]
-      },
-      "properties": {
-        "id": "osm_node_8420775350",
-        "name": "OG Taco Shop",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93183360979677,
+     33.41778584998893
+    ]
+   },
+   "properties": {
+    "id": "dining_032_marketplacebookstorepodmarket",
+    "name": "Marketplace Bookstore P.O.D. Market",
+    "category": "food",
+    "building_id": "BKSTR",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "tue": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "wed": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "thu": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "fri": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "sat": [],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9290219,
-          33.4140704
-        ]
-      },
-      "properties": {
-        "id": "osm_node_4716105522",
-        "name": "Osaka Grill Teriyaki & Roll",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.92943980977036,
+     33.41783682008603
+    ]
+   },
+   "properties": {
+    "id": "dining_033_dreamcatchercoffee",
+    "name": "Dreamcatcher Coffee",
+    "category": "coffee",
+    "building_id": "ARM",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "08:00",
+       "16:00"
+      ]
+     ],
+     "tue": [
+      [
+       "08:00",
+       "16:00"
+      ]
+     ],
+     "wed": [
+      [
+       "08:00",
+       "16:00"
+      ]
+     ],
+     "thu": [
+      [
+       "08:00",
+       "16:00"
+      ]
+     ],
+     "fri": [
+      [
+       "08:00",
+       "14:00"
+      ]
+     ],
+     "sat": [],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9347739,
-          33.4225719
-        ]
-      },
-      "properties": {
-        "id": "osm_node_3117586990",
-        "name": "Panda Express",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93185343022519,
+     33.420456700367154
+    ]
+   },
+   "properties": {
+    "id": "dining_034_crepeclub",
+    "name": "Crepe Club",
+    "category": "coffee",
+    "building_id": "TYLER",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "tue": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "wed": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "thu": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "fri": [
+      [
+       "09:00",
+       "15:00"
+      ]
+     ],
+     "sat": [],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9363324,
-          33.4230401
-        ]
-      },
-      "properties": {
-        "id": "osm_node_12732531625",
-        "name": "Pokeworks",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9348489101508,
+     33.419013289907916
+    ]
+   },
+   "properties": {
+    "id": "dining_035_crepeclubathayden",
+    "name": "Crepe Club at Hayden",
+    "category": "coffee",
+    "building_id": "LIB",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "tue": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "wed": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "thu": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "fri": [
+      [
+       "08:00",
+       "15:00"
+      ]
+     ],
+     "sat": [],
+     "sun": []
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9401911,
-          33.4237537
-        ]
-      },
-      "properties": {
-        "id": "osm_node_2391078491",
-        "name": "Prince Street Pizza",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
+    "source": "asu_dining"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.93242563011172,
+     33.415447850113885
+    ]
+   },
+   "properties": {
+    "id": "dining_036_shakesmart",
+    "name": "Shake Smart",
+    "category": "coffee",
+    "building_id": "SDFCT",
+    "building_dist_m": 0,
+    "hours": {
+     "mon": [
+      [
+       "07:00",
+       "22:00"
+      ]
+     ],
+     "tue": [
+      [
+       "07:00",
+       "22:00"
+      ]
+     ],
+     "wed": [
+      [
+       "07:00",
+       "22:00"
+      ]
+     ],
+     "thu": [
+      [
+       "07:00",
+       "22:00"
+      ]
+     ],
+     "fri": [
+      [
+       "07:00",
+       "21:00"
+      ]
+     ],
+     "sat": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "sun": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ]
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9364987,
-          33.4229899
-        ]
-      },
-      "properties": {
-        "id": "osm_node_10778845100",
-        "name": "Rusty Taco",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9395443,
-          33.4242124
-        ]
-      },
-      "properties": {
-        "id": "osm_node_1698683429",
-        "name": "Slices pizza by the slice",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.934742,
-          33.4237521
-        ]
-      },
-      "properties": {
-        "id": "osm_node_4716174442",
-        "name": "Snooze",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9290206,
-          33.4141298
-        ]
-      },
-      "properties": {
-        "id": "osm_node_8551962958",
-        "name": "Spitz - ASU",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9402226,
-          33.4193031
-        ]
-      },
-      "properties": {
-        "id": "osm_way_576530397",
-        "name": "Subway",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9397847,
-          33.4233767
-        ]
-      },
-      "properties": {
-        "id": "osm_node_12185288738",
-        "name": "Taco Boy's",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9347633,
-          33.4244464
-        ]
-      },
-      "properties": {
-        "id": "osm_node_14280933586",
-        "name": "Taco Chelo",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9347633,
-          33.4244464
-        ]
-      },
-      "properties": {
-        "id": "osm_node_14282129268",
-        "name": "Taco Chelo",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9258984,
-          33.4162889
-        ]
-      },
-      "properties": {
-        "id": "osm_way_544152063",
-        "name": "Thai Basil",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9305789,
-          33.4228426
-        ]
-      },
-      "properties": {
-        "id": "osm_way_30420488",
-        "name": "The Bodhi",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9394825,
-          33.4242121
-        ]
-      },
-      "properties": {
-        "id": "osm_node_1698683471",
-        "name": "The Munchies Cafe",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.936028,
-          33.414428
-        ]
-      },
-      "properties": {
-        "id": "osm_node_1276254050",
-        "name": "The Normal Diner",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9322604,
-          33.4232049
-        ]
-      },
-      "properties": {
-        "id": "osm_way_1123251436",
-        "name": "Tooker House Dining",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9267428,
-          33.413632
-        ]
-      },
-      "properties": {
-        "id": "osm_way_1229184655",
-        "name": "Voodoo Doughnut",
-        "category": "food",
-        "building_id": null,
-        "hours": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9345787,
-          33.4190232
-        ]
-      },
-      "properties": {
-        "id": "osm_way_28822655",
-        "name": "Hayden Library",
-        "category": "study",
-        "building_id": null,
-        "hours": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9352321,
-          33.4190336
-        ]
-      },
-      "properties": {
-        "id": "osm_way_28822657",
-        "name": "Hayden Library Concourse",
-        "category": "study",
-        "building_id": null,
-        "hours": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9296521,
-          33.4171274
-        ]
-      },
-      "properties": {
-        "id": "osm_way_28878390",
-        "name": "Ross-Blakley Hall",
-        "category": "study",
-        "building_id": null,
-        "hours": null
-      }
-    }
-  ]
+    "source": "asu_dining"
+   }
+  }
+ ]
 }

@@ -1,0 +1,54 @@
+# Weekly opening hours of ASU dining on the Tempe campus, checked by hand on the Sun Devil Hospitality site by Yi-Wen.
+# One venue per line, fields separated by |: name | type | Mon | Tue | Wed | Thu | Fri | Sat | Sun
+# Types: Restaurant / fast food, Coffee / bakery / drinks, Convenience store / market, Other.
+# A day is a time range like 7:00AM-9:00PM, or Closed, or No data (not known).
+# 12:00AM as a closing time means midnight, a closing time before the opening time means after midnight.
+Burger King|Restaurant / fast food|7:00AM-9:00PM|7:00AM-9:00PM|7:00AM-9:00PM|7:00AM-9:00PM|7:00AM-9:00PM|10:00AM-4:00PM|10:00AM-4:00PM
+Chick-fil-A|Restaurant / fast food|7:30AM-9:00PM|7:30AM-9:00PM|7:30AM-9:00PM|7:30AM-9:00PM|7:30AM-9:00PM|10:30AM-7:00PM|Closed
+Domino's|Restaurant / fast food|10:00AM-2:00AM|10:00AM-2:00AM|10:00AM-2:00AM|10:00AM-3:00AM|10:00AM-3:00AM|10:00AM-3:00AM|10:00AM-2:00AM
+Eureka!|Restaurant / fast food|11:00AM-11:30PM|11:00AM-11:30PM|11:00AM-11:30PM|11:00AM-11:30PM|11:00AM-12:30AM|11:00AM-12:30AM|11:00AM-11:30PM
+Jimmy John's|Restaurant / fast food|10:00AM-11:00PM|10:00AM-11:00PM|10:00AM-11:00PM|10:00AM-11:00PM|10:00AM-11:00PM|11:00AM-11:00PM|11:00AM-11:00PM
+Osaka Grill|Restaurant / fast food|11:00AM-12:00AM|11:00AM-12:00AM|11:00AM-12:00AM|11:00AM-12:00AM|11:00AM-12:00AM|11:00AM-12:00AM|11:00AM-12:00AM
+Poke Works|Restaurant / fast food|10:00AM-10:00PM|10:00AM-10:00PM|10:00AM-10:00PM|10:00AM-10:00PM|10:00AM-10:00PM|10:00AM-10:00PM|10:00AM-10:00PM
+Protein House|Restaurant / fast food|7:00AM-9:00PM|7:00AM-9:00PM|7:00AM-9:00PM|7:00AM-9:00PM|7:00AM-9:00PM|7:00AM-9:00PM|7:00AM-7:00PM
+Spitz Mediterranean|Restaurant / fast food|11:00AM-1:00AM|11:00AM-1:00AM|11:00AM-1:00AM|11:00AM-1:00AM|11:00AM-1:00AM|11:00AM-1:00AM|11:00AM-1:00AM
+Hungry Howie's|Restaurant / fast food|11:00AM-2:00AM|11:00AM-2:00AM|11:00AM-2:00AM|11:00AM-2:00AM|11:00AM-2:00AM|11:00AM-2:00AM|11:00AM-2:00AM
+El Paisano|Restaurant / fast food|10:00AM-11:00PM|10:00AM-11:00PM|10:00AM-11:00PM|10:00AM-11:00PM|10:00AM-11:00PM|10:00AM-11:00PM|10:00AM-11:00PM
+Venezia's Pizza|Restaurant / fast food|10:00AM-9:00PM|10:00AM-9:00PM|10:00AM-9:00PM|10:00AM-9:00PM|10:00AM-9:00PM|11:00AM-8:00PM|11:00AM-8:00PM
+Everbowl|Restaurant / fast food|9:00AM-7:00PM|9:00AM-7:00PM|9:00AM-7:00PM|9:00AM-7:00PM|9:00AM-7:00PM|9:00AM-7:00PM|9:00AM-7:00PM
+Subway (Memorial Union)|Restaurant / fast food|10:00AM-7:00PM|10:00AM-7:00PM|10:00AM-7:00PM|10:00AM-7:00PM|10:00AM-7:00PM|10:00AM-5:00PM|10:00AM-5:00PM
+Subway (Hassayampa)|Restaurant / fast food|10:00AM-10:00PM|10:00AM-10:00PM|10:00AM-10:00PM|10:00AM-10:00PM|10:00AM-10:00PM|10:00AM-7:00PM|10:00AM-7:00PM
+Qdoba (Memorial Union)|Restaurant / fast food|10:00AM-8:00PM|10:00AM-8:00PM|10:00AM-8:00PM|10:00AM-8:00PM|10:00AM-7:00PM|10:00AM-5:00PM|10:00AM-5:00PM
+Bento Sushi (Memorial Union)|Restaurant / fast food|10:00AM-5:00PM|10:00AM-5:00PM|10:00AM-5:00PM|10:00AM-5:00PM|10:00AM-2:00PM|Closed|Closed
+Choolaah|Restaurant / fast food|10:00AM-7:00PM|10:00AM-7:00PM|10:00AM-7:00PM|10:00AM-7:00PM|10:00AM-4:00PM|Closed|Closed
+Engrained|Restaurant / fast food|11:00AM-3:00PM|11:00AM-3:00PM|11:00AM-3:00PM|11:00AM-3:00PM|11:00AM-2:00PM|Closed|Closed
+Local Restaurant Row (MU)|Restaurant / fast food|10:30AM-5:00PM|10:30AM-5:00PM|10:30AM-5:00PM|10:30AM-5:00PM|10:30AM-2:00PM|Closed|Closed
+Panini Café (Memorial Union)|Coffee / bakery / drinks|10:00AM-9:00PM|10:00AM-9:00PM|10:00AM-9:00PM|10:00AM-9:00PM|10:00AM-7:00PM|Closed|Closed
+Panini Café Architectural Design|Coffee / bakery / drinks|8:00AM-5:00PM|8:00AM-5:00PM|8:00AM-5:00PM|8:00AM-5:00PM|8:00AM-3:00PM|Closed|Closed
+Panini Café Bio-Design|Coffee / bakery / drinks|7:00AM-4:00PM|7:00AM-4:00PM|7:00AM-4:00PM|7:00AM-4:00PM|7:00AM-4:00PM|Closed|Closed
+Tenders Love and Chicken (TLC)|Restaurant / fast food|9:30PM-12:00AM|9:30PM-12:00AM|9:30PM-12:00AM|9:30PM-12:00AM|8:00PM-12:00AM|8:00PM-12:00AM|9:00PM-12:00AM
+Hassayampa Late Night|Restaurant / fast food|9:00PM-12:00AM|9:00PM-12:00AM|9:00PM-12:00AM|9:00PM-12:00AM|7:00AM-12:00AM|7:00AM-12:00AM|8:00AM-12:00AM
+The Cafe at Vista|Restaurant / fast food|Closed|Closed|Closed|Closed|Closed|Closed|Closed
+Starbucks (Memorial Union)|Coffee / bakery / drinks|6:30AM-10:00PM|6:30AM-10:00PM|6:30AM-10:00PM|6:30AM-10:00PM|6:30AM-10:00PM|8:00AM-8:00PM|10:00AM-9:00PM
+Starbucks (Noble Library)|Coffee / bakery / drinks|8:00AM-9:00PM|8:00AM-9:00PM|8:00AM-9:00PM|8:00AM-9:00PM|8:00AM-5:00PM|Closed|Closed
+Starbucks (W.P. Carey)|Coffee / bakery / drinks|7:30AM-5:00PM|7:30AM-5:00PM|7:30AM-5:00PM|7:30AM-5:00PM|7:30AM-2:00PM|Closed|Closed
+Starbucks (Hassayampa)|Coffee / bakery / drinks|7:30AM-7:00PM|7:30AM-7:00PM|7:30AM-7:00PM|7:30AM-7:00PM|7:30AM-7:00PM|10:00AM-4:00PM|10:00AM-4:00PM
+Starbucks (Palo Verde)|Coffee / bakery / drinks|7:30AM-7:00PM|7:30AM-7:00PM|7:30AM-7:00PM|7:30AM-7:00PM|7:30AM-7:00PM|10:00AM-4:00PM|10:00AM-4:00PM
+Einstein Bros. Bagels (Memorial Union)|Coffee / bakery / drinks|7:00AM-2:00PM|7:00AM-2:00PM|7:00AM-2:00PM|7:00AM-2:00PM|7:00AM-2:00PM|10:00AM-2:00PM|10:00AM-2:00PM
+Burning B Cafe|Coffee / bakery / drinks|8:00AM-5:00PM|8:00AM-5:00PM|8:00AM-5:00PM|8:00AM-5:00PM|8:00AM-1:00PM|Closed|Closed
+Cartel Coffee (Durham Hall)|Coffee / bakery / drinks|8:00AM-5:00PM|8:00AM-5:00PM|8:00AM-5:00PM|8:00AM-5:00PM|8:00AM-3:00PM|Closed|Closed
+Cartel Coffee (ASU Bookstore)|Coffee / bakery / drinks|9:00AM-4:00PM|9:00AM-4:00PM|9:00AM-4:00PM|9:00AM-4:00PM|9:00AM-4:00PM|Closed|Closed
+Dreamcatcher Coffee (Armstrong)|Coffee / bakery / drinks|8:00AM-4:00PM|8:00AM-4:00PM|8:00AM-4:00PM|8:00AM-4:00PM|8:00AM-2:00PM|Closed|Closed
+Crepe Club (Tyler Mall)|Coffee / bakery / drinks|9:00AM-5:00PM|9:00AM-5:00PM|9:00AM-5:00PM|9:00AM-5:00PM|9:00AM-3:00PM|Closed|Closed
+Crepe Club at Hayden|Coffee / bakery / drinks|8:00AM-5:00PM|8:00AM-5:00PM|8:00AM-5:00PM|8:00AM-5:00PM|8:00AM-3:00PM|Closed|Closed
+Rosie's Bakery (Memorial Union)|Coffee / bakery / drinks|10:00AM-4:00PM|10:00AM-4:00PM|10:00AM-4:00PM|10:00AM-4:00PM|10:00AM-4:00PM|Closed|Closed
+Shake Smart (Memorial Union)|Coffee / bakery / drinks|9:00AM-7:00PM|9:00AM-7:00PM|9:00AM-7:00PM|9:00AM-7:00PM|9:00AM-6:00PM|Closed|Closed
+Shake Smart (SDFC)|Coffee / bakery / drinks|7:00AM-10:00PM|7:00AM-10:00PM|7:00AM-10:00PM|7:00AM-10:00PM|7:00AM-9:00PM|10:00AM-8:00PM|10:00AM-8:00PM
+P.O.D. Market (Memorial Union)|Convenience store / market|7:00AM-10:00PM|7:00AM-10:00PM|7:00AM-10:00PM|7:00AM-10:00PM|7:00AM-10:00PM|10:00AM-10:00PM|10:00AM-10:00PM
+P.O.D. Market (Greek Village)|Convenience store / market|9:00AM-10:00PM|9:00AM-10:00PM|9:00AM-10:00PM|9:00AM-10:00PM|9:00AM-10:00PM|10:00AM-10:00PM|10:00AM-10:00PM
+P.O.D. Warehouse|Convenience store / market|8:00AM-1:00AM|8:00AM-1:00AM|8:00AM-1:00AM|8:00AM-1:00AM|8:00AM-1:00AM|10:00AM-1:00AM|10:00AM-1:00AM
+Tooker House P.O.D. Market|Convenience store / market|8:00AM-1:00AM|8:00AM-1:00AM|8:00AM-1:00AM|8:00AM-1:00AM|8:00AM-1:00AM|10:00AM-1:00AM|10:00AM-1:00AM
+Vicki Smart Store|Convenience store / market|7:00AM-9:00PM|7:00AM-9:00PM|7:00AM-9:00PM|7:00AM-9:00PM|7:00AM-9:00PM|8:00AM-9:00PM|8:00AM-9:00PM
+Bodhi Market|Convenience store / market|9:00AM-5:00PM|9:00AM-5:00PM|9:00AM-5:00PM|9:00AM-5:00PM|9:00AM-3:00PM|Closed|Closed
+Marketplace Bookstore P.O.D. Market|Convenience store / market|9:00AM-4:00PM|9:00AM-4:00PM|9:00AM-4:00PM|9:00AM-4:00PM|9:00AM-4:00PM|Closed|Closed
+Sun Devil Street Eats Food Truck|Other|No data|No data|No data|No data|No data|No data|No data

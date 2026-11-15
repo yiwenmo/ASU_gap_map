@@ -1,0 +1,56 @@
+name,building_id,source,note
+Burger King,MU,map+pdf,
+Chick-fil-A,MU,map+pdf,
+Qdoba (Memorial Union),MU,map+pdf,
+Subway (Memorial Union),MU,map+pdf,
+Bento Sushi (Memorial Union),MU,map+pdf,
+Choolaah,MU,map+pdf,
+Engrained,MU,map+pdf,2nd level
+Local Restaurant Row (MU),MU,map+pdf,
+Panini Café (Memorial Union),MU,pdf,
+Starbucks (Memorial Union),MU,map+pdf,
+Einstein Bros. Bagels (Memorial Union),MU,map+pdf,
+Rosie's Bakery (Memorial Union),MU,map+pdf,
+Shake Smart (Memorial Union),MU,map+pdf,
+P.O.D. Market (Memorial Union),MU,map+pdf,
+Pitchforks,MU,map+pdf,not in the hours table
+Domino's,VDSK,map,
+Jimmy John's,VDSK,map,
+Osaka Grill,VDSK,map,
+Spitz Mediterranean,VDSK,map,
+Everbowl,VDSJ,map,OSM has it at VDSJ
+Venezia's Pizza,,map,"building not known: the map says College Avenue Commons, which is not in our building list (CAM is College Avenue Market Place, a different building)"
+Panini Café Architectural Design,CDN,pdf,
+Panini Café Bio-Design,BDB,pdf,
+Tenders Love and Chicken (TLC),TKRHD,pdf,TLC at Tooker
+Tooker House P.O.D. Market,TKRHD,map+pdf,
+Tooker House Dining,TKRHD,map+pdf,"dining hall, not in the hours table"
+Chick-In at Tooker,TKRHD,map+pdf,"kosher chicken station, not in the hours table"
+Manzanita Dining Hall,MANZH,map+pdf,"dining hall, not in the hours table"
+Starbucks (Noble Library),NOBLE,map+pdf,
+Starbucks (W.P. Carey),BAC,map+pdf,map says Business Administration
+Starbucks (Palo Verde),PVE,map+pdf,
+Cartel Coffee (Durham Hall),DH,map+pdf,
+Cartel Coffee (ASU Bookstore),BKSTR,pdf,2025 map showed Starbucks here
+Marketplace Bookstore P.O.D. Market,BKSTR,pdf,
+Dreamcatcher Coffee (Armstrong),ARM,map+pdf,
+Crepe Club (Tyler Mall),TYLER,map,
+Crepe Club at Hayden,LIB,map,
+Shake Smart (SDFC),SDFCT,map,
+Eureka!,,,building not known
+Poke Works,,,building not known
+Protein House,,,building not known
+Hungry Howie's,,,building not known
+El Paisano,,,building not known
+Subway (Hassayampa),,map,Hassayampa building id to find
+Starbucks (Hassayampa),,map+pdf,Hassayampa building id to find
+Hassayampa Late Night,,pdf,Hassayampa building id to find
+Hassayampa Dining Center,,pdf,Hassayampa building id to find; not in the hours table
+Burning B Cafe,,map+pdf,Barrett College building id to find
+Barrett Dining Center,,map+pdf,Barrett College building id to find; not in the hours table
+P.O.D. Market (Greek Village),,pdf,Greek Leadership Village building id to find
+P.O.D. Warehouse,,pdf,building not known
+Vicki Smart Store,,,building not known
+Bodhi Market,,map,The Bodhi is at Manzanita and Hayden on the map; check which
+The Cafe at Vista,,,building not known
+Sun Devil Street Eats Food Truck,,,"food truck, no fixed building"
