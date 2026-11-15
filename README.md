@@ -14,7 +14,7 @@ python3 -m venv .venv
 
 ## Where things are
 
-- `web/gap.html` (+ `gap.js`, `gap.css`, `route.js`, `asu-logo.png`) - **the main page**: enter where you are, your next class, and the time, and it lists the events you can walk to and still make class. Under each event it names the buildings with food or coffee on the way (select the event to see the places). Needs a local server because it uses `fetch`: run `python3 -m http.server` in this folder, then open `http://localhost:8000/web/gap.html`
+- `web/gap.html` (+ `gap.js`, `gap.css`, `route.js`, `asu-logo.png`) - **the main page**: enter where you are, your next class, and the time, and it lists the events you can walk to and still make class. Under each event it names the buildings with food or coffee on the way (select the event to see the places and a link to walking directions in Google Maps). A switch in the map corner shows the street map or the satellite image. Needs a local server because it uses `fetch`: run `python3 -m http.server` in this folder, then open `http://localhost:8000/web/gap.html`
 - `web/asu_events_map.html` (+ `style.css`, `map.js`) - the first map: all events on a map with a list and filters. Open it in a browser. It reads `../data/events_data.js`, so keep the `web/` and `data/` folders next to each other.
 - `web/qa_walk.html` - a check page for the walking network: click two buildings to see the walking time, the straight-line distance and where each walk starts (entrance and path), and which buildings sit far from a path. Needs the local server too. For developers, not linked from the main page.
 - `data/events_data.js` - the event data the map reads. Made by `test_WebGIS.py`
@@ -23,7 +23,7 @@ python3 -m venv .venv
 - `data/walk_matrix.json` - walking time in seconds between every pair of buildings. Made by `pipeline/network.py` (also makes `building_snaps.json` and `walk_network.geojson`). If the OSM download fails with an SSL error (macOS system Python 3.9), use a newer Python for the venv, see the CHANGELOG
 - `data/building_entrances.json` - where a walk starts at each building. Made by `pipeline/entrances.py`, run it before `network.py`
 - `data/pois.geojson` - the coffee and food places the gap page shows on the way, with their building and weekly opening hours. Made by `pipeline/match_pois.py`, **do not edit it by hand**. Run `python3 pipeline/match_pois.py` after changing a file in `data/source/`
-- `data/source/` - inputs that people make or keep by hand, read by the scripts and never by the page: `campus_dining.csv` (ASU dining venues and their building), `campus_dining_hours.txt` (weekly opening hours), `pois_osm.geojson` and `osm_amenities_raw.geojson` (Cade's OpenStreetMap extraction, not used on the page for now)
+- `data/source/` - inputs that people make or keep by hand, read by the scripts and never by the page: `asu_accessible_entrances.json` (ASU's entrance points, saved by `pipeline/asu_entrances.py`), `campus_dining.csv` (ASU dining venues and their building), `campus_dining_hours.txt` (weekly opening hours), `pois_osm.geojson` and `osm_amenities_raw.geojson` (Cade's OpenStreetMap extraction, not used on the page for now)
 - `asu_events_output/` - the full event data from `test_WebGIS.py`:
   - `asu_events.csv` - all events with lat/lon and `geo_source` (`address` / `campus` / `none`)
   - `asu_events.geojson` - can open in QGIS or ArcGIS

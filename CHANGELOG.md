@@ -205,7 +205,7 @@ Merged Cade's wireframe (layout, ASU colors, "plan your gap" idea) into a workin
 - `web/gap.js`: the list now shows plain names only: the building's name and its other names ("ASU Gammage", "Grady Gammage"). The building code and the Facilities number are left out, and names that differ only in capital letters count as one. Typing a code such as `GGMA` still works (`buildingId()` is unchanged). If two different buildings ever share a name, the code is added after it so they stay apart. Today no two do. The list is 274 options (261 buildings, 13 extra names).
 - Checked in headless Chrome: all names resolve to the right building, typed with or without capital letters ("ASU Gammage", "asu gammage", "Grady Gammage", "Walton Center for Planetary Health"), and `GGMA`, `WCPH`, `MU` still work. A name that is not in the list still shows the "Pick your location..." message. Walking times are the same (GGMA to Memorial Union 7 min, WCPH 15 min). No JavaScript errors.
 
-## 11/12
+## 11/12-11/14
 
 ### Places on the way: Cade's Explore Campus merged, then folded into the gap page — Yi-Wen
 - Merged Cade's PR #5 (50 OpenStreetMap places and an Explore Campus tab). A separate tab does not fit what a student asks: which events can I make, and is there food or coffee on the way? The tab and `web/explore.js` are gone, the places now show inside Plan Your Gap.
@@ -217,3 +217,13 @@ Merged Cade's wireframe (layout, ASU colors, "plan your gap" idea) into a workin
 - A place is listed under its building, so its name does not repeat the building ("Hayden Library Concourse" in Hayden Library shows as "Concourse", a place with the same name as its building shows as "Study space" or "Coffee"). Matters for the libraries once they are back.
 - Checked in headless Chrome: the plan result is unchanged, places show on the cards, chips and map markers work, Starbucks in the Memorial Union is listed at 8:00 but not at 6:00 or 22:00, no JavaScript errors.
 - Housekeeping: `Wireframe/` moved to `docs/wireframe/` (nothing read it). README, `docs/architecture.md` and `docs/PROJECT_PLAN.md` brought up to date: the places data and `data/source/`, how "on the way" is computed, what `web/qa_walk.html` is, and a status table in the project plan.
+
+### Map / Satellite switch and Google Maps link (front end) — Yi-Wen
+- A switch in the map corner shows the street map or the Esri satellite image (it shows buildings the street map lacks, like the Walton Center).
+- The selected event has a "Walking directions in Google Maps" link (plain link, no key, nothing stored).
+
+### Entrances from ASU's own data (data) — Yi-Wen
+- Merged PR #6 (manual entrances for Coor Hall and Memorial Union).
+- ASU Facilities' map service has an "Accessible Entrance" layer (216 points in Tempe, surveyed in 2020). `pipeline/asu_entrances.py` saves it to `data/source/asu_accessible_entrances.json`. 71 points have no building number and are not used.
+- `pipeline/entrances.py` now tries: manual, OSM door, ASU, outline guess, centroid. ASU is used for 71 buildings, OSM doors keep their 20, 150 are still a guess. An ASU point is skipped when it is more than 150 m from the building or 40 m from a path.
+- Effect: 3910 of 67860 pairs change by more than 1 min (max 3.4 min). On the 10 routes checked against Google the mean error goes from 1.26 to 1.03 min. Only 10 routes, so a small gain. New buildings (the Walton Center) are not in the ASU data.

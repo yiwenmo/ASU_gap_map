@@ -83,10 +83,19 @@ function parseCsv(text) {
 
 const map = L.map('map', {zoomControl: false}).setView([33.4215, -111.9330], 15);
 L.control.zoom({position: 'topright'}).addTo(map);
-// Esri tiles (OSM tiles get blocked when opening from file://)
-L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+// Esri tiles (OSM tiles get blocked when opening from file://). A button in the corner switches between the street map
+// and the satellite image (the satellite is useful to see a building that the street map does not show yet).
+const ESRI = 'https://server.arcgisonline.com/ArcGIS/rest/services/';
+const streetMap = L.tileLayer(ESRI + 'World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
   maxZoom: 19,
-  attribution: 'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, USGS, NGA, OpenStreetMap contributors'}).addTo(map);
+  attribution: 'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, USGS, NGA, OpenStreetMap contributors'});
+const satellite = L.layerGroup([
+  L.tileLayer(ESRI + 'World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    maxZoom: 19, attribution: 'Tiles &copy; Esri &mdash; Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community'}),
+  L.tileLayer(ESRI + 'Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {maxZoom: 19}),   // street and place names on top
+]);
+streetMap.addTo(map);
+L.control.layers({'Map': streetMap, 'Satellite': satellite}, null, {position: 'topright', collapsed: false}).addTo(map);
 const markerLayer = L.layerGroup().addTo(map);
 const routeLayer = L.layerGroup().addTo(map);
 
@@ -249,6 +258,13 @@ function placeName(p, buildingName) {
 function stopsOf(list) {
   return list.map(g => ({...g, places: g.places.filter(p => state.stops.has(p.category))})).filter(g => g.places.length);
 }
+// A plain link, no key and no Google data kept: it opens Google Maps with walking directions from where the person is now.
+// The destination is the building's point, Google picks the way in.
+function gmapsLink(e) {
+  const b = buildings[e.building_id];
+  if (!b) return '';
+  return `<a class="gmaps" href="https://www.google.com/maps/dir/?api=1&destination=${b.lat},${b.lon}&travelmode=walking" target="_blank" rel="noopener">Walking directions in Google Maps &#8599;</a>`;
+}
 function stopsHtml(r) {
   if (!r.ok) return '';
   const there = stopsOf(r.stops.there), back = stopsOf(r.stops.back);
@@ -288,6 +304,7 @@ function draw(o, d) {
           ? `${mins(r.walkTo)} min walk there &middot; <span class="slack">${Math.floor(r.slack)} min to spare</span>`
           : `<span class="why">${esc(r.why)}</span>`}</div>
         ${stopsHtml(r)}
+        ${r.ok ? gmapsLink(e) : ''}
         ${e.free ? '<span class="badge free">Free</span>' : ''}${e.cats.slice(0, 2).map(c => `<span class="badge">${esc(c)}</span>`).join('')}
       </div>
       ${e.image_url ? `<img class="thumb" src="${esc(e.image_url)}" alt="" loading="lazy" onerror="this.remove()">` : ''}
