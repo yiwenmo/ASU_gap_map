@@ -43,7 +43,7 @@ OVERPASS_URLS = [
     "https://overpass.kumi.systems/api/interpreter",
     "https://overpass.private.coffee/api/interpreter",
 ]
-USER_AGENT = "ASU-CICI-WebGIS-research/0.1"
+USER_AGENT = "ASU-WebGIS-Project/0.1"
 
 BBOX_MARGIN_DEG = 0.003  # ~300 m around the buildings, so paths at the edge connect
 WALK_SPEED_MPS = 1.34    # ~4.8 km/h, typical adult walking speed

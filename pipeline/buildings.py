@@ -16,7 +16,7 @@ from collections import defaultdict
 from pathlib import Path
 
 LAYER_URL = "https://gis.m.asu.edu/server/rest/services/FDM/UniversityFacilities/MapServer/1/query"
-USER_AGENT = "ASU-CICI-WebGIS-research/0.1"
+USER_AGENT = "ASU-WebGIS-Project/0.1"
 TEMPE_CAMPUS_CODE = "MC"  # Main Campus (Tempe)
 
 # Student-friendly display names for buildings whose Facilities names

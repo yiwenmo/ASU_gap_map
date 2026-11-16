@@ -18,7 +18,7 @@ import pandas as pd
 FEED_URL = "https://asuevents.asu.edu/feed-json"
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 # Nominatim needs a User-Agent (could add an email here)
-USER_AGENT = "ASU-CICI-WebGIS-research/0.1"
+USER_AGENT = "ASU-WebGIS-Project/0.1"
 
 OUT_DIR = Path(__file__).parent / "asu_events_output"
 GEOCODE_CACHE = OUT_DIR / "geocode_cache.json"
