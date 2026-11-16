@@ -224,6 +224,8 @@ Merged Cade's wireframe (layout, ASU colors, "plan your gap" idea) into a workin
 
 ### Entrances from ASU's own data (data) — Yi-Wen
 - Merged PR #6 (manual entrances for Coor Hall and Memorial Union).
-- ASU Facilities' map service has an "Accessible Entrance" layer (216 points in Tempe, surveyed in 2020). `pipeline/asu_entrances.py` saves it to `data/source/asu_accessible_entrances.json`. 71 points have no building number and are not used.
-- `pipeline/entrances.py` now tries: manual, OSM door, ASU, outline guess, centroid. ASU is used for 71 buildings, OSM doors keep their 20, 150 are still a guess. An ASU point is skipped when it is more than 150 m from the building or 40 m from a path.
-- Effect: 3910 of 67860 pairs change by more than 1 min (max 3.4 min). On the 10 routes checked against Google the mean error goes from 1.26 to 1.03 min. Only 10 routes, so a small gain. New buildings (the Walton Center) are not in the ASU data.
+- ASU Facilities' public map service has an entrance layer (216 points, surveyed 2020) and a building outline layer. `pipeline/asu_entrances.py` and `pipeline/asu_outlines.py` save them to `data/source/`. Matched by building number, so no guessing. 71 entrance points have no number and are not used.
+- `pipeline/entrances.py` tries: manual, OSM door, ASU entrance point, closest point of the outline (ASU's, else OSM's), centroid. Result: manual 2, OSM door 18, ASU point 72, ASU outline 131, OSM outline 27, centroid 11 (was 223 outline guesses and 18 centroids).
+- Fixes: the Walton Center had no OSM outline and got the footbridge's, so its entrance was on the bridge and routes went over it. Buildings that shared one entrance point: 35 groups to 6. Mountain America Stadium was at the centroid, 82 m from a path.
+- Effect: many pairs change, mostly for large buildings (stadiums, parking structures). 10 routes checked against Google: mean error 1.26 to 1.18 min (1.03 with the ASU points alone). The Walton Center is now 13.8 min from Coor Hall (Google 16): its entrance is the outline point closest to a path, not the real door, which is on University Dr. Needs a hand-checked entrance.
+- `web/qa_walk.html` colors each entrance by its source (it showed `manual` and `asu` as red "none found").

@@ -34,7 +34,7 @@ Scripts: Events + geocoding = `test_WebGIS.py`; Buildings + entrances = `buildin
 |---|---|---|---|
 | Events | `test_WebGIS.py` | ASU events feed, Nominatim | `asu_events_output/*`, `data/events_data.js` |
 | Buildings | `pipeline/buildings.py` | ASU Facilities layer | `data/buildings.geojson` (261 Tempe buildings, keyed by `building_id`) |
-| Entrances | `pipeline/entrances.py` | `buildings.geojson`, OSM, `data/manual_entrances.json`, `data/source/asu_accessible_entrances.json` (saved by `pipeline/asu_entrances.py`) | `data/building_entrances.json` |
+| Entrances | `pipeline/entrances.py` | `buildings.geojson`, OSM, `data/manual_entrances.json`, `data/source/asu_accessible_entrances.json` and `asu_building_outlines.json` (saved by `pipeline/asu_entrances.py`, `asu_outlines.py`) | `data/building_entrances.json` |
 | Walking network | `pipeline/network.py` | OSM walkways, buildings, entrances | `data/walk_matrix.json`, `walk_network.geojson`, `building_snaps.json` |
 | Event to building | `pipeline/match_events.py` | `asu_events.csv`, `buildings.geojson` | `data/event_buildings.csv` |
 | Places | `pipeline/match_pois.py` (reads the list through `pipeline/campus_dining.py`) | `data/source/campus_dining.csv`, `campus_dining_hours.txt`, `pois_osm.geojson`, `buildings.geojson` | `data/pois.geojson` |
@@ -69,7 +69,7 @@ free from -> walk there -> be there (or join in progress) -> stay -> walk to cla
 
 - Only Tempe campus buildings are in the data, so the gap page only shows events that match one of them. 256 of 500 event times have no `building_id` in the latest run: about 105 are online, about 145 are on other campuses or off campus (Downtown Phoenix, Polytechnic, West Valley, Mesa, California, ...), and about 6 are on the Tempe campus but could not be matched.
 - 14 event-to-building matches are flagged for a manual check (`review` column in `event_buildings.csv`).
-- Entrances: 2 are hand-checked, 20 are OSM doors, 71 come from ASU's entrance points (2020), 150 are a guess from the outline and 18 use the centroid. Walking times for those can be off by a minute or so.
+- Entrances: 2 are hand-checked, 18 are OSM doors, 72 are ASU entrance points (2020), 158 are a guess from the building outline (131 ASU's, 27 OSM's) and 11 use the centroid. A guess is the outline point closest to a path, not necessarily the real door, so times can be off by a minute or so.
 - Places: 37 ASU dining places are on the page (33 with opening hours). 18 dining venues still have no building and are not shown (listed by `match_pois.py`). A place sits at its building's point, not at its real door, so "on the way" is approximate. Libraries and OpenStreetMap places are left out until they have official opening hours. The weekly hours were checked by hand in November 2026 and change with the term.
 - No stairs, elevation or crossing waits.
 - Single next class only; no saved multi-course schedule yet.
