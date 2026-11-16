@@ -15,7 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).parent.parent
 OUT_FILE = ROOT / "data" / "source" / "asu_accessible_entrances.json"
 LAYER_URL = "https://gis.m.asu.edu/server/rest/services/Campus/CampusAccessibility/MapServer/0/query"
-USER_AGENT = "ASU-CICI-WebGIS-research/0.1"
+USER_AGENT = "ASU-WebGIS-Project/0.1"
 TEMPE_BOX = "-111.95,33.40,-111.91,33.44"   # lon_min,lat_min,lon_max,lat_max, the Tempe campus
 
 

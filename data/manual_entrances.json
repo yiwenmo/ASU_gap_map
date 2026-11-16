@@ -20,26 +20,22 @@
         "side": "north"
       }
     ]
-},
-
-
-"MU": {
-  "source": "visual OSM map check",
-  "note": "Memorial Union has multiple pedestrian entrances that are not explicitly mapped as entrance nodes in OSM.",
-  "primary": 0,
-  "entrances": [
-    {
-      "lon": -111.934661,
-      "lat": 33.417929,
-      "side": "west_1"
-    },
-    {
-      "lon": -111.934725,
-      "lat": 33.417569,
-      "side": "west_2"
-    }
-   
-  ]
+  },
+  "MU": {
+    "source": "visual OSM map check",
+    "note": "Memorial Union has multiple pedestrian entrances that are not explicitly mapped as entrance nodes in OSM.",
+    "primary": 0,
+    "entrances": [
+      {
+        "lon": -111.934661,
+        "lat": 33.417929,
+        "side": "west_1"
+      },
+      {
+        "lon": -111.934725,
+        "lat": 33.417569,
+        "side": "west_2"
+      }
+    ]
+  }
 }
-}
-
