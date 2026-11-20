@@ -85,6 +85,18 @@ On Windows, use the equivalent virtual-environment commands or `uv` if it is ins
 
 The first map shows one marker per building on the right, and a list (search + filters) on the left. Events with no real address (online, or only a campus name) are in the list but not on the map.
 
+## Data sources
+
+The project combines ASU and OpenStreetMap data to connect campus events, buildings, pedestrian routes and nearby amenities.
+
+- **ASU Events:** Event information is collected by `test_WebGIS.py` and saved in `asu_events_output/` and `data/events_data.js`. The event-building matching pipeline connects event locations to campus buildings.
+- **ASU Facilities:** Campus building information provides building names, locations and ASU building codes. The project keeps these codes as `building_id` values so buildings can be referenced consistently across the event and routing data.
+- **ASU entrance and building-outline data:** ASU building outlines and entrance points are stored under data/source/ and are prepared by pipeline/asu_outlines.py and pipeline/asu_entrances.py. These data help connect campus buildings to the walking-network workflow.
+- **OpenStreetMap:**  OpenStreetMap (OSM) provides the pedestrian network used for walking-route analysis. pipeline/network.py downloads walkable OSM ways through the Overpass API and uses them to build the routing graph. OpenStreetMap data are © OpenStreetMap contributors and are available under the Open Database License (ODbL).
+- **Campus dining and amenities:** Dining locations and weekly opening hours are stored under data/source/. pipeline/match_pois.py processes the source data and creates data/pois.geojson, which is used to show food and coffee options along a student's route.
+
+Google Maps was used during development only as an external reference for comparing a sample of walking routes and times. Google Maps coordinates and routing results are not stored as project data.
+
 ## Changing the page
 
 Edit the files in `web/`. There is only one copy now, nothing gets copied or overwritten when the script runs.
