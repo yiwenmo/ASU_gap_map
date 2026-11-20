@@ -4,6 +4,22 @@ ASU Gap Map: a student enters where they are, where their next class is and when
 
 Gets events from the ASU events feed, geocodes the addresses, matches them to campus buildings, computes walking times between buildings, and shows it all on a Leaflet map. Everything heavy is done ahead of time by Python scripts and saved as static files, so the page needs no server logic.
 
+## Walking network
+
+Walking times in the Gap Map are based on the pedestrian network from OpenStreetMap (OSM). The routing work is done ahead of time in Python rather than in the browser, so the web page can look up precomputed walking times quickly.
+
+The process is:
+
+1. `pipeline/buildings.py` prepares the Tempe campus buildings and keeps the ASU building code as `building_id`.
+2. `pipeline/entrances.py` selects where a walk should start or end for each building. Entrance information is taken from the available ASU/OSM building and entrance data, with fallback logic when a usable entrance is not available.
+3. `pipeline/network.py` builds the OSM pedestrian network, connects each building entrance to the network, and calculates walking times between campus buildings.
+4. The outputs are saved as `building_entrances.json`, `building_snaps.json`, `walk_network.geojson`, and `walk_matrix.json`.
+5. `web/gap.html` uses the precomputed walking matrix to determine whether a student can visit an event and still reach the next class in time.
+
+`building_snaps.json` records where each building connects to the walking network. The snap distance is useful for QA because a large distance can indicate that an entrance or nearby pedestrian connection needs to be checked. `web/qa_walk.html` provides a visual way to inspect routes, entrance locations, network connections and walking times.
+
+The walking network was checked against a sample of routes in Google Maps, including short, medium and longer trips and buildings with multiple possible entrances. Differences were investigated by checking the selected entrance, its connection to the pedestrian network and the available OSM paths. Google Maps was used only as a comparison for validation; Google route coordinates and routing data are not stored in the project.
+
 ## Run
 
 ```
