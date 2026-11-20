@@ -22,11 +22,47 @@ The walking network was checked against a sample of routes in Google Maps, inclu
 
 ## Run
 
+Set up the Python environment and install the required packages:
+
 ```
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
+```
+
+To refresh the ASU event data:
+
+```
 .venv/bin/python test_WebGIS.py
 ```
+
+The main page uses `fetch`, so run it through a local HTTP server. From the repository root:
+
+```
+python3 -m http.server 8000
+```
+
+Then open:
+
+```
+http://localhost:8000/web/gap.html
+```
+
+If the building entrance or walking-network inputs change, rebuild the routing files in this order:
+
+```
+.venv/bin/python pipeline/entrances.py
+.venv/bin/python pipeline/network.py
+```
+
+Run `entrances.py` first because `network.py` uses the building entrance locations when connecting buildings to the walking network.
+
+The walking-network QA page is available at:
+
+```
+http://localhost:8000/web/qa_walk.html
+```
+
+On Windows, use the equivalent virtual-environment commands or `uv` if it is installed.
 
 ## Where things are
 
