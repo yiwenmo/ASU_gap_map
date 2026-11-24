@@ -1,0 +1,57 @@
+%%{init: {"themeVariables": {"fontSize": "20px"}}}%%
+flowchart LR
+    subgraph SRC["Data sources"]
+        EV["ASU Events feed"]
+        FAC["ASU Facilities<br/>buildings, entrances"]
+        OSM["OpenStreetMap<br/>walkways"]
+        DIN["ASU Dining<br/>list + hours"]
+    end
+
+    subgraph PIPE["Python pipeline"]
+        P1["Geocode events<br/>test_WebGIS.py"]
+        P2["Buildings + entrances"]
+        P3["Walking network<br/>Dijkstra"]
+        P4["Match events<br/>to buildings"]
+        P5["Match places<br/>to buildings"]
+    end
+
+    subgraph DATA["Static files"]
+        D["data/*.json, *.geojson, *.csv"]
+        GH["GitHub Pages"]
+    end
+
+    subgraph WEB["Browser page"]
+        LG["Feasibility check<br/>+ route search"]
+        LF["Leaflet map<br/>map / satellite"]
+        UI["Event list<br/>+ places on the way"]
+        SCH["Saved schedule<br/>(after this course)"]
+    end
+
+    EV --> P1
+    FAC --> P2
+    OSM --> P2
+    OSM --> P3
+    DIN --> P5
+    P1 --> P4
+    P2 --> P3
+    P2 --> P4
+    P2 --> P5
+    P3 --> D
+    P4 --> D
+    P5 --> D
+    D --> GH
+    GH --> LG
+    SCH -.-> LG
+    LG --> LF
+    LG --> UI
+
+    classDef done fill:#2E6B55,stroke:#1d4a3a,color:#FAF6F0,font-size:22px;
+    classDef part fill:#FFC627,stroke:#b88c00,color:#25101A,font-size:22px;
+    classDef pend fill:#FAF6F0,stroke:#8C7A83,color:#4A3B42,stroke-dasharray:6 4,font-size:22px;
+    class EV,FAC,OSM,P1,P2,P3,P4,P5,D,LG,LF,UI done;
+    class DIN,GH part;
+    class SCH pend;
+    style SRC fill:#F1E9DF,stroke:#D9CCBF,color:#8C1D40
+    style PIPE fill:#F1E9DF,stroke:#D9CCBF,color:#8C1D40
+    style DATA fill:#F1E9DF,stroke:#D9CCBF,color:#8C1D40
+    style WEB fill:#F1E9DF,stroke:#D9CCBF,color:#8C1D40

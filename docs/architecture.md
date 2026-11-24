@@ -24,6 +24,8 @@ flowchart LR
     I --> J["Leaflet map"]
 ```
 
+A more detailed diagram, with what is done and what is not, is in `docs/diagrams/` (`architecture_slide.png` and `architecture_full.png`, with the Mermaid source). Where each dataset comes from: `docs/data_sources.md`.
+
 Scripts: Events + geocoding = `test_WebGIS.py`; Buildings + entrances = `buildings.py`, `entrances.py`; Walking network = `network.py`; Match events = `match_events.py`; Places = `match_pois.py` (with `campus_dining.py`).
 
 ## How the pieces fit
@@ -67,9 +69,10 @@ free from -> walk there -> be there (or join in progress) -> stay -> walk to cla
 
 ## Known limits
 
-- Only Tempe campus buildings are in the data, so the gap page only shows events that match one of them. 256 of 500 event times have no `building_id` in the latest run: about 105 are online, about 145 are on other campuses or off campus (Downtown Phoenix, Polytechnic, West Valley, Mesa, California, ...), and about 6 are on the Tempe campus but could not be matched.
-- 14 event-to-building matches are flagged for a manual check (`review` column in `event_buildings.csv`).
+- Only Tempe campus buildings are in the data, so the gap page only shows events that match one of them. 496 of 1000 event times have no `building_id` in the latest data (the 10/25 and 11/23 downloads merged, see CHANGELOG 11/23): 192 are online, 295 are on other campuses or off campus (Downtown Phoenix, Polytechnic, West Valley, Mesa, California, ...) or have no campus, and 9 are on the Tempe campus but could not be matched.
+- The event data has no events for 11/20 to 11/22 (the feed only lists upcoming events, and those days fell between the two downloads). The feed does not give past events, so a rerun of `test_WebGIS.py` keeps only upcoming ones.
+- 24 event-to-building matches are flagged for a manual check (`review` column in `event_buildings.csv`). Some of them were already reviewed in `docs/14check.xlsx` (CHANGELOG 11/8 and 11/9); the others are from newer events and have not been reviewed.
 - Entrances: 2 are hand-checked, 18 are OSM doors, 72 are ASU entrance points (2020), 158 are a guess from the building outline (131 ASU's, 27 OSM's) and 11 use the centroid. A guess is the outline point closest to a path, not necessarily the real door, so times can be off by a minute or so.
 - Places: 37 ASU dining places are on the page (33 with opening hours). 18 dining venues still have no building and are not shown (listed by `match_pois.py`). A place sits at its building's point, not at its real door, so "on the way" is approximate. Libraries and OpenStreetMap places are left out until they have official opening hours. The weekly hours were checked by hand in November 2026 and change with the term.
 - No stairs, elevation or crossing waits.
-- Single next class only; no saved multi-course schedule yet.
+- Single next class only. A saved multi-course schedule is planned for after this course.

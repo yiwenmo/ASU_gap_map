@@ -1,0 +1,72 @@
+flowchart LR
+    subgraph SRC["External data sources"]
+        EV["ASU Events feed"]
+        NOM["Nominatim geocoder"]
+        FAC["ASU Facilities ArcGIS<br/>buildings, entrances, outlines"]
+        OSM["OpenStreetMap (Overpass)<br/>walkways, doors"]
+        DIN["ASU Dining list + hours<br/>(kept by hand)"]
+    end
+
+    subgraph PIPE["Offline pipeline (Python, run by the team)"]
+        P1["test_WebGIS.py<br/>fetch + geocode events"]
+        P2["buildings.py, entrances.py<br/>asu_entrances.py, asu_outlines.py"]
+        P3["network.py<br/>graph + Dijkstra"]
+        P4["match_events.py<br/>event to building_id"]
+        P5["match_pois.py<br/>place to building_id"]
+    end
+
+    subgraph HOST["Static files"]
+        D["data/: events_data.js, buildings.geojson,<br/>building_entrances.json, walk_matrix.json,<br/>walk_network.geojson, event_buildings.csv,<br/>pois.geojson"]
+        W["web/: gap.html, gap.js,<br/>route.js, gap.css"]
+        GH["GitHub Pages deploy"]
+    end
+
+    subgraph CLIENT["Browser client"]
+        UI["Input panel + event list<br/>+ places on the way"]
+        LF["Leaflet map: A/B pins,<br/>map / satellite switch"]
+        LG["Feasibility check + route search"]
+        LS["localStorage: last inputs"]
+        SCH["Saved multi-course schedule<br/>(after this course)"]
+    end
+
+    TILES["Esri street + satellite tiles"]
+    CDN["Leaflet library (unpkg CDN)"]
+    GM["Google Maps<br/>walking directions link"]
+
+    EV -->|"event JSON"| P1
+    P1 -->|"address text"| NOM
+    NOM -->|"lat/lon"| P1
+    FAC -->|"buildings, entrance points,<br/>outlines"| P2
+    OSM -->|"doors, outlines"| P2
+    OSM -->|"walkway lines"| P3
+    P2 -->|"buildings + entrances"| P3
+    P2 -->|"buildings"| P4
+    P2 -->|"buildings"| P5
+    P1 -->|"events with lat/lon"| P4
+    DIN -->|"venues, weekly hours"| P5
+
+    P1 -->|"events_data.js"| D
+    P2 -->|"buildings.geojson<br/>building_entrances.json"| D
+    P3 -->|"walk_matrix.json (seconds)<br/>walk_network.geojson"| D
+    P4 -->|"event_buildings.csv"| D
+    P5 -->|"pois.geojson"| D
+    D --> GH
+    W --> GH
+
+    GH -->|"static JSON/GeoJSON/CSV<br/>over HTTPS"| LG
+    GH -->|"HTML, JS, CSS"| UI
+    CDN -->|"Leaflet JS/CSS"| LF
+    TILES -->|"map tiles"| LF
+    UI -->|"origin, class building,<br/>class time, day, filters"| LG
+    LG -->|"ranked events, places on the way,<br/>route line"| LF
+    LG -->|"list cards"| UI
+    UI <-->|"last inputs"| LS
+    SCH -.->|"next class"| LG
+    LG -.->|"link on selected event"| GM
+
+    classDef done fill:#2E6B55,stroke:#1d4a3a,color:#FAF6F0;
+    classDef part fill:#FFC627,stroke:#b88c00,color:#25101A;
+    classDef pend fill:#FAF6F0,stroke:#8C7A83,color:#4A3B42,stroke-dasharray:6 4;
+    class EV,NOM,FAC,OSM,P1,P2,P3,P4,P5,D,W,UI,LF,LG,LS,TILES,CDN,GM done;
+    class DIN,GH part;
+    class SCH pend;

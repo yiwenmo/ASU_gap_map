@@ -13,7 +13,7 @@ time, and plan ahead by picking a future day.
 
 This is a rough plan. Everything here is open to change.
 
-## Status (2026-11-14)
+## Status (2026-11-23)
 
 | | State |
 |---|---|
@@ -23,7 +23,7 @@ This is a rough plan. Everything here is open to change.
 | A4 Event to building | Done. A few matches are flagged for a manual check |
 | B Walking network | Done. 261 x 261 matrix, routes drawn on the walkways |
 | C Feasibility and filtering | Done. Round-trip check, filters by type and free events, a day picker, and food or coffee on the way |
-| D User schedule | Not done. One next class only, no saved schedule |
+| D User schedule | Not in this course. One next class only. A saved schedule is planned for after the course |
 | E Front end | Done for the gap page. Mobile checked at phone width in a desktop browser only |
 | F Delivery | Not tracked here |
 

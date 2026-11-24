@@ -229,3 +229,17 @@ Merged Cade's wireframe (layout, ASU colors, "plan your gap" idea) into a workin
 - Fixes: the Walton Center had no OSM outline and got the footbridge's, so its entrance was on the bridge and routes went over it. Buildings that shared one entrance point: 35 groups to 6. Mountain America Stadium was at the centroid, 82 m from a path.
 - Effect: many pairs change, mostly for large buildings (stadiums, parking structures). 10 routes checked against Google: mean error 1.26 to 1.18 min (1.03 with the ASU points alone). The Walton Center is now 13.8 min from Coor Hall (Google 16): its entrance is the outline point closest to a path, not the real door, which is on University Dr. Needs a hand-checked entrance.
 - `web/qa_walk.html` colors each entrance by its source (it showed `manual` and `asu` as red "none found").
+
+## 11/23
+
+### Where the data comes from, written down (docs)
+- New `docs/data_sources.md`: one table with the source, use, script and fetch date of every dataset, and what we know about its terms.
+- Checked against the code. The 261 buildings, the 216 entrance points and the 245 building outlines all come from ASU Facilities' public ArcGIS map service (`gis.m.asu.edu`), not from OpenStreetMap. OpenStreetMap is used for the walking network, 18 entrance doors and 27 outlines.
+
+### Refreshed the event data (data)
+- The 10/25 data ended on 11/19, so the page showed 0 events for today. Reran `test_WebGIS.py` and `pipeline/match_events.py`.
+- New download: 500 event times (259 different events), 11/23 to 2027-02-21.
+- Then merged with the 10/25 download (from git, 11/1 to 11/19 and the rest of that set), so past dates in the data still work. A one-off merge by `nid` + `start`, the new row wins on a duplicate. Result: 1000 event times (620 different events), 10/25 to 2027-02-21. 11/20 to 11/22 have no events (the feed only lists upcoming events, nobody downloaded those days). `geo_source`: 766 address, 39 campus, 195 none. Buildings: 504 matched (385 name, 105 address, 14 nearest), 496 unmatched, 24 to review. The 4 `MANUAL` rules from 11/9 still apply.
+- A rerun of `test_WebGIS.py` overwrites the files with only the upcoming events, so the old rows are lost again (git keeps them). If we want to keep merging, `main()` needs a merge step.
+- Checked in headless Chrome: default day is today (11/23) with 4 events that fit MU to COOR 10:00 to 15:00, 11/30 has 3, 12/3 has 6, no JavaScript errors.
+- Old events are overwritten, earlier versions are in git history. The numbers in earlier entries (500 / 385 / 244 / 256) are from the 10/25 data.
