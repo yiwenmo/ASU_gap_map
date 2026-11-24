@@ -1,12 +1,12 @@
 nid,start,building_id,match,dist_m,review,locations,venue_address,geo_source
 82986,2026-10-25T08:00,,,,,"Kyoto University, Japan","Yoshidahonmachi, Sakyo Ward, ",none
-85466,2026-10-25T09:00,MUSIC,address,6,,"Cowley Lobby, Music building, and ASU Gammage 301",50 E Gammage Pkwy,address
+85466,2026-10-25T09:00,GGMA,name,217,,"Cowley Lobby, Music building, and ASU Gammage 301",50 E Gammage Pkwy,address
 79451,2026-10-25T10:00,,,,,Zoom,,none
 84381,2026-10-25T11:00,,,,, L’Academie Baking and Cooking School,3244 E Guadalupe Road Suite A-107,address
 82786,2026-10-25T12:00,MUSIC,address,6,,"Recital Hall, Music building",50 E Gammage Pkwy,address
 80576,2026-10-25T13:00,SLSTDM,name,186,,Sun Devil Soccer Stadium ,"655 S Athletes Pl, ",address
-86166,2026-10-25T17:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St.,address
 82791,2026-10-25T17:00,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
+86166,2026-10-25T17:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St.,address
 82241,2026-10-26T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
 85976,2026-10-26T09:00,,,,,,,none
 83946,2026-10-26T09:30,,,,,,,none
@@ -17,66 +17,66 @@ nid,start,building_id,match,dist_m,review,locations,venue_address,geo_source
 83961,2026-10-26T12:15,MCRD,address,26,,McCord Building; Dean's Patio,450 E Lemon St,address
 78946,2026-10-26T13:30,DH,address,4,,SILC Café,851 S Cady Mall,address
 79216,2026-10-26T15:00,WHALL,name,7,,"West Hall 135, ASU Live",1000 Cady Mall,address
-83346,2026-10-26T16:00,WCPH,name,30,,"Walton Center for Planetary Health, Room 160",777 E University Drive ,address
 82381,2026-10-26T16:00,DH,name,4,,"Durham Hall, Room 135",851 S Cady Mall,address
+83346,2026-10-26T16:00,WCPH,name,30,,"Walton Center for Planetary Health, Room 160",777 E University Drive ,address
 83281,2026-10-26T16:30,RBHL,name,54,,Ross-Blakley Hall room 117 and Online,1102 S. McAllister Ave.,address
 84976,2026-10-26T16:30,,,,,Fusion on First,Fusion on First 380 North 1st Ave ,address
 82306,2026-10-26T17:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
-85781,2026-10-26T17:00,,,,,Barrett Suite - UCB 201,13590 N 47th Ave.,address
 85431,2026-10-26T17:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
+85781,2026-10-26T17:00,,,,,Barrett Suite - UCB 201,13590 N 47th Ave.,address
 83631,2026-10-26T18:00,LIB,name,209,,"Hayden Library, Labriola Center, room 204",300 E. Orange Mall,address
 85821,2026-10-26T18:00,,,,,Zoom Webinar,,none
-82241,2026-10-27T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
 80371,2026-10-27T09:00,,,,,"SkySong Building #1, 1951",1475 N. Scottsdale Road,address
-80971,2026-10-27T10:00,,,,,ASU MIX Center,50 N Centennial Way,address
-85566,2026-10-27T10:00,MSHAL,name,91,,HAV - Mesquite Outdoor Room,711 E. Lemon Street,address
-79331,2026-10-27T10:00,,,,,Zoom,,none
-83016,2026-10-27T10:00,,,,,Zoom,,none
+82241,2026-10-27T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
 78951,2026-10-27T10:00,DH,name,4,,Durham Hall First Floor (Near Elevators),851 S Cady Mall,address
+79331,2026-10-27T10:00,,,,,Zoom,,none
+80971,2026-10-27T10:00,,,,,ASU MIX Center,50 N Centennial Way,address
+83016,2026-10-27T10:00,,,,,Zoom,,none
+85566,2026-10-27T10:00,MSHAL,name,91,,HAV - Mesquite Outdoor Room,711 E. Lemon Street,address
 82281,2026-10-27T11:00,,,,,Online,,none
 82386,2026-10-27T11:00,DH,name,4,,"Durham Hall, Outdoor Patio",851 S Cady Mall,address
-83351,2026-10-27T12:00,,,,,Student Center @ The Post Office,522 N. Central Ave.,address
 80061,2026-10-27T12:00,,,,,Zoom,,none
+83351,2026-10-27T12:00,,,,,Student Center @ The Post Office,522 N. Central Ave.,address
 84406,2026-10-27T12:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
-80376,2026-10-27T13:00,USB,name,78,,USB 1302,1551 S Rural Rd,address
 78776,2026-10-27T13:00,,,,,Zoom,,none
+80376,2026-10-27T13:00,USB,name,78,,USB 1302,1551 S Rural Rd,address
 82561,2026-10-27T13:00,DH,name,4,,"Durham Hall, First Floor",851 S Cady Mall,address
-84971,2026-10-27T14:30,,,,,ASU Media and Immersive eXperience (MIX) Center - Costume Shop #216,50 N Centennial Way,address
 80261,2026-10-27T14:30,MU,name,91,,"Memorial Union, Arizona Ballroom",301 E Orange St,address
+84971,2026-10-27T14:30,,,,,ASU Media and Immersive eXperience (MIX) Center - Costume Shop #216,50 N Centennial Way,address
 84421,2026-10-27T15:00,DH,name,4,,"Durham Hall, Room 132",851 S Cady Mall,address
 83111,2026-10-27T15:15,FAC,name,964,far,FAC 133,E Lemon St,address
 85471,2026-10-27T15:30,,,,,"ASU Community Collaborative at the Westward Ho, Concho Room",618 N. Central Ave.,address
 83831,2026-10-27T16:00,PWH,name,2,,Piper Writers House Outdoor Patio,450 E. Tyler Mall,address
-86141,2026-10-27T17:00,,,,,,,none
 85431,2026-10-27T17:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
-86356,2026-10-27T17:30,MAS,name,39,,Mountain America Stadium,500 E Veterans Way,address
-85096,2026-10-27T17:30,,,,,Arizona State University (ASU) Mercado - Downtown Phoenix,411 North Central Avenue,address
+86141,2026-10-27T17:00,,,,,,,none
 84801,2026-10-27T17:30,PWH,name,2,,Piper Writers House,450 E Tyler Mall,address
-84316,2026-10-27T18:00,ISTB4,name,704,far,ISTB 4 Marston Exploration Theater,781 S Terrace Road,address
+85096,2026-10-27T17:30,,,,,Arizona State University (ASU) Mercado - Downtown Phoenix,411 North Central Avenue,address
+86356,2026-10-27T17:30,MAS,name,39,,Mountain America Stadium,500 E Veterans Way,address
 82946,2026-10-27T18:00,MU,address,6,,Alumni Lounge,301 E Orange Mall ,address
+84316,2026-10-27T18:00,ISTB4,name,704,far,ISTB 4 Marston Exploration Theater,781 S Terrace Road,address
 84966,2026-10-27T18:00,,,,,ASU Media and Immersive eXperience (MIX) Center - Tom and Ruth Nesbitt Community Room 106,50 N Centennial Way,address
 85846,2026-10-27T19:00,ARM,name,130,,"Armstrong Hall, Roskind Great Hall (ARM 101)",1100 S McAllister Avenue,address
-79226,2026-10-27T19:30,GGMA,address,27,,ASU Gammage,1200 S. Forest Avenue,address
+79226,2026-10-27T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
 83426,2026-10-27T19:30,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
-86376,2026-10-28T08:00,,,,,,,none
 79456,2026-10-28T08:00,,,,,Location provided upon RSVP,,none
-82241,2026-10-28T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86376,2026-10-28T08:00,,,,,,,none
 81351,2026-10-28T09:00,,,,,ASU California Center Broadway,"1111 S. Broadway, Los Angeles, CA 90015",address
+82241,2026-10-28T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
 83196,2026-10-28T09:30,DH,name,4,,SILC Café at Durham Hall,851 S Cady Mall,address
-84836,2026-10-28T10:00,,,,,Online,,none
-78921,2026-10-28T10:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
 78811,2026-10-28T10:00,,,,,Online,,none
+78921,2026-10-28T10:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+84836,2026-10-28T10:00,,,,,Online,,none
 84861,2026-10-28T10:30,RBHL,name,54,,Ross-Blakley Hall room 196,1102 S. McAllister Ave.,address
-85516,2026-10-28T11:00,MU,name,6,,Memorial Union - Ventana Room MU241,301 E. Orange Mall,address
 79721,2026-10-28T11:00,,,,,Faculty Administration Building (FAB) - S101,13591 N. 47th Ave,address
-83881,2026-10-28T12:00,,,,,"Cronkite School, First Amendment Forum",555 N Central Ave,address
-78991,2026-10-28T12:00,DH,name,4,,SILC Café at Durham Hall,851 S Cady Mall,address
-85926,2026-10-28T12:00,LIB,name,209,,"Hayden Library, Labriola Center, room 204",300 E. Orange Mall,address
+85516,2026-10-28T11:00,MU,name,6,,Memorial Union - Ventana Room MU241,301 E. Orange Mall,address
 69696,2026-10-28T12:00,,,,,Zoom,,none
+78991,2026-10-28T12:00,DH,name,4,,SILC Café at Durham Hall,851 S Cady Mall,address
+83881,2026-10-28T12:00,,,,,"Cronkite School, First Amendment Forum",555 N Central Ave,address
+85926,2026-10-28T12:00,LIB,name,209,,"Hayden Library, Labriola Center, room 204",300 E. Orange Mall,address
 78931,2026-10-28T12:30,DH,name,4,, Durham Hall Patio,851 S Cady Mall,address
 78776,2026-10-28T13:00,,,,,Zoom,,none
-85501,2026-10-28T13:30,,,,,"University Center (UCENT) Building (Room 282), Downtown Campus",,campus
 83376,2026-10-28T13:30,DH,address,4,,SILC Café,851 S Cady Mall,address
+85501,2026-10-28T13:30,,,,,"University Center (UCENT) Building (Room 282), Downtown Campus",,campus
 82706,2026-10-28T15:00,COOR,name,11,,Lattie F. Coor Hall Breezeway (outside Coor computing lab) ,975 S Myrtle Ave,address
 83636,2026-10-28T15:00,WCPH,name,30,,"Walton Center for Planetary Health Auditorium 107, ASU Live","777 E. University Drive,",address
 84291,2026-10-28T15:30,DH,address,4,,SILC Café,851 S Cady Mall,address
@@ -84,206 +84,206 @@ nid,start,building_id,match,dist_m,review,locations,venue_address,geo_source
 86396,2026-10-28T16:00,,,,,Snakes & Lattes Tempe,20 W 6th St,address
 85591,2026-10-28T16:45,COOR,name,165,,Coor Hall L1-74,976 S Forest Mall,address
 85431,2026-10-28T17:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
-85091,2026-10-28T17:30,,,,,South Mountain Community College,7050 South 24th Street,address
 81131,2026-10-28T17:30,,,,,,,none
+85091,2026-10-28T17:30,,,,,South Mountain Community College,7050 South 24th Street,address
 86341,2026-10-28T17:30,CDN,address,88,,Design School Bridge,810 S Forest Mall,address
 80366,2026-10-28T17:45,DH,name,4,,Durham Hall (6th Floor),851 S Cady Mall,address
 82951,2026-10-28T18:00,,,,,Zoom,,none
-84846,2026-10-28T18:00,LIB,name,209,,"Hayden Library, Labriola Center, room 204",300 E. Orange Mall,address
 84631,2026-10-28T18:00,,,,,"Fusion on First, Room 202",3801 N First Avenue,campus
-79226,2026-10-28T19:30,GGMA,address,27,,ASU Gammage,1200 S. Forest Avenue,address
-86431,2026-10-28T19:30,VDSK,nearest,24,check,Tempe - Barrett Student Center,681 E Apache Blvd,address
+84846,2026-10-28T18:00,LIB,name,209,,"Hayden Library, Labriola Center, room 204",300 E. Orange Mall,address
+79226,2026-10-28T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
 83491,2026-10-28T19:30,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
+86431,2026-10-28T19:30,VDSK,nearest,24,check,Tempe - Barrett Student Center,681 E Apache Blvd,address
 68316,2026-10-29T07:30,MU,name,91,,Memorial Union 228,301 E Orange St.,address
-84811,2026-10-29T09:00,,,,,"Peralta 132, Polytechnic Campus ",7171 E. Sonoran Arroyo Mall,address
 82241,2026-10-29T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+84811,2026-10-29T09:00,,,,,"Peralta 132, Polytechnic Campus ",7171 E. Sonoran Arroyo Mall,address
 78921,2026-10-29T10:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
-82716,2026-10-29T10:00,RBHL,name,54,,Ross-Blakley Hall room 117,1102 S. McAllister Ave.,address
 82566,2026-10-29T10:00,DH,name,4,,SILC Café at Durham Hall,851 S Cady Mall,address
+82716,2026-10-29T10:00,RBHL,name,54,,Ross-Blakley Hall room 117,1102 S. McAllister Ave.,address
 79736,2026-10-29T11:00,MU,name,91,,"Memorial Union, 228",301 E. Orange St. ,address
 85046,2026-10-29T11:30,DH,name,4,,"Durham Hall, First Floor",851 S Cady Mall,address
-85271,2026-10-29T12:00,,,,,,,none
-84426,2026-10-29T12:00,LSC,address,4,,"Life Sciences C Wing, Room 202",401 E. Tyler Mall,address
-81946,2026-10-29T12:00,MU,name,91,,Arizona Ballroom - Memorial Union,301 E Orange St.,address
-86106,2026-10-29T12:00,,,,,Step Gallery,605 E Grant Street,address
-85201,2026-10-29T12:00,,,,,"CA Center Grand, Student Lounge",919 S. Grand Ave.,address
-83211,2026-10-29T12:00,,,,,,,none
 79461,2026-10-29T12:00,WHALL,name,7,,"West Hall 135, Tempe Campus",1000 Cady Mall,address
-85306,2026-10-29T12:00,LIB,name,209,,"Hayden Library, Level 3, Research Commons",300 E. Orange Mall,address
-85071,2026-10-29T12:00,,,,,Northlight Gallery,605 E Grant Street,address
+81946,2026-10-29T12:00,MU,name,91,,Arizona Ballroom - Memorial Union,301 E Orange St.,address
 82686,2026-10-29T12:00,LIB,name,93,,"Hayden Library, Makerspace, Level 3 ",300 E. Orange Mall,address
+83211,2026-10-29T12:00,,,,,,,none
+84426,2026-10-29T12:00,LSC,address,4,,"Life Sciences C Wing, Room 202",401 E. Tyler Mall,address
+85071,2026-10-29T12:00,,,,,Northlight Gallery,605 E Grant Street,address
+85201,2026-10-29T12:00,,,,,"CA Center Grand, Student Lounge",919 S. Grand Ave.,address
+85271,2026-10-29T12:00,,,,,,,none
+85306,2026-10-29T12:00,LIB,name,209,,"Hayden Library, Level 3, Research Commons",300 E. Orange Mall,address
+86106,2026-10-29T12:00,,,,,Step Gallery,605 E Grant Street,address
 82436,2026-10-29T13:00,,,,,Zoom,,none
-85416,2026-10-29T13:00,LIB,name,25,,"Hayden Library, room 317",300 E Orange,address
 84051,2026-10-29T13:00,LIB,name,25,,"Labriola Center (204), Hayden Library",300 E Orange St.,address
+85416,2026-10-29T13:00,LIB,name,25,,"Hayden Library, room 317",300 E Orange,address
 86096,2026-10-29T13:15,,,,,Online,,none
 83596,2026-10-29T13:30,DH,address,4,,SILC Café,851 S Cady Mall,address
 78936,2026-10-29T14:30,DH,name,4,,"Durham Hall, Room 240",851 S Cady Mall,address
 84971,2026-10-29T14:30,,,,,ASU Media and Immersive eXperience (MIX) Center - Costume Shop #216,50 N Centennial Way,address
-82091,2026-10-29T15:00,LSC,name,4,,"Life Sciences Center C (LSC), Room 202",401 E. Tyler Mall,address
-85361,2026-10-29T15:00,,,,,Barrett Suite - UCB 201,13590 N 47th Ave.,address
 80871,2026-10-29T15:00,LIB,name,209,,"Hayden Library, Naturespace, 311",300 E. Orange Mall,address
+82091,2026-10-29T15:00,LSC,name,4,,"Life Sciences Center C (LSC), Room 202",401 E. Tyler Mall,address
 83256,2026-10-29T15:00,COOR,name,11,,Coor Hall 4403 and Online,975 S Myrtle Ave,address
+85361,2026-10-29T15:00,,,,,Barrett Suite - UCB 201,13590 N 47th Ave.,address
 78996,2026-10-29T15:30,DH,name,4,,"Durham Hall, Room 240",851 S Cady Mall,address
-83341,2026-10-29T16:00,MU,name,6,," Memorial Union, Alumni Lounge",301 E Orange Mall ,address
-82671,2026-10-29T16:00,,,,,ASU Polytechnic campus,,campus
-86346,2026-10-29T16:00,,,,,,,none
 78566,2026-10-29T16:00,RBHL,name,2,,"Ross-Blakley Hall 196, ASU Live",1102 S McAllister Ave,address
-85431,2026-10-29T17:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
-86436,2026-10-29T17:00,CERHAL,address,32,,Tempe - Barrett Cereus 101,820 E Apache Blvd,address
+82671,2026-10-29T16:00,,,,,ASU Polytechnic campus,,campus
+83341,2026-10-29T16:00,MU,name,6,," Memorial Union, Alumni Lounge",301 E Orange Mall ,address
+86346,2026-10-29T16:00,,,,,,,none
 85236,2026-10-29T17:00,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
+85431,2026-10-29T17:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 85521,2026-10-29T17:00,,,,,University Center Lobby,411 N. Central Ave.,address
+86436,2026-10-29T17:00,CERHAL,address,32,,Tempe - Barrett Cereus 101,820 E Apache Blvd,address
 85106,2026-10-29T17:30,,,,,,,none
-86276,2026-10-29T18:00,,,,,"California Center Grand, Fourth Floor",919 S Grand Avenue,address
-84846,2026-10-29T18:00,LIB,name,209,,"Hayden Library, Labriola Center, room 204",300 E. Orange Mall,address
 83176,2026-10-29T18:00,DH,name,4,,SILC Café at Durham Hall,851 S Cady Mall,address
+84846,2026-10-29T18:00,LIB,name,209,,"Hayden Library, Labriola Center, room 204",300 E. Orange Mall,address
+86276,2026-10-29T18:00,,,,,"California Center Grand, Fourth Floor",919 S Grand Avenue,address
 86091,2026-10-29T19:00,ARM,name,130,,"Armstrong Hall, Roskind Great Hall (ARM 101)",1100 S McAllister Ave,address
+79226,2026-10-29T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
 83006,2026-10-29T19:30,LYC,name,32,,Lyceum Theatre,901 S. Forest Mall,address
-79226,2026-10-29T19:30,GGMA,address,27,,ASU Gammage,1200 S. Forest Avenue,address
-85376,2026-10-30T00:00,,,,,Universal Studios Hollywood (California),"100 Universal City Plaza, ",address
 80626,2026-10-30T00:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
+85376,2026-10-30T00:00,,,,,Universal Studios Hollywood (California),"100 Universal City Plaza, ",address
 84356,2026-10-30T08:30,,,,,David G. Herrera and Ramon Quiroz Park (aka Oury Park),655 N Hughes St,address
 82241,2026-10-30T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
-78921,2026-10-30T10:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
-84306,2026-10-30T10:00,,,,,,,none
 78571,2026-10-30T10:00,RBHL,name,2,,Ross-Blakley Hall 197,1102 S McAllister Ave,address
+78921,2026-10-30T10:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
 80326,2026-10-30T10:00,DISCVRY,name,4,,"Discovery Hall, Room 281",250 E Lemon St,address
+84306,2026-10-30T10:00,,,,,,,none
 78096,2026-10-30T12:00,,,,,Online,,none
-86106,2026-10-30T12:00,,,,,Step Gallery,605 E Grant Street,address
-83606,2026-10-30T12:00,ARM,name,130,,"Armstrong Hall, L1-30",1100 S. McAllister Ave.,address
-85071,2026-10-30T12:00,,,,,Northlight Gallery,605 E Grant Street,address
 82311,2026-10-30T12:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
+83606,2026-10-30T12:00,ARM,name,130,,"Armstrong Hall, L1-30",1100 S. McAllister Ave.,address
 84056,2026-10-30T12:00,FAC,address,25,,Studio 122,51 E 10th St.,address
+85071,2026-10-30T12:00,,,,,Northlight Gallery,605 E Grant Street,address
+86106,2026-10-30T12:00,,,,,Step Gallery,605 E Grant Street,address
 81601,2026-10-30T13:00,,,,,"Health North, room 101",550 N 3rd St.,address
 83591,2026-10-30T13:30,DH,address,4,,SILC Café,851 S Cady Mall,address
 81376,2026-10-30T14:00,LSE,name,3,,"Life Sciences Center E (LSE), Room 104",400 E Tyler Mall,address
 83296,2026-10-30T16:30,,,,,The Japanese Friendship Garden of Phoenix,1125 N 3rd Ave,address
 85431,2026-10-30T17:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 60121,2026-10-30T18:00,UGB,name,132,,ASU Esports Lounge & Online,"University Gateway Building Room 315, 947 S Mill Avenue",address
-85191,2026-10-30T19:00,SLSTDM,name,186,,Sun Devil Soccer Stadium,655 S Athletes Pl,address
 80581,2026-10-30T19:00,SLSTDM,name,186,,Sun Devil Soccer Stadium ,"655 S Athletes Pl, ",address
-79226,2026-10-30T19:30,GGMA,address,27,,ASU Gammage,1200 S. Forest Avenue,address
-83006,2026-10-30T19:30,LYC,name,32,,Lyceum Theatre,901 S. Forest Mall,address
+85191,2026-10-30T19:00,SLSTDM,name,186,,Sun Devil Soccer Stadium,655 S Athletes Pl,address
+79226,2026-10-30T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
 82441,2026-10-30T19:30,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
+83006,2026-10-30T19:30,LYC,name,32,,Lyceum Theatre,901 S. Forest Mall,address
 80491,2026-10-31T00:00,,,,,LaVell Edwards Stadium (LES) ,"1700 N Canyon Rd, ",address
-86331,2026-10-31T00:00,,,,,Cold Beers & Cheeseburgers,10767 N 116th St,address
 81251,2026-10-31T00:00,,,,,ASU Media and Immersive eXperience (MIX) Center | Plaza at Mesa City Center,50 N Centennial Way,address
+86331,2026-10-31T00:00,,,,,Cold Beers & Cheeseburgers,10767 N 116th St,address
 78921,2026-10-31T10:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
-86106,2026-10-31T12:00,,,,,Step Gallery,605 E Grant Street,address
 85071,2026-10-31T12:00,,,,,Northlight Gallery,605 E Grant Street,address
-79226,2026-10-31T14:00,GGMA,address,27,,ASU Gammage,1200 S. Forest Avenue,address
+86106,2026-10-31T12:00,,,,,Step Gallery,605 E Grant Street,address
+79226,2026-10-31T14:00,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
 85241,2026-10-31T14:30,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
 83431,2026-10-31T17:00,MUSIC,address,6,,Nelson Fine Arts Plaza,50 E Gammage Pkwy,address
-79226,2026-10-31T19:30,GGMA,address,27,,ASU Gammage,1200 S. Forest Avenue,address
+79226,2026-10-31T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
 80631,2026-11-01T00:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
 79336,2026-11-01T11:00,,,,,Zoom,,none
-79226,2026-11-01T13:00,GGMA,address,27,,ASU Gammage,1200 S. Forest Avenue,address
-79226,2026-11-01T18:30,GGMA,address,27,,ASU Gammage,1200 S. Forest Avenue,address
-80791,2026-11-02T00:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
+79226,2026-11-01T13:00,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+79226,2026-11-01T18:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
 80746,2026-11-02T00:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
-86336,2026-11-02T09:00,,,,,Arizona Science Center,600 E Washington St.,address
+80791,2026-11-02T00:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
 82241,2026-11-02T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86336,2026-11-02T09:00,,,,,Arizona Science Center,600 E Washington St.,address
 79551,2026-11-02T11:30,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
-81836,2026-11-02T12:00,,,,,,,none
 80331,2026-11-02T12:00,,,,,Zoom,,none
-84976,2026-11-02T16:30,,,,,Fusion on First,Fusion on First 380 North 1st Ave ,address
+81836,2026-11-02T12:00,,,,,,,none
 83281,2026-11-02T16:30,RBHL,name,54,,Ross-Blakley Hall room 117 and Online,1102 S. McAllister Ave.,address
+84976,2026-11-02T16:30,,,,,Fusion on First,Fusion on First 380 North 1st Ave ,address
 80066,2026-11-02T17:00,,,,,Zoom,,none
-85431,2026-11-02T17:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 82321,2026-11-02T17:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
+85431,2026-11-02T17:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 85111,2026-11-02T17:30,,,,,South Mountain Community College,7050 South 24th Street,address
 86561,2026-11-02T17:30,,,,,Zoom,,none
 84471,2026-11-02T19:00,VDSDM,name,123,,"Gold Dome, Vista del Sol",701 E Apache Blvd,address
 82241,2026-11-03T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
 86296,2026-11-03T09:00,,,,,"MIX Center, Screening Room 201",50 N Centennial Way,address
-86591,2026-11-03T10:00,SS,address,1,,Sparky's Garden @ Social Science Building,951 S Cady Mall,address
 58901,2026-11-03T10:00,,,,,Zoom,,none
+86591,2026-11-03T10:00,SS,address,1,,Sparky's Garden @ Social Science Building,951 S Cady Mall,address
 78536,2026-11-03T12:00,,,,,Zoom,,none
 78776,2026-11-03T13:00,,,,,Zoom,,none
 83111,2026-11-03T15:15,FAC,name,964,far,FAC 133,E Lemon St,address
 85431,2026-11-03T17:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
-86356,2026-11-03T17:30,MAS,name,39,,Mountain America Stadium,500 E Veterans Way,address
 85436,2026-11-03T17:30,,,,,Media and Immersive Experience (MIX) Center,50 North Centennial Way,address
+86356,2026-11-03T17:30,MAS,name,39,,Mountain America Stadium,500 E Veterans Way,address
 82241,2026-11-04T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
 86156,2026-11-04T09:30,MU,name,91,,Memorial Union ,301 E. Orange Street,address
 78816,2026-11-04T10:00,,,,,Online,,none
-86151,2026-11-04T11:00,RBHL,name,54,,Ross-Blakley Hall room 196,1102 S. McAllister Ave.,address
-80011,2026-11-04T11:00,,,,,Barrett Suite - UCB,13590 N 47th Ave,address
-86581,2026-11-04T11:00,,,,,Barrett Suite (UCB 201),13590 N 47th Ave.,address
 78921,2026-11-04T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
-84221,2026-11-04T11:30,RBHL,name,2,,Ross-Blakley Hall 197,1102 S McAllister Ave,address
+80011,2026-11-04T11:00,,,,,Barrett Suite - UCB,13590 N 47th Ave,address
+86151,2026-11-04T11:00,RBHL,name,54,,Ross-Blakley Hall room 196,1102 S. McAllister Ave.,address
+86581,2026-11-04T11:00,,,,,Barrett Suite (UCB 201),13590 N 47th Ave.,address
 82876,2026-11-04T11:30,,,,,"Health North, room 107",550 N. 3rd St.,address
-82031,2026-11-04T12:00,,,,,Zoom,,none
+84221,2026-11-04T11:30,RBHL,name,2,,Ross-Blakley Hall 197,1102 S McAllister Ave,address
 79006,2026-11-04T12:00,,,,,Zoom,,none
+82031,2026-11-04T12:00,,,,,Zoom,,none
 83521,2026-11-04T12:00,,,,,Zoom,,none
-81656,2026-11-04T13:00,,,,,"Health North, room 301K",550 N 3rd St.,address
 78776,2026-11-04T13:00,,,,,Zoom,,none
-86616,2026-11-04T15:00,,,,,,,none
+81656,2026-11-04T13:00,,,,,"Health North, room 301K",550 N 3rd St.,address
 82331,2026-11-04T15:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
+86616,2026-11-04T15:00,,,,,,,none
 83821,2026-11-04T16:00,WCPH,name,30,,Walton Center for Planetary Health | Room 160,777 E University Dr ,address
-85576,2026-11-04T17:00,LIB,name,25,,"Community-Driven Archives (CDA) Memory Lab at ASU Hayden Library, Room C55.",300 East Orange Mall,address
-85431,2026-11-04T17:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 84396,2026-11-04T17:00,,,,,The Porch Tempe,1128 E Baseline Rd,address
-85116,2026-11-04T17:30,,,,,,,none
-84531,2026-11-04T17:30,PWH,name,2,,Piper Writers House,450 E Tyler Mall,address
-85331,2026-11-04T17:30,,,,,,,none
+85431,2026-11-04T17:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
+85576,2026-11-04T17:00,LIB,name,25,,"Community-Driven Archives (CDA) Memory Lab at ASU Hayden Library, Room C55.",300 East Orange Mall,address
 81136,2026-11-04T17:30,,,,,,,none
-84856,2026-11-04T18:00,LIB,name,209,,"Hayden Library, Labriola Center, room 204",300 E. Orange Mall,address
+84531,2026-11-04T17:30,PWH,name,2,,Piper Writers House,450 E Tyler Mall,address
+85116,2026-11-04T17:30,,,,,,,none
+85331,2026-11-04T17:30,,,,,,,none
 82951,2026-11-04T18:00,,,,,Zoom,,none
+84856,2026-11-04T18:00,LIB,name,209,,"Hayden Library, Labriola Center, room 204",300 E. Orange Mall,address
 84951,2026-11-04T18:30,,,,,Social Hall Tempe,715 South McClintock Drive,address
 86281,2026-11-04T19:00,VDSK,nearest,24,check,Barrett Student Center,681 E Apache Blvd,address
 80796,2026-11-05T00:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
-82241,2026-11-05T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
-81691,2026-11-05T09:00,INTDSA,name,20,,"Interdisciplinary A, Conference Room A202",1100 S. Cady Mall ,address
-85536,2026-11-05T09:00,STPV,name,,,"Student Pavilion, Senita Ballroom",,campus
 81496,2026-11-05T09:00,,,,,ZOOM,,none
-85426,2026-11-05T10:00,RBHL,name,2,,Ross-Blakley Hall 197,1102 S McAllister Ave,address
+81691,2026-11-05T09:00,INTDSA,name,20,,"Interdisciplinary A, Conference Room A202",1100 S. Cady Mall ,address
+82241,2026-11-05T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+85536,2026-11-05T09:00,STPV,name,,,"Student Pavilion, Senita Ballroom",,campus
 81326,2026-11-05T10:00,,,,,ASU California Center Grand,919 South Grand Avenue,address
+85426,2026-11-05T10:00,RBHL,name,2,,Ross-Blakley Hall 197,1102 S McAllister Ave,address
 78921,2026-11-05T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
-79701,2026-11-05T12:00,,,,,,,none
 78891,2026-11-05T12:00,,,,,Zoom,,none
+79701,2026-11-05T12:00,,,,,,,none
 85071,2026-11-05T12:00,,,,,Northlight Gallery,605 E Grant Street,address
 85271,2026-11-05T13:00,,,,,,,none
 82696,2026-11-05T14:00,STPV,name,118,,Student Pavillion (Senita BC) ,400 E Orange Street,address
-86381,2026-11-05T16:00,,,,,Concho Room,618 North Central Avenue #100,address
 79221,2026-11-05T16:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
-86176,2026-11-05T16:30,,,,,"Health North, Room 101",550 N. 3rd St.,address
+86381,2026-11-05T16:00,,,,,Concho Room,618 North Central Avenue #100,address
 81196,2026-11-05T16:30,MU,name,91,,"Turquoise Ballroom (Memorial Union, Room 220)","301 E. Orange St.,",address
-85611,2026-11-05T17:00,,,,,Zoom,,none
+86176,2026-11-05T16:30,,,,,"Health North, Room 101",550 N. 3rd St.,address
 80071,2026-11-05T17:00,,,,,Zoom,,none
-85606,2026-11-05T17:00,,,,,Arizona Science Center,600 E. Washington St.,address
-86231,2026-11-05T17:00,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
 85431,2026-11-05T17:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
-84906,2026-11-05T17:30,,,,,,,none
-85441,2026-11-05T17:30,ISTB4,name,704,far,Marston Exploration Theater,781 South Terrace Road,address
+85606,2026-11-05T17:00,,,,,Arizona Science Center,600 E. Washington St.,address
+85611,2026-11-05T17:00,,,,,Zoom,,none
+86231,2026-11-05T17:00,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
 83911,2026-11-05T17:30,MU,name,91,,"Arizona Ballroom, Memorial Union",301 E Orange St.,address
+84906,2026-11-05T17:30,,,,,,,none
 85336,2026-11-05T17:30,,,,,,,none
+85441,2026-11-05T17:30,ISTB4,name,704,far,Marston Exploration Theater,781 South Terrace Road,address
 84856,2026-11-05T18:00,LIB,name,209,,"Hayden Library, Labriola Center, room 204",300 E. Orange Mall,address
 85946,2026-11-05T18:00,,,,,Online event,,none
 85811,2026-11-05T18:30,MA,name,6,,Mountain America Community Iceplex - Mullett Arena,411 S Packard Dr.,address
 85196,2026-11-05T19:00,APMA,address,3,,"Empty Space Theater, ASU Performing and Media Arts building", 970 E. University Dr.,address
-80751,2026-11-06T00:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
 80661,2026-11-06T00:00,MA,name,6,,Mullett Arena,"411 S Packard Dr, ",address
+80751,2026-11-06T00:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
 82241,2026-11-06T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
 57140,2026-11-06T10:00,,,,,,,none
-85366,2026-11-06T11:00,NEEB,address,6,,Neeb Plaza,920 S Forest Mall,address
 78921,2026-11-06T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
-83216,2026-11-06T12:00,,,,,,,none
-78896,2026-11-06T12:00,,,,,Zoom,,none
-85071,2026-11-06T12:00,,,,,Northlight Gallery,605 E Grant Street,address
+85366,2026-11-06T11:00,NEEB,address,6,,Neeb Plaza,920 S Forest Mall,address
 78096,2026-11-06T12:00,,,,,Online,,none
-86416,2026-11-06T13:00,,,,,Downtown - Barrett Suite Arizona Center 320,455 N. 3rd St.,address
-86601,2026-11-06T13:00,COOR,name,11,,Coor Hall 5519,975 S. Myrtle Ave,address
+78896,2026-11-06T12:00,,,,,Zoom,,none
+83216,2026-11-06T12:00,,,,,,,none
+85071,2026-11-06T12:00,,,,,Northlight Gallery,605 E Grant Street,address
 81606,2026-11-06T13:00,,,,,"Health North, room 101",550 N 3rd St.,address
+86416,2026-11-06T13:00,,,,,Downtown - Barrett Suite Arizona Center 320,455 N. 3rd St.,address
 86426,2026-11-06T13:00,,,,,Downtown - Barrett Suite 320 at Arizona Center,445 N 3rd St.,address
+86601,2026-11-06T13:00,COOR,name,11,,Coor Hall 5519,975 S. Myrtle Ave,address
 86016,2026-11-06T13:30,,,,,Downtown - Barrett Suite 325 at Arizona Center,455 N 3rd St,address
-86021,2026-11-06T14:00,,,,,Barrett Suite - Arizona Center,455 N 3rd St,address
 81381,2026-11-06T14:00,LSE,name,3,,"Life Sciences Center E (LSE), Room 104",400 E Tyler Mall,address
-85496,2026-11-06T15:00,COOR,name,11,,Coor Hall 4403 ,975 S Myrtle Ave,address
+86021,2026-11-06T14:00,,,,,Barrett Suite - Arizona Center,455 N 3rd St,address
 83921,2026-11-06T15:00,,,,,UCENT Lobby,411 N Central Ave,address
+85496,2026-11-06T15:00,COOR,name,11,,Coor Hall 4403 ,975 S Myrtle Ave,address
 85411,2026-11-06T15:30,,,,,,,campus
 85486,2026-11-06T15:30,,,,,,,campus
-85541,2026-11-06T16:00,,,,,"Latinx Oral History Lab, Agribusiness Center 103, ASU Polytechnic",,campus
 82316,2026-11-06T16:00,,,,,Barrett Suite & Lantana Lawn,5885 S Twining St,address
+85541,2026-11-06T16:00,,,,,"Latinx Oral History Lab, Agribusiness Center 103, ASU Polytechnic",,campus
 86371,2026-11-06T16:00,,,,,Cronkite Zoom,,campus
 84891,2026-11-06T16:30,,,,,"Cronkite School, First Amendment Forum",555 N. Central Ave.,address
 85246,2026-11-06T17:00,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
@@ -291,8 +291,8 @@ nid,start,building_id,match,dist_m,review,locations,venue_address,geo_source
 85196,2026-11-06T19:00,APMA,address,3,,"Empty Space Theater, ASU Performing and Media Arts building", 970 E. University Dr.,address
 80346,2026-11-06T19:30,,,,,ASU Kerr,6110 N Scottsdale Rd,address
 82821,2026-11-06T19:30,,,,,Dayspring United Methodist Church,1365 East Elliot Road,address
-81251,2026-11-07T00:00,,,,,ASU Media and Immersive eXperience (MIX) Center | Plaza at Mesa City Center,50 N Centennial Way,address
 80461,2026-11-07T00:00,MAS,name,39,,Mountain America Stadium,"500 E Veterans Way, ",address
+81251,2026-11-07T00:00,,,,,ASU Media and Immersive eXperience (MIX) Center | Plaza at Mesa City Center,50 N Centennial Way,address
 86586,2026-11-07T00:00,,,,,College Ave and 6th Street,E 6th St & S College Ave,campus
 83566,2026-11-07T07:00,,,,,Deer Valley Petroglyph Preserve,3711 W Deer Valley Rd,address
 82451,2026-11-07T08:00,,,,,,,none
@@ -300,19 +300,19 @@ nid,start,building_id,match,dist_m,review,locations,venue_address,geo_source
 85716,2026-11-07T09:50,,,,,Hula Hut Boat Dock,3825 Lake Austin Blvd,address
 85636,2026-11-07T10:00,MU,name,91,,Memorial Union,301 E Orange St. ,address
 78921,2026-11-07T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
-85196,2026-11-07T12:00,APMA,address,3,,"Empty Space Theater, ASU Performing and Media Arts building", 970 E. University Dr.,address
 85071,2026-11-07T12:00,,,,,Northlight Gallery,605 E Grant Street,address
+85196,2026-11-07T12:00,APMA,address,3,,"Empty Space Theater, ASU Performing and Media Arts building", 970 E. University Dr.,address
 83851,2026-11-07T13:00,ISTB4,name,85,,Marston Theater,781 Terrace Mall,address
 83496,2026-11-07T14:30,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
-79291,2026-11-07T19:00,GGMA,address,27,,ASU Gammage,1200 S. Forest Avenue,address
+79291,2026-11-07T19:00,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
 85196,2026-11-07T19:00,APMA,address,3,,"Empty Space Theater, ASU Performing and Media Arts building", 970 E. University Dr.,address
 83001,2026-11-07T19:30,LYC,name,32,,Lyceum Theatre,901 S. Forest Mall,address
 80636,2026-11-08T00:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
 80666,2026-11-08T12:00,MA,name,6,,Mullett Arena,"411 S Packard Dr, ",address
 79466,2026-11-08T13:00,,,,,Zoom,,none
 85196,2026-11-08T14:00,APMA,address,3,,"Empty Space Theater, ASU Performing and Media Arts building", 970 E. University Dr.,address
-85586,2026-11-09T09:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 82241,2026-11-09T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+85586,2026-11-09T09:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 79551,2026-11-09T11:30,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
 85121,2026-11-09T12:00,WLSN,name,22,,Wilson Hall,240 Orange Mall,address
 86446,2026-11-09T14:00,HONHAL,address,,,Barrett Palm Court,821 East Lemon Mall,campus
@@ -323,46 +323,46 @@ nid,start,building_id,match,dist_m,review,locations,venue_address,geo_source
 86121,2026-11-09T16:45,,,,,Feed My Starving Children,1100 W Grove Pkwy Suite 101,address
 86291,2026-11-09T17:00,,,,,"Cronkite School, First Amendment Forum",555 N. Central Ave.,address
 80756,2026-11-10T00:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
-85586,2026-11-10T09:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 82241,2026-11-10T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
-86451,2026-11-10T10:00,HONHAL,address,,,Barrett Palm Court,821 East Lemon Mall,campus
-83641,2026-11-10T10:00,,,,,Tempe Center for the Arts,700 W. Rio Salado Pkwy,address
+85586,2026-11-10T09:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 83021,2026-11-10T10:00,,,,,Zoom,,none
+83641,2026-11-10T10:00,,,,,Tempe Center for the Arts,700 W. Rio Salado Pkwy,address
+86451,2026-11-10T10:00,HONHAL,address,,,Barrett Palm Court,821 East Lemon Mall,campus
 85836,2026-11-10T10:30,,,,,ASU Kerr,6110 No. Scottsdale Rd.,none
 82421,2026-11-10T11:00,,,,,Online,,none
 82831,2026-11-10T11:30,,,,,Omni Hotel,7 E. University Drive,address
-85526,2026-11-10T12:00,,,,,"Synergy I  (Rm 130) and Synergy II (Rm 135)  - Ground Floor, Building 3", 1365 N Scottsdale Rd,address
-84061,2026-11-10T12:00,LIB,name,25,,"Hayden Library, 1st floor",300 E Orange,address
 79921,2026-11-10T12:00,,,,,,,campus
-80876,2026-11-10T13:00,LIB,name,93,,"Hayden Library, Naturespace 311E",300 E. Orange Mall,address
+84061,2026-11-10T12:00,LIB,name,25,,"Hayden Library, 1st floor",300 E Orange,address
+85526,2026-11-10T12:00,,,,,"Synergy I  (Rm 130) and Synergy II (Rm 135)  - Ground Floor, Building 3", 1365 N Scottsdale Rd,address
 78776,2026-11-10T13:00,,,,,Zoom,,none
+80876,2026-11-10T13:00,LIB,name,93,,"Hayden Library, Naturespace 311E",300 E. Orange Mall,address
 85216,2026-11-10T15:00,,,,,Zoom,,none
 83111,2026-11-10T15:15,FAC,name,964,far,FAC 133,E Lemon St,address
-85826,2026-11-10T17:00,,,,,"Cronkite School, First Amendment Forum",555 N. Central Ave.,address
 85581,2026-11-10T17:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
-85126,2026-11-10T17:30,,,,,,,none
+85826,2026-11-10T17:00,,,,,"Cronkite School, First Amendment Forum",555 N. Central Ave.,address
 84801,2026-11-10T17:30,PWH,name,2,,Piper Writers House,450 E Tyler Mall,address
+85126,2026-11-10T17:30,,,,,,,none
 86356,2026-11-10T17:30,MAS,name,39,,Mountain America Stadium,500 E Veterans Way,address
 82356,2026-11-10T18:00,,,,,Thai Food Corner,5253 E Brown Rd Suite 104,address
 82516,2026-11-10T19:00,,,,,The Nash,110 E Roosevelt Street,address
 82646,2026-11-10T19:00,,,,,Changing Hands Bookstore Phoenix,300 W Camelback Rd,address
-85586,2026-11-11T09:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 82241,2026-11-11T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+85586,2026-11-11T09:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 78921,2026-11-11T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
 82951,2026-11-11T18:00,,,,,Zoom,,none
 84046,2026-11-12T08:00,LIB,name,128,,"Hayden Library, Room 236",300 E. Orange St.,address
-85586,2026-11-12T09:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 82241,2026-11-12T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+85586,2026-11-12T09:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 86126,2026-11-12T10:00,,,,,"ASU School of Social Work, Tucson Campus","340 N. Commerce Park Loop, Tortolita Building, Suite 250",address
 84371,2026-11-12T10:30,RBHL,name,54,,Ross-Blakley Hall room 117,1102 S. McAllister Ave.,address
-86366,2026-11-12T11:00,INTDSB,name,54,,"Interdisciplinary B, Room B280",1100 S. Cady Mall ,address
 78921,2026-11-12T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+86366,2026-11-12T11:00,INTDSB,name,54,,"Interdisciplinary B, Room B280",1100 S. Cady Mall ,address
 86501,2026-11-12T11:00,MCRD,name,26,,"McCord Hall, Avnet Lounge Room 106",450 E Lemon St,address
-85071,2026-11-12T12:00,,,,,Northlight Gallery,605 E Grant Street,address
-80121,2026-11-12T12:00,,,,,Zoom,,none
-84416,2026-11-12T12:00,LSC,address,4,,"Life Sciences C Wing, Room 202",401 E. Tyler Mall,address
 79486,2026-11-12T12:00,,,,,Zoom,,none
+80121,2026-11-12T12:00,,,,,Zoom,,none
 82686,2026-11-12T12:00,LIB,name,93,,"Hayden Library, Makerspace, Level 3 ",300 E. Orange Mall,address
+84416,2026-11-12T12:00,LSC,address,4,,"Life Sciences C Wing, Room 202",401 E. Tyler Mall,address
+85071,2026-11-12T12:00,,,,,Northlight Gallery,605 E Grant Street,address
 85271,2026-11-12T13:00,,,,,,,none
 84761,2026-11-12T14:00,,,,,"Latinx Oral History Lab, Agribusiness Center, Room 103  ASU Polytechnic campus",,campus
 85981,2026-11-12T14:30,,,,,"ASU’s Barrett & O’Connor Center in Washington, D.C.",1800 I Street NW,address
@@ -381,121 +381,621 @@ nid,start,building_id,match,dist_m,review,locations,venue_address,geo_source
 84046,2026-11-13T08:00,LIB,name,128,,"Hayden Library, Room 236",300 E. Orange St.,address
 82241,2026-11-13T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
 85586,2026-11-13T09:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
-86066,2026-11-13T10:00,,,,,Cronkite Zoom,,campus
 80326,2026-11-13T10:00,DISCVRY,name,4,,"Discovery Hall, Room 281",250 E Lemon St,address
-86316,2026-11-13T11:00,,,,,Online,,none
-80001,2026-11-13T11:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
+86066,2026-11-13T10:00,,,,,Cronkite Zoom,,campus
 78921,2026-11-13T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
-82326,2026-11-13T12:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
-86116,2026-11-13T12:00,,,,,,,none
-79621,2026-11-13T12:00,,,,,Zoom,,none
-85071,2026-11-13T12:00,,,,,Northlight Gallery,605 E Grant Street,address
+80001,2026-11-13T11:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
+86316,2026-11-13T11:00,,,,,Online,,none
 78096,2026-11-13T12:00,,,,,Online,,none
+79621,2026-11-13T12:00,,,,,Zoom,,none
+82326,2026-11-13T12:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
+85071,2026-11-13T12:00,,,,,Northlight Gallery,605 E Grant Street,address
+86116,2026-11-13T12:00,,,,,,,none
 81611,2026-11-13T13:00,,,,,"Health North, room 101",550 N 3rd St.,address
 81386,2026-11-13T14:00,LSE,name,3,,"Life Sciences Center E (LSE), Room 104",400 E Tyler Mall,address
-85221,2026-11-13T18:00,,,,,Skateland Mesa,7 E Southern Ave,address
 74571,2026-11-13T18:00,UGB,name,132,,ASU Esports Lounge,"University Gateway Building, Room 315, 947 S Mill Ave",address
+85221,2026-11-13T18:00,,,,,Skateland Mesa,7 E Southern Ave,address
 85966,2026-11-13T18:00,,,,,ASU Media and Immersive eXperience (MIX) Center | Tom and Ruth Nesbitt Community Room #106,50 N Centennial Way,address
 83126,2026-11-13T18:30,,,,,ASU Media and Immersive eXperience (MIX) Center | Theater #201,50 N Centennial Way,address
 79131,2026-11-13T19:30,FAC,address,25,,Galvin Playhouse Theatre,51 E. 10th St,address
 80361,2026-11-13T19:30,,,,,ASU Kerr,6110 N Scottsdale Rd,address
-81251,2026-11-14T00:00,,,,,ASU Media and Immersive eXperience (MIX) Center | Plaza at Mesa City Center,50 N Centennial Way,address
 80496,2026-11-14T00:00,,,,,Acrisure Bounce House ,"4465 Knights Victory Way, ",address
-86046,2026-11-14T09:00,,,,,Rio Salado Habitat Restoration Area - 7th Avenue Trailhead,2801 S. 7th Avenue ,address
-83916,2026-11-14T09:00,,,,,,,none
+81251,2026-11-14T00:00,,,,,ASU Media and Immersive eXperience (MIX) Center | Plaza at Mesa City Center,50 N Centennial Way,address
 79341,2026-11-14T09:00,MU,name,91,,Memorial Union,301 E. Orange St.,address
-84036,2026-11-14T10:00,,,,,Academic Office Building (AOB) Room 207,"4873 W Verde Mall, Phoenix, AZ 85306",campus
+83916,2026-11-14T09:00,,,,,,,none
+86046,2026-11-14T09:00,,,,,Rio Salado Habitat Restoration Area - 7th Avenue Trailhead,2801 S. 7th Avenue ,address
 83681,2026-11-14T10:00,,,,,Deer Valley Petroglyph Preserve,3711 W Deer Valley Rd,address
+84036,2026-11-14T10:00,,,,,Academic Office Building (AOB) Room 207,"4873 W Verde Mall, Phoenix, AZ 85306",campus
 86406,2026-11-14T10:00,,,,,Desert West Community Center,6501 W. Virginia Ave.,address
-82861,2026-11-14T11:00,,,,,Fletcher Lawn,4701 West Thunderbird Rd,address
 78921,2026-11-14T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+82861,2026-11-14T11:00,,,,,Fletcher Lawn,4701 West Thunderbird Rd,address
 85071,2026-11-14T12:00,,,,,Northlight Gallery,605 E Grant Street,address
-83856,2026-11-14T13:00,ISTB4,name,85,,Marston Theater,781 Terrace Mall,address
 82141,2026-11-14T13:00,WCPH,name,30,,Rob and Melani Walton Center for Planetary Health,777 E University Drive,address
+83856,2026-11-14T13:00,ISTB4,name,85,,Marston Theater,781 Terrace Mall,address
 79131,2026-11-14T19:30,FAC,address,25,,Galvin Playhouse Theatre,51 E. 10th St,address
 80801,2026-11-15T00:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
 84041,2026-11-15T10:00,,,,,Academic Office Building (AOB) Room 207,"4873 W Verde Mall, Phoenix, AZ 85306",campus
-85561,2026-11-15T11:00,,,,,McKale Center at ALKEME Arena,1721 E Enke Dr,address
 79476,2026-11-15T11:00,,,,,Zoom,,none
+85561,2026-11-15T11:00,,,,,McKale Center at ALKEME Arena,1721 E Enke Dr,address
 79131,2026-11-15T14:00,FAC,address,25,,Galvin Playhouse Theatre,51 E. 10th St,address
 83486,2026-11-15T14:30,MUSIC,address,6,,"Organ Hall, Music building",50 E Gammage Pkwy,address
 79471,2026-11-15T15:00,,,,,Temple Chai and Online, 6025 E Bell Rd,address
 83526,2026-11-15T17:00,MUSIC,address,6,,"Organ Hall, Music building",50 E Gammage Pkwy,address
 82336,2026-11-16T00:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
-85586,2026-11-16T09:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 82241,2026-11-16T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+85586,2026-11-16T09:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 79551,2026-11-16T11:30,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
 86061,2026-11-16T12:00,RBHL,name,54,,Ross-Blakley Hall room 196 and Online,1102 S. McAllister Ave.,address
 83281,2026-11-16T16:30,RBHL,name,54,,Ross-Blakley Hall room 117 and Online,1102 S. McAllister Ave.,address
 84976,2026-11-16T16:30,,,,,Fusion on First,Fusion on First 380 North 1st Ave ,address
 83536,2026-11-16T19:00,,,,,Changing Hands Bookstore,6428 S McClintock Dr,address
 83656,2026-11-16T19:30,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
-82336,2026-11-17T00:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
 80806,2026-11-17T00:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
+82336,2026-11-17T00:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
 82241,2026-11-17T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
 85586,2026-11-17T09:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
-83181,2026-11-17T10:00,,,,,Zoom,,none
 58901,2026-11-17T10:00,,,,,Zoom,,none
-82286,2026-11-17T11:00,,,,,Online,,none
+83181,2026-11-17T10:00,,,,,Zoom,,none
 80006,2026-11-17T11:00,HONHAL,address,,,Burning B Café - Honors Hall,821 East Lemon Mall,campus
-84336,2026-11-17T12:00,,,,,,,none
-79356,2026-11-17T12:00,,,,,Zoom,,none
+82286,2026-11-17T11:00,,,,,Online,,none
 78531,2026-11-17T12:00,,,,,Zoom,,none
-86576,2026-11-17T13:00,,,,,,,none
+79356,2026-11-17T12:00,,,,,Zoom,,none
+84336,2026-11-17T12:00,,,,,,,none
 78776,2026-11-17T13:00,,,,,Zoom,,none
+86576,2026-11-17T13:00,,,,,,,none
 82981,2026-11-17T15:00,,,,,Zoom,,none
 84216,2026-11-17T15:00,,,,,Zoom,,none
 83111,2026-11-17T15:15,FAC,name,964,far,FAC 133,E Lemon St,address
 82641,2026-11-17T15:30,,,,,Zoom,,none
 85476,2026-11-17T15:30,,,,,"ASU Community Collaborative at the Westward Ho, Concho Room ",618 N. Central Ave.,address
-84641,2026-11-17T16:00,,,,,VDP 123 - Changemaker Central,4781 W. University Way North VDP 123,campus
 79376,2026-11-17T16:00,,,,,Zoom,,none
+84641,2026-11-17T16:00,,,,,VDP 123 - Changemaker Central,4781 W. University Way North VDP 123,campus
 84331,2026-11-17T16:30,WHALL,name,7,,West Hall 135,1000 Cady Mall,address
-84476,2026-11-17T17:00,ADELM,nearest,40,check,Adelphi Alcove Lounge,739 E Apache Blvd,address
-85746,2026-11-17T17:00,,,,,Goodyear City Hall – Breezeway & Canyon Trails Room,1900 N Civic Square,address
 80146,2026-11-17T17:00,,,,,Zoom,,none
+84476,2026-11-17T17:00,ADELM,nearest,40,check,Adelphi Alcove Lounge,739 E Apache Blvd,address
 84581,2026-11-17T17:00,MUSIC,address,6,,Nelson Fine Arts Plaza,50 E Gammage Pkwy,address
+85746,2026-11-17T17:00,,,,,Goodyear City Hall – Breezeway & Canyon Trails Room,1900 N Civic Square,address
 84801,2026-11-17T17:30,PWH,name,2,,Piper Writers House,450 E Tyler Mall,address
 86356,2026-11-17T17:30,MAS,name,39,,Mountain America Stadium,500 E Veterans Way,address
 85381,2026-11-17T19:00,VDSK,nearest,24,check,Barrett Student Center,681 E Apache Blvd.,address
 82531,2026-11-17T19:30,MUSIC,address,6,,"Recital Hall, Music building",50 E Gammage Pkwy,address
-84586,2026-11-17T19:30,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
 84431,2026-11-17T19:30,,,,,Tempe Center for the Arts,700 W. Rio Salado Pkwy,address
+84586,2026-11-17T19:30,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
 80766,2026-11-18T00:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
 82336,2026-11-18T00:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
-85586,2026-11-18T09:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 82241,2026-11-18T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+85586,2026-11-18T09:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 86076,2026-11-18T09:00,LSC,name,,,"Life Sciences Center C (LSC), Room 202",4501 427 E Tyler Mall School of Life Sciences E Wing,campus
-86571,2026-11-18T10:00,SDFCT,name,207,,"Tempe campus, Sun Devil Fitness Center, Gold Gym",400 E Apache Blvd,address
 78821,2026-11-18T10:00,,,,,Online,,none
+86571,2026-11-18T10:00,SDFCT,name,207,,"Tempe campus, Sun Devil Fitness Center, Gold Gym",400 E Apache Blvd,address
 78921,2026-11-18T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
 78901,2026-11-18T12:00,,,,,Zoom,,none
 82586,2026-11-18T12:00,LIB,name,128,,Hayden Library Luhrs Reading Room (LIB 101) and Online,300 E. Orange St.,address
 81051,2026-11-18T12:30,CDN,address,88,,The Bridge,810 S Forest Mall,address
 78776,2026-11-18T13:00,,,,,Zoom,,none
-86081,2026-11-18T13:00,ART,address,2,,Neeb Plaza,900 S. Forest Mall,address
 80901,2026-11-18T13:00,,,,,,,none
+86081,2026-11-18T13:00,ART,address,2,,Neeb Plaza,900 S. Forest Mall,address
 79446,2026-11-18T16:00,,,,,,,none
 79611,2026-11-18T16:00,,,,,Zoom,,none
-84531,2026-11-18T17:30,PWH,name,2,,Piper Writers House,450 E Tyler Mall,address
 81141,2026-11-18T17:30,,,,,,,none
+84531,2026-11-18T17:30,PWH,name,2,,Piper Writers House,450 E Tyler Mall,address
 86361,2026-11-18T17:30,CDN,address,88,,Design School Bridge,810 S Forest Mall,address
-84561,2026-11-18T18:00,STPV,name,118,,"Student Pavillion, Senita Ballroom",400 East Orange St. ,address
 82951,2026-11-18T18:00,,,,,Zoom,,none
+84561,2026-11-18T18:00,STPV,name,118,,"Student Pavillion, Senita Ballroom",400 East Orange St. ,address
 82536,2026-11-18T19:30,MUSIC,address,6,,"Recital Hall, Music building",50 E Gammage Pkwy,address
 82336,2026-11-19T00:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
 83371,2026-11-19T08:30,,,,,Omni Tempe Hotel at ASU,7 E University Dr,address
-85586,2026-11-19T09:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
-82241,2026-11-19T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
 81696,2026-11-19T09:00,INTDSA,name,20,,"Interdisciplinary A, Conference Room A202",1100 S. Cady Mall ,address
+82241,2026-11-19T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+85586,2026-11-19T09:00,ART,address,2,,Harry Wood Gallery,900 S Forest Mall,address
 85761,2026-11-19T09:30,,,,,"Cooley Ballrooms, ASU Polytechnic campus",5999 S. Backus Mall,address
-85616,2026-11-19T11:00,,,,,North Gateway Transfer Station and Materials Recovery Facility Tour,30205 N Black Canyon Hwy,address
 78921,2026-11-19T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
-85961,2026-11-19T12:00,LIB,name,209,,"Hayden Library, Level 3, Research Commons",300 E. Orange Mall,address
-84411,2026-11-19T12:00,,,,,"ASU Downtown, Mercado C, Room 145",502 E. Monroe Street,address
+85616,2026-11-19T11:00,,,,,North Gateway Transfer Station and Materials Recovery Facility Tour,30205 N Black Canyon Hwy,address
 80386,2026-11-19T12:00,,,,,UCENT (South east entrance on Central and Polk) ,411 N. CENTRAL AVENUE,address
+84411,2026-11-19T12:00,,,,,"ASU Downtown, Mercado C, Room 145",502 E. Monroe Street,address
+85961,2026-11-19T12:00,LIB,name,209,,"Hayden Library, Level 3, Research Commons",300 E. Orange Mall,address
 79946,2026-11-19T14:00,,,,,Zoom,,none
-82096,2026-11-19T15:00,LSC,name,4,,"Life Sciences Center C (LSC), Room 202",401 E. Tyler Mall,address
 80266,2026-11-19T15:00,DH,name,4,,"Durham Hall, Room 240",851 S Cady Mall,address
+82096,2026-11-19T15:00,LSC,name,4,,"Life Sciences Center C (LSC), Room 202",401 E. Tyler Mall,address
 86596,2026-11-19T15:00,CRTVC,name,112,,"Creativity Commons (CRTVC), room 115",501 E Orange St.,address
 86171,2026-11-19T16:30,,,,,"Health North, Room 101",550 N. 3rd St.,address
+82336,2026-11-23T00:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
+86871,2026-11-23T00:00,,,,,,,none
+82241,2026-11-23T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-11-23T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+79551,2026-11-23T11:30,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
+87931,2026-11-23T11:30,HONHAL,address,,,Tempe - Barrett Great Court,821 East Lemon Mall,campus
+85136,2026-11-23T12:00,WLSN,name,22,,Wilson Hall,240 Orange Mall,address
+85141,2026-11-23T12:00,,,,,,,none
+87191,2026-11-23T12:00,,,,,ArtSpace West,"4873 W Verde Mall, Phoenix, AZ 85051",campus
+87041,2026-11-23T16:00,WCPH,name,30,,Walton Center for Planetary Health,777 E University Drive,address
+83281,2026-11-23T16:30,RBHL,name,54,,Ross-Blakley Hall room 117 and Online,1102 S. McAllister Ave.,address
+84976,2026-11-23T16:30,,,,,Fusion on First,Fusion on First 380 North 1st Ave ,address
+86301,2026-11-23T18:00,,,,,https://asu.zoom.us/j/3813141796  ,,none
+84591,2026-11-23T19:30,GGMA,name,27,,ASU Gammage,1200 South Forest Avenue,address
+88131,2026-11-23T19:30,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
+82336,2026-11-24T00:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
+86871,2026-11-24T00:00,,,,,,,none
+82241,2026-11-24T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-11-24T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+83026,2026-11-24T10:00,,,,,Zoom,,none
+84061,2026-11-24T12:00,LIB,name,25,,"Hayden Library, 1st floor",300 E Orange,address
+87191,2026-11-24T12:00,,,,,ArtSpace West,"4873 W Verde Mall, Phoenix, AZ 85051",campus
+87431,2026-11-24T12:00,MRBLA,address,14,,Gallery 100,65 E University Drive,address
+78776,2026-11-24T13:00,,,,,Zoom,,none
+86991,2026-11-24T14:30,,,,,ASU Media and Immersive eXperience (MIX) Center - Costume Shop #216,50 N Centennial Way,address
+83111,2026-11-24T15:15,FAC,name,964,far,FAC 133,E Lemon St,address
+86201,2026-11-24T17:00,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
+87011,2026-11-24T17:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St. ,address
+87426,2026-11-24T17:00,MRBLA,address,14,,Gallery 100,65 E University Drive,address
+87916,2026-11-24T17:00,,,,,Cronkite Zoom,,campus
+87766,2026-11-24T18:00,,,,,ASU Media and Immersive eXperience (MIX) Center - Tom and Ruth Nesbitt Community Room 106,50 N Centennial Way,address
+80816,2026-11-24T18:30,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
+84596,2026-11-24T19:30,GGMA,name,27,,ASU Gammage,1200 South Forest Avenue,address
+84616,2026-11-24T19:30,MUSIC,address,6,,"Evelyn Smith Music Theatre, Music building",50 E Gammage Pkwy,address
+87831,2026-11-24T19:30,MUSIC,address,6,,"Recital Hall, Music building",50 E Gammage Pkwy,address
+87841,2026-11-24T19:30,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
+82336,2026-11-25T00:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
+86871,2026-11-25T00:00,,,,,,,none
+82241,2026-11-25T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-11-25T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2026-11-25T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+87191,2026-11-25T12:00,,,,,ArtSpace West,"4873 W Verde Mall, Phoenix, AZ 85051",campus
+87431,2026-11-25T12:00,MRBLA,address,14,,Gallery 100,65 E University Drive,address
+87901,2026-11-25T17:00,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
+80331,2026-11-25T17:30,,,,,Zoom,,none
+81146,2026-11-25T17:30,,,,,,,none
+80641,2026-11-25T19:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
+87906,2026-11-25T19:30,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
+86871,2026-11-26T00:00,,,,,,,none
+82241,2026-11-26T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-11-26T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+87191,2026-11-26T12:00,,,,,ArtSpace West,"4873 W Verde Mall, Phoenix, AZ 85051",campus
+87416,2026-11-26T12:00,,,,,Step Gallery,605 E Grant Street,address
+86871,2026-11-27T00:00,,,,,,,none
+82241,2026-11-27T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-11-27T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78096,2026-11-27T12:00,,,,,Online,,none
+87416,2026-11-27T12:00,,,,,Step Gallery,605 E Grant Street,address
+88021,2026-11-27T14:00,APMA,address,3,,ASU Performing and Media Arts Building,970 E University Dr,address
+80646,2026-11-27T19:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
+80671,2026-11-27T19:00,MA,name,6,,Mullett Arena,"411 S Packard Dr, ",address
+88111,2026-11-27T19:00,DFA,name,2,,Desert Financial Arena,600 E Veterans Way,address
+82906,2026-11-28T00:00,,,,,,,none
+86871,2026-11-28T00:00,,,,,,,none
+78921,2026-11-28T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+80821,2026-11-28T12:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
+87416,2026-11-28T12:00,,,,,Step Gallery,605 E Grant Street,address
+80676,2026-11-28T17:00,MA,name,6,,Mullett Arena,"411 S Packard Dr, ",address
+88231,2026-11-28T17:00,,,,,William Price Distilling Company,970 Wakefield Dr,address
+80501,2026-11-28T19:00,,,,,Casino Del Sol Stadium,"1 N National Championship Dr, ",none
+81296,2026-11-28T19:00,,,,,ASU Media and Immersive eXperience (MIX) Center | Plaza at Mesa City Center,50 N Centennial Way,address
+88011,2026-11-28T19:00,,,,,Tom's Watch Bar - Queen Anne, 105 Lenny Wilkens Way         ,address
+88161,2026-11-28T19:00,,,,,Barney's Beanery,250 N 1st St,address
+88166,2026-11-28T19:00,,,,,Rookies Sports Lodge - Downtown,99 First St So.,none
+88176,2026-11-28T19:00,,,,,The Irish American Pub,17 John St,address
+88181,2026-11-28T19:00,,,,,American Junkie - Hermosa Beach,68 Pier Ave,address
+88186,2026-11-28T19:00,,,,,Best Ball - Van Nuys,6331 Woodley Ave,address
+88191,2026-11-28T19:00,,,,,Hasta Mañana Cantina,310 Fifth Avenue,address
+88196,2026-11-28T19:00,,,,,Stoney's Bar & Grill,1111 Lincoln Street,address
+88201,2026-11-28T19:00,,,,,Cruisers Pizza Bar Grill,801 Balboa Blvd.,address
+88206,2026-11-28T19:00,,,,,The Glass Turtle,901 Sunrise Ave,address
+88211,2026-11-28T19:00,,,,,Silver Cloud Restaurant & Karaoke Bar,1994 Lombard St,address
+88216,2026-11-28T19:00,,,,,Morty's Meat & Supply,5509 Chamblee Dunwoody Rd,address
+88221,2026-11-28T19:00,,,,,Cold Beers & Cheeseburgers,2221 State Hwy 121,none
+88226,2026-11-28T19:00,,,,,Porch Growler,"890 N High St, Suite C",address
+88236,2026-11-28T19:00,,,,,The Post Sports Bar & Grill,763 Old Ballas Rd,address
+88241,2026-11-28T19:00,,,,,Country Club Chicago,3462 N Clark St,address
+86871,2026-11-29T00:00,,,,,,,none
+80826,2026-11-29T10:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
+86871,2026-11-30T00:00,,,,,,,none
+82241,2026-11-30T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-11-30T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+87121,2026-11-30T09:00,,,,,,,none
+87741,2026-11-30T10:00,,,,,Online,,none
+79551,2026-11-30T11:30,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
+87191,2026-11-30T12:00,,,,,ArtSpace West,"4873 W Verde Mall, Phoenix, AZ 85051",campus
+87431,2026-11-30T12:00,MRBLA,address,14,,Gallery 100,65 E University Drive,address
+87731,2026-11-30T15:00,,,,,Polytechnic - Barrett Lantana Hall Suite,5885 S Twining St,address
+83281,2026-11-30T16:30,RBHL,name,54,,Ross-Blakley Hall room 117 and Online,1102 S. McAllister Ave.,address
+84976,2026-11-30T16:30,,,,,Fusion on First,Fusion on First 380 North 1st Ave ,address
+86321,2026-11-30T18:00,,,,,ASU MIX Center,50 N Centennial Way,address
+87556,2026-11-30T18:00,VDSK,nearest,24,check,Tempe - Barrett Student Center,681 E Apache Blvd,address
+87771,2026-11-30T18:00,,,,,Zoom Webinar,,none
+80771,2026-11-30T19:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
+82241,2026-12-01T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-01T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+58901,2026-12-01T10:00,,,,,Zoom,,none
+75686,2026-12-01T10:00,WCPH,name,30,,Walton Center for Planetary Health ,777 E. University Drive,address
+83031,2026-12-01T10:00,,,,,Zoom,,none
+78536,2026-12-01T12:00,,,,,Zoom,,none
+80331,2026-12-01T12:00,,,,,Zoom,,none
+87191,2026-12-01T12:00,,,,,ArtSpace West,"4873 W Verde Mall, Phoenix, AZ 85051",campus
+87431,2026-12-01T12:00,MRBLA,address,14,,Gallery 100,65 E University Drive,address
+78776,2026-12-01T13:00,,,,,Zoom,,none
+81846,2026-12-01T13:00,,,,,,,none
+87921,2026-12-01T13:00,,,,,Faculty/Administration Building FAB S370,13591 N. 47th Ave FAB S370,campus
+86936,2026-12-01T15:00,,,,,"Cooley Ballroom, ASU Polytechnic Student Union",5999 S Backus Mall,address
+88001,2026-12-01T15:00,COOR,name,165,,"Lattie F. Coor Hall, Room 4403",976 S Forest Mall,address
+83111,2026-12-01T15:15,FAC,name,964,far,FAC 133,E Lemon St,address
+88136,2026-12-01T19:00,,,,,Mesa Community College Performing Arts Center,1520 South Longmore,address
+79231,2026-12-01T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+85151,2026-12-01T19:30,,,,,Tempe Center for the Arts,700 W. Rio Salado Pkwy,address
+68316,2026-12-02T07:30,MU,name,91,,Memorial Union 228,301 E Orange St.,address
+82241,2026-12-02T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-02T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2026-12-02T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+82881,2026-12-02T11:30,,,,,"Health North, room 107",550 N. 3rd St.,address
+84221,2026-12-02T11:30,RBHL,name,2,,Ross-Blakley Hall 197,1102 S McAllister Ave,address
+85851,2026-12-02T12:00,,,,,Online via Zoom,,none
+87191,2026-12-02T12:00,,,,,ArtSpace West,"4873 W Verde Mall, Phoenix, AZ 85051",campus
+87431,2026-12-02T12:00,MRBLA,address,14,,Gallery 100,65 E University Drive,address
+88056,2026-12-02T12:00,LIB,name,25,,"Labriola National American Indian Data Center, Hayden Library, Room 204",300 E Orange St.,address
+78776,2026-12-02T13:00,,,,,Zoom,,none
+81626,2026-12-02T13:00,,,,,"Health North, room 101",550 N 3rd St.,address
+87921,2026-12-02T13:00,,,,,Faculty/Administration Building FAB S370,13591 N. 47th Ave FAB S370,campus
+86816,2026-12-02T15:00,,,,,Agribusiness Center (AGBC) 134,6096 S. Backus Mall,address
+86921,2026-12-02T16:00,,,,,Cooley Ballrooms,5999 S Backus Mall,address
+86421,2026-12-02T16:30,,,,,Downtown - Barrett Suite Arizona Center 320,445 N 3rd St,address
+81151,2026-12-02T17:30,,,,,,,none
+84531,2026-12-02T17:30,PWH,name,2,,Piper Writers House,450 E Tyler Mall,address
+87131,2026-12-02T18:00,,,,,ASU Media and Immersive eXperience (MIX) Center,50 N Centennial Way,address
+88066,2026-12-02T19:00,,,,,Four Peaks Brewing Company,"1340 E. 8th St., #104",address
+79231,2026-12-02T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+87541,2026-12-03T08:00,,,,,"850 PBC E+I Space, Suite 130",850 N. 5th St.,address
+82241,2026-12-03T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-03T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2026-12-03T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+87826,2026-12-03T11:00,ART,address,2,,"Art Building, Harry Wood Gallery",900 S. Forest Mall,address
+80181,2026-12-03T12:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
+80391,2026-12-03T12:00,,,,,Zoom,1475 N Scottsdale Rd,address
+87191,2026-12-03T12:00,,,,,ArtSpace West,"4873 W Verde Mall, Phoenix, AZ 85051",campus
+87416,2026-12-03T12:00,,,,,Step Gallery,605 E Grant Street,address
+87431,2026-12-03T12:00,MRBLA,address,14,,Gallery 100,65 E University Drive,address
+87926,2026-12-03T12:00,,,,,Online,,none
+87921,2026-12-03T13:00,,,,,Faculty/Administration Building FAB S370,13591 N. 47th Ave FAB S370,campus
+53694,2026-12-03T14:00,ISTBX,nearest,2,check,ISTBX (formerly Wrigley Hall),800 Cady Mall,address
+84231,2026-12-03T14:00,ISTBX,nearest,2,check,ISTBX (formerly Wrigley Hall),800 Cady Mall,address
+80871,2026-12-03T15:00,LIB,name,209,,"Hayden Library, Naturespace, 311",300 E. Orange Mall,address
+85941,2026-12-03T15:00,MRBLA,address,14,,"Mirabella, Auditorium",65 E University Dr,address
+87366,2026-12-03T15:00,ISTB4,name,704,far,Marston Exploration Theater,781 South Terrace Road,address
+88171,2026-12-03T15:30,COOR,name,11,,Coor Hall 4403 ,975 S Myrtle Ave,address
+84611,2026-12-03T17:00,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
+83571,2026-12-03T17:30,,,,,Center Mall and Delph Courtyard ," 4701 W Thunderbird Rd, Glendale, AZ 85306",address
+79231,2026-12-03T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+81251,2026-12-04T00:00,,,,,ASU Media and Immersive eXperience (MIX) Center | Plaza at Mesa City Center,50 N Centennial Way,address
+82206,2026-12-04T07:30,,,,,Papago Golf Club,5595 East Karsten Way,address
+82241,2026-12-04T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-04T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+57140,2026-12-04T10:00,,,,,,,none
+78921,2026-12-04T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+78096,2026-12-04T12:00,,,,,Online,,none
+82361,2026-12-04T12:00,,,,,Barrett Suite - Lantana Hall,5885 S Twining St,address
+87261,2026-12-04T12:00,,,,,Downtown - Barrett Suite Arizona Center 320,445 N 3rd St #320,address
+87416,2026-12-04T12:00,,,,,Step Gallery,605 E Grant Street,address
+68306,2026-12-04T13:00,,,,,Zoom,,none
+81661,2026-12-04T13:00,,,,,"Health North, room 301K",550 N 3rd St.,address
+84236,2026-12-04T13:00,,,,,Zoom,,none
+86021,2026-12-04T13:00,,,,,Barrett Suite - Arizona Center,455 N 3rd St,address
+87936,2026-12-04T13:30,,,,,"Zoom and Health North, Room 110",550 N. 3rd St.,address
+87631,2026-12-04T14:00,,,,,Zoom,,none
+88026,2026-12-04T14:00,APMA,address,3,,ASU Performing and Media Arts Building,970 E University Dr,address
+87166,2026-12-04T15:00,SDFCT,name,26759,far,Sun Devil Fitness Complex,5950 S. Tweet St.,address
+57359,2026-12-04T18:00,,,,,Center Mall and Delph Courtyard ," 4701 W Thunderbird Rd, Glendale, AZ 85306",address
+87811,2026-12-04T18:00,UGB,name,132,,ASU Esports Lounge,"University Gateway Building, Room 315, 947 S Mill Ave.",address
+80686,2026-12-04T19:00,MA,name,6,,Mullett Arena,"411 S Packard Dr, ",address
+79231,2026-12-04T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+83566,2026-12-05T07:00,,,,,Deer Valley Petroglyph Preserve,3711 W Deer Valley Rd,address
+87776,2026-12-05T08:00,,,,,"ASU Surplus Store, Alameda Warehouse, door W4",734 W Alameda Dr,none
+88046,2026-12-05T08:30,,,,,Community Christian Church, 1701 S College Ave,address
+83481,2026-12-05T09:00,MAIN,name,116,,Old Main Lawn,400 East Tyler Mall,address
+78921,2026-12-05T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+79231,2026-12-05T11:00,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+87361,2026-12-05T12:00,,,,,Thunderbird School of Global Management and Zoom,401 North 1st Street,address
+87416,2026-12-05T12:00,,,,,Step Gallery,605 E Grant Street,address
+83861,2026-12-05T13:00,ISTB4,name,85,,Marston Theater,781 Terrace Mall,address
+86226,2026-12-05T14:30,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
+87031,2026-12-05T14:30,MUSIC,address,6,,"Organ Hall, Music building",50 E Gammage Pkwy,address
+79231,2026-12-05T15:00,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+80681,2026-12-05T17:00,MA,name,6,,Mullett Arena,"411 S Packard Dr, ",address
+57359,2026-12-05T18:00,,,,,Center Mall and Delph Courtyard ," 4701 W Thunderbird Rd, Glendale, AZ 85306",address
+79231,2026-12-05T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+79231,2026-12-06T11:00,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+80831,2026-12-06T14:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
+79231,2026-12-06T15:00,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+88071,2026-12-07T08:00,,,,,,,none
+82241,2026-12-07T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-07T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+85816,2026-12-07T12:00,VDSK,nearest,24,check,Barrett Student Center,681 E Apache Blvd.,address
+88121,2026-12-07T14:30,VDSK,nearest,58,check,Tempe - Vista Del Sol Lobby,701 E Apache Blvd,address
+82241,2026-12-08T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-08T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+86681,2026-12-08T10:00,,,,,Online,,none
+82291,2026-12-08T11:00,,,,,Online,,none
+87791,2026-12-08T11:00,,,,,Online,,none
+86641,2026-12-08T12:00,,,,,Online,,none
+86691,2026-12-08T12:00,,,,,Online,,none
+87921,2026-12-08T13:00,,,,,Faculty/Administration Building FAB S370,13591 N. 47th Ave FAB S370,campus
+80836,2026-12-08T17:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
+80776,2026-12-08T20:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
+82241,2026-12-09T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-09T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2026-12-09T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+81341,2026-12-09T11:00,,,,,Los Angeles Center Studio,450 S Bixel St,address
+87921,2026-12-09T13:00,,,,,Faculty/Administration Building FAB S370,13591 N. 47th Ave FAB S370,campus
+88076,2026-12-09T13:00,,,,,,,none
+88081,2026-12-09T14:00,,,,,,,none
+81501,2026-12-09T15:00,,,,,ZOOM,,none
+81161,2026-12-09T17:30,,,,,,,none
+80336,2026-12-09T18:00,,,,,Zoom,,none
+82241,2026-12-10T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-10T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2026-12-10T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+87921,2026-12-10T13:00,,,,,Faculty/Administration Building FAB S370,13591 N. 47th Ave FAB S370,campus
+84241,2026-12-10T17:00,,,,,Zoom,,none
+86636,2026-12-11T08:00,,,,,Online,,none
+82241,2026-12-11T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+84961,2026-12-11T09:00,,,,,ASU Media and Immersive eXperience (MIX) Center - Tom and Ruth Nesbitt Community Room 106,50 N. Centennial Way,address
+86651,2026-12-11T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2026-12-11T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+78096,2026-12-11T12:00,,,,,Online,,none
+81631,2026-12-11T13:00,,,,,"Health North, room 101",550 N 3rd St.,address
+88031,2026-12-11T14:00,APMA,address,3,,ASU Performing and Media Arts Building,970 E University Dr,address
+80691,2026-12-11T19:00,MA,name,6,,Mullett Arena,"411 S Packard Dr, ",address
+88151,2026-12-11T19:00,,,,,Ethel M's Cactus Garden Lights,2 Cactus Garden Dr,address
+78921,2026-12-12T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+85421,2026-12-12T12:00,STPV,name,118,,Student Pavilion - ASU Tempe Campus,400 E. Orange St.,address
+80841,2026-12-12T16:30,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
+80696,2026-12-12T17:00,MA,name,6,,Mullett Arena,"411 S Packard Dr, ",address
+86916,2026-12-13T15:00,,,,,ASU Kerr,6110 N. Scottsdale Rd.,address
+80846,2026-12-13T16:30,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
+82241,2026-12-14T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-14T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+87666,2026-12-14T09:00,,,,,Event locations vary,,campus
+82241,2026-12-15T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-15T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+88061,2026-12-15T09:00,LSC,name,4,,Life Science Center - C wing | LSC 202,401 E Tyler Mall,address
+58901,2026-12-15T10:00,,,,,Zoom,,none
+69676,2026-12-15T12:00,,,,,Zoom,,none
+79381,2026-12-15T12:00,,,,,Zoom,,none
+79361,2026-12-15T16:00,,,,,Zoom,,none
+86086,2026-12-15T19:00,GGMA,name,27,,ASU Gammage,1200 S Forest Ave,address
+82241,2026-12-16T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-16T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2026-12-16T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+79011,2026-12-16T12:00,,,,,Zoom,,none
+80901,2026-12-16T13:00,,,,,,,none
+56819,2026-12-16T14:00,GGMA,address,27,,Gammage Auditorium ,1200 S. Forest Ave.,address
+81211,2026-12-16T17:30,,,,,,,none
+81936,2026-12-16T17:30,,,,,,,none
+84531,2026-12-16T17:30,PWH,name,2,,Piper Writers House,450 E Tyler Mall,address
+82241,2026-12-17T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-17T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2026-12-17T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+88096,2026-12-17T20:00,,,,,Maples Pavilion,655 Campus Drive,address
+82241,2026-12-18T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-18T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+86911,2026-12-18T09:00,,,,,Beus Center for Law and Society ,"111 E Taylor Street, Room 450",address
+57140,2026-12-18T10:00,,,,,,,none
+78921,2026-12-18T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+78096,2026-12-18T12:00,,,,,Online,,none
+81636,2026-12-18T13:00,,,,,"Health North, room 101",550 N 3rd St.,address
+88036,2026-12-18T14:00,APMA,address,3,,ASU Performing and Media Arts Building,970 E University Dr,address
+80331,2026-12-18T17:30,,,,,Zoom,,none
+88051,2026-12-19T08:30,,,,,Community Christian Church, 1701 S College Ave,address
+80336,2026-12-19T10:00,,,,,Zoom,,none
+78921,2026-12-19T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+80781,2026-12-20T17:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
+82241,2026-12-21T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-21T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+82241,2026-12-22T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-22T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+82241,2026-12-23T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-23T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2026-12-23T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+82241,2026-12-24T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-24T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2026-12-24T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+48410,2026-12-25T00:00,X95,nearest,49,check,,1151 S Forest Ave,address
+82241,2026-12-25T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-25T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2026-12-25T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+48410,2026-12-26T00:00,X95,nearest,49,check,,1151 S Forest Ave,address
+78921,2026-12-26T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+82241,2026-12-28T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-28T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+82241,2026-12-29T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-29T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+58901,2026-12-29T10:00,,,,,Zoom,,none
+80786,2026-12-29T19:00,DFA,name,2,,Desert Financial Arena,"600 E Veterans Way, ",address
+82241,2026-12-30T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-30T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2026-12-30T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+82241,2026-12-31T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2026-12-31T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2026-12-31T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+82241,2027-01-01T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2027-01-01T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2027-01-01T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+79241,2027-01-01T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+83566,2027-01-02T07:00,,,,,Deer Valley Petroglyph Preserve,3711 W Deer Valley Rd,address
+78921,2027-01-02T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+79241,2027-01-02T14:00,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+79241,2027-01-02T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+79241,2027-01-03T13:00,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+79241,2027-01-03T18:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+82241,2027-01-04T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2027-01-04T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+86236,2027-01-04T12:30,,,,,"ASU Skysong, Building 1",1475 N. Scottsdale Rd.,address
+82241,2027-01-05T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86241,2027-01-05T09:00,,,,,"ASU Skysong, Building 1",1475 N. Scottsdale Rd.,address
+86651,2027-01-05T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+87331,2027-01-05T11:30,,,,,Zoom,,none
+87946,2027-01-05T12:00,,,,,Zoom,,none
+87976,2027-01-05T16:00,,,,,Zoom,,none
+82241,2027-01-06T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86246,2027-01-06T09:00,,,,,"ASU Skysong, Building 1",1475 N. Scottsdale Rd.,address
+86651,2027-01-06T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2027-01-06T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+81956,2027-01-06T17:30,,,,,,,none
+84531,2027-01-06T17:30,PWH,name,2,,Piper Writers House,450 E Tyler Mall,address
+82241,2027-01-07T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2027-01-07T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+86251,2027-01-07T10:00,,,,,"ASU Skysong, Building 1",1475 N. Scottsdale Rd.,address
+87326,2027-01-07T10:00,MAS,nearest,39,check,San Tan Ford Club,500 E. Veterans Way,address
+78921,2027-01-07T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+82241,2027-01-08T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86256,2027-01-08T09:00,,,,,"ASU Skysong, Building 1",1475 N. Scottsdale Rd.,address
+86651,2027-01-08T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2027-01-08T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+86266,2027-01-09T09:00,,,,,"ASU Skysong, Building 1",1475 N. Scottsdale Rd.,address
+78921,2027-01-09T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+82241,2027-01-11T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2027-01-11T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+83281,2027-01-11T16:30,RBHL,name,54,,Ross-Blakley Hall room 117 and Online,1102 S. McAllister Ave.,address
+82241,2027-01-12T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2027-01-12T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+87781,2027-01-12T18:00,,,,,Polytechnic - Barrett Lantana Hall Suite,5885 S Twining St,address
+82241,2027-01-13T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2027-01-13T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+86881,2027-01-13T10:00,LIB,name,209,,Hayden Library,300 E. Orange Mall,address
+78921,2027-01-13T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+86881,2027-01-13T14:00,LIB,name,209,,Hayden Library,300 E. Orange Mall,address
+81961,2027-01-13T17:30,,,,,,,none
+82241,2027-01-14T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2027-01-14T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2027-01-14T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+87396,2027-01-14T15:00,,,,,"Faculty/Administration Building, Room S101 (West Valley)",13591 N 47th Avenue,address
+83771,2027-01-14T17:30,,,,,Zoom,,none
+82241,2027-01-15T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86651,2027-01-15T09:00,RBHL,name,2,,Ross-Blakley Hall 196,1102 S McAllister Ave,address
+78921,2027-01-15T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+87971,2027-01-15T12:30,LIB,name,209,,"Hayden Library, room 236 and Online",300 E. Orange Mall,address
+80701,2027-01-15T19:00,MA,name,6,,Mullett Arena,"411 S Packard Dr, ",address
+78921,2027-01-16T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+80706,2027-01-16T17:00,MA,name,6,,Mullett Arena,"411 S Packard Dr, ",address
+80171,2027-01-16T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+48411,2027-01-18T00:00,HSB,nearest,14,check,,1151 S Forest Ave,address
+88141,2027-01-18T00:00,,,,,,,campus
+82241,2027-01-18T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+82241,2027-01-19T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+82241,2027-01-20T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+87226,2027-01-20T09:00,LSC,name,4,,"Life Sciences Center C (LSC), Room 202",401 E. Tyler Mall,address
+78921,2027-01-20T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+84221,2027-01-20T11:30,RBHL,name,2,,Ross-Blakley Hall 197,1102 S McAllister Ave,address
+81851,2027-01-20T12:00,,,,,,,none
+80901,2027-01-20T13:00,,,,,,,none
+81971,2027-01-20T17:30,,,,,,,none
+84531,2027-01-20T17:30,PWH,name,2,,Piper Writers House,450 E Tyler Mall,address
+87521,2027-01-21T07:30,MAS,name,39,,"San Tan Ford Club, Mountain America Stadium",500 E. Veterans Way,address
+82241,2027-01-21T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+78921,2027-01-21T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+87911,2027-01-21T12:00,LSC,address,4,,"Life Sciences C Wing, Room 202",401 E. Tyler Mall,address
+87206,2027-01-21T13:00,,,,,Zoom,,none
+86896,2027-01-22T00:00,,,,,Disneyland Resort,1313 S Harbor Blvd,address
+82176,2027-01-22T09:00,MAIN,name,116,,"Carson Ballroom, Old Main",400 E Tyler Mall,address
+82241,2027-01-22T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+78921,2027-01-22T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+86886,2027-01-22T18:00,MAIN,name,116,,"Carson Ballroom, Old Main",400 E Tyler Mall,address
+82176,2027-01-23T09:00,MAIN,name,116,,"Carson Ballroom, Old Main",400 E Tyler Mall,address
+78921,2027-01-23T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+87971,2027-01-23T13:00,LIB,name,209,,"Hayden Library, room 236 and Online",300 E. Orange Mall,address
+79296,2027-01-23T19:00,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+86206,2027-01-24T14:30,MUSIC,address,6,,"Organ Hall, Music building",50 E Gammage Pkwy,address
+82241,2027-01-25T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+83281,2027-01-25T16:30,RBHL,name,54,,Ross-Blakley Hall room 117 and Online,1102 S. McAllister Ave.,address
+82241,2027-01-26T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+79491,2027-01-26T12:00,UCLUB,name,8,,"University Club, Traditions",425 E University Dr.,address
+79496,2027-01-26T19:00,,,,,Temple Chai and Online,6025 E. Bell Road,address
+79246,2027-01-26T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+82241,2027-01-27T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+87941,2027-01-27T09:00,,,,,Arizona State Capitol,"1700 W Washington St, Phoenix, AZ 85007",address
+78921,2027-01-27T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+81976,2027-01-27T17:30,,,,,,,none
+79246,2027-01-27T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+82241,2027-01-28T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+88091,2027-01-28T09:00,,,,,Zoom,,none
+78921,2027-01-28T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+88126,2027-01-28T12:00,LSC,address,4,,"Life Sciences C Wing, Room 202",401 E. Tyler Mall,address
+79246,2027-01-28T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+87381,2027-01-28T19:30,GGMA,name,27,,Tempe - ASU Gammage,1200 S Forest Ave,address
+82241,2027-01-29T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+78921,2027-01-29T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+79246,2027-01-29T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+87381,2027-01-29T19:30,GGMA,name,27,,Tempe - ASU Gammage,1200 S Forest Ave,address
+78921,2027-01-30T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+79246,2027-01-30T14:00,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+79246,2027-01-30T19:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+79501,2027-01-31T11:00,,,,,Zoom,,none
+79246,2027-01-31T13:00,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+79246,2027-01-31T18:30,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+82241,2027-02-01T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+83281,2027-02-01T16:30,RBHL,name,54,,Ross-Blakley Hall room 117 and Online,1102 S. McAllister Ave.,address
+86671,2027-02-02T00:00,MU,name,,,Memorial Union,,campus
+82241,2027-02-02T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+81856,2027-02-02T12:00,,,,,,,none
+87981,2027-02-02T12:00,,,,,Zoom,,none
+87951,2027-02-02T16:00,,,,,Zoom,,none
+82241,2027-02-03T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+79506,2027-02-03T10:00,,,,,Zoom,,campus
+78921,2027-02-03T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+84221,2027-02-03T11:30,RBHL,name,2,,Ross-Blakley Hall 197,1102 S McAllister Ave,address
+81981,2027-02-03T17:30,,,,,,,none
+84531,2027-02-03T17:30,PWH,name,2,,Piper Writers House,450 E Tyler Mall,address
+82241,2027-02-04T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+78921,2027-02-04T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+79706,2027-02-04T12:00,,,,,,,none
+82241,2027-02-05T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+78921,2027-02-05T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+85251,2027-02-05T19:30,GGMA,name,27,,ASU Gammage,1200 South Forest Avenue,address
+83566,2027-02-06T07:00,,,,,Deer Valley Petroglyph Preserve,3711 W Deer Valley Rd,address
+81266,2027-02-06T10:00,BDH,name,16,,"Margaret Gisolo Dance Theatre, Bulldog Hall room 132",611 E. Orange St,address
+78921,2027-02-06T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+82241,2027-02-08T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+83281,2027-02-08T16:30,RBHL,name,54,,Ross-Blakley Hall room 117 and Online,1102 S. McAllister Ave.,address
+82241,2027-02-09T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86961,2027-02-09T11:30,,,,,Omni Hotel,7 E. University Drive,address
+84651,2027-02-09T19:30,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
+82241,2027-02-10T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+78921,2027-02-10T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+81986,2027-02-10T17:30,,,,,,,none
+82241,2027-02-11T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+78921,2027-02-11T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+82241,2027-02-12T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+78921,2027-02-12T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+86576,2027-02-12T12:00,,,,,,,none
+80716,2027-02-12T19:00,MA,name,6,,Mullett Arena,"411 S Packard Dr, ",address
+79136,2027-02-12T19:30,FAC,address,25,,Galvin Playhouse Theatre,51 E. 10th St.,address
+85161,2027-02-12T19:30,,,,,Dayspring United Methodist Church,1354 East Elliot Road,address
+78921,2027-02-13T11:00,,,,,ASU FIDM Museum,919 S Grand Ave,address
+80711,2027-02-13T17:00,MA,name,6,,Mullett Arena,"411 S Packard Dr, ",address
+79301,2027-02-13T19:00,GGMA,name,27,,ASU Gammage,1200 S. Forest Avenue,address
+79136,2027-02-13T19:30,FAC,address,25,,Galvin Playhouse Theatre,51 E. 10th St.,address
+79136,2027-02-14T14:00,FAC,address,25,,Galvin Playhouse Theatre,51 E. 10th St.,address
+86211,2027-02-14T14:30,MUSIC,address,6,,"Organ Hall, Music building",50 E Gammage Pkwy,address
+82241,2027-02-15T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+81861,2027-02-15T13:00,,,,,,,none
+88156,2027-02-15T13:30,FAC,name,25,,"Nelson Fine Arts Center, Galvin Playhouse Theatre",51 E. 10th St.,address
+83281,2027-02-15T16:30,RBHL,name,54,,Ross-Blakley Hall room 117 and Online,1102 S. McAllister Ave.,address
+82241,2027-02-16T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+84671,2027-02-16T11:30,,,,,Sheraton Phoenix Downtown,340 N 3rd St,address
+83886,2027-02-16T17:30,,,,,Zoom,,none
+85166,2027-02-16T19:30,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
+82241,2027-02-17T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+87231,2027-02-17T09:00,LSC,name,4,,"Life Sciences Center C (LSC), Room 202",401 E. Tyler Mall,address
+80901,2027-02-17T13:00,,,,,,,none
+79561,2027-02-17T14:00,MRBLA,nearest,14,check,Mirabella at ASU ,"65 E University Dr Tempe, AZ 85281 480-771-3093",address
+81991,2027-02-17T17:30,,,,,,,none
+84531,2027-02-17T17:30,PWH,name,2,,Piper Writers House,450 E Tyler Mall,address
+82241,2027-02-18T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+86736,2027-02-18T13:00,,,,,Zoom,,none
+81276,2027-02-18T19:30,BDH,name,16,,"Margaret Gisolo Dance Theatre, Bulldog Hall Room 132",611 E. Orange St. ,address
+82456,2027-02-18T19:30,MUSIC,address,6,,"Katzin Concert Hall, Music building",50 E Gammage Pkwy,address
+69421,2027-02-19T08:00,BDH,name,16,,Bulldog Hall,611 E. Orange St.,address
+82241,2027-02-19T09:00,RBHL,name,2,,"RBH197, Ross-Blakley Hall",1102 S McAllister Ave,address
+87786,2027-02-19T19:00,,,,,"Polytechnic - Cooley Ballrooms, Student Union",5999 S Backus Mall,address
+79136,2027-02-19T19:30,FAC,address,25,,Galvin Playhouse Theatre,51 E. 10th St.,address
+81276,2027-02-19T19:30,BDH,name,16,,"Margaret Gisolo Dance Theatre, Bulldog Hall Room 132",611 E. Orange St. ,address
+88116,2027-02-20T08:00,DISCVRY,name,4,,Discovery Hall,250 E Lemon St,address
+79136,2027-02-20T19:30,FAC,address,25,,Galvin Playhouse Theatre,51 E. 10th St.,address
+79136,2027-02-21T14:00,FAC,address,25,,Galvin Playhouse Theatre,51 E. 10th St.,address
