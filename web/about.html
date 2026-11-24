@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gap Map: about the project</title>
+<style>
+  :root { --maroon: #8C1D40; --gold: #FFC627; --ink: #1E1A1C; --muted: #6A6064; --line: #E2DBD3; --bg: #FFFFFF; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; color: var(--ink); background: var(--bg); line-height: 1.65; font-size: 17px; }
+  a { color: var(--maroon); }
+  .top { border-top: 6px solid var(--maroon); border-bottom: 1px solid var(--line); }
+  .top div { max-width: 1000px; margin: 0 auto; padding: 14px 24px; display: flex; justify-content: space-between; align-items: baseline; }
+  .top b { font-size: 20px; color: var(--maroon); }
+  main { max-width: 1000px; margin: 0 auto; padding: 0 24px 64px; }
+  .text { max-width: 680px; }
+  h1 { font-size: 44px; line-height: 1.1; margin: 48px 0 16px; color: var(--maroon); }
+  h2 { font-size: 24px; margin: 56px 0 10px; }
+  p { margin: 0 0 14px; }
+  .lede { font-size: 21px; line-height: 1.5; }
+  figure { margin: 28px 0; }
+  figure img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+  figcaption { font-size: 14px; color: var(--muted); margin-top: 8px; max-width: 680px; }
+  .two { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; align-items: start; }
+  .two figure { margin: 0; }
+  @media (max-width: 700px) { .two { grid-template-columns: 1fr; } h1 { font-size: 36px; } }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; margin: 14px 0; }
+  th, td { text-align: left; padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-weight: 600; border-bottom: 2px solid var(--ink); }
+  .scroll { overflow-x: auto; }
+  .scroll table { min-width: 560px; }
+  ul { padding-left: 20px; margin: 0 0 14px; }
+  li { margin-bottom: 6px; }
+  .key { font-size: 14px; color: var(--muted); }
+  code { font-size: 15px; background: #F5F1EC; padding: 1px 5px; border-radius: 3px; }
+  footer { border-top: 1px solid var(--line); padding: 24px; font-size: 14px; color: var(--muted); }
+  footer div { max-width: 1000px; margin: 0 auto; }
+  footer p { max-width: 680px; }
+</style>
+</head>
+<body>
+
+<div class="top"><div><b>Gap Map</b><a href="gap.html">Open the app</a></div></div>
+
+<main>
+  <h1>Gap Map</h1>
+  <div class="text">
+    <p class="lede">You have a gap between two classes. Gap Map lists the events on ASU’s Tempe campus that you can walk to in that gap and still reach your next class on time, and shows the coffee and food you pass on the way.</p>
+    <p>It is a student project for the WebGIS course. <a href="gap.html">Open the app</a> to try it.</p>
+  </div>
+
+  <figure>
+    <img src="screenshots/gap_route.jpg" alt="The Gap Map page. The left panel has the inputs and a list of events. The map shows a route from Memorial Union to an event and on to Coor Hall.">
+    <figcaption>Memorial Union to Coor Hall, free from 11:00 AM, class at 2:30 PM, on 18 November 2026: 7 events fit. One event is selected, so the map shows the walk there and on to class, and the list shows the coffee and food places before and after it.</figcaption>
+  </figure>
+
+  <h2>Using it</h2>
+  <div class="text">
+    <p>Type where you are and where your next class is, as a building name or a code like <code>MU</code> or <code>COOR</code>, then the time class starts. You can also drag the A and B pins on the map. “More options” lets you change the day, how long you want to stay at an event, and the buffer you want before class.</p>
+    <p>Select an event to see the route and the places on the way. There is a link that opens the same walk in Google Maps. The map switches between a street map and satellite images; the satellite one shows buildings the street map is missing.</p>
+  </div>
+  <div class="two">
+    <figure>
+      <img src="screenshots/gap_satellite.jpg" alt="The same route on the satellite view.">
+      <figcaption>The same search on the satellite view.</figcaption>
+    </figure>
+    <figure>
+      <img src="screenshots/gap_phone.jpg" alt="Gap Map on a phone: the map on top and the inputs below.">
+      <figcaption>On a phone, in portrait.</figcaption>
+    </figure>
+  </div>
+
+  <h2>What “can make it” means</h2>
+  <div class="text">
+    <p>For each event on the chosen day, the walk from A to the event, the time you stay, the walk on to B, and the buffer have to fit between the time you are free and the time class starts. An event that is already running counts, using its real end time.</p>
+    <p>A coffee or food place is shown as “on the way” when going through its building adds at most 2 minutes of walking, fits in the time you have to spare, and is not known to be closed when you would get there.</p>
+  </div>
+
+  <h2>How it is built</h2>
+  <div class="text">
+    <p>There is no server code. Python scripts do the heavy work ahead of time and save plain files. The page loads those files and does the check in the browser, with Leaflet for the map.</p>
+    <p>Everything is joined by the ASU building code (<code>building_id</code>), the same code students see on their schedule. Walking times between all 261 Tempe buildings are worked out beforehand from OpenStreetMap walkways, so ranking events is a lookup. The route on the map is searched in the browser for the one event you pick.</p>
+  </div>
+  <figure>
+    <img src="../docs/diagrams/architecture_slide.png" alt="Architecture diagram: data sources feed a Python pipeline, which writes static files that the browser page reads.">
+    <figcaption>Green is done, yellow is partly done, dashed is not done yet.</figcaption>
+  </figure>
+
+  <h2>Data</h2>
+  <div class="scroll">
+    <table>
+      <tr><th>Source</th><th>Used for</th></tr>
+      <tr><td><a href="https://asuevents.asu.edu/feed-json">ASU events feed</a></td><td>Events: title, time, place, poster. 1,000 event times (620 events), 25 October 2026 to 21 February 2027, from two downloads (25 October and 23 November). 20 to 22 November are missing.</td></tr>
+      <tr><td><a href="https://nominatim.openstreetmap.org">Nominatim</a></td><td>Turning event addresses into points. 766 of the 1,000 were found.</td></tr>
+      <tr><td>ASU Facilities public map service (three layers)</td><td>261 Tempe buildings with their ASU codes, 216 entrance points (surveyed in 2020) and 245 building outlines. Entrances and outlines were fetched on 14 November 2026.</td></tr>
+      <tr><td><a href="https://www.openstreetmap.org">OpenStreetMap</a> walkways</td><td>The walking network and the walking times.</td></tr>
+      <tr><td><a href="https://sundevilhospitality.asu.edu/hours-locations/tempe">ASU Dining</a></td><td>37 food and coffee places; 33 have weekly opening hours, which we checked by hand.</td></tr>
+    </table>
+  </div>
+  <div class="text">
+    <p>What is missing or approximate:</p>
+    <ul>
+      <li>Tempe campus only. 496 of the 1,000 event times have no Tempe building: they are online, on other campuses or off campus, or could not be matched.</li>
+      <li>Most building entrances are estimated from ASU entrance points or building outlines, not checked by hand. We compared 10 routes with Google Maps and the walking times differ by about 1.2 minutes on average.</li>
+      <li>18 dining places still have no building, so they are not shown. No stairs, no elevation, no waiting at crossings.</li>
+    </ul>
+  </div>
+
+  <h2>Where it stands</h2>
+  <div class="text">
+    <p>Working: event data and matching to buildings, walking times between all buildings, the Gap Map page with routes, coffee and food on the way, and the map and satellite switch. Not done yet: hand-checked entrances for the large buildings, and the 18 dining places that still have no building. Right now you enter one next class; a saved schedule with several classes is planned for after this course.</p>
+    <p>The event data is a download of what ASU lists. It has no events for 20 to 22 November, and the feed only lists upcoming events, so the data has to be refreshed from time to time.</p>
+  </div>
+
+  <h2>Team</h2>
+  <div class="text">
+    <ul>
+      <li><b>Yi-Wen Mo</b>: data pipeline, walking network, the Gap Map page, putting the pieces together.</li>
+      <li><b>Mahin</b>: building entrances and names, documentation.</li>
+      <li><b>Cade Garner</b>: wireframe, campus places data.</li>
+      <li><b>Ziyi</b>: time zone fix, phone testing.</li>
+    </ul>
+  </div>
+</main>
+
+<footer>
+  <div>
+    <p>A student project for WebGIS at Arizona State University, Fall 2026. It is not an official ASU product.</p>
+    <p>Walking network data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>. Base map tiles by Esri. Building, entrance and outline data come from ASU Facilities’ public map service; we found no license for it, so we use it for this course and name the source. Event and dining data come from public ASU web pages. Details: <a href="https://github.com/yiwenmo/ASU_gap_map/blob/main/docs/data_sources.md">data sources</a>. Code: <a href="https://github.com/yiwenmo/ASU_gap_map">GitHub</a>. <a href="asu_events_map.html">All events on a map</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
