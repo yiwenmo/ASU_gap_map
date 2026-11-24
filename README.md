@@ -100,3 +100,9 @@ Google Maps was used during development only as an external reference for compar
 ## Changing the page
 
 Edit the files in `web/`. There is only one copy now, nothing gets copied or overwritten when the script runs.
+
+## AI use
+
+Generative AI tools were used during development to support tasks such as explaining code, troubleshooting errors, debugging, discussing implementation approaches, improving documentation, and assisting with Git and GitHub workflows.
+
+AI-generated suggestions were reviewed and tested by team members before being incorporated into the project. The team made the final decisions about the project design, data processing, validation, and implementation.
