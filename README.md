@@ -1,1 +1,0 @@
-# ASU_gap_map
