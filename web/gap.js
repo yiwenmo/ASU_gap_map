@@ -95,7 +95,8 @@ const satellite = L.layerGroup([
   L.tileLayer(ESRI + 'Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {maxZoom: 19}),   // street and place names on top
 ]);
 streetMap.addTo(map);
-L.control.layers({'Map': streetMap, 'Satellite': satellite}, null, {position: 'topright', collapsed: false}).addTo(map);
+const layerControl = L.control.layers({'Map': streetMap, 'Satellite': satellite}, null, {collapsed: false}).addTo(map);
+document.getElementById('basemap-switch').appendChild(layerControl.getContainer());
 const markerLayer = L.layerGroup().addTo(map);
 const routeLayer = L.layerGroup().addTo(map);
 
@@ -105,7 +106,8 @@ let matrix = {};
 let events = [];      // EVENTS joined with building_id
 let results = [];     // last computed list
 const state = {cats: new Set(), free: false, showAll: false, selected: null,
-               stops: new Set(['coffee', 'food', 'study'])};   // which kinds of places to show on the way
+  stops: new Set(['coffee', 'food', 'study'])};   // which kinds of places to show on the way
+let hasFramedEndpoints = false;
 let pois = [];        // coffee / food / study places, each next to a building (data/pois.geojson)
 
 function buildingId(text) {
@@ -324,8 +326,12 @@ function draw(o, d) {
   if (o && buildings[o]) endpoint('origin', o, pin('start', 'A', 28), 'You are here: ');
   if (d && buildings[d]) endpoint('dest', d, pin('dest', 'B', 28), 'Next class: ');
 
-  const pts = [o, d, ...Object.keys(byB)].filter(id => buildings[id]).map(id => [buildings[id].lat, buildings[id].lon]);
-  if (pts.length > 1 && !state.selected) map.fitBounds(pts, {padding: [50, 50], maxZoom: 17});
+  const pts = [o, d].filter(id => buildings[id]).map(id => [buildings[id].lat, buildings[id].lon]);
+  if (pts.length > 1 && !state.selected &&
+      (!hasFramedEndpoints || pts.some(p => !map.getBounds().contains(p)))) {
+    map.fitBounds(pts, {padding: [50, 50], maxZoom: 17});
+    hasFramedEndpoints = true;
+  }
 }
 
 // Walking route A -> event -> B on the real walkway network (loaded the first time you pick an event)
@@ -433,6 +439,16 @@ async function init() {
 
 $('plan').addEventListener('input', () => { state.selected = null; save(); compute(); });
 $('plan').addEventListener('submit', e => e.preventDefault());
+// Prevent accidental time changes when scrolling on desktop
+['class-time', 'free-from'].forEach(id => {
+  $(id).addEventListener('wheel', e => {
+    if (window.matchMedia('(hover: hover) and (pointer: fine)').matches &&
+        document.activeElement === e.currentTarget) {
+      e.preventDefault();
+      e.currentTarget.blur();
+    }
+  }, {passive: false});
+});
 $('free').addEventListener('change', e => { state.free = e.target.checked; draw(...ids()); });
 $('show-all').addEventListener('change', e => { state.showAll = e.target.checked; draw(...ids()); });
 $('stops').addEventListener('click', e => {
